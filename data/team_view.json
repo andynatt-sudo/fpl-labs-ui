@@ -1,0 +1,182 @@
+{
+  "summary": {
+    "total_players": 15,
+    "starters": 11,
+    "bench": 4,
+    "gameweek": 23
+  },
+  "by_position": {
+    "Goalkeeper": {
+      "status": "neutral",
+      "reason": "Rotation pair provides adequate coverage",
+      "players": [
+        {
+          "id": 84,
+          "name": "Raya",
+          "is_starter": true,
+          "status_label": "MUST-HAVE",
+          "minutes_reliability": "high",
+          "fixture_stress": "easy"
+        },
+        {
+          "id": 112,
+          "name": "Flekken",
+          "is_starter": false,
+          "status_label": "HOLD",
+          "minutes_reliability": "medium",
+          "fixture_stress": "medium"
+        }
+      ]
+    },
+    "Defender": {
+      "status": "concern",
+      "reason": "Heavy reliance on premium assets with limited bench cover",
+      "players": [
+        {
+          "id": 287,
+          "name": "Gabriel",
+          "is_starter": true,
+          "status_label": "MUST-HAVE",
+          "minutes_reliability": "high",
+          "fixture_stress": "easy"
+        },
+        {
+          "id": 311,
+          "name": "Saliba",
+          "is_starter": true,
+          "status_label": "MUST-HAVE",
+          "minutes_reliability": "high",
+          "fixture_stress": "easy"
+        },
+        {
+          "id": 350,
+          "name": "Alexander-Arnold",
+          "is_starter": true,
+          "status_label": "STRONG-BUY",
+          "minutes_reliability": "medium",
+          "fixture_stress": "medium"
+        },
+        {
+          "id": 402,
+          "name": "Munoz",
+          "is_starter": true,
+          "status_label": "VALUE-PICK",
+          "minutes_reliability": "high",
+          "fixture_stress": "hard"
+        },
+        {
+          "id": 415,
+          "name": "Lewis",
+          "is_starter": false,
+          "status_label": "MONITOR",
+          "minutes_reliability": "low",
+          "fixture_stress": "medium"
+        }
+      ]
+    },
+    "Midfielder": {
+      "status": "risk",
+      "reason": "Missing key structural players limits ceiling",
+      "players": [
+        {
+          "id": 8,
+          "name": "Salah",
+          "is_starter": true,
+          "status_label": "MUST-HAVE",
+          "minutes_reliability": "high",
+          "fixture_stress": "medium"
+        },
+        {
+          "id": 72,
+          "name": "Palmer",
+          "is_starter": true,
+          "status_label": "MUST-HAVE",
+          "minutes_reliability": "high",
+          "fixture_stress": "easy"
+        },
+        {
+          "id": 119,
+          "name": "Saka",
+          "is_starter": true,
+          "status_label": "MUST-HAVE",
+          "minutes_reliability": "medium",
+          "fixture_stress": "easy"
+        },
+        {
+          "id": 156,
+          "name": "Rogers",
+          "is_starter": true,
+          "status_label": "VALUE-PICK",
+          "minutes_reliability": "high",
+          "fixture_stress": "hard"
+        },
+        {
+          "id": 189,
+          "name": "Mbeumo",
+          "is_starter": false,
+          "status_label": "HOLD",
+          "minutes_reliability": "high",
+          "fixture_stress": "medium"
+        }
+      ]
+    },
+    "Forward": {
+      "status": "neutral",
+      "reason": "Balanced allocation with adequate rotation options",
+      "players": [
+        {
+          "id": 449,
+          "name": "Isak",
+          "is_starter": true,
+          "status_label": "MUST-HAVE",
+          "minutes_reliability": "high",
+          "fixture_stress": "easy"
+        },
+        {
+          "id": 469,
+          "name": "Cunha",
+          "is_starter": true,
+          "status_label": "STRONG-BUY",
+          "minutes_reliability": "high",
+          "fixture_stress": "medium"
+        },
+        {
+          "id": 501,
+          "name": "Welbeck",
+          "is_starter": false,
+          "status_label": "MONITOR",
+          "minutes_reliability": "medium",
+          "fixture_stress": "hard"
+        }
+      ]
+    }
+  },
+  "risk_flags": [
+    "4 players with hard fixtures in next 3 gameweeks",
+    "Limited bench options for premium rotation",
+    "High ownership concentration in defence"
+  ],
+  "structural_notes": [
+    "Squad structure follows a 4-4-2 formation bias",
+    "Premium allocation weighted toward midfield",
+    "Bench depth insufficient for double gameweek planning",
+    "Arsenal triple-up creates fixture correlation risk"
+  ],
+  "fix_priority": [
+    {
+      "priority": 1,
+      "issue": "Bench goalkeeper lacks rotation value",
+      "context": "Current backup rarely viable as starter alternative"
+    },
+    {
+      "priority": 2,
+      "issue": "Defensive bench cover is minimal",
+      "context": "Single 4.0m defender limits tactical flexibility"
+    },
+    {
+      "priority": 3,
+      "issue": "Midfield lacks budget enabler",
+      "context": "Fifth midfielder slot occupied by hold asset"
+    }
+  ]
+}
