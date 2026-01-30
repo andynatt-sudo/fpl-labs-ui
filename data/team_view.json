@@ -1,182 +1,162 @@
 {
   "summary": {
-    "total_players": 15,
-    "starters": 11,
-    "bench": 4,
-    "gameweek": 23
+    "owned_must_haves": 2,
+    "missing_must_haves": 5,
+    "starter_minutes_risk": 0,
+    "availability_risk": 0,
+    "free_transfers": 2,
+    "bank": 1.0
   },
   "by_position": {
     "Goalkeeper": {
-      "status": "neutral",
-      "reason": "Rotation pair provides adequate coverage",
-      "players": [
+      "starters": [
         {
-          "id": 84,
-          "name": "Raya",
-          "is_starter": true,
-          "status_label": "MUST-HAVE",
-          "minutes_reliability": "high",
+          "player_id": 101,
+          "name": "Kelleher",
+          "status": "HOLD",
+          "minutes_ok": true,
           "fixture_stress": "easy"
-        },
-        {
-          "id": 112,
-          "name": "Flekken",
-          "is_starter": false,
-          "status_label": "HOLD",
-          "minutes_reliability": "medium",
-          "fixture_stress": "medium"
         }
-      ]
+      ],
+      "bench": [
+        {
+          "player_id": 470,
+          "name": "D\u00fabravka",
+          "minutes_ok": true
+        }
+      ],
+      "status": "neutral",
+      "reason": "No immediate rotation or availability concerns"
     },
     "Defender": {
-      "status": "concern",
-      "reason": "Heavy reliance on premium assets with limited bench cover",
-      "players": [
+      "starters": [
         {
-          "id": 287,
-          "name": "Gabriel",
-          "is_starter": true,
-          "status_label": "MUST-HAVE",
-          "minutes_reliability": "high",
-          "fixture_stress": "easy"
-        },
-        {
-          "id": 311,
-          "name": "Saliba",
-          "is_starter": true,
-          "status_label": "MUST-HAVE",
-          "minutes_reliability": "high",
-          "fixture_stress": "easy"
-        },
-        {
-          "id": 350,
-          "name": "Alexander-Arnold",
-          "is_starter": true,
-          "status_label": "STRONG-BUY",
-          "minutes_reliability": "medium",
+          "player_id": 36,
+          "name": "Cash",
+          "status": "HOLD",
+          "minutes_ok": true,
           "fixture_stress": "medium"
         },
         {
-          "id": 402,
-          "name": "Munoz",
-          "is_starter": true,
-          "status_label": "VALUE-PICK",
-          "minutes_reliability": "high",
+          "player_id": 226,
+          "name": "Chalobah",
+          "status": "HOLD",
+          "minutes_ok": true,
           "fixture_stress": "hard"
         },
         {
-          "id": 415,
-          "name": "Lewis",
-          "is_starter": false,
-          "status_label": "MONITOR",
-          "minutes_reliability": "low",
+          "player_id": 291,
+          "name": "Tarkowski",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        },
+        {
+          "player_id": 683,
+          "name": "Alderete",
+          "status": "HOLD",
+          "minutes_ok": true,
           "fixture_stress": "medium"
         }
-      ]
+      ],
+      "bench": [
+        {
+          "player_id": 508,
+          "name": "N.Williams",
+          "minutes_ok": true
+        }
+      ],
+      "status": "neutral",
+      "reason": "No immediate rotation or availability concerns"
     },
     "Midfielder": {
-      "status": "risk",
-      "reason": "Missing key structural players limits ceiling",
-      "players": [
+      "starters": [
         {
-          "id": 8,
-          "name": "Salah",
-          "is_starter": true,
-          "status_label": "MUST-HAVE",
-          "minutes_reliability": "high",
-          "fixture_stress": "medium"
-        },
-        {
-          "id": 72,
-          "name": "Palmer",
-          "is_starter": true,
-          "status_label": "MUST-HAVE",
-          "minutes_reliability": "high",
-          "fixture_stress": "easy"
-        },
-        {
-          "id": 119,
+          "player_id": 16,
           "name": "Saka",
-          "is_starter": true,
-          "status_label": "MUST-HAVE",
-          "minutes_reliability": "medium",
-          "fixture_stress": "easy"
-        },
-        {
-          "id": 156,
-          "name": "Rogers",
-          "is_starter": true,
-          "status_label": "VALUE-PICK",
-          "minutes_reliability": "high",
+          "status": "MUST-HAVE",
+          "minutes_ok": true,
           "fixture_stress": "hard"
         },
         {
-          "id": 189,
-          "name": "Mbeumo",
-          "is_starter": false,
-          "status_label": "HOLD",
-          "minutes_reliability": "high",
+          "player_id": 47,
+          "name": "Rogers",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        },
+        {
+          "player_id": 303,
+          "name": "Garner",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        },
+        {
+          "player_id": 450,
+          "name": "Cunha",
+          "status": "HOLD",
+          "minutes_ok": true,
           "fixture_stress": "medium"
         }
-      ]
+      ],
+      "bench": [
+        {
+          "player_id": 488,
+          "name": "Bruno G.",
+          "minutes_ok": true
+        }
+      ],
+      "status": "neutral",
+      "reason": "No immediate rotation or availability concerns"
     },
     "Forward": {
-      "status": "neutral",
-      "reason": "Balanced allocation with adequate rotation options",
-      "players": [
+      "starters": [
         {
-          "id": 449,
-          "name": "Isak",
-          "is_starter": true,
-          "status_label": "MUST-HAVE",
-          "minutes_reliability": "high",
-          "fixture_stress": "easy"
-        },
-        {
-          "id": 469,
-          "name": "Cunha",
-          "is_starter": true,
-          "status_label": "STRONG-BUY",
-          "minutes_reliability": "high",
-          "fixture_stress": "medium"
-        },
-        {
-          "id": 501,
-          "name": "Welbeck",
-          "is_starter": false,
-          "status_label": "MONITOR",
-          "minutes_reliability": "medium",
+          "player_id": 283,
+          "name": "Mateta",
+          "status": "HOLD",
+          "minutes_ok": true,
           "fixture_stress": "hard"
+        },
+        {
+          "player_id": 430,
+          "name": "Haaland",
+          "status": "MUST-HAVE",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
         }
-      ]
+      ],
+      "bench": [
+        {
+          "player_id": 691,
+          "name": "Calvert-Lewin",
+          "minutes_ok": true
+        }
+      ],
+      "status": "neutral",
+      "reason": "No immediate rotation or availability concerns"
     }
   },
   "risk_flags": [
-    "4 players with hard fixtures in next 3 gameweeks",
-    "Limited bench options for premium rotation",
-    "High ownership concentration in defence"
+    "Missing structural MUST-HAVE asset"
   ],
   "structural_notes": [
-    "Squad structure follows a 4-4-2 formation bias",
-    "Premium allocation weighted toward midfield",
-    "Bench depth insufficient for double gameweek planning",
-    "Arsenal triple-up creates fixture correlation risk"
+    "Starting XI faces multiple difficult fixtures in the next gameweek.",
+    "Starting XI minutes profile is stable.",
+    "Several starters show weak or declining form.",
+    "Short-term performance likely shaped by difficult fixtures."
   ],
   "fix_priority": [
     {
       "priority": 1,
-      "issue": "Bench goalkeeper lacks rotation value",
-      "context": "Current backup rarely viable as starter alternative"
+      "issue": "Missing MUST-HAVE asset",
+      "action": "Acquire structural MUST-HAVE if feasible"
     },
     {
-      "priority": 2,
-      "issue": "Defensive bench cover is minimal",
-      "context": "Single 4.0m defender limits tactical flexibility"
-    },
-    {
-      "priority": 3,
-      "issue": "Midfield lacks budget enabler",
-      "context": "Fifth midfielder slot occupied by hold asset"
+      "priority": 4,
+      "issue": "Fixture congestion",
+      "action": "Avoid hits unless addressing structural needs"
     }
   ]
 }

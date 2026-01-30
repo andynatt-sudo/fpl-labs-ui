@@ -4,8 +4,8 @@
     "team_code": 1,
     "team": "Man Utd",
     "fixtures": {
-      "next": 0.36796725601368907,
-      "fdr_next_n": 1836.2
+      "next": 0.3411527851930963,
+      "fdr_next_n": 1839.23
     },
     "ownership": {
       "total": 70.4,
@@ -21,8 +21,8 @@
     "team_code": 2,
     "team": "Leeds",
     "fixtures": {
-      "next": 0.07303653504210486,
-      "fdr_next_n": 1888.94
+      "next": 0.051210179747287664,
+      "fdr_next_n": 1891.36
     },
     "ownership": {
       "total": 32.1,
@@ -38,8 +38,8 @@
     "team_code": 3,
     "team": "Arsenal",
     "fixtures": {
-      "next": 0.6884065264311511,
-      "fdr_next_n": 1778.89
+      "next": 0.6646200391528742,
+      "fdr_next_n": 1781.07
     },
     "ownership": {
       "total": 197.4,
@@ -56,7 +56,7 @@
     "team": "Newcastle",
     "fixtures": {
       "next": 0.0,
-      "fdr_next_n": 1902.01
+      "fdr_next_n": 1900.57
     },
     "ownership": {
       "total": 78.6,
@@ -72,8 +72,8 @@
     "team_code": 6,
     "team": "Spurs",
     "fixtures": {
-      "next": 0.08397356325695318,
-      "fdr_next_n": 1886.99
+      "next": 0.07375645132586083,
+      "fdr_next_n": 1887.31
     },
     "ownership": {
       "total": 78.6,
@@ -89,8 +89,8 @@
     "team_code": 7,
     "team": "Aston Villa",
     "fixtures": {
-      "next": 0.5132686952729227,
-      "fdr_next_n": 1810.21
+      "next": 0.47233715963694584,
+      "fdr_next_n": 1815.64
     },
     "ownership": {
       "total": 79.6,
@@ -107,7 +107,7 @@
     "team": "Chelsea",
     "fixtures": {
       "next": 1.0,
-      "fdr_next_n": 1723.16
+      "fdr_next_n": 1720.76
     },
     "ownership": {
       "total": 141.9,
@@ -123,8 +123,8 @@
     "team_code": 11,
     "team": "Everton",
     "fixtures": {
-      "next": 0.5710068104807599,
-      "fdr_next_n": 1799.89
+      "next": 0.5425120128136672,
+      "fdr_next_n": 1803.02
     },
     "ownership": {
       "total": 58.3,
@@ -140,8 +140,8 @@
     "team_code": 14,
     "team": "Liverpool",
     "fixtures": {
-      "next": 0.45995907001711106,
-      "fdr_next_n": 1819.75
+      "next": 0.43231669336180845,
+      "fdr_next_n": 1822.84
     },
     "ownership": {
       "total": 122.8,
@@ -157,8 +157,8 @@
     "team_code": 17,
     "team": "Nott'm Forest",
     "fixtures": {
-      "next": 0.6098455620044507,
-      "fdr_next_n": 1792.94
+      "next": 0.5823100195764374,
+      "fdr_next_n": 1795.87
     },
     "ownership": {
       "total": 34.2,
@@ -174,8 +174,8 @@
     "team_code": 21,
     "team": "West Ham",
     "fixtures": {
-      "next": 0.6946466713635506,
-      "fdr_next_n": 1777.77
+      "next": 0.6601597259298813,
+      "fdr_next_n": 1781.87
     },
     "ownership": {
       "total": 22.5,
@@ -191,8 +191,8 @@
     "team_code": 31,
     "team": "Crystal Palace",
     "fixtures": {
-      "next": 0.753234698784403,
-      "fdr_next_n": 1767.3
+      "next": 0.7355957465741231,
+      "fdr_next_n": 1768.3
     },
     "ownership": {
       "total": 43.7,
@@ -208,8 +208,8 @@
     "team_code": 36,
     "team": "Brighton",
     "fixtures": {
-      "next": 0.39387839545520736,
-      "fdr_next_n": 1831.56
+      "next": 0.37259743726641886,
+      "fdr_next_n": 1833.57
     },
     "ownership": {
       "total": 27.4,
@@ -225,8 +225,8 @@
     "team_code": 39,
     "team": "Wolves",
     "fixtures": {
-      "next": 0.2739960411983758,
-      "fdr_next_n": 1853.0
+      "next": 0.31500266951414985,
+      "fdr_next_n": 1843.93
     },
     "ownership": {
       "total": 11.6,
@@ -242,8 +242,8 @@
     "team_code": 43,
     "team": "Man City",
     "fixtures": {
-      "next": 0.5109426197425666,
-      "fdr_next_n": 1810.63
+      "next": 0.46121418401850844,
+      "fdr_next_n": 1817.64
     },
     "ownership": {
       "total": 253.1,
@@ -259,8 +259,8 @@
     "team_code": 54,
     "team": "Fulham",
     "fixtures": {
-      "next": 0.4146341463414632,
-      "fdr_next_n": 1827.85
+      "next": 0.3918179391350782,
+      "fdr_next_n": 1830.12
     },
     "ownership": {
       "total": 39.9,
@@ -276,8 +276,8 @@
     "team_code": 56,
     "team": "Sunderland",
     "fixtures": {
-      "next": 0.3385558202212007,
-      "fdr_next_n": 1841.46
+      "next": 0.3338672361630188,
+      "fdr_next_n": 1840.54
     },
     "ownership": {
       "total": 53.6,
@@ -293,8 +293,8 @@
     "team_code": 90,
     "team": "Burnley",
     "fixtures": {
-      "next": 0.6730969235414505,
-      "fdr_next_n": 1781.63
+      "next": 0.6686688022779844,
+      "fdr_next_n": 1780.34
     },
     "ownership": {
       "total": 54.1,
@@ -310,8 +310,8 @@
     "team_code": 91,
     "team": "Bournemouth",
     "fixtures": {
-      "next": 0.528790776215877,
-      "fdr_next_n": 1807.44
+      "next": 0.5129693895710981,
+      "fdr_next_n": 1808.33
     },
     "ownership": {
       "total": 34.2,
@@ -327,8 +327,8 @@
     "team_code": 94,
     "team": "Brentford",
     "fixtures": {
-      "next": 0.08029433801903423,
-      "fdr_next_n": 1887.65
+      "next": 0.07950702972059229,
+      "fdr_next_n": 1886.27
     },
     "ownership": {
       "total": 63.6,
