@@ -41,38 +41,47 @@ export interface TeamHealth {
 
 // Team View / Breakdown types
 export type PositionStatus = "neutral" | "concern" | "risk"
-export type MinutesReliability = "high" | "medium" | "low"
 export type FixtureStress = "easy" | "medium" | "hard"
 export type StatusLabel = "MUST-HAVE" | "STRONG-BUY" | "VALUE-PICK" | "HOLD" | "MONITOR"
 
-export interface TeamViewPlayer {
-  id: number
+export interface TeamViewStarter {
+  player_id: number
   name: string
-  is_starter: boolean
-  status_label: StatusLabel
-  minutes_reliability: MinutesReliability
+  status: StatusLabel
+  minutes_ok: boolean
   fixture_stress: FixtureStress
 }
 
+export interface TeamViewBench {
+  player_id: number
+  name: string
+  minutes_ok: boolean
+}
+
 export interface PositionBreakdown {
+  starters: TeamViewStarter[]
+  bench: TeamViewBench[]
   status: PositionStatus
   reason: string
-  players: TeamViewPlayer[]
 }
 
 export interface FixPriority {
   priority: number
   issue: string
-  context: string
+  action: string
+}
+
+export interface TeamViewSummary {
+  owned_must_haves: number
+  missing_must_haves: number
+  starter_minutes_risk: number
+  availability_risk: number
+  free_transfers: number
+  bank: number
 }
 
 export interface TeamView {
-  summary: {
-    total_players: number
-    starters: number
-    bench: number
-    gameweek: number
-  }
+  summary: TeamViewSummary
   by_position: {
     Goalkeeper: PositionBreakdown
     Defender: PositionBreakdown
