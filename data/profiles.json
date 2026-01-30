@@ -11,7 +11,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 2,
@@ -62,7 +62,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 6,
@@ -76,7 +76,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 7,
@@ -90,7 +90,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 8,
@@ -105,7 +105,7 @@
       "Must-Have",
       "Minutes Secure"
     ],
-    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security reinforces the structural case."
+    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement."
   },
   {
     "player_id": 9,
@@ -141,7 +141,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 12,
@@ -204,7 +204,7 @@
       "Must-Have",
       "Minutes Secure"
     ],
-    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security reinforces the structural case."
+    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement."
   },
   {
     "player_id": 17,
@@ -218,7 +218,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 18,
@@ -242,7 +242,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 20,
@@ -256,7 +256,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 21,
@@ -270,7 +270,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 22,
@@ -284,7 +284,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 23,
@@ -334,7 +334,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 27,
@@ -408,7 +408,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 33,
@@ -458,7 +458,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 37,
@@ -472,7 +472,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 38,
@@ -486,7 +486,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 39,
@@ -510,7 +510,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 41,
@@ -524,7 +524,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 42,
@@ -560,7 +560,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 45,
@@ -598,7 +598,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 48,
@@ -612,7 +612,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 49,
@@ -638,7 +638,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 51,
@@ -674,7 +674,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 54,
@@ -688,7 +688,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 55,
@@ -738,7 +738,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 59,
@@ -752,7 +752,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 60,
@@ -814,7 +814,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 65,
@@ -852,7 +852,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 68,
@@ -914,7 +914,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 73,
@@ -926,7 +926,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 74,
@@ -940,7 +940,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 75,
@@ -1026,7 +1026,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 82,
@@ -1040,7 +1040,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 83,
@@ -1054,7 +1054,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 84,
@@ -1068,7 +1068,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 85,
@@ -1082,7 +1082,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 86,
@@ -1096,7 +1096,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 87,
@@ -1120,7 +1120,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 89,
@@ -1146,7 +1146,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 91,
@@ -1232,7 +1232,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 98,
@@ -1268,7 +1268,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 101,
@@ -1282,7 +1282,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 102,
@@ -1345,7 +1345,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 107,
@@ -1359,7 +1359,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 108,
@@ -1373,7 +1373,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 109,
@@ -1385,7 +1385,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 110,
@@ -1399,7 +1399,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 111,
@@ -1437,7 +1437,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 114,
@@ -1511,7 +1511,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 120,
@@ -1526,7 +1526,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 121,
@@ -1540,7 +1540,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 122,
@@ -1578,7 +1578,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 125,
@@ -1592,7 +1592,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 126,
@@ -1606,7 +1606,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 127,
@@ -1644,7 +1644,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 130,
@@ -1732,7 +1732,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "MUST-HAVE: Structural pick. Dominant upside from a central role creates unavoidable downside risk if unowned. Minutes security reinforces the structural case."
+    "narrative": "MUST-HAVE: Structural pick. Dominant upside from a central role creates unavoidable downside risk if unowned. Minutes security supports repeatable involvement."
   },
   {
     "player_id": 137,
@@ -1770,7 +1770,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 140,
@@ -1844,7 +1844,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 146,
@@ -1858,7 +1858,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 147,
@@ -1884,7 +1884,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 149,
@@ -1922,7 +1922,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 152,
@@ -1934,7 +1934,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 153,
@@ -1996,7 +1996,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 158,
@@ -2010,7 +2010,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 159,
@@ -2036,7 +2036,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 161,
@@ -2060,7 +2060,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 163,
@@ -2072,7 +2072,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 164,
@@ -2110,7 +2110,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 167,
@@ -2124,7 +2124,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 168,
@@ -2150,7 +2150,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 170,
@@ -2200,7 +2200,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 174,
@@ -2262,7 +2262,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 179,
@@ -2372,7 +2372,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 188,
@@ -2410,7 +2410,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 191,
@@ -2424,7 +2424,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 192,
@@ -2438,7 +2438,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 193,
@@ -2450,7 +2450,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 194,
@@ -2536,7 +2536,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 201,
@@ -2562,7 +2562,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 203,
@@ -2600,7 +2600,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 206,
@@ -2612,7 +2612,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 207,
@@ -2624,7 +2624,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 208,
@@ -2650,7 +2650,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 210,
@@ -2662,7 +2662,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 211,
@@ -2722,7 +2722,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 216,
@@ -2748,7 +2748,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 218,
@@ -2786,7 +2786,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 221,
@@ -2836,7 +2836,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 225,
@@ -2850,7 +2850,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 226,
@@ -2864,7 +2864,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 227,
@@ -2890,7 +2890,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 229,
@@ -2914,7 +2914,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 231,
@@ -2938,7 +2938,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 233,
@@ -2950,7 +2950,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 234,
@@ -2974,7 +2974,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 236,
@@ -2988,7 +2988,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 237,
@@ -3002,7 +3002,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 238,
@@ -3014,7 +3014,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 239,
@@ -3026,7 +3026,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 240,
@@ -3052,7 +3052,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 242,
@@ -3066,7 +3066,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 243,
@@ -3152,7 +3152,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 250,
@@ -3164,7 +3164,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 251,
@@ -3202,7 +3202,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 254,
@@ -3235,12 +3235,13 @@
       "role": "defensive_return",
       "minutes": "Secure starter",
       "scoring": "Balanced",
-      "reliability": "Watch"
+      "reliability": "Must-Have"
     },
     "labels": [
+      "Must-Have",
       "Minutes Secure"
     ],
-    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation."
+    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement."
   },
   {
     "player_id": 257,
@@ -3254,7 +3255,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 258,
@@ -3268,7 +3269,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 259,
@@ -3294,7 +3295,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 261,
@@ -3308,7 +3309,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 262,
@@ -3332,7 +3333,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 264,
@@ -3370,7 +3371,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 267,
@@ -3384,7 +3385,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 268,
@@ -3422,7 +3423,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 271,
@@ -3436,7 +3437,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 272,
@@ -3450,7 +3451,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 273,
@@ -3464,7 +3465,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 274,
@@ -3500,7 +3501,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 277,
@@ -3586,7 +3587,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 284,
@@ -3598,7 +3599,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 285,
@@ -3638,7 +3639,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "MUST-HAVE: Structural pick. Dominant upside from a central role creates unavoidable downside risk if unowned. Minutes security reinforces the structural case."
+    "narrative": "MUST-HAVE: Structural pick. Dominant upside from a central role creates unavoidable downside risk if unowned. Minutes security supports repeatable involvement."
   },
   {
     "player_id": 288,
@@ -3689,7 +3690,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 292,
@@ -3703,7 +3704,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 293,
@@ -3717,7 +3718,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 294,
@@ -3743,7 +3744,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 296,
@@ -3793,7 +3794,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 300,
@@ -3805,7 +3806,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 301,
@@ -3817,7 +3818,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 302,
@@ -3831,7 +3832,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 303,
@@ -3846,7 +3847,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 304,
@@ -3860,7 +3861,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 305,
@@ -3934,7 +3935,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 311,
@@ -3948,7 +3949,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 312,
@@ -3986,7 +3987,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 315,
@@ -4010,7 +4011,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 317,
@@ -4024,7 +4025,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 318,
@@ -4038,7 +4039,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 319,
@@ -4052,7 +4053,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 320,
@@ -4076,7 +4077,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 322,
@@ -4090,7 +4091,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 323,
@@ -4116,7 +4117,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 325,
@@ -4130,7 +4131,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 326,
@@ -4168,7 +4169,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 329,
@@ -4182,7 +4183,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 330,
@@ -4196,7 +4197,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 331,
@@ -4208,7 +4209,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 332,
@@ -4222,7 +4223,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 333,
@@ -4260,7 +4261,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 336,
@@ -4286,7 +4287,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 338,
@@ -4348,7 +4349,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 343,
@@ -4362,7 +4363,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 344,
@@ -4376,7 +4377,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 345,
@@ -4414,7 +4415,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 348,
@@ -4428,7 +4429,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 349,
@@ -4455,7 +4456,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 351,
@@ -4505,7 +4506,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 355,
@@ -4529,7 +4530,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 357,
@@ -4553,7 +4554,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 359,
@@ -4637,7 +4638,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 366,
@@ -4651,7 +4652,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 367,
@@ -4699,7 +4700,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 371,
@@ -4713,7 +4714,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 372,
@@ -4725,7 +4726,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 373,
@@ -4739,7 +4740,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 374,
@@ -4753,7 +4754,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 375,
@@ -4767,7 +4768,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 376,
@@ -4841,7 +4842,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 382,
@@ -4856,7 +4857,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 383,
@@ -4882,7 +4883,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 385,
@@ -4908,7 +4909,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 387,
@@ -4922,7 +4923,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 388,
@@ -4936,7 +4937,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 389,
@@ -4962,7 +4963,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 391,
@@ -5120,7 +5121,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 404,
@@ -5144,7 +5145,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 406,
@@ -5170,7 +5171,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 408,
@@ -5184,7 +5185,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 409,
@@ -5222,7 +5223,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 412,
@@ -5260,7 +5261,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 415,
@@ -5272,7 +5273,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 416,
@@ -5286,7 +5287,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 417,
@@ -5300,7 +5301,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 418,
@@ -5314,7 +5315,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 419,
@@ -5328,7 +5329,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 420,
@@ -5352,7 +5353,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 422,
@@ -5378,7 +5379,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 424,
@@ -5390,7 +5391,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 425,
@@ -5428,7 +5429,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 428,
@@ -5467,7 +5468,7 @@
       "Must-Have",
       "Minutes Secure"
     ],
-    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security reinforces the structural case."
+    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement."
   },
   {
     "player_id": 431,
@@ -5541,7 +5542,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 437,
@@ -5553,7 +5554,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 438,
@@ -5565,7 +5566,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 439,
@@ -5591,7 +5592,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 441,
@@ -5606,7 +5607,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 442,
@@ -5618,7 +5619,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 443,
@@ -5632,7 +5633,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 444,
@@ -5646,7 +5647,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 445,
@@ -5682,7 +5683,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 448,
@@ -5709,7 +5710,7 @@
       "Must-Have",
       "Minutes Secure"
     ],
-    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security reinforces the structural case."
+    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement."
   },
   {
     "player_id": 450,
@@ -5723,7 +5724,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 451,
@@ -5749,7 +5750,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 453,
@@ -5763,7 +5764,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 454,
@@ -5789,7 +5790,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 456,
@@ -5815,7 +5816,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 458,
@@ -5923,7 +5924,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 467,
@@ -5961,7 +5962,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 470,
@@ -5975,7 +5976,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 471,
@@ -6013,7 +6014,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 474,
@@ -6027,7 +6028,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 475,
@@ -6039,7 +6040,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 476,
@@ -6053,7 +6054,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 477,
@@ -6067,7 +6068,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 478,
@@ -6079,7 +6080,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 479,
@@ -6165,7 +6166,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 486,
@@ -6177,7 +6178,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 487,
@@ -6191,7 +6192,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 488,
@@ -6206,7 +6207,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 489,
@@ -6220,7 +6221,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 490,
@@ -6234,7 +6235,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 491,
@@ -6248,7 +6249,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 492,
@@ -6274,7 +6275,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 494,
@@ -6324,7 +6325,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 498,
@@ -6348,7 +6349,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 500,
@@ -6386,7 +6387,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 503,
@@ -6424,7 +6425,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 506,
@@ -6438,7 +6439,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 507,
@@ -6464,7 +6465,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 509,
@@ -6500,7 +6501,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 512,
@@ -6550,7 +6551,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 516,
@@ -6564,7 +6565,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 517,
@@ -6578,7 +6579,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 518,
@@ -6602,7 +6603,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 520,
@@ -6628,7 +6629,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 522,
@@ -6676,7 +6677,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 526,
@@ -6690,7 +6691,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 527,
@@ -6752,7 +6753,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 532,
@@ -6766,7 +6767,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 533,
@@ -6876,7 +6877,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 542,
@@ -6900,7 +6901,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 544,
@@ -6912,7 +6913,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 545,
@@ -6950,7 +6951,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 548,
@@ -7012,7 +7013,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 553,
@@ -7026,7 +7027,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 554,
@@ -7112,7 +7113,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 561,
@@ -7124,7 +7125,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 562,
@@ -7174,7 +7175,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 566,
@@ -7212,7 +7213,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 569,
@@ -7226,7 +7227,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 570,
@@ -7238,7 +7239,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 571,
@@ -7276,7 +7277,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 574,
@@ -7288,7 +7289,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 575,
@@ -7302,7 +7303,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 576,
@@ -7364,7 +7365,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 581,
@@ -7390,7 +7391,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 583,
@@ -7414,7 +7415,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 585,
@@ -7428,7 +7429,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 586,
@@ -7440,7 +7441,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 587,
@@ -7464,7 +7465,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 589,
@@ -7500,7 +7501,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 592,
@@ -7524,7 +7525,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 594,
@@ -7574,7 +7575,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 598,
@@ -7612,7 +7613,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 601,
@@ -7650,7 +7651,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 604,
@@ -7676,7 +7677,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 606,
@@ -7690,7 +7691,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 607,
@@ -7728,7 +7729,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 610,
@@ -7742,7 +7743,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 611,
@@ -7768,7 +7769,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 613,
@@ -7782,7 +7783,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 614,
@@ -7808,7 +7809,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 616,
@@ -7906,7 +7907,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 624,
@@ -7920,7 +7921,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 625,
@@ -7958,7 +7959,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 628,
@@ -7972,7 +7973,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 629,
@@ -8010,7 +8011,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 632,
@@ -8036,7 +8037,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 634,
@@ -8050,7 +8051,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 635,
@@ -8076,7 +8077,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 637,
@@ -8090,7 +8091,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 638,
@@ -8152,7 +8153,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 643,
@@ -8166,7 +8167,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 644,
@@ -8178,7 +8179,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 645,
@@ -8204,7 +8205,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 647,
@@ -8230,7 +8231,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 649,
@@ -8304,7 +8305,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 655,
@@ -8366,7 +8367,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 660,
@@ -8380,7 +8381,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 661,
@@ -8394,7 +8395,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 662,
@@ -8406,7 +8407,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 663,
@@ -8420,7 +8421,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 664,
@@ -8446,7 +8447,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 666,
@@ -8460,7 +8461,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 667,
@@ -8486,7 +8487,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 669,
@@ -8500,7 +8501,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 670,
@@ -8514,7 +8515,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 671,
@@ -8528,7 +8529,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 672,
@@ -8554,7 +8555,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 674,
@@ -8592,7 +8593,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 677,
@@ -8604,7 +8605,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 678,
@@ -8640,7 +8641,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 681,
@@ -8654,7 +8655,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 682,
@@ -8666,7 +8667,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 683,
@@ -8680,7 +8681,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 684,
@@ -8695,7 +8696,7 @@
       "Minutes Secure",
       "High Ceiling"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 685,
@@ -8709,7 +8710,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 686,
@@ -8783,7 +8784,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 692,
@@ -8809,7 +8810,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 694,
@@ -8823,7 +8824,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 695,
@@ -8837,7 +8838,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 696,
@@ -8861,7 +8862,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 698,
@@ -8875,7 +8876,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 699,
@@ -8971,7 +8972,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 707,
@@ -8997,7 +8998,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 709,
@@ -9011,7 +9012,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 710,
@@ -9049,7 +9050,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 713,
@@ -9063,7 +9064,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 714,
@@ -9077,7 +9078,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 715,
@@ -9103,7 +9104,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 717,
@@ -9117,7 +9118,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 718,
@@ -9129,7 +9130,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 719,
@@ -9141,7 +9142,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 720,
@@ -9153,7 +9154,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 721,
@@ -9179,7 +9180,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 723,
@@ -9205,7 +9206,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 725,
@@ -9219,7 +9220,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 726,
@@ -9233,7 +9234,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 727,
@@ -9245,7 +9246,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 728,
@@ -9281,7 +9282,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 731,
@@ -9293,7 +9294,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 732,
@@ -9319,7 +9320,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 734,
@@ -9343,7 +9344,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 736,
@@ -9357,7 +9358,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. No urgency to act while minutes remain secure."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 737,
@@ -9513,7 +9514,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 750,

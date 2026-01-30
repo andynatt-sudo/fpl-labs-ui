@@ -1,0 +1,162 @@
+{
+  "summary": {
+    "owned_must_haves": 2,
+    "missing_must_haves": 5,
+    "starter_minutes_risk": 0,
+    "availability_risk": 0,
+    "free_transfers": 2,
+    "bank": 1.0
+  },
+  "by_position": {
+    "Goalkeeper": {
+      "starters": [
+        {
+          "player_id": 101,
+          "name": "Kelleher",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "easy"
+        }
+      ],
+      "bench": [
+        {
+          "player_id": 470,
+          "name": "D\u00fabravka",
+          "minutes_ok": true
+        }
+      ],
+      "status": "neutral",
+      "reason": "No immediate rotation or availability concerns"
+    },
+    "Defender": {
+      "starters": [
+        {
+          "player_id": 36,
+          "name": "Cash",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        },
+        {
+          "player_id": 226,
+          "name": "Chalobah",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "hard"
+        },
+        {
+          "player_id": 291,
+          "name": "Tarkowski",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        },
+        {
+          "player_id": 683,
+          "name": "Alderete",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        }
+      ],
+      "bench": [
+        {
+          "player_id": 508,
+          "name": "N.Williams",
+          "minutes_ok": true
+        }
+      ],
+      "status": "neutral",
+      "reason": "No immediate rotation or availability concerns"
+    },
+    "Midfielder": {
+      "starters": [
+        {
+          "player_id": 16,
+          "name": "Saka",
+          "status": "MUST-HAVE",
+          "minutes_ok": true,
+          "fixture_stress": "hard"
+        },
+        {
+          "player_id": 47,
+          "name": "Rogers",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        },
+        {
+          "player_id": 303,
+          "name": "Garner",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        },
+        {
+          "player_id": 450,
+          "name": "Cunha",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        }
+      ],
+      "bench": [
+        {
+          "player_id": 488,
+          "name": "Bruno G.",
+          "minutes_ok": true
+        }
+      ],
+      "status": "neutral",
+      "reason": "No immediate rotation or availability concerns"
+    },
+    "Forward": {
+      "starters": [
+        {
+          "player_id": 283,
+          "name": "Mateta",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "hard"
+        },
+        {
+          "player_id": 430,
+          "name": "Haaland",
+          "status": "MUST-HAVE",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        }
+      ],
+      "bench": [
+        {
+          "player_id": 691,
+          "name": "Calvert-Lewin",
+          "minutes_ok": true
+        }
+      ],
+      "status": "neutral",
+      "reason": "No immediate rotation or availability concerns"
+    }
+  },
+  "risk_flags": [
+    "Missing structural MUST-HAVE asset"
+  ],
+  "structural_notes": [
+    "Starting XI faces multiple difficult fixtures in the next gameweek.",
+    "Starting XI minutes profile is stable.",
+    "Several starters show weak or declining form.",
+    "Short-term performance likely shaped by difficult fixtures."
+  ],
+  "fix_priority": [
+    {
+      "priority": 1,
+      "issue": "Missing MUST-HAVE asset",
+      "action": "Acquire structural MUST-HAVE if feasible"
+    },
+    {
+      "priority": 4,
+      "issue": "Fixture congestion",
+      "action": "Avoid hits unless addressing structural needs"
+    }
+  ]
+}
