@@ -26,7 +26,7 @@
       "reason": "Captaincy exposure risk"
     },
     {
-      "player_id": 256,
+      "player_id": 237,
       "reason": "High ownership structural exposure"
     },
     {
@@ -34,7 +34,23 @@
       "reason": "High ownership structural exposure"
     },
     {
+      "player_id": 311,
+      "reason": "High ownership structural exposure"
+    },
+    {
+      "player_id": 350,
+      "reason": "Captaincy exposure risk"
+    },
+    {
       "player_id": 449,
+      "reason": "High ownership structural exposure"
+    },
+    {
+      "player_id": 469,
+      "reason": "High ownership structural exposure"
+    },
+    {
+      "player_id": 661,
       "reason": "High ownership structural exposure"
     }
   ]
