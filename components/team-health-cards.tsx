@@ -1,10 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Activity, AlertTriangle, UserX } from "lucide-react"
-import type { TeamHealth, FlagSeverity } from "@/lib/types"
+import type { TeamHealth, FlagSeverity, Player } from "@/lib/types"
 
 interface TeamHealthCardsProps {
   data: TeamHealth | null
+  players: Player[]
 }
 
 const healthBandColors: Record<string, { bg: string; text: string; border: string }> = {
@@ -20,7 +21,7 @@ const severityColors: Record<FlagSeverity, string> = {
   LOW: "text-sky-400",
 }
 
-export function TeamHealthCards({ data }: TeamHealthCardsProps) {
+export function TeamHealthCards({ data, players }: TeamHealthCardsProps) {
   if (!data) {
     return null
   }
@@ -43,6 +44,20 @@ export function TeamHealthCards({ data }: TeamHealthCardsProps) {
   )
 
   const totalFlags = flags.reduce((sum, f) => sum + (f.count ?? 0), 0)
+
+  // Create a map for quick player lookup
+  const playerMap = new Map(players.map(p => [p.player_id, p]))
+  
+  // Get player details for missing must-haves
+  const missingPlayersWithDetails = missingMustHaves.map(m => {
+    const player = playerMap.get(m.player_id)
+    return {
+      ...m,
+      name: player?.web_name ?? player?.name ?? `Player #${m.player_id}`,
+      team: player?.team ?? "",
+      position: player?.position ?? ""
+    }
+  })
 
   return (
     <div className="grid gap-4 md:grid-cols-3">
@@ -104,6 +119,27 @@ export function TeamHealthCards({ data }: TeamHealthCardsProps) {
             <div className="flex-1 min-w-0">
               <p className="text-sm text-muted-foreground">Missing Must-Haves</p>
               <p className="text-2xl font-semibold tracking-tight">{missingMustHaves.length}</p>
+              {missingPlayersWithDetails.length > 0 && (
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {missingPlayersWithDetails.slice(0, 5).map((player) => (
+                    <Badge 
+                      key={player.player_id} 
+                      variant="outline" 
+                      className="text-xs text-rose-400 border-rose-500/30"
+                    >
+                      {player.name}
+                    </Badge>
+                  ))}
+                  {missingPlayersWithDetails.length > 5 && (
+                    <Badge 
+                      variant="outline" 
+                      className="text-xs text-muted-foreground border-muted"
+                    >
+                      +{missingPlayersWithDetails.length - 5} more
+                    </Badge>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         </CardContent>
