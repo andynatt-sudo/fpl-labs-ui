@@ -1,7 +1,5 @@
 {
   "summary": {
-    "owned_must_haves": 1,
-    "missing_must_haves": 6,
     "starter_minutes_risk": 0,
     "availability_risk": 0,
     "free_transfers": 1,
@@ -138,9 +136,6 @@
       "reason": "No immediate rotation or availability concerns"
     }
   },
-  "risk_flags": [
-    "Missing structural MUST-HAVE asset"
-  ],
   "structural_notes": [
     "Starting XI faces multiple difficult fixtures in the next gameweek.",
     "Defender unit faces fixture stress this week.",
@@ -148,17 +143,5 @@
     "Starting XI minutes profile is stable.",
     "Several starters show weak or declining form.",
     "Short-term performance likely shaped by difficult fixtures."
-  ],
-  "fix_priority": [
-    {
-      "priority": 1,
-      "issue": "Missing MUST-HAVE asset",
-      "action": "Acquire structural MUST-HAVE if feasible"
-    },
-    {
-      "priority": 4,
-      "issue": "Fixture congestion",
-      "action": "Avoid hits unless addressing structural needs"
-    }
   ]
 }
