@@ -5,18 +5,20 @@ import { PlayersTable } from "@/components/players-table"
 import playersData from "@/data/players.json"
 import teamHealthData from "@/data/team_health.json"
 import teamViewData from "@/data/team_view.json"
-import type { Player, TeamHealth, TeamView } from "@/lib/types"
+import transferContextData from "@/data/transfer_context.json"
+import type { Player, TeamHealth, TeamView, TransferContext } from "@/lib/types"
 
 const players = playersData as Player[]
 const teamHealth = teamHealthData as TeamHealth
 const teamView = teamViewData as TeamView
+const transferContext = transferContextData as TransferContext
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <DashboardHeader />
       <main className="container mx-auto px-4 py-6 space-y-6">
-        <TeamHealthCards data={teamHealth} players={players} />
+        <TeamHealthCards health={teamHealth} context={transferContext} players={players} />
         <TeamBreakdown data={teamView} />
         <PlayersTable players={players} />
       </main>
