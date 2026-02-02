@@ -15,50 +15,5 @@
       "severity": "LOW",
       "count": 10
     }
-<<<<<<< HEAD
-  ],
-  "missing_must_haves": [
-    {
-      "player_id": 8,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 119,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 136,
-      "reason": "Captaincy exposure risk"
-    },
-    {
-      "player_id": 237,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 287,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 311,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 350,
-      "reason": "Captaincy exposure risk"
-    },
-    {
-      "player_id": 449,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 469,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 661,
-      "reason": "High ownership structural exposure"
-    }
-=======
->>>>>>> 090fe26 (structural changes to JSON files)
   ]
 }
