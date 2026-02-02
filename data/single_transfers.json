@@ -1,8 +1,8 @@
 {
   "team_id": 2310541,
-  "gameweek": 23,
+  "gameweek": 24,
   "meta": {
-    "health_band": "OK",
+    "health_band": "FRAGILE",
     "note": "No viable weakest-link transfers identified"
   },
   "recommendations": []

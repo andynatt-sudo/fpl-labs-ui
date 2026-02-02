@@ -1,11 +1,11 @@
 {
   "summary": {
-    "owned_must_haves": 2,
-    "missing_must_haves": 5,
+    "owned_must_haves": 1,
+    "missing_must_haves": 6,
     "starter_minutes_risk": 0,
     "availability_risk": 0,
-    "free_transfers": 2,
-    "bank": 1.0
+    "free_transfers": 1,
+    "bank": 1.2
   },
   "by_position": {
     "Goalkeeper": {
@@ -35,7 +35,7 @@
           "name": "Cash",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "medium"
+          "fixture_stress": "hard"
         },
         {
           "player_id": 226,
@@ -52,17 +52,17 @@
           "fixture_stress": "medium"
         },
         {
-          "player_id": 683,
-          "name": "Alderete",
+          "player_id": 508,
+          "name": "N.Williams",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "medium"
+          "fixture_stress": "hard"
         }
       ],
       "bench": [
         {
-          "player_id": 508,
-          "name": "N.Williams",
+          "player_id": 683,
+          "name": "Alderete",
           "minutes_ok": true
         }
       ],
@@ -74,7 +74,7 @@
         {
           "player_id": 16,
           "name": "Saka",
-          "status": "MUST-HAVE",
+          "status": "HOLD",
           "minutes_ok": true,
           "fixture_stress": "hard"
         },
@@ -83,27 +83,27 @@
           "name": "Rogers",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "medium"
-        },
-        {
-          "player_id": 303,
-          "name": "Garner",
-          "status": "HOLD",
-          "minutes_ok": true,
-          "fixture_stress": "medium"
+          "fixture_stress": "hard"
         },
         {
           "player_id": 450,
           "name": "Cunha",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "medium"
+          "fixture_stress": "hard"
+        },
+        {
+          "player_id": 488,
+          "name": "Bruno G.",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "easy"
         }
       ],
       "bench": [
         {
-          "player_id": 488,
-          "name": "Bruno G.",
+          "player_id": 303,
+          "name": "Garner",
           "minutes_ok": true
         }
       ],
@@ -113,8 +113,8 @@
     "Forward": {
       "starters": [
         {
-          "player_id": 283,
-          "name": "Mateta",
+          "player_id": 249,
+          "name": "Jo\u00e3o Pedro",
           "status": "HOLD",
           "minutes_ok": true,
           "fixture_stress": "hard"
@@ -143,6 +143,8 @@
   ],
   "structural_notes": [
     "Starting XI faces multiple difficult fixtures in the next gameweek.",
+    "Defender unit faces fixture stress this week.",
+    "Midfielder unit faces fixture stress this week.",
     "Starting XI minutes profile is stable.",
     "Several starters show weak or declining form.",
     "Short-term performance likely shaped by difficult fixtures."

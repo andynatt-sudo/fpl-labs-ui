@@ -1,24 +1,28 @@
 {
   "team_id": 2310541,
-  "gameweek": 23,
-  "health_score": 71,
-  "health_band": "OK",
+  "gameweek": 24,
+  "health_score": 66,
+  "health_band": "FRAGILE",
   "summary": "Inefficient value distribution is reducing squad resilience.",
   "flags": [
     {
       "type": "VALUE_TRAP",
       "severity": "MEDIUM",
-      "count": 4
+      "count": 5
     },
     {
       "type": "LOW_CEILING",
       "severity": "LOW",
-      "count": 9
+      "count": 10
     }
   ],
   "missing_must_haves": [
     {
       "player_id": 8,
+      "reason": "High ownership structural exposure"
+    },
+    {
+      "player_id": 119,
       "reason": "High ownership structural exposure"
     },
     {
