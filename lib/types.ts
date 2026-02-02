@@ -97,3 +97,44 @@ export interface TransferContext {
   }
   missing_must_haves: MissingMustHave[]
 }
+
+// Tactical Replacements types
+export type SwapType = "safe_productivity" | "higher_upside"
+
+export interface ReplacementOption {
+  player_id: number
+  name: string
+  form: number
+  now_cost: number
+  price_band: string
+}
+
+export interface OutgoingPlayer {
+  player_id: number
+  name: string
+  position: string
+  now_cost: number
+  price_band: string
+  form: number
+  minutes_secure: boolean
+  is_starter: boolean
+  reason: string
+}
+
+export interface TacticalReplacementItem {
+  outgoing: OutgoingPlayer
+  replacements: {
+    safe_productivity: ReplacementOption[]
+    higher_upside: ReplacementOption[]
+  }
+}
+
+export interface TacticalReplacements {
+  meta: {
+    type: string
+    lens: string
+    description: string
+    count: number
+  }
+  items: TacticalReplacementItem[]
+}
