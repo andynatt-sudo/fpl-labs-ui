@@ -14,7 +14,7 @@ export interface Player {
 export type SortKey = keyof Player
 export type SortDirection = "asc" | "desc"
 
-// Team Health types
+// Team Health types - diagnostic health only
 export type HealthBand = "EXCELLENT" | "OK" | "FRAGILE" | "AT RISK"
 export type FlagSeverity = "HIGH" | "MEDIUM" | "LOW"
 
@@ -24,11 +24,6 @@ export interface TeamHealthFlag {
   count: number
 }
 
-export interface MissingMustHave {
-  player_id: number
-  reason: string
-}
-
 export interface TeamHealth {
   team_id: number
   gameweek: number
@@ -36,7 +31,6 @@ export interface TeamHealth {
   health_band: HealthBand
   summary: string
   flags: TeamHealthFlag[]
-  missing_must_haves: MissingMustHave[]
 }
 
 // Team View / Breakdown types
@@ -72,8 +66,6 @@ export interface FixPriority {
 }
 
 export interface TeamViewSummary {
-  owned_must_haves: number
-  missing_must_haves: number
   starter_minutes_risk: number
   availability_risk: number
   free_transfers: number
@@ -88,7 +80,20 @@ export interface TeamView {
     Midfielder: PositionBreakdown
     Forward: PositionBreakdown
   }
-  risk_flags: string[]
   structural_notes: string[]
-  fix_priority: FixPriority[]
+}
+
+// Transfer Context types - structural/meta context only
+export interface MissingMustHave {
+  player_id: number
+  reason: string
+}
+
+export interface TransferContext {
+  meta: {
+    type: string
+    team_id: number
+    gameweek: number
+  }
+  missing_must_haves: MissingMustHave[]
 }

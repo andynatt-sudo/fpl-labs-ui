@@ -1,10 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Activity, AlertTriangle, UserX } from "lucide-react"
-import type { TeamHealth, FlagSeverity, Player } from "@/lib/types"
+import type { TeamHealth, FlagSeverity, TransferContext, Player } from "@/lib/types"
 
 interface TeamHealthCardsProps {
-  data: TeamHealth | null
+  health: TeamHealth | null
+  context: TransferContext | null
   players: Player[]
 }
 
@@ -21,17 +22,17 @@ const severityColors: Record<FlagSeverity, string> = {
   LOW: "text-sky-400",
 }
 
-export function TeamHealthCards({ data, players }: TeamHealthCardsProps) {
-  if (!data) {
+export function TeamHealthCards({ health, context, players }: TeamHealthCardsProps) {
+  if (!health) {
     return null
   }
 
-  const healthBand = data.health_band ?? "OK"
+  const healthBand = health.health_band ?? "OK"
   const bandStyle = healthBandColors[healthBand] ?? healthBandColors.OK
-  const healthScore = data.health_score ?? 0
-  const summary = data.summary ?? "No summary available"
-  const flags = data.flags ?? []
-  const missingMustHaves = data.missing_must_haves ?? []
+  const healthScore = health.health_score ?? 0
+  const summary = health.summary ?? "No summary available"
+  const flags = health.flags ?? []
+  const missingMustHaves = context?.missing_must_haves ?? []
 
   // Calculate severity breakdown
   const severityBreakdown = flags.reduce(
