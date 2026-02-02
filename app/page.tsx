@@ -1,7 +1,6 @@
 import { DashboardHeader } from "@/components/dashboard-header"
 import { TeamHealthCards } from "@/components/team-health-cards"
 import { TeamBreakdown } from "@/components/team-breakdown"
-import { PlayersTable } from "@/components/players-table"
 import playersData from "@/data/players.json"
 import teamHealthData from "@/data/team_health.json"
 import teamViewData from "@/data/team_view.json"
@@ -20,7 +19,6 @@ export default function Home() {
       <main className="container mx-auto px-4 py-6 space-y-6">
         <TeamHealthCards health={teamHealth} context={transferContext} players={players} />
         <TeamBreakdown data={teamView} />
-        <PlayersTable players={players} />
       </main>
     </div>
   )
