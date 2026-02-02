@@ -138,3 +138,37 @@ export interface TacticalReplacements {
   }
   items: TacticalReplacementItem[]
 }
+
+// Transfer Bundles types
+export interface BundleTransferPlayer {
+  player_id: number
+  name: string
+  position: string
+  now_cost: number
+}
+
+export interface BundleTransfer {
+  out: BundleTransferPlayer
+  in: BundleTransferPlayer
+}
+
+export interface TransferBundle {
+  name: string
+  type: string
+  transfers_required: number
+  net_budget_impact: number
+  transfers: BundleTransfer[]
+  problem_solved: string
+  trade_offs: string[]
+}
+
+export interface TransferBundles {
+  meta: {
+    type: string
+    team_id: number
+    gameweek: number
+    description: string
+    count: number
+  }
+  bundles: TransferBundle[]
+}
