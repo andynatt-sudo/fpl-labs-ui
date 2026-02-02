@@ -33,7 +33,7 @@ export function TacticalReplacementsSection({ data }: TacticalReplacementsProps)
         <p className="text-sm text-muted-foreground">Situational swaps for short-term flexibility</p>
       </div>
 
-      <div className="space-y-4">
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {data.items.map((item, idx) => {
           const outgoing = item.outgoing
           const safeOptions = item.replacements.safe_productivity ?? []
@@ -55,10 +55,10 @@ export function TacticalReplacementsSection({ data }: TacticalReplacementsProps)
                 {/* Outgoing Player */}
                 <div className="flex items-center justify-between mb-4 pb-3 border-b border-border">
                   <div className="flex items-center gap-3">
-                    <ArrowRightLeft className="size-4 text-muted-foreground" />
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-sm font-medium">{outgoing.name}</span>
+                    <ArrowRightLeft className="size-5 text-muted-foreground" />
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className="text-base font-semibold">{outgoing.name}</span>
                         <Badge variant="outline" className="text-xs">
                           {outgoing.position}
                         </Badge>
@@ -68,10 +68,10 @@ export function TacticalReplacementsSection({ data }: TacticalReplacementsProps)
                           </Badge>
                         )}
                       </div>
-                      <p className="text-xs text-muted-foreground mt-0.5">{outgoing.reason}</p>
+                      <p className="text-xs text-muted-foreground mt-1">{outgoing.reason}</p>
                     </div>
                   </div>
-                  <div className="text-right">
+                  <div className="text-right shrink-0 ml-2">
                     <div className="text-sm font-medium">£{outgoing.now_cost}m</div>
                     <div className="text-xs text-muted-foreground">Form: {outgoing.form}</div>
                   </div>
