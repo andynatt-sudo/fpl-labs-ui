@@ -134,43 +134,44 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
             })}
           </div>
           
-          {/* Legend */}
-          <div className="flex items-center gap-4 mt-4 pt-3 border-t border-border text-xs text-muted-foreground">
-            <span>Fixture:</span>
-            <div className="flex items-center gap-3">
-              <span className="flex items-center gap-1">
-                <span className="size-1.5 rounded-full bg-emerald-500" />
-                Easy
-              </span>
-              <span className="flex items-center gap-1">
-                <span className="size-1.5 rounded-full bg-amber-500" />
-                Medium
-              </span>
-              <span className="flex items-center gap-1">
-                <span className="size-1.5 rounded-full bg-rose-500" />
-                Hard
-              </span>
+          {/* Footer: Legend + Squad Notes side by side */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 pt-3 border-t border-border">
+            {/* Legend */}
+            <div className="flex items-center gap-4 text-xs text-muted-foreground">
+              <span>Fixture:</span>
+              <div className="flex items-center gap-3">
+                <span className="flex items-center gap-1">
+                  <span className="size-1.5 rounded-full bg-emerald-500" />
+                  Easy
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="size-1.5 rounded-full bg-amber-500" />
+                  Medium
+                </span>
+                <span className="flex items-center gap-1">
+                  <span className="size-1.5 rounded-full bg-rose-500" />
+                  Hard
+                </span>
+              </div>
             </div>
+            
+            {/* Squad Notes */}
+            {structuralNotes.length > 0 && (
+              <div className="md:border-l md:border-border md:pl-4">
+                <h4 className="text-xs font-medium text-muted-foreground mb-1.5">Notes</h4>
+                <ul className="space-y-1">
+                  {structuralNotes.map((note, idx) => (
+                    <li key={idx} className="text-xs text-muted-foreground/80 flex items-start gap-1.5">
+                      <span className="text-muted-foreground/40 mt-px">-</span>
+                      <span>{note}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </CardContent>
       </Card>
-
-      {/* Structural Insights */}
-      {structuralNotes.length > 0 && (
-        <Card className="bg-card/50">
-          <CardContent className="p-4">
-            <h3 className="text-sm font-medium mb-2">Squad Notes</h3>
-            <ul className="space-y-1.5">
-              {structuralNotes.map((note, idx) => (
-                <li key={idx} className="text-xs text-muted-foreground flex items-start gap-2">
-                  <span className="text-muted-foreground/40 mt-px">-</span>
-                  <span>{note}</span>
-                </li>
-              ))}
-            </ul>
-          </CardContent>
-        </Card>
-      )}
     </section>
   )
 }
