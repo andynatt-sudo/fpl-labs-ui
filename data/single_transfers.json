@@ -1,9 +1,10 @@
 {
   "team_id": 2310541,
-  "gameweek": 23,
+  "gameweek": 24,
   "meta": {
-    "health_band": "OK",
-    "note": "No viable weakest-link transfers identified"
+    "type": "single_transfers",
+    "outcome": "none",
+    "reason": "No clear single transfer offers a high-confidence improvement"
   },
   "recommendations": []
 }

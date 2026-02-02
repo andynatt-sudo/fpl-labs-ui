@@ -1,14 +1,14 @@
 [
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 1,
     "team": "Man Utd",
     "fixtures": {
-      "next": 0.3411527851930963,
-      "fdr_next_n": 1839.23
+      "next": 0.8014387172771889,
+      "fdr_next_n": 1788.2
     },
     "ownership": {
-      "total": 70.4,
+      "total": 81.3,
       "top_player": "B.Fernandes"
     },
     "signals": {
@@ -17,15 +17,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 2,
     "team": "Leeds",
     "fixtures": {
-      "next": 0.051210179747287664,
-      "fdr_next_n": 1891.36
+      "next": 0.0,
+      "fdr_next_n": 1928.35
     },
     "ownership": {
-      "total": 32.1,
+      "total": 31.3,
       "top_player": "Calvert-Lewin"
     },
     "signals": {
@@ -34,15 +34,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 3,
     "team": "Arsenal",
     "fixtures": {
-      "next": 0.6646200391528742,
-      "fdr_next_n": 1781.07
+      "next": 0.7883095643820287,
+      "fdr_next_n": 1790.49
     },
     "ownership": {
-      "total": 197.4,
+      "total": 197.6,
       "top_player": "Gabriel"
     },
     "signals": {
@@ -51,15 +51,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 4,
     "team": "Newcastle",
     "fixtures": {
-      "next": 0.0,
-      "fdr_next_n": 1900.57
+      "next": 0.29462825512643215,
+      "fdr_next_n": 1876.83
     },
     "ownership": {
-      "total": 78.6,
+      "total": 71.0,
       "top_player": "Bruno G."
     },
     "signals": {
@@ -68,15 +68,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 6,
     "team": "Spurs",
     "fixtures": {
-      "next": 0.07375645132586083,
-      "fdr_next_n": 1887.31
+      "next": 0.1242008714646786,
+      "fdr_next_n": 1906.63
     },
     "ownership": {
-      "total": 78.6,
+      "total": 77.0,
       "top_player": "Van de Ven"
     },
     "signals": {
@@ -85,15 +85,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 7,
     "team": "Aston Villa",
     "fixtures": {
-      "next": 0.47233715963694584,
-      "fdr_next_n": 1815.64
+      "next": 0.922917691190431,
+      "fdr_next_n": 1766.95
     },
     "ownership": {
-      "total": 79.6,
+      "total": 80.0,
       "top_player": "Rogers"
     },
     "signals": {
@@ -102,15 +102,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 8,
     "team": "Chelsea",
     "fixtures": {
-      "next": 1.0,
-      "fdr_next_n": 1720.76
+      "next": 0.8988208922791903,
+      "fdr_next_n": 1771.17
     },
     "ownership": {
-      "total": 141.9,
+      "total": 151.3,
       "top_player": "Jo\u00e3o Pedro"
     },
     "signals": {
@@ -119,16 +119,16 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 11,
     "team": "Everton",
     "fixtures": {
-      "next": 0.5425120128136672,
-      "fdr_next_n": 1803.02
+      "next": 0.61009389402898,
+      "fdr_next_n": 1821.66
     },
     "ownership": {
-      "total": 58.3,
-      "top_player": "Tarkowski"
+      "total": 58.6,
+      "top_player": "Pickford"
     },
     "signals": {
       "attack_bias": true,
@@ -136,15 +136,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 14,
     "team": "Liverpool",
     "fixtures": {
-      "next": 0.43231669336180845,
-      "fdr_next_n": 1822.84
+      "next": 0.7011630965587446,
+      "fdr_next_n": 1805.73
     },
     "ownership": {
-      "total": 122.8,
+      "total": 120.3,
       "top_player": "Ekitik\u00e9"
     },
     "signals": {
@@ -153,15 +153,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 17,
     "team": "Nott'm Forest",
     "fixtures": {
-      "next": 0.5823100195764374,
-      "fdr_next_n": 1795.87
+      "next": 0.7677809673029212,
+      "fdr_next_n": 1794.08
     },
     "ownership": {
-      "total": 34.2,
+      "total": 34.7,
       "top_player": "Sels"
     },
     "signals": {
@@ -170,15 +170,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 21,
     "team": "West Ham",
     "fixtures": {
-      "next": 0.6601597259298813,
-      "fdr_next_n": 1781.87
+      "next": 0.5524537105868091,
+      "fdr_next_n": 1831.74
     },
     "ownership": {
-      "total": 22.5,
+      "total": 22.6,
       "top_player": "Bowen"
     },
     "signals": {
@@ -187,15 +187,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 31,
     "team": "Crystal Palace",
     "fixtures": {
-      "next": 0.7355957465741231,
-      "fdr_next_n": 1768.3
+      "next": 0.9872939992451895,
+      "fdr_next_n": 1755.69
     },
     "ownership": {
-      "total": 43.7,
+      "total": 42.7,
       "top_player": "Mateta"
     },
     "signals": {
@@ -204,12 +204,12 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 36,
     "team": "Brighton",
     "fixtures": {
-      "next": 0.37259743726641886,
-      "fdr_next_n": 1833.57
+      "next": 0.5766763114857222,
+      "fdr_next_n": 1827.5
     },
     "ownership": {
       "total": 27.4,
@@ -221,15 +221,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 39,
     "team": "Wolves",
     "fixtures": {
-      "next": 0.31500266951414985,
-      "fdr_next_n": 1843.93
+      "next": 0.512197074531961,
+      "fdr_next_n": 1838.78
     },
     "ownership": {
-      "total": 11.6,
+      "total": 11.9,
       "top_player": "Fraser"
     },
     "signals": {
@@ -238,15 +238,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 43,
     "team": "Man City",
     "fixtures": {
-      "next": 0.46121418401850844,
-      "fdr_next_n": 1817.64
+      "next": 0.5502922037077281,
+      "fdr_next_n": 1832.12
     },
     "ownership": {
-      "total": 253.1,
+      "total": 243.1,
       "top_player": "Haaland"
     },
     "signals": {
@@ -255,15 +255,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 54,
     "team": "Fulham",
     "fixtures": {
-      "next": 0.3918179391350782,
-      "fdr_next_n": 1830.12
+      "next": 0.5926989100973252,
+      "fdr_next_n": 1824.7
     },
     "ownership": {
-      "total": 39.9,
+      "total": 40.6,
       "top_player": "Wilson"
     },
     "signals": {
@@ -272,15 +272,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 56,
     "team": "Sunderland",
     "fixtures": {
-      "next": 0.3338672361630188,
-      "fdr_next_n": 1840.54
+      "next": 0.4167362389780294,
+      "fdr_next_n": 1855.47
     },
     "ownership": {
-      "total": 53.6,
+      "total": 53.7,
       "top_player": "Roefs"
     },
     "signals": {
@@ -289,15 +289,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 90,
     "team": "Burnley",
     "fixtures": {
-      "next": 0.6686688022779844,
-      "fdr_next_n": 1780.34
+      "next": 0.827502601813836,
+      "fdr_next_n": 1783.64
     },
     "ownership": {
-      "total": 54.1,
+      "total": 53.9,
       "top_player": "D\u00fabravka"
     },
     "signals": {
@@ -306,15 +306,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 91,
     "team": "Bournemouth",
     "fixtures": {
-      "next": 0.5129693895710981,
-      "fdr_next_n": 1808.33
+      "next": 1.0,
+      "fdr_next_n": 1753.47
     },
     "ownership": {
-      "total": 34.2,
+      "total": 35.6,
       "top_player": "Senesi"
     },
     "signals": {
@@ -323,15 +323,15 @@
     }
   },
   {
-    "gameweek": 23,
+    "gameweek": 24,
     "team_code": 94,
     "team": "Brentford",
     "fixtures": {
-      "next": 0.07950702972059229,
-      "fdr_next_n": 1886.27
+      "next": 0.3218472306407894,
+      "fdr_next_n": 1872.07
     },
     "ownership": {
-      "total": 63.6,
+      "total": 62.9,
       "top_player": "Thiago"
     },
     "signals": {

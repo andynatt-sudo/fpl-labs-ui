@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "type": "tactical_replacements",
+    "lens": "tactical_replacement",
+    "description": "Tactical replacements swap out poor-form players for short-term productivity, with a lens on longer-term returns.",
+    "count": 4
+  },
+  "items": [
+    {
+      "outgoing": {
+        "player_id": 36,
+        "name": "Cash",
+        "position": "Defender",
+        "now_cost": 4,
+        "price_band": "budget",
+        "form": 3.8,
+        "minutes_secure": true,
+        "is_starter": true,
+        "reason": "Underperforming relative to positional peers"
+      },
+      "replacements": {
+        "safe_productivity": [
+          {
+            "player_id": 343,
+            "name": "Struijk",
+            "form": 5.6,
+            "now_cost": 4,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 694,
+            "name": "Mukiele",
+            "form": 5.6,
+            "now_cost": 4,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 633,
+            "name": "H.Bueno",
+            "form": 5.0,
+            "now_cost": 4,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 709,
+            "name": "Krej\u010d\u00ed",
+            "form": 4.6,
+            "now_cost": 4,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 634,
+            "name": "Mosquera",
+            "form": 4.2,
+            "now_cost": 4,
+            "price_band": "budget"
+          }
+        ],
+        "higher_upside": [
+          {
+            "player_id": 441,
+            "name": "Dorgu",
+            "form": 6.2,
+            "now_cost": 4,
+            "price_band": "budget"
+          }
+        ]
+      }
+    },
+    {
+      "outgoing": {
+        "player_id": 683,
+        "name": "Alderete",
+        "position": "Defender",
+        "now_cost": 4,
+        "price_band": "budget",
+        "form": 2.4,
+        "minutes_secure": true,
+        "is_starter": false,
+        "reason": "Underperforming relative to positional peers"
+      },
+      "replacements": {
+        "safe_productivity": [
+          {
+            "player_id": 347,
+            "name": "Gudmundsson",
+            "form": 3.2,
+            "now_cost": 3,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 344,
+            "name": "Bijol",
+            "form": 2.8,
+            "now_cost": 3,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 198,
+            "name": "Tuanzebe",
+            "form": 2.2,
+            "now_cost": 3,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 348,
+            "name": "Rodon",
+            "form": 2.2,
+            "now_cost": 3,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 191,
+            "name": "Est\u00e8ve",
+            "form": 1.6,
+            "now_cost": 3,
+            "price_band": "budget"
+          }
+        ],
+        "higher_upside": []
+      }
+    },
+    {
+      "outgoing": {
+        "player_id": 470,
+        "name": "D\u00fabravka",
+        "position": "Goalkeeper",
+        "now_cost": 4,
+        "price_band": "budget",
+        "form": 3.2,
+        "minutes_secure": true,
+        "is_starter": false,
+        "reason": "Underperforming relative to positional peers"
+      },
+      "replacements": {
+        "safe_productivity": [],
+        "higher_upside": []
+      }
+    },
+    {
+      "outgoing": {
+        "player_id": 430,
+        "name": "Haaland",
+        "position": "Forward",
+        "now_cost": 15,
+        "price_band": "budget",
+        "form": 2.6,
+        "minutes_secure": true,
+        "is_starter": true,
+        "reason": "Underperforming relative to positional peers"
+      },
+      "replacements": {
+        "safe_productivity": [
+          {
+            "player_id": 730,
+            "name": "Brobbey",
+            "form": 5.6,
+            "now_cost": 5,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 624,
+            "name": "Bowen",
+            "form": 5.6,
+            "now_cost": 7,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 97,
+            "name": "Evanilson",
+            "form": 5.0,
+            "now_cost": 7,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 64,
+            "name": "Watkins",
+            "form": 4.8,
+            "now_cost": 8,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 681,
+            "name": "\u0160e\u0161ko",
+            "form": 3.6,
+            "now_cost": 7,
+            "price_band": "budget"
+          }
+        ],
+        "higher_upside": [
+          {
+            "player_id": 136,
+            "name": "Thiago",
+            "form": 7.0,
+            "now_cost": 7,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 310,
+            "name": "Barry",
+            "form": 6.2,
+            "now_cost": 5,
+            "price_band": "budget"
+          }
+        ]
+      }
+    }
+  ]
+}

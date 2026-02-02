@@ -198,13 +198,12 @@
       "role": "shot_volume",
       "minutes": "Secure starter",
       "scoring": "Balanced",
-      "reliability": "Must-Have"
+      "reliability": "Hold"
     },
     "labels": [
-      "Must-Have",
       "Minutes Secure"
     ],
-    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 17,
@@ -493,12 +492,14 @@
     "web_name": "Maatsen",
     "profile": {
       "role": "defensive_return",
-      "minutes": "Minutes risk",
+      "minutes": "Secure starter",
       "scoring": "Balanced",
       "reliability": "Watch"
     },
-    "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "labels": [
+      "Minutes Secure"
+    ],
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
   },
   {
     "player_id": 40,
@@ -976,7 +977,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 78,
@@ -1380,11 +1381,13 @@
     "web_name": "Henry",
     "profile": {
       "role": "defensive_return",
-      "minutes": "Minutes risk",
+      "minutes": "Secure starter",
       "scoring": "Balanced",
       "reliability": "Watch"
     },
-    "labels": [],
+    "labels": [
+      "Minutes Secure"
+    ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
@@ -1506,12 +1509,13 @@
       "role": "shot_volume",
       "minutes": "Secure starter",
       "scoring": "Balanced",
-      "reliability": "Watch"
+      "reliability": "Must-Have"
     },
     "labels": [
+      "Must-Have",
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
+    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement."
   },
   {
     "player_id": 120,
@@ -1519,12 +1523,11 @@
     "profile": {
       "role": "shot_volume",
       "minutes": "Secure starter",
-      "scoring": "Goal-dominant",
+      "scoring": "Balanced",
       "reliability": "Watch"
     },
     "labels": [
-      "Minutes Secure",
-      "High Ceiling"
+      "Minutes Secure"
     ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
@@ -2104,11 +2107,12 @@
     "profile": {
       "role": "shot_volume",
       "minutes": "Secure starter",
-      "scoring": "Balanced",
+      "scoring": "Goal-dominant",
       "reliability": "Watch"
     },
     "labels": [
-      "Minutes Secure"
+      "Minutes Secure",
+      "High Ceiling"
     ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
@@ -2505,12 +2509,14 @@
     "web_name": "Tuanzebe",
     "profile": {
       "role": "defensive_return",
-      "minutes": "Minutes risk",
+      "minutes": "Secure starter",
       "scoring": "Balanced",
       "reliability": "Watch"
     },
-    "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "labels": [
+      "Minutes Secure"
+    ],
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 199,
@@ -2902,18 +2908,20 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
   },
   {
     "player_id": 230,
     "web_name": "Fofana",
     "profile": {
       "role": "defensive_return",
-      "minutes": "Minutes risk",
+      "minutes": "Secure starter",
       "scoring": "Balanced",
       "reliability": "Watch"
     },
-    "labels": [],
+    "labels": [
+      "Minutes Secure"
+    ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
@@ -2996,11 +3004,12 @@
     "profile": {
       "role": "shot_volume",
       "minutes": "Secure starter",
-      "scoring": "Balanced",
+      "scoring": "Goal-dominant",
       "reliability": "Watch"
     },
     "labels": [
-      "Minutes Secure"
+      "Minutes Secure",
+      "High Ceiling"
     ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
@@ -3147,7 +3156,7 @@
       "role": "shot_volume",
       "minutes": "Secure starter",
       "scoring": "Balanced",
-      "reliability": "Watch"
+      "reliability": "Hold"
     },
     "labels": [
       "Minutes Secure"
@@ -3582,7 +3591,7 @@
       "role": "shot_volume",
       "minutes": "Secure starter",
       "scoring": "Balanced",
-      "reliability": "Hold"
+      "reliability": "Watch"
     },
     "labels": [
       "Minutes Secure"
@@ -3631,15 +3640,14 @@
     "profile": {
       "role": "defensive_return",
       "minutes": "Secure starter",
-      "scoring": "Goal-dominant",
+      "scoring": "Balanced",
       "reliability": "Must-Have"
     },
     "labels": [
       "Must-Have",
-      "Minutes Secure",
-      "High Ceiling"
+      "Minutes Secure"
     ],
-    "narrative": "MUST-HAVE: Structural pick. Dominant upside from a central role creates unavoidable downside risk if unowned. Minutes security supports repeatable involvement."
+    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement."
   },
   {
     "player_id": 288,
@@ -3683,12 +3691,11 @@
     "profile": {
       "role": "defensive_return",
       "minutes": "Secure starter",
-      "scoring": "Goal-dominant",
+      "scoring": "Balanced",
       "reliability": "Hold"
     },
     "labels": [
-      "Minutes Secure",
-      "High Ceiling"
+      "Minutes Secure"
     ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
@@ -3929,11 +3936,12 @@
     "profile": {
       "role": "shot_volume",
       "minutes": "Secure starter",
-      "scoring": "Balanced",
+      "scoring": "Goal-dominant",
       "reliability": "Watch"
     },
     "labels": [
-      "Minutes Secure"
+      "Minutes Secure",
+      "High Ceiling"
     ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
@@ -4850,12 +4858,11 @@
     "profile": {
       "role": "shot_volume",
       "minutes": "Secure starter",
-      "scoring": "Goal-dominant",
+      "scoring": "Balanced",
       "reliability": "Watch"
     },
     "labels": [
-      "Minutes Secure",
-      "High Ceiling"
+      "Minutes Secure"
     ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
@@ -5802,7 +5809,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
   },
   {
     "player_id": 457,
@@ -5828,7 +5835,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 459,
@@ -6035,11 +6042,13 @@
     "web_name": "Botman",
     "profile": {
       "role": "defensive_return",
-      "minutes": "Minutes risk",
+      "minutes": "Secure starter",
       "scoring": "Balanced",
       "reliability": "Watch"
     },
-    "labels": [],
+    "labels": [
+      "Minutes Secure"
+    ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
@@ -6075,11 +6084,13 @@
     "web_name": "Trippier",
     "profile": {
       "role": "defensive_return",
-      "minutes": "Minutes risk",
+      "minutes": "Secure starter",
       "scoring": "Balanced",
       "reliability": "Watch"
     },
-    "labels": [],
+    "labels": [
+      "Minutes Secure"
+    ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
@@ -6451,7 +6462,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 508,
@@ -7221,11 +7232,12 @@
     "profile": {
       "role": "defensive_return",
       "minutes": "Secure starter",
-      "scoring": "Balanced",
+      "scoring": "Goal-dominant",
       "reliability": "Watch"
     },
     "labels": [
-      "Minutes Secure"
+      "Minutes Secure",
+      "High Ceiling"
     ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
@@ -7460,11 +7472,13 @@
     "web_name": "Odobert",
     "profile": {
       "role": "shot_volume",
-      "minutes": "Minutes risk",
+      "minutes": "Secure starter",
       "scoring": "Balanced",
       "reliability": "Watch"
     },
-    "labels": [],
+    "labels": [
+      "Minutes Secure"
+    ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
@@ -7715,7 +7729,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 609,
@@ -8063,7 +8077,7 @@
       "reliability": "Watch"
     },
     "labels": [],
-    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 636,
@@ -9277,11 +9291,13 @@
     "web_name": "Brobbey",
     "profile": {
       "role": "shot_volume",
-      "minutes": "Minutes risk",
+      "minutes": "Secure starter",
       "scoring": "Balanced",
       "reliability": "Watch"
     },
-    "labels": [],
+    "labels": [
+      "Minutes Secure"
+    ],
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
@@ -9358,7 +9374,7 @@
     "labels": [
       "Minutes Secure"
     ],
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent."
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance."
   },
   {
     "player_id": 737,
@@ -10118,7 +10134,7 @@
   },
   {
     "player_id": 800,
-    "web_name": null,
+    "web_name": "Jocelin.T",
     "profile": {
       "role": "shot_volume",
       "minutes": "Minutes risk",
@@ -10130,7 +10146,7 @@
   },
   {
     "player_id": 801,
-    "web_name": null,
+    "web_name": "T\u00f3th.A",
     "profile": {
       "role": "shot_volume",
       "minutes": "Minutes risk",
@@ -10142,6 +10158,78 @@
   },
   {
     "player_id": 802,
+    "web_name": "Lamadrid",
+    "profile": {
+      "role": "shot_volume",
+      "minutes": "Minutes risk",
+      "scoring": "Balanced",
+      "reliability": "Watch"
+    },
+    "labels": [],
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+  },
+  {
+    "player_id": 803,
+    "web_name": "Sharman-Lowe",
+    "profile": {
+      "role": "defensive_return",
+      "minutes": "Minutes risk",
+      "scoring": "Balanced",
+      "reliability": "Watch"
+    },
+    "labels": [],
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+  },
+  {
+    "player_id": 804,
+    "web_name": "Souza",
+    "profile": {
+      "role": "defensive_return",
+      "minutes": "Minutes risk",
+      "scoring": "Balanced",
+      "reliability": "Watch"
+    },
+    "labels": [],
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+  },
+  {
+    "player_id": 805,
+    "web_name": "Lucca",
+    "profile": {
+      "role": "shot_volume",
+      "minutes": "Minutes risk",
+      "scoring": "Balanced",
+      "reliability": "Watch"
+    },
+    "labels": [],
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+  },
+  {
+    "player_id": 806,
+    "web_name": null,
+    "profile": {
+      "role": "shot_volume",
+      "minutes": "Minutes risk",
+      "scoring": "Balanced",
+      "reliability": "Watch"
+    },
+    "labels": [],
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+  },
+  {
+    "player_id": 807,
+    "web_name": null,
+    "profile": {
+      "role": "shot_volume",
+      "minutes": "Minutes risk",
+      "scoring": "Balanced",
+      "reliability": "Watch"
+    },
+    "labels": [],
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty."
+  },
+  {
+    "player_id": 808,
     "web_name": null,
     "profile": {
       "role": "shot_volume",

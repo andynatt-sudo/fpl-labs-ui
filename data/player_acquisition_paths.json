@@ -4,10 +4,30 @@
     "name": "Enzo",
     "position": "Midfielder",
     "team": "Chelsea",
-    "price": 6.6,
+    "price": 6.7,
     "status": null
   },
   "paths": [
+    {
+      "path_type": "DIRECT_SWAP",
+      "out_player": {
+        "player_id": 16,
+        "name": "Saka",
+        "position": "Midfielder",
+        "price": 10.0,
+        "status": "HOLD",
+        "hold": true,
+        "must_have": false,
+        "ceiling": "moderate"
+      },
+      "blocker": {
+        "type": "HOLD",
+        "description": "Breaking HOLD protection"
+      },
+      "structural_risk": "MEDIUM",
+      "summary": "Replace Saka to acquire Enzo",
+      "recommended": true
+    },
     {
       "path_type": "DIRECT_SWAP",
       "out_player": {
@@ -26,7 +46,7 @@
       },
       "structural_risk": "MEDIUM",
       "summary": "Replace Rogers to acquire Enzo",
-      "recommended": true
+      "recommended": false
     },
     {
       "path_type": "DIRECT_SWAP",
@@ -54,7 +74,7 @@
         "player_id": 488,
         "name": "Bruno G.",
         "position": "Midfielder",
-        "price": 7.3,
+        "price": 7.2,
         "status": "HOLD",
         "hold": true,
         "must_have": false,
@@ -66,26 +86,6 @@
       },
       "structural_risk": "MEDIUM",
       "summary": "Replace Bruno G. to acquire Enzo",
-      "recommended": false
-    },
-    {
-      "path_type": "DIRECT_SWAP",
-      "out_player": {
-        "player_id": 16,
-        "name": "Saka",
-        "position": "Midfielder",
-        "price": 10.1,
-        "status": "MUST-HAVE",
-        "hold": true,
-        "must_have": true,
-        "ceiling": "moderate"
-      },
-      "blocker": {
-        "type": "MUST_HAVE",
-        "description": "Selling a MUST-HAVE player"
-      },
-      "structural_risk": "HIGH",
-      "summary": "Replace Saka to acquire Enzo",
       "recommended": false
     }
   ]

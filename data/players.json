@@ -6,14 +6,14 @@
     "position": "Goalkeeper",
     "team": "Arsenal",
     "price": 5.9,
-    "ownership": 33.3,
+    "ownership": 33.2,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 4.2,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -78,14 +78,14 @@
     "position": "Defender",
     "team": "Arsenal",
     "price": 6.9,
-    "ownership": 36.2,
+    "ownership": 37.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.16,
-      "points_per_game": 7.5,
+      "points_per_game": 7.1,
       "value_rank": null
     }
   },
@@ -103,7 +103,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.05,
-      "points_per_game": 3.8,
+      "points_per_game": 3.7,
       "value_rank": null
     }
   },
@@ -114,7 +114,7 @@
     "position": "Defender",
     "team": "Arsenal",
     "price": 5.6,
-    "ownership": 6.2,
+    "ownership": 6.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -132,14 +132,14 @@
     "position": "Defender",
     "team": "Arsenal",
     "price": 6.3,
-    "ownership": 28.2,
+    "ownership": 28.0,
     "status": "MUST-HAVE",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement.",
     "metrics": {
-      "xgi_per_90": 0.27,
-      "points_per_game": 5.2,
+      "xgi_per_90": 0.25,
+      "points_per_game": 5.0,
       "value_rank": null
     }
   },
@@ -192,8 +192,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.21,
-      "points_per_game": 4.8,
+      "xgi_per_90": 0.2,
+      "points_per_game": 4.3,
       "value_rank": null
     }
   },
@@ -275,15 +275,15 @@
     "web_name": "Saka",
     "position": "Midfielder",
     "team": "Arsenal",
-    "price": 10.1,
-    "ownership": 17.9,
-    "status": "MUST-HAVE",
+    "price": 10.0,
+    "ownership": 16.6,
+    "status": "HOLD",
     "minutes_status": "secure",
     "ceiling": "moderate",
-    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.63,
-      "points_per_game": 5.0,
+      "points_per_game": 4.8,
       "value_rank": null
     }
   },
@@ -294,7 +294,7 @@
     "position": "Midfielder",
     "team": "Arsenal",
     "price": 7.8,
-    "ownership": 2.4,
+    "ownership": 2.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -318,7 +318,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
     "metrics": {
-      "xgi_per_90": 0.36,
+      "xgi_per_90": 0.34,
       "points_per_game": 1.6,
       "value_rank": null
     }
@@ -347,15 +347,15 @@
     "web_name": "Trossard",
     "position": "Midfielder",
     "team": "Arsenal",
-    "price": 6.9,
+    "price": 6.8,
     "ownership": 1.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.48,
-      "points_per_game": 4.5,
+      "xgi_per_90": 0.46,
+      "points_per_game": 4.4,
       "value_rank": null
     }
   },
@@ -366,14 +366,14 @@
     "position": "Midfielder",
     "team": "Arsenal",
     "price": 7.4,
-    "ownership": 30.7,
+    "ownership": 31.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.35,
-      "points_per_game": 6.0,
+      "xgi_per_90": 0.37,
+      "points_per_game": 5.7,
       "value_rank": null
     }
   },
@@ -384,14 +384,14 @@
     "position": "Midfielder",
     "team": "Arsenal",
     "price": 5.5,
-    "ownership": 1.5,
+    "ownership": 1.4,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.36,
-      "points_per_game": 3.0,
+      "xgi_per_90": 0.4,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -462,8 +462,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.16,
-      "points_per_game": 3.6,
+      "xgi_per_90": 0.17,
+      "points_per_game": 3.5,
       "value_rank": null
     }
   },
@@ -546,13 +546,13 @@
     "position": "Forward",
     "team": "Arsenal",
     "price": 6.4,
-    "ownership": 0.3,
+    "ownership": 0.4,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.66,
+      "xgi_per_90": 0.51,
       "points_per_game": 1.4,
       "value_rank": null
     }
@@ -564,14 +564,14 @@
     "position": "Goalkeeper",
     "team": "Aston Villa",
     "price": 5.0,
-    "ownership": 3.1,
+    "ownership": 3.2,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 3.7,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -636,14 +636,14 @@
     "position": "Defender",
     "team": "Aston Villa",
     "price": 4.8,
-    "ownership": 11.1,
+    "ownership": 11.2,
     "status": "HOLD",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.12,
-      "points_per_game": 4.2,
+      "points_per_game": 4.3,
       "value_rank": null
     }
   },
@@ -660,7 +660,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.17,
+      "xgi_per_90": 0.2,
       "points_per_game": 3.1,
       "value_rank": null
     }
@@ -679,7 +679,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.04,
-      "points_per_game": 3.0,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -692,12 +692,12 @@
     "price": 4.2,
     "ownership": 0.5,
     "status": "WATCH",
-    "minutes_status": "risk",
+    "minutes_status": "secure",
     "ceiling": "moderate",
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent.",
     "metrics": {
-      "xgi_per_90": 0.21,
-      "points_per_game": 1.2,
+      "xgi_per_90": 0.2,
+      "points_per_game": 1.5,
       "value_rank": null
     }
   },
@@ -715,7 +715,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.08,
-      "points_per_game": 3.4,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -732,8 +732,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.04,
-      "points_per_game": 3.2,
+      "xgi_per_90": 0.05,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -841,7 +841,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.3,
-      "points_per_game": 4.7,
+      "points_per_game": 4.8,
       "value_rank": null
     }
   },
@@ -852,13 +852,13 @@
     "position": "Midfielder",
     "team": "Aston Villa",
     "price": 5.9,
-    "ownership": 1.1,
+    "ownership": 1.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.23,
+      "xgi_per_90": 0.25,
       "points_per_game": 3.1,
       "value_rank": null
     }
@@ -876,8 +876,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.0,
-      "points_per_game": 0.0,
+      "xgi_per_90": 0.15,
+      "points_per_game": 1.0,
       "value_rank": null
     }
   },
@@ -888,14 +888,14 @@
     "position": "Midfielder",
     "team": "Aston Villa",
     "price": 5.3,
-    "ownership": 0.3,
+    "ownership": 0.4,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.33,
-      "points_per_game": 3.0,
+      "xgi_per_90": 0.32,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -930,7 +930,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
     "metrics": {
-      "xgi_per_90": 0.17,
+      "xgi_per_90": 0.18,
       "points_per_game": 1.2,
       "value_rank": null
     }
@@ -960,7 +960,7 @@
     "position": "Midfielder",
     "team": "Aston Villa",
     "price": 5.4,
-    "ownership": 1.0,
+    "ownership": 0.8,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -1057,7 +1057,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.06,
-      "points_per_game": 3.3,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -1140,14 +1140,14 @@
     "position": "Forward",
     "team": "Aston Villa",
     "price": 8.8,
-    "ownership": 13.1,
+    "ownership": 13.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.53,
-      "points_per_game": 3.8,
+      "xgi_per_90": 0.54,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -1201,7 +1201,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 2.7,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -1284,13 +1284,13 @@
     "position": "Defender",
     "team": "Bournemouth",
     "price": 4.8,
-    "ownership": 13.8,
+    "ownership": 14.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.2,
+      "xgi_per_90": 0.21,
       "points_per_game": 4.3,
       "value_rank": null
     }
@@ -1326,7 +1326,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.08,
+      "xgi_per_90": 0.06,
       "points_per_game": 3.2,
       "value_rank": null
     }
@@ -1374,14 +1374,14 @@
     "position": "Defender",
     "team": "Bournemouth",
     "price": 3.9,
-    "ownership": 0.6,
+    "ownership": 0.8,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.06,
-      "points_per_game": 2.3,
+      "xgi_per_90": 0.09,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -1463,15 +1463,15 @@
     "web_name": "Semenyo",
     "position": "Midfielder",
     "team": "Man City",
-    "price": 7.7,
-    "ownership": 46.1,
+    "price": 7.8,
+    "ownership": 48.2,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.41,
-      "points_per_game": 5.8,
+      "points_per_game": 5.9,
       "value_rank": null
     }
   },
@@ -1488,8 +1488,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.36,
-      "points_per_game": 4.1,
+      "xgi_per_90": 0.45,
+      "points_per_game": 3.9,
       "value_rank": null
     }
   },
@@ -1499,8 +1499,8 @@
     "web_name": "Tavernier",
     "position": "Midfielder",
     "team": "Bournemouth",
-    "price": 5.5,
-    "ownership": 2.3,
+    "price": 5.4,
+    "ownership": 1.8,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -1561,7 +1561,7 @@
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
       "xgi_per_90": 0.37,
-      "points_per_game": 1.6,
+      "points_per_game": 1.5,
       "value_rank": null
     }
   },
@@ -1579,7 +1579,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.05,
-      "points_per_game": 2.2,
+      "points_per_game": 2.3,
       "value_rank": null
     }
   },
@@ -1608,14 +1608,14 @@
     "position": "Midfielder",
     "team": "Bournemouth",
     "price": 5.0,
-    "ownership": 0.2,
+    "ownership": 0.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.13,
-      "points_per_game": 3.0,
+      "xgi_per_90": 0.15,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -1734,14 +1734,14 @@
     "position": "Forward",
     "team": "Bournemouth",
     "price": 7.0,
-    "ownership": 1.6,
+    "ownership": 2.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.39,
-      "points_per_game": 3.2,
+      "xgi_per_90": 0.42,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -1758,7 +1758,7 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.82,
+      "xgi_per_90": 0.81,
       "points_per_game": 1.4,
       "value_rank": null
     }
@@ -1788,14 +1788,14 @@
     "position": "Forward",
     "team": "Bournemouth",
     "price": 4.6,
-    "ownership": 4.6,
+    "ownership": 5.0,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.54,
-      "points_per_game": 3.3,
+      "xgi_per_90": 0.49,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -1813,7 +1813,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 3.7,
+      "points_per_game": 3.6,
       "value_rank": null
     }
   },
@@ -1896,14 +1896,14 @@
     "position": "Defender",
     "team": "Brentford",
     "price": 5.0,
-    "ownership": 4.0,
+    "ownership": 3.9,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.11,
-      "points_per_game": 4.1,
+      "xgi_per_90": 0.1,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -1914,14 +1914,14 @@
     "position": "Defender",
     "team": "Brentford",
     "price": 4.9,
-    "ownership": 2.3,
+    "ownership": 2.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.22,
-      "points_per_game": 3.3,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -1939,7 +1939,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.1,
-      "points_per_game": 2.9,
+      "points_per_game": 2.8,
       "value_rank": null
     }
   },
@@ -1952,11 +1952,11 @@
     "price": 4.3,
     "ownership": 0.2,
     "status": "WATCH",
-    "minutes_status": "risk",
+    "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.05,
+      "xgi_per_90": 0.06,
       "points_per_game": 1.9,
       "value_rank": null
     }
@@ -1975,7 +1975,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.11,
-      "points_per_game": 2.9,
+      "points_per_game": 2.8,
       "value_rank": null
     }
   },
@@ -2022,14 +2022,14 @@
     "position": "Defender",
     "team": "Brentford",
     "price": 4.5,
-    "ownership": 0.8,
+    "ownership": 0.7,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent.",
     "metrics": {
       "xgi_per_90": 0.12,
-      "points_per_game": 3.1,
+      "points_per_game": 2.9,
       "value_rank": null
     }
   },
@@ -2083,7 +2083,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
     "metrics": {
       "xgi_per_90": 0.1,
-      "points_per_game": 2.1,
+      "points_per_game": 2.0,
       "value_rank": null
     }
   },
@@ -2129,15 +2129,15 @@
     "web_name": "Mbeumo",
     "position": "Midfielder",
     "team": "Man Utd",
-    "price": 8.2,
-    "ownership": 11.1,
-    "status": "WATCH",
+    "price": 8.3,
+    "ownership": 15.5,
+    "status": "MUST-HAVE",
     "minutes_status": "secure",
     "ceiling": "moderate",
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
+    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement.",
     "metrics": {
-      "xgi_per_90": 0.59,
-      "points_per_game": 4.9,
+      "xgi_per_90": 0.57,
+      "points_per_game": 5.2,
       "value_rank": null
     }
   },
@@ -2147,15 +2147,15 @@
     "web_name": "Schade",
     "position": "Midfielder",
     "team": "Brentford",
-    "price": 7.1,
-    "ownership": 3.1,
+    "price": 7.2,
+    "ownership": 3.0,
     "status": "WATCH",
     "minutes_status": "secure",
-    "ceiling": "high",
+    "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.51,
-      "points_per_game": 4.1,
+      "xgi_per_90": 0.5,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -2173,7 +2173,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.34,
-      "points_per_game": 3.2,
+      "points_per_game": 3.0,
       "value_rank": null
     }
   },
@@ -2227,7 +2227,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.15,
-      "points_per_game": 2.9,
+      "points_per_game": 2.8,
       "value_rank": null
     }
   },
@@ -2244,7 +2244,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.23,
+      "xgi_per_90": 0.22,
       "points_per_game": 3.1,
       "value_rank": null
     }
@@ -2262,7 +2262,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.35,
+      "xgi_per_90": 0.39,
       "points_per_game": 2.1,
       "value_rank": null
     }
@@ -2316,7 +2316,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.11,
+      "xgi_per_90": 0.12,
       "points_per_game": 3.0,
       "value_rank": null
     }
@@ -2418,14 +2418,14 @@
     "position": "Forward",
     "team": "Newcastle",
     "price": 7.3,
-    "ownership": 1.0,
+    "ownership": 0.9,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.63,
-      "points_per_game": 1.6,
+      "xgi_per_90": 0.54,
+      "points_per_game": 1.7,
       "value_rank": null
     }
   },
@@ -2436,14 +2436,14 @@
     "position": "Forward",
     "team": "Brentford",
     "price": 7.2,
-    "ownership": 37.5,
+    "ownership": 37.3,
     "status": "MUST-HAVE",
     "minutes_status": "secure",
     "ceiling": "high",
     "narrative": "MUST-HAVE: Structural pick. Dominant upside from a central role creates unavoidable downside risk if unowned. Minutes security supports repeatable involvement.",
     "metrics": {
-      "xgi_per_90": 0.66,
-      "points_per_game": 5.5,
+      "xgi_per_90": 0.65,
+      "points_per_game": 5.4,
       "value_rank": 1
     }
   },
@@ -2497,7 +2497,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 3.2,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -2568,8 +2568,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.14,
-      "points_per_game": 2.5,
+      "xgi_per_90": 0.09,
+      "points_per_game": 3.0,
       "value_rank": null
     }
   },
@@ -2605,7 +2605,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.3,
-      "points_per_game": 2.7,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -2622,7 +2622,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.04,
+      "xgi_per_90": 0.06,
       "points_per_game": 2.4,
       "value_rank": null
     }
@@ -2658,8 +2658,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.17,
-      "points_per_game": 2.8,
+      "xgi_per_90": 0.18,
+      "points_per_game": 2.7,
       "value_rank": null
     }
   },
@@ -2712,8 +2712,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.13,
-      "points_per_game": 4.0,
+      "xgi_per_90": 0.12,
+      "points_per_game": 3.9,
       "value_rank": null
     }
   },
@@ -2820,8 +2820,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.27,
-      "points_per_game": 3.0,
+      "xgi_per_90": 0.31,
+      "points_per_game": 2.9,
       "value_rank": null
     }
   },
@@ -2868,14 +2868,14 @@
     "position": "Midfielder",
     "team": "Brighton",
     "price": 5.8,
-    "ownership": 2.9,
+    "ownership": 2.7,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.32,
-      "points_per_game": 4.0,
+      "points_per_game": 3.9,
       "value_rank": null
     }
   },
@@ -2976,14 +2976,14 @@
     "position": "Midfielder",
     "team": "Brighton",
     "price": 4.8,
-    "ownership": 0.4,
+    "ownership": 0.6,
     "status": "WATCH",
     "minutes_status": "secure",
-    "ceiling": "moderate",
+    "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.19,
-      "points_per_game": 3.5,
+      "points_per_game": 3.9,
       "value_rank": null
     }
   },
@@ -3001,7 +3001,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent.",
     "metrics": {
       "xgi_per_90": 0.05,
-      "points_per_game": 1.5,
+      "points_per_game": 1.7,
       "value_rank": null
     }
   },
@@ -3018,8 +3018,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.18,
-      "points_per_game": 1.0,
+      "xgi_per_90": 0.25,
+      "points_per_game": 0.5,
       "value_rank": null
     }
   },
@@ -3036,7 +3036,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.38,
+      "xgi_per_90": 0.36,
       "points_per_game": 2.7,
       "value_rank": null
     }
@@ -3054,8 +3054,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.42,
-      "points_per_game": 1.7,
+      "xgi_per_90": 0.4,
+      "points_per_game": 1.6,
       "value_rank": null
     }
   },
@@ -3102,7 +3102,7 @@
     "position": "Midfielder",
     "team": "Brighton",
     "price": 4.9,
-    "ownership": 0.2,
+    "ownership": 0.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -3198,7 +3198,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.59,
+      "xgi_per_90": 0.6,
       "points_per_game": 3.1,
       "value_rank": null
     }
@@ -3246,14 +3246,14 @@
     "position": "Forward",
     "team": "Brighton",
     "price": 4.8,
-    "ownership": 0.3,
+    "ownership": 0.4,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
       "xgi_per_90": 0.78,
-      "points_per_game": 2.2,
+      "points_per_game": 2.0,
       "value_rank": null
     }
   },
@@ -3264,7 +3264,7 @@
     "position": "Goalkeeper",
     "team": "Man City",
     "price": 4.5,
-    "ownership": 1.0,
+    "ownership": 0.9,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -3360,8 +3360,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.04,
-      "points_per_game": 2.1,
+      "xgi_per_90": 0.05,
+      "points_per_game": 2.2,
       "value_rank": null
     }
   },
@@ -3426,7 +3426,7 @@
     "position": "Defender",
     "team": "Burnley",
     "price": 3.9,
-    "ownership": 8.3,
+    "ownership": 8.2,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -3444,7 +3444,7 @@
     "position": "Defender",
     "team": "Burnley",
     "price": 4.0,
-    "ownership": 0.8,
+    "ownership": 0.7,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -3469,7 +3469,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.05,
-      "points_per_game": 3.7,
+      "points_per_game": 3.3,
       "value_rank": null
     }
   },
@@ -3504,7 +3504,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
     "metrics": {
-      "xgi_per_90": 0.16,
+      "xgi_per_90": 0.14,
       "points_per_game": 1.6,
       "value_rank": null
     }
@@ -3554,12 +3554,12 @@
     "price": 3.9,
     "ownership": 1.0,
     "status": "WATCH",
-    "minutes_status": "risk",
+    "minutes_status": "secure",
     "ceiling": "moderate",
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.01,
-      "points_per_game": 2.4,
+      "xgi_per_90": 0.07,
+      "points_per_game": 2.9,
       "value_rank": null
     }
   },
@@ -3594,8 +3594,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.28,
-      "points_per_game": 3.4,
+      "xgi_per_90": 0.27,
+      "points_per_game": 3.3,
       "value_rank": null
     }
   },
@@ -3702,7 +3702,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.4,
+      "xgi_per_90": 0.36,
       "points_per_game": 2.5,
       "value_rank": null
     }
@@ -3757,7 +3757,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.06,
-      "points_per_game": 2.2,
+      "points_per_game": 2.1,
       "value_rank": null
     }
   },
@@ -3900,8 +3900,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.19,
-      "points_per_game": 2.5,
+      "xgi_per_90": 0.24,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -3948,7 +3948,7 @@
     "position": "Goalkeeper",
     "team": "Chelsea",
     "price": 4.9,
-    "ownership": 13.7,
+    "ownership": 14.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -4020,13 +4020,13 @@
     "position": "Defender",
     "team": "Chelsea",
     "price": 6.0,
-    "ownership": 16.0,
+    "ownership": 16.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.14,
+      "xgi_per_90": 0.16,
       "points_per_game": 3.7,
       "value_rank": null
     }
@@ -4038,14 +4038,14 @@
     "position": "Defender",
     "team": "Chelsea",
     "price": 5.7,
-    "ownership": 10.6,
+    "ownership": 11.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.18,
-      "points_per_game": 4.3,
+      "xgi_per_90": 0.19,
+      "points_per_game": 4.4,
       "value_rank": null
     }
   },
@@ -4056,13 +4056,13 @@
     "position": "Defender",
     "team": "Chelsea",
     "price": 5.6,
-    "ownership": 19.6,
+    "ownership": 21.2,
     "status": "HOLD",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.09,
+      "xgi_per_90": 0.08,
       "points_per_game": 5.2,
       "value_rank": null
     }
@@ -4099,7 +4099,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.15,
-      "points_per_game": 3.8,
+      "points_per_game": 3.7,
       "value_rank": null
     }
   },
@@ -4114,10 +4114,10 @@
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
-    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
     "metrics": {
       "xgi_per_90": 0.01,
-      "points_per_game": 0.5,
+      "points_per_game": 1.0,
       "value_rank": null
     }
   },
@@ -4130,12 +4130,12 @@
     "price": 4.4,
     "ownership": 0.4,
     "status": "WATCH",
-    "minutes_status": "risk",
+    "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.04,
-      "points_per_game": 3.7,
+      "points_per_game": 3.5,
       "value_rank": null
     }
   },
@@ -4182,7 +4182,7 @@
     "position": "Defender",
     "team": "Chelsea",
     "price": 3.8,
-    "ownership": 1.3,
+    "ownership": 1.2,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -4218,7 +4218,7 @@
     "position": "Midfielder",
     "team": "Chelsea",
     "price": 10.4,
-    "ownership": 12.1,
+    "ownership": 11.6,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -4242,7 +4242,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.41,
+      "xgi_per_90": 0.39,
       "points_per_game": 4.1,
       "value_rank": null
     }
@@ -4253,15 +4253,15 @@
     "web_name": "Enzo",
     "position": "Midfielder",
     "team": "Chelsea",
-    "price": 6.6,
-    "ownership": 13.2,
+    "price": 6.7,
+    "ownership": 16.5,
     "status": "WATCH",
     "minutes_status": "secure",
-    "ceiling": "moderate",
+    "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.59,
-      "points_per_game": 4.7,
+      "xgi_per_90": 0.61,
+      "points_per_game": 4.8,
       "value_rank": null
     }
   },
@@ -4272,14 +4272,14 @@
     "position": "Midfielder",
     "team": "Chelsea",
     "price": 6.4,
-    "ownership": 1.9,
+    "ownership": 2.4,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.66,
-      "points_per_game": 2.3,
+      "xgi_per_90": 0.65,
+      "points_per_game": 2.9,
       "value_rank": null
     }
   },
@@ -4296,7 +4296,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.35,
+      "xgi_per_90": 0.34,
       "points_per_game": 1.6,
       "value_rank": null
     }
@@ -4326,14 +4326,14 @@
     "position": "Midfielder",
     "team": "Chelsea",
     "price": 5.7,
-    "ownership": 7.9,
+    "ownership": 8.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.12,
-      "points_per_game": 4.4,
+      "points_per_game": 4.2,
       "value_rank": null
     }
   },
@@ -4344,14 +4344,14 @@
     "position": "Midfielder",
     "team": "Everton",
     "price": 4.9,
-    "ownership": 2.2,
+    "ownership": 2.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.31,
-      "points_per_game": 5.0,
+      "xgi_per_90": 0.3,
+      "points_per_game": 4.8,
       "value_rank": null
     }
   },
@@ -4422,8 +4422,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
     "metrics": {
-      "xgi_per_90": 0.36,
-      "points_per_game": 1.2,
+      "xgi_per_90": 0.31,
+      "points_per_game": 1.3,
       "value_rank": null
     }
   },
@@ -4469,15 +4469,15 @@
     "web_name": "Jo\u00e3o Pedro",
     "position": "Forward",
     "team": "Chelsea",
-    "price": 7.1,
-    "ownership": 27.0,
-    "status": "WATCH",
+    "price": 7.2,
+    "ownership": 30.6,
+    "status": "HOLD",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.45,
-      "points_per_game": 4.2,
+      "xgi_per_90": 0.46,
+      "points_per_game": 4.5,
       "value_rank": null
     }
   },
@@ -4524,7 +4524,7 @@
     "position": "Forward",
     "team": "Chelsea",
     "price": 4.2,
-    "ownership": 6.6,
+    "ownership": 6.4,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -4542,14 +4542,14 @@
     "position": "Goalkeeper",
     "team": "Crystal Palace",
     "price": 5.0,
-    "ownership": 7.7,
+    "ownership": 7.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 3.7,
+      "points_per_game": 3.6,
       "value_rank": null
     }
   },
@@ -4596,14 +4596,14 @@
     "position": "Defender",
     "team": "Crystal Palace",
     "price": 5.8,
-    "ownership": 5.9,
+    "ownership": 6.0,
     "status": "MUST-HAVE",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement.",
     "metrics": {
-      "xgi_per_90": 0.27,
-      "points_per_game": 6.4,
+      "xgi_per_90": 0.26,
+      "points_per_game": 6.0,
       "value_rank": null
     }
   },
@@ -4614,14 +4614,14 @@
     "position": "Defender",
     "team": "Crystal Palace",
     "price": 5.1,
-    "ownership": 6.0,
+    "ownership": 5.8,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.08,
-      "points_per_game": 4.5,
+      "xgi_per_90": 0.09,
+      "points_per_game": 4.3,
       "value_rank": null
     }
   },
@@ -4639,7 +4639,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.1,
-      "points_per_game": 3.8,
+      "points_per_game": 3.7,
       "value_rank": null
     }
   },
@@ -4656,7 +4656,7 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.19,
+      "xgi_per_90": 0.1,
       "points_per_game": 1.0,
       "value_rank": null
     }
@@ -4668,14 +4668,14 @@
     "position": "Defender",
     "team": "Man City",
     "price": 5.2,
-    "ownership": 37.6,
+    "ownership": 37.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.18,
-      "points_per_game": 5.2,
+      "points_per_game": 5.3,
       "value_rank": null
     }
   },
@@ -4692,8 +4692,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.09,
-      "points_per_game": 4.3,
+      "xgi_per_90": 0.1,
+      "points_per_game": 4.4,
       "value_rank": null
     }
   },
@@ -4710,8 +4710,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.0,
-      "points_per_game": 0.0,
+      "xgi_per_90": 0.58,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -4776,14 +4776,14 @@
     "position": "Midfielder",
     "team": "Arsenal",
     "price": 7.3,
-    "ownership": 8.5,
+    "ownership": 8.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.36,
-      "points_per_game": 4.0,
+      "points_per_game": 3.8,
       "value_rank": null
     }
   },
@@ -4800,8 +4800,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.41,
-      "points_per_game": 4.3,
+      "xgi_per_90": 0.42,
+      "points_per_game": 4.2,
       "value_rank": null
     }
   },
@@ -4854,7 +4854,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.16,
+      "xgi_per_90": 0.17,
       "points_per_game": 1.6,
       "value_rank": null
     }
@@ -4890,7 +4890,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.14,
+      "xgi_per_90": 0.15,
       "points_per_game": 1.8,
       "value_rank": null
     }
@@ -4902,14 +4902,14 @@
     "position": "Midfielder",
     "team": "Crystal Palace",
     "price": 5.0,
-    "ownership": 0.8,
+    "ownership": 0.7,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.3,
-      "points_per_game": 3.4,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -4956,7 +4956,7 @@
     "position": "Midfielder",
     "team": "Crystal Palace",
     "price": 4.3,
-    "ownership": 1.6,
+    "ownership": 1.5,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -5082,8 +5082,8 @@
     "position": "Forward",
     "team": "Crystal Palace",
     "price": 7.5,
-    "ownership": 10.2,
-    "status": "HOLD",
+    "ownership": 9.8,
+    "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
@@ -5100,7 +5100,7 @@
     "position": "Forward",
     "team": "Crystal Palace",
     "price": 5.4,
-    "ownership": 0.4,
+    "ownership": 0.3,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -5154,11 +5154,11 @@
     "position": "Goalkeeper",
     "team": "Everton",
     "price": 5.6,
-    "ownership": 13.5,
+    "ownership": 14.0,
     "status": "MUST-HAVE",
     "minutes_status": "secure",
-    "ceiling": "high",
-    "narrative": "MUST-HAVE: Structural pick. Dominant upside from a central role creates unavoidable downside risk if unowned. Minutes security supports repeatable involvement.",
+    "ceiling": "moderate",
+    "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement.",
     "metrics": {
       "xgi_per_90": 0.01,
       "points_per_game": 4.5,
@@ -5214,8 +5214,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.0,
-      "points_per_game": 0.0,
+      "xgi_per_90": 0.04,
+      "points_per_game": 1.0,
       "value_rank": null
     }
   },
@@ -5226,10 +5226,10 @@
     "position": "Defender",
     "team": "Everton",
     "price": 5.8,
-    "ownership": 13.7,
+    "ownership": 14.0,
     "status": "HOLD",
     "minutes_status": "secure",
-    "ceiling": "high",
+    "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.1,
@@ -5251,7 +5251,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.08,
-      "points_per_game": 3.3,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -5298,7 +5298,7 @@
     "position": "Defender",
     "team": "Everton",
     "price": 4.7,
-    "ownership": 4.4,
+    "ownership": 4.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -5322,8 +5322,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.02,
-      "points_per_game": 4.5,
+      "xgi_per_90": 0.03,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -5370,14 +5370,14 @@
     "position": "Midfielder",
     "team": "Everton",
     "price": 6.2,
-    "ownership": 3.7,
+    "ownership": 4.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.39,
-      "points_per_game": 4.6,
+      "xgi_per_90": 0.4,
+      "points_per_game": 4.4,
       "value_rank": null
     }
   },
@@ -5394,8 +5394,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.18,
-      "points_per_game": 2.2,
+      "xgi_per_90": 0.17,
+      "points_per_game": 2.1,
       "value_rank": null
     }
   },
@@ -5430,8 +5430,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.14,
-      "points_per_game": 3.4,
+      "xgi_per_90": 0.15,
+      "points_per_game": 3.6,
       "value_rank": null
     }
   },
@@ -5442,15 +5442,15 @@
     "position": "Midfielder",
     "team": "Everton",
     "price": 5.2,
-    "ownership": 4.3,
+    "ownership": 4.6,
     "status": "HOLD",
     "minutes_status": "secure",
     "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.21,
-      "points_per_game": 4.5,
-      "value_rank": 1
+      "points_per_game": 4.4,
+      "value_rank": null
     }
   },
   {
@@ -5485,7 +5485,7 @@
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
       "xgi_per_90": 0.05,
-      "points_per_game": 2.2,
+      "points_per_game": 2.0,
       "value_rank": null
     }
   },
@@ -5568,14 +5568,14 @@
     "position": "Forward",
     "team": "Everton",
     "price": 5.7,
-    "ownership": 0.8,
+    "ownership": 1.0,
     "status": "WATCH",
     "minutes_status": "secure",
-    "ceiling": "moderate",
+    "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.28,
-      "points_per_game": 2.3,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -5640,7 +5640,7 @@
     "position": "Goalkeeper",
     "team": "Fulham",
     "price": 4.9,
-    "ownership": 1.7,
+    "ownership": 1.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -5682,8 +5682,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.17,
-      "points_per_game": 3.1,
+      "xgi_per_90": 0.16,
+      "points_per_game": 2.9,
       "value_rank": null
     }
   },
@@ -5694,14 +5694,14 @@
     "position": "Defender",
     "team": "Fulham",
     "price": 4.6,
-    "ownership": 5.4,
+    "ownership": 5.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.11,
-      "points_per_game": 3.7,
+      "xgi_per_90": 0.1,
+      "points_per_game": 3.9,
       "value_rank": null
     }
   },
@@ -5736,8 +5736,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.14,
-      "points_per_game": 1.2,
+      "xgi_per_90": 0.13,
+      "points_per_game": 1.4,
       "value_rank": null
     }
   },
@@ -5772,8 +5772,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.01,
-      "points_per_game": 3.3,
+      "xgi_per_90": 0.02,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -5826,8 +5826,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.19,
-      "points_per_game": 3.5,
+      "xgi_per_90": 0.18,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -5838,14 +5838,14 @@
     "position": "Midfielder",
     "team": "Fulham",
     "price": 5.6,
-    "ownership": 0.7,
+    "ownership": 0.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.33,
-      "points_per_game": 2.4,
+      "xgi_per_90": 0.32,
+      "points_per_game": 2.3,
       "value_rank": null
     }
   },
@@ -5899,7 +5899,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.17,
-      "points_per_game": 4.0,
+      "points_per_game": 3.8,
       "value_rank": null
     }
   },
@@ -5910,14 +5910,14 @@
     "position": "Midfielder",
     "team": "Fulham",
     "price": 6.0,
-    "ownership": 22.8,
+    "ownership": 24.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.38,
-      "points_per_game": 5.0,
+      "xgi_per_90": 0.36,
+      "points_per_game": 5.2,
       "value_rank": null
     }
   },
@@ -5952,8 +5952,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.21,
-      "points_per_game": 1.6,
+      "xgi_per_90": 0.22,
+      "points_per_game": 1.5,
       "value_rank": null
     }
   },
@@ -6018,14 +6018,14 @@
     "position": "Midfielder",
     "team": "Fulham",
     "price": 4.4,
-    "ownership": 1.9,
+    "ownership": 1.8,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.16,
-      "points_per_game": 1.7,
+      "points_per_game": 1.8,
       "value_rank": null
     }
   },
@@ -6054,14 +6054,14 @@
     "position": "Forward",
     "team": "Fulham",
     "price": 6.2,
-    "ownership": 2.2,
+    "ownership": 2.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.42,
-      "points_per_game": 3.3,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -6126,14 +6126,14 @@
     "position": "Goalkeeper",
     "team": "Leeds",
     "price": 3.9,
-    "ownership": 2.0,
+    "ownership": 2.1,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 2.7,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -6168,7 +6168,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.14,
+      "xgi_per_90": 0.13,
       "points_per_game": 3.2,
       "value_rank": null
     }
@@ -6204,8 +6204,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.01,
-      "points_per_game": 2.0,
+      "xgi_per_90": 0.0,
+      "points_per_game": 2.3,
       "value_rank": null
     }
   },
@@ -6234,7 +6234,7 @@
     "position": "Defender",
     "team": "Leeds",
     "price": 3.8,
-    "ownership": 4.2,
+    "ownership": 4.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -6294,7 +6294,7 @@
     "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.39,
+      "xgi_per_90": 0.38,
       "points_per_game": 4.1,
       "value_rank": null
     }
@@ -6366,7 +6366,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.16,
+      "xgi_per_90": 0.15,
       "points_per_game": 3.6,
       "value_rank": null
     }
@@ -6402,7 +6402,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.04,
+      "xgi_per_90": 0.05,
       "points_per_game": 2.4,
       "value_rank": null
     }
@@ -6438,8 +6438,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.18,
-      "points_per_game": 2.2,
+      "xgi_per_90": 0.17,
+      "points_per_game": 2.1,
       "value_rank": null
     }
   },
@@ -6576,14 +6576,14 @@
     "position": "Goalkeeper",
     "team": "Liverpool",
     "price": 5.4,
-    "ownership": 6.1,
+    "ownership": 6.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 3.8,
+      "points_per_game": 3.6,
       "value_rank": null
     }
   },
@@ -6612,7 +6612,7 @@
     "position": "Goalkeeper",
     "team": "Liverpool",
     "price": 3.8,
-    "ownership": 0.4,
+    "ownership": 0.5,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -6648,14 +6648,14 @@
     "position": "Defender",
     "team": "Liverpool",
     "price": 5.8,
-    "ownership": 6.8,
+    "ownership": 6.6,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.24,
-      "points_per_game": 3.4,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -6666,14 +6666,14 @@
     "position": "Defender",
     "team": "Liverpool",
     "price": 5.6,
-    "ownership": 3.0,
+    "ownership": 2.9,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.1,
-      "points_per_game": 2.5,
+      "xgi_per_90": 0.09,
+      "points_per_game": 2.4,
       "value_rank": null
     }
   },
@@ -6702,14 +6702,14 @@
     "position": "Defender",
     "team": "Liverpool",
     "price": 5.9,
-    "ownership": 22.3,
+    "ownership": 22.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.07,
-      "points_per_game": 3.7,
+      "xgi_per_90": 0.08,
+      "points_per_game": 3.9,
       "value_rank": null
     }
   },
@@ -6720,7 +6720,7 @@
     "position": "Defender",
     "team": "Liverpool",
     "price": 5.4,
-    "ownership": 3.3,
+    "ownership": 2.9,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -6762,8 +6762,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.26,
-      "points_per_game": 2.5,
+      "xgi_per_90": 0.23,
+      "points_per_game": 2.3,
       "value_rank": null
     }
   },
@@ -6792,7 +6792,7 @@
     "position": "Defender",
     "team": "Liverpool",
     "price": 3.7,
-    "ownership": 1.0,
+    "ownership": 1.1,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -6809,8 +6809,8 @@
     "web_name": "R.Williams",
     "position": "Defender",
     "team": "Liverpool",
-    "price": 3.8,
-    "ownership": 0.2,
+    "price": 3.7,
+    "ownership": 0.3,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -6846,13 +6846,13 @@
     "position": "Midfielder",
     "team": "Liverpool",
     "price": 14.0,
-    "ownership": 14.2,
+    "ownership": 14.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.53,
+      "xgi_per_90": 0.56,
       "points_per_game": 4.6,
       "value_rank": null
     }
@@ -6864,14 +6864,14 @@
     "position": "Midfielder",
     "team": "Liverpool",
     "price": 8.3,
-    "ownership": 13.1,
+    "ownership": 12.9,
     "status": "WATCH",
     "minutes_status": "secure",
-    "ceiling": "high",
+    "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.47,
-      "points_per_game": 3.9,
+      "xgi_per_90": 0.46,
+      "points_per_game": 3.8,
       "value_rank": null
     }
   },
@@ -6900,14 +6900,14 @@
     "position": "Midfielder",
     "team": "Liverpool",
     "price": 7.3,
-    "ownership": 5.8,
+    "ownership": 5.7,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.53,
-      "points_per_game": 3.9,
+      "xgi_per_90": 0.52,
+      "points_per_game": 3.8,
       "value_rank": null
     }
   },
@@ -6954,14 +6954,14 @@
     "position": "Midfielder",
     "team": "Liverpool",
     "price": 6.6,
-    "ownership": 5.0,
+    "ownership": 5.8,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.31,
-      "points_per_game": 3.4,
+      "xgi_per_90": 0.32,
+      "points_per_game": 3.8,
       "value_rank": null
     }
   },
@@ -6978,8 +6978,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.25,
-      "points_per_game": 2.1,
+      "xgi_per_90": 0.27,
+      "points_per_game": 2.0,
       "value_rank": null
     }
   },
@@ -7008,14 +7008,14 @@
     "position": "Midfielder",
     "team": "Liverpool",
     "price": 5.7,
-    "ownership": 6.0,
+    "ownership": 5.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.13,
-      "points_per_game": 4.8,
+      "points_per_game": 4.6,
       "value_rank": null
     }
   },
@@ -7050,8 +7050,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.0,
-      "points_per_game": 1.4,
+      "xgi_per_90": 0.04,
+      "points_per_game": 1.3,
       "value_rank": null
     }
   },
@@ -7241,8 +7241,8 @@
     "web_name": "Gvardiol",
     "position": "Defender",
     "team": "Man City",
-    "price": 6.0,
-    "ownership": 4.3,
+    "price": 5.9,
+    "ownership": 4.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -7303,7 +7303,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
     "metrics": {
       "xgi_per_90": 0.01,
-      "points_per_game": 2.2,
+      "points_per_game": 2.7,
       "value_rank": null
     }
   },
@@ -7313,15 +7313,15 @@
     "web_name": "Matheus N.",
     "position": "Defender",
     "team": "Man City",
-    "price": 5.5,
-    "ownership": 3.5,
+    "price": 5.4,
+    "ownership": 3.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.08,
-      "points_per_game": 4.9,
+      "points_per_game": 5.2,
       "value_rank": null
     }
   },
@@ -7332,7 +7332,7 @@
     "position": "Defender",
     "team": "Man City",
     "price": 5.6,
-    "ownership": 3.8,
+    "ownership": 3.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -7385,15 +7385,15 @@
     "web_name": "O'Reilly",
     "position": "Defender",
     "team": "Man City",
-    "price": 5.1,
-    "ownership": 7.2,
+    "price": 5.0,
+    "ownership": 6.2,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.2,
-      "points_per_game": 3.7,
+      "points_per_game": 3.8,
       "value_rank": null
     }
   },
@@ -7422,14 +7422,14 @@
     "position": "Midfielder",
     "team": "Man City",
     "price": 8.3,
-    "ownership": 2.3,
+    "ownership": 2.4,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.75,
-      "points_per_game": 1.6,
+      "xgi_per_90": 0.67,
+      "points_per_game": 2.4,
       "value_rank": null
     }
   },
@@ -7439,15 +7439,15 @@
     "web_name": "Foden",
     "position": "Midfielder",
     "team": "Man City",
-    "price": 8.6,
-    "ownership": 25.3,
+    "price": 8.4,
+    "ownership": 19.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.47,
-      "points_per_game": 5.0,
+      "xgi_per_90": 0.46,
+      "points_per_game": 4.9,
       "value_rank": null
     }
   },
@@ -7483,7 +7483,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.14,
-      "points_per_game": 2.2,
+      "points_per_game": 2.3,
       "value_rank": null
     }
   },
@@ -7493,15 +7493,15 @@
     "web_name": "Cherki",
     "position": "Midfielder",
     "team": "Man City",
-    "price": 6.7,
-    "ownership": 13.4,
+    "price": 6.6,
+    "ownership": 11.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.75,
-      "points_per_game": 4.5,
+      "xgi_per_90": 0.71,
+      "points_per_game": 4.4,
       "value_rank": null
     }
   },
@@ -7512,14 +7512,14 @@
     "position": "Midfielder",
     "team": "Man City",
     "price": 6.4,
-    "ownership": 3.0,
+    "ownership": 2.9,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.47,
-      "points_per_game": 3.7,
+      "xgi_per_90": 0.46,
+      "points_per_game": 3.6,
       "value_rank": null
     }
   },
@@ -7530,7 +7530,7 @@
     "position": "Midfielder",
     "team": "Everton",
     "price": 6.4,
-    "ownership": 8.5,
+    "ownership": 7.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -7572,8 +7572,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.15,
-      "points_per_game": 2.2,
+      "xgi_per_90": 0.14,
+      "points_per_game": 2.3,
       "value_rank": null
     }
   },
@@ -7674,14 +7674,14 @@
     "position": "Midfielder",
     "team": "Man City",
     "price": 5.2,
-    "ownership": 11.8,
+    "ownership": 11.4,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.36,
-      "points_per_game": 3.8,
+      "xgi_per_90": 0.35,
+      "points_per_game": 3.7,
       "value_rank": null
     }
   },
@@ -7727,15 +7727,15 @@
     "web_name": "Haaland",
     "position": "Forward",
     "team": "Man City",
-    "price": 15.1,
-    "ownership": 74.0,
+    "price": 15.0,
+    "ownership": 72.6,
     "status": "MUST-HAVE",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement.",
     "metrics": {
-      "xgi_per_90": 0.94,
-      "points_per_game": 7.5,
+      "xgi_per_90": 0.93,
+      "points_per_game": 7.2,
       "value_rank": null
     }
   },
@@ -7836,7 +7836,7 @@
     "position": "Defender",
     "team": "Man Utd",
     "price": 4.9,
-    "ownership": 2.0,
+    "ownership": 1.9,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -7861,7 +7861,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.04,
-      "points_per_game": 3.0,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -7879,7 +7879,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.05,
-      "points_per_game": 1.9,
+      "points_per_game": 1.8,
       "value_rank": null
     }
   },
@@ -7908,14 +7908,14 @@
     "position": "Defender",
     "team": "Man Utd",
     "price": 4.5,
-    "ownership": 3.6,
+    "ownership": 3.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.16,
-      "points_per_game": 3.5,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -7925,15 +7925,15 @@
     "web_name": "Dorgu",
     "position": "Defender",
     "team": "Man Utd",
-    "price": 4.3,
-    "ownership": 8.4,
+    "price": 4.4,
+    "ownership": 9.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.23,
-      "points_per_game": 3.1,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -7944,14 +7944,14 @@
     "position": "Defender",
     "team": "Man Utd",
     "price": 4.3,
-    "ownership": 0.5,
+    "ownership": 0.7,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.1,
-      "points_per_game": 4.3,
+      "xgi_per_90": 0.08,
+      "points_per_game": 4.2,
       "value_rank": null
     }
   },
@@ -7969,7 +7969,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.06,
-      "points_per_game": 2.4,
+      "points_per_game": 2.3,
       "value_rank": null
     }
   },
@@ -8033,8 +8033,8 @@
     "web_name": "Heaven",
     "position": "Defender",
     "team": "Man Utd",
-    "price": 3.9,
-    "ownership": 2.5,
+    "price": 3.8,
+    "ownership": 2.3,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -8069,15 +8069,15 @@
     "web_name": "B.Fernandes",
     "position": "Midfielder",
     "team": "Man Utd",
-    "price": 9.3,
-    "ownership": 18.2,
+    "price": 9.5,
+    "ownership": 24.1,
     "status": "MUST-HAVE",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "MUST-HAVE: Structural pick. Structural role and usage justify protection regardless of short-term noise. Minutes security supports repeatable involvement.",
     "metrics": {
-      "xgi_per_90": 0.7,
-      "points_per_game": 6.1,
+      "xgi_per_90": 0.69,
+      "points_per_game": 6.0,
       "value_rank": null
     }
   },
@@ -8088,14 +8088,14 @@
     "position": "Midfielder",
     "team": "Man Utd",
     "price": 8.0,
-    "ownership": 8.1,
+    "ownership": 7.8,
     "status": "HOLD",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.46,
-      "points_per_game": 3.7,
+      "xgi_per_90": 0.45,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -8124,14 +8124,14 @@
     "position": "Midfielder",
     "team": "Man Utd",
     "price": 6.2,
-    "ownership": 1.3,
+    "ownership": 1.4,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.47,
-      "points_per_game": 3.7,
+      "xgi_per_90": 0.43,
+      "points_per_game": 3.6,
       "value_rank": null
     }
   },
@@ -8200,10 +8200,10 @@
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
-    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
     "metrics": {
-      "xgi_per_90": 0.29,
-      "points_per_game": 1.3,
+      "xgi_per_90": 0.25,
+      "points_per_game": 1.2,
       "value_rank": null
     }
   },
@@ -8221,7 +8221,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.34,
-      "points_per_game": 4.5,
+      "points_per_game": 4.4,
       "value_rank": null
     }
   },
@@ -8236,10 +8236,10 @@
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
-    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.11,
-      "points_per_game": 1.2,
+      "xgi_per_90": 0.09,
+      "points_per_game": 1.4,
       "value_rank": null
     }
   },
@@ -8376,7 +8376,7 @@
     "position": "Forward",
     "team": "Man Utd",
     "price": 5.8,
-    "ownership": 0.5,
+    "ownership": 0.4,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -8430,7 +8430,7 @@
     "position": "Goalkeeper",
     "team": "Newcastle",
     "price": 5.1,
-    "ownership": 5.1,
+    "ownership": 5.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -8455,7 +8455,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 3.1,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -8502,14 +8502,14 @@
     "position": "Defender",
     "team": "Newcastle",
     "price": 5.3,
-    "ownership": 3.2,
+    "ownership": 3.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.19,
-      "points_per_game": 3.4,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -8520,7 +8520,7 @@
     "position": "Defender",
     "team": "Newcastle",
     "price": 5.3,
-    "ownership": 1.5,
+    "ownership": 1.4,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -8540,7 +8540,7 @@
     "price": 4.9,
     "ownership": 0.4,
     "status": "WATCH",
-    "minutes_status": "risk",
+    "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
@@ -8574,7 +8574,7 @@
     "position": "Defender",
     "team": "Newcastle",
     "price": 4.9,
-    "ownership": 2.1,
+    "ownership": 2.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -8594,12 +8594,12 @@
     "price": 4.9,
     "ownership": 1.3,
     "status": "WATCH",
-    "minutes_status": "risk",
+    "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.15,
-      "points_per_game": 3.6,
+      "xgi_per_90": 0.16,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -8717,14 +8717,14 @@
     "web_name": "Gordon",
     "position": "Midfielder",
     "team": "Newcastle",
-    "price": 7.4,
-    "ownership": 5.0,
+    "price": 7.3,
+    "ownership": 4.2,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.58,
+      "xgi_per_90": 0.62,
       "points_per_game": 3.1,
       "value_rank": null
     }
@@ -8743,7 +8743,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.21,
-      "points_per_game": 1.6,
+      "points_per_game": 1.5,
       "value_rank": null
     }
   },
@@ -8754,7 +8754,7 @@
     "position": "Midfielder",
     "team": "Newcastle",
     "price": 6.1,
-    "ownership": 1.7,
+    "ownership": 1.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -8771,8 +8771,8 @@
     "web_name": "Bruno G.",
     "position": "Midfielder",
     "team": "Newcastle",
-    "price": 7.3,
-    "ownership": 22.3,
+    "price": 7.2,
+    "ownership": 18.3,
     "status": "HOLD",
     "minutes_status": "secure",
     "ceiling": "high",
@@ -8790,7 +8790,7 @@
     "position": "Midfielder",
     "team": "Newcastle",
     "price": 5.9,
-    "ownership": 0.7,
+    "ownership": 0.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -8815,7 +8815,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.18,
-      "points_per_game": 3.1,
+      "points_per_game": 2.9,
       "value_rank": null
     }
   },
@@ -8832,7 +8832,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.13,
+      "xgi_per_90": 0.16,
       "points_per_game": 2.4,
       "value_rank": null
     }
@@ -8869,7 +8869,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.21,
-      "points_per_game": 3.3,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -8887,7 +8887,7 @@
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
       "xgi_per_90": 0.27,
-      "points_per_game": 1.3,
+      "points_per_game": 1.2,
       "value_rank": null
     }
   },
@@ -8934,7 +8934,7 @@
     "position": "Midfielder",
     "team": "Newcastle",
     "price": 4.5,
-    "ownership": 3.6,
+    "ownership": 3.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -8970,7 +8970,7 @@
     "position": "Forward",
     "team": "Liverpool",
     "price": 10.3,
-    "ownership": 3.7,
+    "ownership": 3.6,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -9031,7 +9031,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 3.0,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -9078,14 +9078,14 @@
     "position": "Defender",
     "team": "Nott'm Forest",
     "price": 5.1,
-    "ownership": 3.1,
+    "ownership": 3.2,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.05,
-      "points_per_game": 2.6,
+      "points_per_game": 2.9,
       "value_rank": null
     }
   },
@@ -9103,7 +9103,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.06,
-      "points_per_game": 3.4,
+      "points_per_game": 3.6,
       "value_rank": null
     }
   },
@@ -9114,14 +9114,14 @@
     "position": "Defender",
     "team": "Nott'm Forest",
     "price": 4.7,
-    "ownership": 1.9,
+    "ownership": 2.0,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.08,
-      "points_per_game": 2.3,
+      "xgi_per_90": 0.07,
+      "points_per_game": 3.6,
       "value_rank": null
     }
   },
@@ -9139,7 +9139,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.16,
-      "points_per_game": 3.0,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -9193,7 +9193,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.01,
-      "points_per_game": 2.1,
+      "points_per_game": 2.0,
       "value_rank": null
     }
   },
@@ -9258,14 +9258,14 @@
     "position": "Midfielder",
     "team": "Nott'm Forest",
     "price": 7.3,
-    "ownership": 3.0,
+    "ownership": 3.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.36,
-      "points_per_game": 3.8,
+      "xgi_per_90": 0.35,
+      "points_per_game": 3.9,
       "value_rank": null
     }
   },
@@ -9282,7 +9282,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.26,
+      "xgi_per_90": 0.24,
       "points_per_game": 2.8,
       "value_rank": null
     }
@@ -9294,7 +9294,7 @@
     "position": "Midfielder",
     "team": "Nott'm Forest",
     "price": 5.3,
-    "ownership": 4.5,
+    "ownership": 4.7,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -9336,7 +9336,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.17,
+      "xgi_per_90": 0.16,
       "points_per_game": 2.2,
       "value_rank": null
     }
@@ -9372,8 +9372,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.17,
-      "points_per_game": 3.6,
+      "xgi_per_90": 0.18,
+      "points_per_game": 3.7,
       "value_rank": null
     }
   },
@@ -9463,7 +9463,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.31,
-      "points_per_game": 2.2,
+      "points_per_game": 2.5,
       "value_rank": null
     }
   },
@@ -9480,8 +9480,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.42,
-      "points_per_game": 1.0,
+      "xgi_per_90": 0.55,
+      "points_per_game": 1.6,
       "value_rank": null
     }
   },
@@ -9552,8 +9552,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.17,
-      "points_per_game": 4.5,
+      "xgi_per_90": 0.16,
+      "points_per_game": 4.4,
       "value_rank": null
     }
   },
@@ -9564,14 +9564,14 @@
     "position": "Defender",
     "team": "Sunderland",
     "price": 4.5,
-    "ownership": 0.4,
+    "ownership": 0.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.09,
-      "points_per_game": 3.0,
+      "points_per_game": 2.9,
       "value_rank": null
     }
   },
@@ -9625,7 +9625,7 @@
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
       "xgi_per_90": 0.01,
-      "points_per_game": 2.4,
+      "points_per_game": 2.2,
       "value_rank": null
     }
   },
@@ -9697,7 +9697,7 @@
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 0.0,
+      "points_per_game": 0.2,
       "value_rank": null
     }
   },
@@ -9726,14 +9726,14 @@
     "position": "Defender",
     "team": "Sunderland",
     "price": 3.8,
-    "ownership": 2.7,
+    "ownership": 2.8,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.02,
-      "points_per_game": 3.0,
+      "points_per_game": 2.7,
       "value_rank": null
     }
   },
@@ -9787,7 +9787,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.14,
-      "points_per_game": 2.6,
+      "points_per_game": 2.2,
       "value_rank": null
     }
   },
@@ -9834,14 +9834,14 @@
     "position": "Midfielder",
     "team": "Sunderland",
     "price": 4.9,
-    "ownership": 1.3,
+    "ownership": 1.4,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.33,
-      "points_per_game": 3.8,
+      "xgi_per_90": 0.31,
+      "points_per_game": 3.7,
       "value_rank": null
     }
   },
@@ -9858,7 +9858,7 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.25,
+      "xgi_per_90": 0.21,
       "points_per_game": 1.0,
       "value_rank": null
     }
@@ -9949,7 +9949,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.17,
-      "points_per_game": 3.2,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -10074,8 +10074,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.32,
-      "points_per_game": 2.6,
+      "xgi_per_90": 0.33,
+      "points_per_game": 2.5,
       "value_rank": null
     }
   },
@@ -10092,8 +10092,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.21,
-      "points_per_game": 1.8,
+      "xgi_per_90": 0.19,
+      "points_per_game": 1.9,
       "value_rank": null
     }
   },
@@ -10158,14 +10158,14 @@
     "position": "Goalkeeper",
     "team": "Spurs",
     "price": 4.8,
-    "ownership": 6.7,
+    "ownership": 6.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 3.5,
+      "points_per_game": 3.3,
       "value_rank": null
     }
   },
@@ -10212,14 +10212,14 @@
     "position": "Defender",
     "team": "Spurs",
     "price": 5.2,
-    "ownership": 12.7,
+    "ownership": 12.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.16,
-      "points_per_game": 3.5,
+      "points_per_game": 3.4,
       "value_rank": null
     }
   },
@@ -10230,14 +10230,14 @@
     "position": "Defender",
     "team": "Spurs",
     "price": 5.0,
-    "ownership": 4.0,
+    "ownership": 4.2,
     "status": "WATCH",
     "minutes_status": "secure",
-    "ceiling": "moderate",
+    "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.14,
-      "points_per_game": 4.5,
+      "xgi_per_90": 0.13,
+      "points_per_game": 4.8,
       "value_rank": null
     }
   },
@@ -10255,7 +10255,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.02,
-      "points_per_game": 2.2,
+      "points_per_game": 2.1,
       "value_rank": null
     }
   },
@@ -10290,7 +10290,7 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 1.08,
+      "xgi_per_90": 0.9,
       "points_per_game": 1.0,
       "value_rank": null
     }
@@ -10308,7 +10308,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.1,
+      "xgi_per_90": 0.13,
       "points_per_game": 2.8,
       "value_rank": null
     }
@@ -10338,14 +10338,14 @@
     "position": "Defender",
     "team": "Spurs",
     "price": 4.6,
-    "ownership": 28.0,
+    "ownership": 27.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.14,
-      "points_per_game": 4.2,
+      "xgi_per_90": 0.13,
+      "points_per_game": 4.4,
       "value_rank": null
     }
   },
@@ -10434,8 +10434,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.2,
-      "points_per_game": 2.1,
+      "xgi_per_90": 0.19,
+      "points_per_game": 2.0,
       "value_rank": null
     }
   },
@@ -10464,7 +10464,7 @@
     "position": "Midfielder",
     "team": "Spurs",
     "price": 6.4,
-    "ownership": 10.8,
+    "ownership": 10.4,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -10506,8 +10506,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.23,
-      "points_per_game": 2.9,
+      "xgi_per_90": 0.28,
+      "points_per_game": 2.8,
       "value_rank": null
     }
   },
@@ -10560,8 +10560,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.52,
-      "points_per_game": 1.0,
+      "xgi_per_90": 0.26,
+      "points_per_game": 2.5,
       "value_rank": null
     }
   },
@@ -10574,12 +10574,12 @@
     "price": 5.3,
     "ownership": 0.1,
     "status": "WATCH",
-    "minutes_status": "risk",
+    "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.25,
-      "points_per_game": 1.8,
+      "xgi_per_90": 0.28,
+      "points_per_game": 2.0,
       "value_rank": null
     }
   },
@@ -10722,8 +10722,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.31,
-      "points_per_game": 1.0,
+      "xgi_per_90": 0.42,
+      "points_per_game": 1.2,
       "value_rank": null
     }
   },
@@ -10733,8 +10733,8 @@
     "web_name": "Richarlison",
     "position": "Forward",
     "team": "Spurs",
-    "price": 6.4,
-    "ownership": 6.3,
+    "price": 6.3,
+    "ownership": 6.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -10776,7 +10776,7 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.0,
+      "xgi_per_90": 0.13,
       "points_per_game": 1.0,
       "value_rank": null
     }
@@ -10848,8 +10848,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.08,
-      "points_per_game": 2.8,
+      "xgi_per_90": 0.07,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -10936,10 +10936,10 @@
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.08,
-      "points_per_game": 1.8,
+      "xgi_per_90": 0.07,
+      "points_per_game": 2.1,
       "value_rank": null
     }
   },
@@ -11004,7 +11004,7 @@
     "position": "Midfielder",
     "team": "West Ham",
     "price": 5.9,
-    "ownership": 1.6,
+    "ownership": 1.4,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -11028,7 +11028,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.33,
+      "xgi_per_90": 0.3,
       "points_per_game": 2.4,
       "value_rank": null
     }
@@ -11058,14 +11058,14 @@
     "position": "Midfielder",
     "team": "West Ham",
     "price": 5.5,
-    "ownership": 0.2,
+    "ownership": 0.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.23,
-      "points_per_game": 2.8,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -11202,13 +11202,13 @@
     "position": "Midfielder",
     "team": "West Ham",
     "price": 4.4,
-    "ownership": 0.8,
+    "ownership": 0.7,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.06,
+      "xgi_per_90": 0.12,
       "points_per_game": 1.8,
       "value_rank": null
     }
@@ -11220,14 +11220,14 @@
     "position": "Forward",
     "team": "West Ham",
     "price": 7.6,
-    "ownership": 8.0,
+    "ownership": 8.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.28,
-      "points_per_game": 4.2,
+      "xgi_per_90": 0.32,
+      "points_per_game": 4.6,
       "value_rank": null
     }
   },
@@ -11299,7 +11299,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 2.6,
+      "points_per_game": 2.5,
       "value_rank": null
     }
   },
@@ -11388,8 +11388,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.14,
-      "points_per_game": 2.6,
+      "xgi_per_90": 0.15,
+      "points_per_game": 2.5,
       "value_rank": null
     }
   },
@@ -11406,8 +11406,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.09,
-      "points_per_game": 2.0,
+      "xgi_per_90": 0.12,
+      "points_per_game": 1.9,
       "value_rank": null
     }
   },
@@ -11422,10 +11422,10 @@
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
-    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.31,
-      "points_per_game": 2.0,
+      "xgi_per_90": 0.27,
+      "points_per_game": 1.9,
       "value_rank": null
     }
   },
@@ -11442,8 +11442,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.17,
-      "points_per_game": 3.8,
+      "xgi_per_90": 0.16,
+      "points_per_game": 3.6,
       "value_rank": null
     }
   },
@@ -11472,7 +11472,7 @@
     "position": "Defender",
     "team": "Wolves",
     "price": 3.8,
-    "ownership": 1.2,
+    "ownership": 1.1,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
@@ -11550,7 +11550,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.27,
+      "xgi_per_90": 0.26,
       "points_per_game": 2.3,
       "value_rank": null
     }
@@ -11767,7 +11767,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.22,
-      "points_per_game": 1.9,
+      "points_per_game": 1.8,
       "value_rank": null
     }
   },
@@ -11868,14 +11868,14 @@
     "position": "Midfielder",
     "team": "Leeds",
     "price": 4.9,
-    "ownership": 2.8,
+    "ownership": 2.6,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.29,
-      "points_per_game": 4.6,
+      "xgi_per_90": 0.3,
+      "points_per_game": 4.8,
       "value_rank": null
     }
   },
@@ -11885,15 +11885,15 @@
     "web_name": "Ekitik\u00e9",
     "position": "Forward",
     "team": "Liverpool",
-    "price": 8.9,
-    "ownership": 26.7,
+    "price": 8.8,
+    "ownership": 24.9,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.6,
-      "points_per_game": 4.5,
+      "xgi_per_90": 0.58,
+      "points_per_game": 4.3,
       "value_rank": null
     }
   },
@@ -11928,7 +11928,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.34,
+      "xgi_per_90": 0.32,
       "points_per_game": 2.0,
       "value_rank": null
     }
@@ -11982,8 +11982,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.49,
-      "points_per_game": 2.8,
+      "xgi_per_90": 0.48,
+      "points_per_game": 2.7,
       "value_rank": null
     }
   },
@@ -12012,7 +12012,7 @@
     "position": "Midfielder",
     "team": "Sunderland",
     "price": 5.2,
-    "ownership": 7.0,
+    "ownership": 6.1,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -12048,14 +12048,14 @@
     "position": "Goalkeeper",
     "team": "Sunderland",
     "price": 5.0,
-    "ownership": 13.1,
+    "ownership": 13.0,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 4.4,
+      "points_per_game": 4.3,
       "value_rank": 1
     }
   },
@@ -12073,7 +12073,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.51,
-      "points_per_game": 3.2,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -12090,7 +12090,7 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.1,
+      "xgi_per_90": 0.09,
       "points_per_game": 0.9,
       "value_rank": null
     }
@@ -12162,8 +12162,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.15,
-      "points_per_game": 3.1,
+      "xgi_per_90": 0.14,
+      "points_per_game": 3.0,
       "value_rank": null
     }
   },
@@ -12234,7 +12234,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.26,
+      "xgi_per_90": 0.25,
       "points_per_game": 2.1,
       "value_rank": null
     }
@@ -12246,14 +12246,14 @@
     "position": "Forward",
     "team": "Man Utd",
     "price": 7.2,
-    "ownership": 3.4,
+    "ownership": 3.3,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.45,
-      "points_per_game": 3.2,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -12282,14 +12282,14 @@
     "position": "Defender",
     "team": "Sunderland",
     "price": 4.1,
-    "ownership": 6.6,
+    "ownership": 6.5,
     "status": "HOLD",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.11,
-      "points_per_game": 4.3,
+      "points_per_game": 4.2,
       "value_rank": null
     }
   },
@@ -12300,14 +12300,14 @@
     "position": "Defender",
     "team": "Newcastle",
     "price": 5.1,
-    "ownership": 6.3,
+    "ownership": 5.9,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "high",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.14,
-      "points_per_game": 4.4,
+      "xgi_per_90": 0.12,
+      "points_per_game": 4.2,
       "value_rank": null
     }
   },
@@ -12317,7 +12317,7 @@
     "web_name": "Diakit\u00e9",
     "position": "Defender",
     "team": "Bournemouth",
-    "price": 4.3,
+    "price": 4.2,
     "ownership": 0.3,
     "status": "WATCH",
     "minutes_status": "secure",
@@ -12342,8 +12342,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 1.04,
-      "points_per_game": 1.7,
+      "xgi_per_90": 0.85,
+      "points_per_game": 1.6,
       "value_rank": null
     }
   },
@@ -12353,7 +12353,7 @@
     "web_name": "Rees-Dottin",
     "position": "Midfielder",
     "team": "Bournemouth",
-    "price": 4.4,
+    "price": 4.3,
     "ownership": 0.1,
     "status": "WATCH",
     "minutes_status": "risk",
@@ -12426,14 +12426,14 @@
     "position": "Forward",
     "team": "Leeds",
     "price": 6.0,
-    "ownership": 13.9,
+    "ownership": 13.4,
     "status": "HOLD",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.59,
-      "points_per_game": 4.5,
+      "points_per_game": 4.4,
       "value_rank": null
     }
   },
@@ -12468,8 +12468,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.41,
-      "points_per_game": 2.8,
+      "xgi_per_90": 0.4,
+      "points_per_game": 2.7,
       "value_rank": null
     }
   },
@@ -12480,7 +12480,7 @@
     "position": "Defender",
     "team": "Sunderland",
     "price": 4.5,
-    "ownership": 12.1,
+    "ownership": 12.7,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
@@ -12505,7 +12505,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent.",
     "metrics": {
       "xgi_per_90": 0.09,
-      "points_per_game": 1.7,
+      "points_per_game": 1.6,
       "value_rank": null
     }
   },
@@ -12534,14 +12534,14 @@
     "position": "Midfielder",
     "team": "Bournemouth",
     "price": 5.4,
-    "ownership": 0.0,
+    "ownership": 0.1,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.25,
-      "points_per_game": 1.6,
+      "xgi_per_90": 0.28,
+      "points_per_game": 2.0,
       "value_rank": null
     }
   },
@@ -12559,7 +12559,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.3,
-      "points_per_game": 2.7,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -12702,8 +12702,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.08,
-      "points_per_game": 2.1,
+      "xgi_per_90": 0.14,
+      "points_per_game": 2.6,
       "value_rank": null
     }
   },
@@ -12720,8 +12720,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.08,
-      "points_per_game": 1.4,
+      "xgi_per_90": 0.09,
+      "points_per_game": 1.3,
       "value_rank": null
     }
   },
@@ -12739,7 +12739,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.14,
-      "points_per_game": 3.6,
+      "points_per_game": 3.8,
       "value_rank": null
     }
   },
@@ -12756,7 +12756,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.2,
+      "xgi_per_90": 0.18,
       "points_per_game": 2.6,
       "value_rank": null
     }
@@ -12810,8 +12810,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.48,
-      "points_per_game": 2.9,
+      "xgi_per_90": 0.5,
+      "points_per_game": 2.8,
       "value_rank": null
     }
   },
@@ -12828,8 +12828,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.08,
-      "points_per_game": 1.8,
+      "xgi_per_90": 0.11,
+      "points_per_game": 2.1,
       "value_rank": null
     }
   },
@@ -12839,15 +12839,15 @@
     "web_name": "Woltemade",
     "position": "Forward",
     "team": "Newcastle",
-    "price": 7.2,
-    "ownership": 14.0,
+    "price": 7.1,
+    "ownership": 12.4,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.47,
-      "points_per_game": 4.2,
+      "xgi_per_90": 0.46,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -12900,7 +12900,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.25,
+      "xgi_per_90": 0.32,
       "points_per_game": 2.9,
       "value_rank": null
     }
@@ -12937,7 +12937,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.01,
-      "points_per_game": 2.0,
+      "points_per_game": 1.9,
       "value_rank": null
     }
   },
@@ -12955,7 +12955,7 @@
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.22,
-      "points_per_game": 1.9,
+      "points_per_game": 1.8,
       "value_rank": null
     }
   },
@@ -12990,7 +12990,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.06,
+      "xgi_per_90": 0.05,
       "points_per_game": 3.2,
       "value_rank": null
     }
@@ -13008,8 +13008,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.06,
-      "points_per_game": 3.4,
+      "xgi_per_90": 0.04,
+      "points_per_game": 3.0,
       "value_rank": null
     }
   },
@@ -13037,15 +13037,15 @@
     "web_name": "Hincapie",
     "position": "Defender",
     "team": "Arsenal",
-    "price": 5.2,
-    "ownership": 0.8,
+    "price": 5.1,
+    "ownership": 0.7,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.07,
-      "points_per_game": 2.9,
+      "points_per_game": 2.7,
       "value_rank": null
     }
   },
@@ -13080,8 +13080,8 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.72,
-      "points_per_game": 3.9,
+      "xgi_per_90": 0.73,
+      "points_per_game": 4.1,
       "value_rank": null
     }
   },
@@ -13128,14 +13128,14 @@
     "position": "Forward",
     "team": "Sunderland",
     "price": 5.5,
-    "ownership": 0.8,
+    "ownership": 1.3,
     "status": "WATCH",
-    "minutes_status": "risk",
+    "minutes_status": "secure",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.24,
-      "points_per_game": 2.9,
+      "xgi_per_90": 0.25,
+      "points_per_game": 3.1,
       "value_rank": null
     }
   },
@@ -13152,7 +13152,7 @@
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.26,
+      "xgi_per_90": 0.25,
       "points_per_game": 1.8,
       "value_rank": null
     }
@@ -13170,7 +13170,7 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.31,
+      "xgi_per_90": 0.29,
       "points_per_game": 1.3,
       "value_rank": null
     }
@@ -13236,14 +13236,14 @@
     "position": "Goalkeeper",
     "team": "Man City",
     "price": 5.7,
-    "ownership": 9.8,
+    "ownership": 9.5,
     "status": "WATCH",
     "minutes_status": "secure",
     "ceiling": "moderate",
-    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Plays regularly, but output remains fixture-dependent.",
+    "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
       "xgi_per_90": 0.0,
-      "points_per_game": 3.7,
+      "points_per_game": 4.0,
       "value_rank": null
     }
   },
@@ -13470,14 +13470,14 @@
     "position": "Forward",
     "team": "Wolves",
     "price": 4.5,
-    "ownership": 1.1,
+    "ownership": 1.5,
     "status": "WATCH",
     "minutes_status": "risk",
     "ceiling": "moderate",
     "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling. Role stability supports holding through short-term variance.",
     "metrics": {
-      "xgi_per_90": 0.19,
-      "points_per_game": 3.3,
+      "xgi_per_90": 0.21,
+      "points_per_game": 3.2,
       "value_rank": null
     }
   },
@@ -14088,8 +14088,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.26,
-      "points_per_game": 1.7,
+      "xgi_per_90": 0.32,
+      "points_per_game": 1.8,
       "value_rank": null
     }
   },
@@ -14124,8 +14124,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.21,
-      "points_per_game": 1.5,
+      "xgi_per_90": 0.2,
+      "points_per_game": 1.7,
       "value_rank": null
     }
   },
@@ -14153,7 +14153,7 @@
     "web_name": "Chambers",
     "position": "Midfielder",
     "team": "Leeds",
-    "price": 4.5,
+    "price": 4.4,
     "ownership": 0.0,
     "status": "WATCH",
     "minutes_status": "risk",
@@ -14232,8 +14232,8 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.58,
-      "points_per_game": 1.5,
+      "xgi_per_90": 0.49,
+      "points_per_game": 2.3,
       "value_rank": null
     }
   },
@@ -14279,7 +14279,7 @@
     "web_name": "Alleyne",
     "position": "Defender",
     "team": "Man City",
-    "price": 4.5,
+    "price": 4.3,
     "ownership": 0.0,
     "status": "WATCH",
     "minutes_status": "risk",
@@ -14322,7 +14322,7 @@
     "ceiling": "moderate",
     "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
     "metrics": {
-      "xgi_per_90": 0.25,
+      "xgi_per_90": 0.28,
       "points_per_game": 2.0,
       "value_rank": null
     }
@@ -14370,6 +14370,114 @@
     "position": "Midfielder",
     "team": "Bournemouth",
     "price": 4.5,
+    "ownership": 0.0,
+    "status": "WATCH",
+    "minutes_status": "risk",
+    "ceiling": "moderate",
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "metrics": {
+      "xgi_per_90": 0.0,
+      "points_per_game": 0.0,
+      "value_rank": null
+    }
+  },
+  {
+    "player_id": 800,
+    "name": "Djiamgone Jocelin Ta Bi",
+    "web_name": "Jocelin.T",
+    "position": "Midfielder",
+    "team": "Sunderland",
+    "price": 5.0,
+    "ownership": 0.0,
+    "status": "WATCH",
+    "minutes_status": "risk",
+    "ceiling": "moderate",
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "metrics": {
+      "xgi_per_90": 0.0,
+      "points_per_game": 0.0,
+      "value_rank": null
+    }
+  },
+  {
+    "player_id": 801,
+    "name": "Alex T\u00f3th",
+    "web_name": "T\u00f3th.A",
+    "position": "Midfielder",
+    "team": "Bournemouth",
+    "price": 5.0,
+    "ownership": 0.0,
+    "status": "WATCH",
+    "minutes_status": "risk",
+    "ceiling": "moderate",
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "metrics": {
+      "xgi_per_90": 0.0,
+      "points_per_game": 1.0,
+      "value_rank": null
+    }
+  },
+  {
+    "player_id": 802,
+    "name": "Keiber Lamadrid",
+    "web_name": "Lamadrid",
+    "position": "Midfielder",
+    "team": "West Ham",
+    "price": 5.0,
+    "ownership": 0.0,
+    "status": "WATCH",
+    "minutes_status": "risk",
+    "ceiling": "moderate",
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "metrics": {
+      "xgi_per_90": 0.0,
+      "points_per_game": 0.0,
+      "value_rank": null
+    }
+  },
+  {
+    "player_id": 803,
+    "name": "Teddy Sharman-Lowe",
+    "web_name": "Sharman-Lowe",
+    "position": "Goalkeeper",
+    "team": "Chelsea",
+    "price": 4.0,
+    "ownership": 0.0,
+    "status": "WATCH",
+    "minutes_status": "risk",
+    "ceiling": "moderate",
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "metrics": {
+      "xgi_per_90": 0.0,
+      "points_per_game": 0.0,
+      "value_rank": null
+    }
+  },
+  {
+    "player_id": 804,
+    "name": "Jo\u00e3o Victor de Souza Menezes",
+    "web_name": "Souza",
+    "position": "Defender",
+    "team": "Spurs",
+    "price": 4.0,
+    "ownership": 0.0,
+    "status": "WATCH",
+    "minutes_status": "risk",
+    "ceiling": "moderate",
+    "narrative": "WATCH: Context-dependent upside. Indicators suggest improvement potential without full validation. Minutes security remains the key point of uncertainty.",
+    "metrics": {
+      "xgi_per_90": 0.0,
+      "points_per_game": 0.0,
+      "value_rank": null
+    }
+  },
+  {
+    "player_id": 805,
+    "name": "Lorenzo Lucca",
+    "web_name": "Lucca",
+    "position": "Forward",
+    "team": "Nott'm Forest",
+    "price": 5.5,
     "ownership": 0.0,
     "status": "WATCH",
     "minutes_status": "risk",
