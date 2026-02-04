@@ -70,13 +70,6 @@
     "Midfielder": {
       "starters": [
         {
-          "player_id": 16,
-          "name": "Saka",
-          "status": "HOLD",
-          "minutes_ok": true,
-          "fixture_stress": "hard"
-        },
-        {
           "player_id": 47,
           "name": "Rogers",
           "status": "HOLD",
@@ -84,24 +77,29 @@
           "fixture_stress": "hard"
         },
         {
+          "player_id": 303,
+          "name": "Garner",
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium"
+        },
+        {
           "player_id": 450,
           "name": "Cunha",
           "status": "HOLD",
           "minutes_ok": true,
           "fixture_stress": "hard"
-        },
-        {
-          "player_id": 488,
-          "name": "Bruno G.",
-          "status": "HOLD",
-          "minutes_ok": true,
-          "fixture_stress": "easy"
         }
       ],
       "bench": [
         {
-          "player_id": 303,
-          "name": "Garner",
+          "player_id": 16,
+          "name": "Saka",
+          "minutes_ok": true
+        },
+        {
+          "player_id": 488,
+          "name": "Bruno G.",
           "minutes_ok": true
         }
       ],
@@ -120,18 +118,19 @@
         {
           "player_id": 430,
           "name": "Haaland",
-          "status": "MUST-HAVE",
+          "status": "HOLD",
           "minutes_ok": true,
           "fixture_stress": "medium"
-        }
-      ],
-      "bench": [
+        },
         {
           "player_id": 691,
           "name": "Calvert-Lewin",
-          "minutes_ok": true
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "easy"
         }
       ],
+      "bench": [],
       "status": "neutral",
       "reason": "No immediate rotation or availability concerns"
     }
@@ -143,5 +142,715 @@
     "Starting XI minutes profile is stable.",
     "Several starters show weak or declining form.",
     "Short-term performance likely shaped by difficult fixtures."
-  ]
+  ],
+  "hold": [
+    {
+      "player_id": 16,
+      "name": "Saka",
+      "position": "Midfielder",
+      "team": "Arsenal",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 36,
+      "name": "Cash",
+      "position": "Defender",
+      "team": "Aston Villa",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 47,
+      "name": "Rogers",
+      "position": "Midfielder",
+      "team": "Aston Villa",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 101,
+      "name": "Kelleher",
+      "position": "Goalkeeper",
+      "team": "Brentford",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 226,
+      "name": "Chalobah",
+      "position": "Defender",
+      "team": "Chelsea",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 249,
+      "name": "Jo\u00e3o Pedro",
+      "position": "Forward",
+      "team": "Chelsea",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 291,
+      "name": "Tarkowski",
+      "position": "Defender",
+      "team": "Everton",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 303,
+      "name": "Garner",
+      "position": "Midfielder",
+      "team": "Everton",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 430,
+      "name": "Haaland",
+      "position": "Forward",
+      "team": "Man City",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 450,
+      "name": "Cunha",
+      "position": "Midfielder",
+      "team": "Man Utd",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 470,
+      "name": "D\u00fabravka",
+      "position": "Goalkeeper",
+      "team": "Burnley",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 488,
+      "name": "Bruno G.",
+      "position": "Midfielder",
+      "team": "Newcastle",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 508,
+      "name": "N.Williams",
+      "position": "Defender",
+      "team": "Nott'm Forest",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 683,
+      "name": "Alderete",
+      "position": "Defender",
+      "team": "Sunderland",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    },
+    {
+      "player_id": 691,
+      "name": "Calvert-Lewin",
+      "position": "Forward",
+      "team": "Leeds",
+      "hold_reason": "HOLD_STABLE_CORE",
+      "reason": "Core squad asset with stable role and usage. Selling now would risk losing long-term value for short-term variance."
+    }
+  ],
+  "team_diagnostic": {
+    "recent_performance": "variance_driven",
+    "primary_driver": "fixture_cluster",
+    "action_pressure": "low",
+    "recommended_posture": "patience / roll transfer",
+    "capital_efficiency": {
+      "low_ceiling_share": 0.89,
+      "summary": "89% of squad value is currently in low-ceiling roles; meaningful improvement likely requires fixture turn or coordinated moves."
+    }
+  },
+  "watchlist": {
+    "Defender": {
+      "budget": [
+        {
+          "id": 256,
+          "name": "Mu\u00f1oz",
+          "position": "Defender",
+          "team": "CRY",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.26,
+            "xg_share": 0.462,
+            "xa_share": 0.538
+          },
+          "context": {
+            "price": 5.8,
+            "points_per_game": 6.0,
+            "form": 0.2,
+            "value": 15.5,
+            "ownership": 6.4
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9791634980988593
+        },
+        {
+          "id": 8,
+          "name": "J.Timber",
+          "position": "Defender",
+          "team": "ARS",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.25,
+            "xg_share": 0.84,
+            "xa_share": 0.16
+          },
+          "context": {
+            "price": 6.3,
+            "points_per_game": 5.0,
+            "form": 3.8,
+            "value": 17.5,
+            "ownership": 27.8
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9698859315589354
+        },
+        {
+          "id": 262,
+          "name": "Chadi Riad",
+          "position": "Defender",
+          "team": "CRY",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "risk",
+            "xgi_per_90": 0.58,
+            "xg_share": 1.0,
+            "xa_share": 0.0
+          },
+          "context": {
+            "price": 4.0,
+            "points_per_game": 4.0,
+            "form": 0.8,
+            "value": 1.0,
+            "ownership": 0.0
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": false,
+            "risk": true
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9606083650190114
+        },
+        {
+          "id": 7,
+          "name": "Calafiori",
+          "position": "Defender",
+          "team": "ARS",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.21,
+            "xg_share": 0.857,
+            "xa_share": 0.143
+          },
+          "context": {
+            "price": 5.6,
+            "points_per_game": 4.8,
+            "form": 0.0,
+            "value": 13.8,
+            "ownership": 6.1
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9430418250950571
+        },
+        {
+          "id": 72,
+          "name": "Senesi",
+          "position": "Defender",
+          "team": "BOU",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.21,
+            "xg_share": 0.19,
+            "xa_share": 0.81
+          },
+          "context": {
+            "price": 4.8,
+            "points_per_game": 4.3,
+            "form": 3.2,
+            "value": 19.6,
+            "ownership": 14.4
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9355893536121672
+        }
+      ]
+    },
+    "Forward": {
+      "budget": [
+        {
+          "id": 136,
+          "name": "Thiago",
+          "position": "Forward",
+          "team": "BRE",
+          "performance": {
+            "role": "poacher",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.65,
+            "xg_share": 0.938,
+            "xa_share": 0.062
+          },
+          "context": {
+            "price": 7.2,
+            "points_per_game": 5.4,
+            "form": 7.0,
+            "value": 17.2,
+            "ownership": 35.8
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.96
+        },
+        {
+          "id": 283,
+          "name": "Mateta",
+          "position": "Forward",
+          "team": "CRY",
+          "performance": {
+            "role": "poacher",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.62,
+            "xg_share": 0.903,
+            "xa_share": 0.097
+          },
+          "context": {
+            "price": 7.5,
+            "points_per_game": 3.7,
+            "form": 3.4,
+            "value": 11.2,
+            "ownership": 9.0
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": true
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9173033707865168
+        },
+        {
+          "id": 661,
+          "name": "Ekitik\u00e9",
+          "position": "Forward",
+          "team": "LIV",
+          "performance": {
+            "role": "poacher",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.58,
+            "xg_share": 0.793,
+            "xa_share": 0.207
+          },
+          "context": {
+            "price": 8.8,
+            "points_per_game": 4.3,
+            "form": 1.0,
+            "value": 9.9,
+            "ownership": 23.6
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9078651685393259
+        },
+        {
+          "id": 64,
+          "name": "Watkins",
+          "position": "Forward",
+          "team": "AVL",
+          "performance": {
+            "role": "poacher",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.54,
+            "xg_share": 0.907,
+            "xa_share": 0.093
+          },
+          "context": {
+            "price": 8.8,
+            "points_per_game": 4.0,
+            "form": 4.8,
+            "value": 10.3,
+            "ownership": 12.0
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": true
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.8838202247191012
+        },
+        {
+          "id": 365,
+          "name": "Nmecha",
+          "position": "Forward",
+          "team": "LEE",
+          "performance": {
+            "role": "poacher",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.78,
+            "xg_share": 0.936,
+            "xa_share": 0.064
+          },
+          "context": {
+            "price": 5.0,
+            "points_per_game": 2.6,
+            "form": 2.2,
+            "value": 9.8,
+            "ownership": 0.5
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": true
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.8817977528089889
+        }
+      ]
+    },
+    "Goalkeeper": {
+      "budget": [
+        {
+          "id": 287,
+          "name": "Pickford",
+          "position": "Goalkeeper",
+          "team": "EVE",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.01,
+            "xg_share": 0.0,
+            "xa_share": 1.0
+          },
+          "context": {
+            "price": 5.6,
+            "points_per_game": 4.5,
+            "form": 4.2,
+            "value": 18.4,
+            "ownership": 14.2
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9965217391304348
+        },
+        {
+          "id": 431,
+          "name": "Bayindir",
+          "position": "Goalkeeper",
+          "team": "MUN",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.01,
+            "xg_share": 0.0,
+            "xa_share": 1.0
+          },
+          "context": {
+            "price": 4.7,
+            "points_per_game": 1.8,
+            "form": 0.0,
+            "value": 2.3,
+            "ownership": 0.3
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.8928260869565218
+        },
+        {
+          "id": 469,
+          "name": "Pope",
+          "position": "Goalkeeper",
+          "team": "NEW",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.0,
+            "xg_share": 0.0,
+            "xa_share": 0.0
+          },
+          "context": {
+            "price": 5.1,
+            "points_per_game": 4.4,
+            "form": 4.2,
+            "value": 14.5,
+            "ownership": 4.9
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.6726086956521738
+        },
+        {
+          "id": 670,
+          "name": "Roefs",
+          "position": "Goalkeeper",
+          "team": "SUN",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.0,
+            "xg_share": 0.0,
+            "xa_share": 0.0
+          },
+          "context": {
+            "price": 5.0,
+            "points_per_game": 4.3,
+            "form": 3.0,
+            "value": 19.6,
+            "ownership": 12.9
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.6686956521739129
+        },
+        {
+          "id": 736,
+          "name": "Donnarumma",
+          "position": "Goalkeeper",
+          "team": "MCI",
+          "performance": {
+            "role": "defender",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.0,
+            "xg_share": 0.0,
+            "xa_share": 0.0
+          },
+          "context": {
+            "price": 5.6,
+            "points_per_game": 4.0,
+            "form": 4.0,
+            "value": 14.1,
+            "ownership": 9.2
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.6589130434782609
+        }
+      ]
+    },
+    "Midfielder": {
+      "budget": [
+        {
+          "id": 449,
+          "name": "B.Fernandes",
+          "position": "Midfielder",
+          "team": "MUN",
+          "performance": {
+            "role": "hybrid",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.69,
+            "xg_share": 0.565,
+            "xa_share": 0.435
+          },
+          "context": {
+            "price": 9.5,
+            "points_per_game": 6.0,
+            "form": 5.5,
+            "value": 12.7,
+            "ownership": 28.4
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9835457063711912
+        },
+        {
+          "id": 727,
+          "name": "Chukwueze",
+          "position": "Midfielder",
+          "team": "FUL",
+          "performance": {
+            "role": "creator",
+            "minutes_trust": "regular",
+            "xgi_per_90": 0.73,
+            "xg_share": 0.37,
+            "xa_share": 0.63
+          },
+          "context": {
+            "price": 5.3,
+            "points_per_game": 4.1,
+            "form": 1.2,
+            "value": 7.7,
+            "ownership": 0.1
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": false,
+            "risk": true
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9657063711911358
+        },
+        {
+          "id": 119,
+          "name": "Mbeumo",
+          "position": "Midfielder",
+          "team": "MUN",
+          "performance": {
+            "role": "poacher",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.57,
+            "xg_share": 0.649,
+            "xa_share": 0.351
+          },
+          "context": {
+            "price": 8.4,
+            "points_per_game": 5.2,
+            "form": 4.8,
+            "value": 11.1,
+            "ownership": 19.1
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9626038781163435
+        },
+        {
+          "id": 237,
+          "name": "Enzo",
+          "position": "Midfielder",
+          "team": "CHE",
+          "performance": {
+            "role": "poacher",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.61,
+            "xg_share": 0.689,
+            "xa_share": 0.311
+          },
+          "context": {
+            "price": 6.7,
+            "points_per_game": 4.8,
+            "form": 6.5,
+            "value": 15.8,
+            "ownership": 19.3
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9598891966759002
+        },
+        {
+          "id": 381,
+          "name": "M.Salah",
+          "position": "Midfielder",
+          "team": "LIV",
+          "performance": {
+            "role": "poacher",
+            "minutes_trust": "nailed",
+            "xgi_per_90": 0.56,
+            "xg_share": 0.625,
+            "xa_share": 0.375
+          },
+          "context": {
+            "price": 14.0,
+            "points_per_game": 4.6,
+            "form": 1.0,
+            "value": 4.9,
+            "ownership": 14.3
+          },
+          "labels": {
+            "ceiling": false,
+            "consistency": false,
+            "minutes": true,
+            "risk": false
+          },
+          "explanation": "Productive historically, but minutes continuity is not established. Monitor for role stability.",
+          "display_score": 0.9528531855955678
+        }
+      ]
+    }
+  }
 }

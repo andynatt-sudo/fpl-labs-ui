@@ -58,7 +58,7 @@
         "status": "HOLD",
         "hold": true,
         "must_have": false,
-        "ceiling": "moderate"
+        "ceiling": "high"
       },
       "blocker": {
         "type": "HOLD",
