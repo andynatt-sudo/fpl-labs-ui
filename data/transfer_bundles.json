@@ -107,3 +107,12 @@
     }
   ]
 }
+    "gameweek": 24,
+    "outcome": "none",
+    "reason": "No coherent multi-transfer plan stands out under current conditions",
+    "details": [
+      "Not enough missing must-have players to justify a bundle"
+    ]
+  },
+  "bundles": []
+}
