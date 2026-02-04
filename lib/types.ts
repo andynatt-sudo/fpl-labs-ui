@@ -98,6 +98,29 @@ export interface TransferContext {
   missing_must_haves: MissingMustHave[]
 }
 
+// Player Profiles types
+export interface PlayerProfile {
+  player_id: number
+  web_name: string
+  profile: {
+    role: string
+    minutes: string
+    scoring: string
+    reliability: string
+  }
+  labels: string[]
+  narrative: string
+}
+
+export interface PlayerProfiles {
+  meta: {
+    type: string
+    role: string
+    description: string
+  }
+  profiles: PlayerProfile[]
+}
+
 // Tactical Replacements types
 export type SwapType = "safe_productivity" | "higher_upside"
 
