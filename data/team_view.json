@@ -13,14 +13,18 @@
           "name": "Kelleher",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "easy"
+          "fixture_stress": "easy",
+          "is_starter": true
         }
       ],
       "bench": [
         {
           "player_id": 470,
           "name": "D\u00fabravka",
-          "minutes_ok": true
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "hard",
+          "is_starter": false
         }
       ],
       "status": "neutral",
@@ -33,35 +37,42 @@
           "name": "Cash",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "hard"
+          "fixture_stress": "hard",
+          "is_starter": true
         },
         {
           "player_id": 226,
           "name": "Chalobah",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "hard"
+          "fixture_stress": "hard",
+          "is_starter": true
         },
         {
           "player_id": 291,
           "name": "Tarkowski",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "medium"
+          "fixture_stress": "medium",
+          "is_starter": true
         },
         {
           "player_id": 508,
           "name": "N.Williams",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "hard"
+          "fixture_stress": "hard",
+          "is_starter": true
         }
       ],
       "bench": [
         {
           "player_id": 683,
           "name": "Alderete",
-          "minutes_ok": true
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "medium",
+          "is_starter": false
         }
       ],
       "status": "neutral",
@@ -74,33 +85,42 @@
           "name": "Rogers",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "hard"
+          "fixture_stress": "hard",
+          "is_starter": true
         },
         {
           "player_id": 303,
           "name": "Garner",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "medium"
+          "fixture_stress": "medium",
+          "is_starter": true
         },
         {
           "player_id": 450,
           "name": "Cunha",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "hard"
+          "fixture_stress": "hard",
+          "is_starter": true
         }
       ],
       "bench": [
         {
           "player_id": 16,
           "name": "Saka",
-          "minutes_ok": true
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "hard",
+          "is_starter": false
         },
         {
           "player_id": 488,
           "name": "Bruno G.",
-          "minutes_ok": true
+          "status": "HOLD",
+          "minutes_ok": true,
+          "fixture_stress": "easy",
+          "is_starter": false
         }
       ],
       "status": "neutral",
@@ -113,21 +133,24 @@
           "name": "Jo\u00e3o Pedro",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "hard"
+          "fixture_stress": "hard",
+          "is_starter": true
         },
         {
           "player_id": 430,
           "name": "Haaland",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "medium"
+          "fixture_stress": "medium",
+          "is_starter": true
         },
         {
           "player_id": 691,
           "name": "Calvert-Lewin",
           "status": "HOLD",
           "minutes_ok": true,
-          "fixture_stress": "easy"
+          "fixture_stress": "easy",
+          "is_starter": true
         }
       ],
       "bench": [],
