@@ -86,14 +86,7 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
       {/* Squad Grid */}
       <Card className="bg-card/50">
         <CardContent className="p-4">
-          <div className="space-y-1">
-            {/* Header Row */}
-            <div className="grid grid-cols-[60px_1fr_80px] gap-2 px-2 py-1 text-xs text-muted-foreground uppercase tracking-wide">
-              <span>Pos</span>
-              <span>Players</span>
-              <span className="text-right">Bench</span>
-            </div>
-            
+          <div className="space-y-2">
             {/* Position Rows */}
             {positionOrder.map((position) => {
               const posData = byPosition[position] as PositionBreakdown | undefined
@@ -102,39 +95,43 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
               const starters = posData.starters ?? []
               const bench = posData.bench ?? []
               const status = posData.status ?? "neutral"
-              
-              const statusIndicator = status === "neutral" ? "" : status === "concern" ? "⚠️" : "🔴"
               const statusLabel = status === "neutral" ? "" : status === "concern" ? "Concern" : "At Risk"
               
               return (
                 <div 
                   key={position} 
-                  className={`grid grid-cols-[80px_1fr_100px] gap-3 px-3 py-2.5 rounded-md bg-muted/30 border-l-4 ${positionStatusBorder[status]}`}
+                  className={`grid grid-cols-[90px_1fr_auto] gap-4 px-4 py-3 rounded-lg ${
+                    status === "neutral" 
+                      ? "bg-muted/20 border-l-[6px] border-l-border" 
+                      : status === "concern"
+                      ? "bg-amber-500/5 border-l-[6px] border-l-amber-500"
+                      : "bg-rose-500/5 border-l-[6px] border-l-rose-500"
+                  }`}
                 >
                   {/* Position Label with Status */}
-                  <div className="flex flex-col justify-center">
-                    <span className="text-xs font-semibold text-foreground">
+                  <div className="flex flex-col justify-center gap-0.5">
+                    <span className="text-sm font-bold text-foreground">
                       {positionShort[position]}
                     </span>
                     {statusLabel && (
-                      <span className={`text-xs font-medium mt-0.5 ${status === "concern" ? "text-amber-400" : "text-rose-400"}`}>
+                      <span className={`text-[11px] font-semibold ${status === "concern" ? "text-amber-400" : "text-rose-400"}`}>
                         {statusLabel}
                       </span>
                     )}
                   </div>
                   
                   {/* Starters */}
-                  <div className="flex flex-wrap gap-2 items-center">
+                  <div className="flex flex-wrap gap-2.5 items-center">
                     {starters.map((player) => (
                       <div 
                         key={player.player_id} 
-                        className="flex items-center gap-1.5 bg-background/60 rounded px-2.5 py-1.5"
+                        className="flex items-center gap-2 bg-background/80 rounded-md px-3 py-2 border border-border/40"
                       >
-                        <span className={`text-sm font-medium ${statusColors[player.status]}`}>
+                        <span className={`text-sm font-semibold ${statusColors[player.status]}`}>
                           {player.name}
                         </span>
                         <span 
-                          className={`size-1.5 rounded-full ${fixtureIndicator[player.fixture_stress].color}`}
+                          className={`size-2 rounded-full ${fixtureIndicator[player.fixture_stress].color}`}
                           title={`${player.fixture_stress} fixture`}
                         />
                       </div>
@@ -142,17 +139,15 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
                   </div>
                   
                   {/* Bench */}
-                  <div className="flex items-center justify-end">
-                    <div className="text-right">
-                      {bench.map((player, idx) => (
-                        <div 
-                          key={player.player_id}
-                          className="text-xs text-muted-foreground"
-                        >
-                          {player.name}
-                        </div>
-                      ))}
-                    </div>
+                  <div className="flex flex-col items-end justify-center gap-1 min-w-[100px]">
+                    {bench.map((player) => (
+                      <span 
+                        key={player.player_id}
+                        className="text-xs text-muted-foreground font-medium"
+                      >
+                        {player.name}
+                      </span>
+                    ))}
                   </div>
                 </div>
               )
