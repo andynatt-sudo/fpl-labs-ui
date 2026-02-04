@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRightLeft, Wallet } from "lucide-react"
+import { TeamDiagnostic } from "@/components/team-diagnostic"
 import type { TeamView, PositionBreakdown, StatusLabel, FixtureStress, PositionStatus } from "@/lib/types"
 
 interface TeamBreakdownProps {
@@ -46,13 +47,31 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
   const byPosition = data.by_position ?? {}
   const structuralNotes = data.structural_notes ?? []
 
+  // Calculate squad state summary
+  let stableCount = 0
+  let concernCount = 0
+  let riskCount = 0
+
+  Object.values(byPosition).forEach((pos) => {
+    if (pos.status === "neutral") stableCount++
+    else if (pos.status === "concern") concernCount++
+    else if (pos.status === "risk") riskCount++
+  })
+
   return (
     <section className="space-y-4">
+      {/* Team Diagnostic */}
+      <TeamDiagnostic data={data} />
+      
       {/* Section Header with Summary */}
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-xl font-semibold tracking-tight">My Squad</h2>
-          <p className="text-sm text-muted-foreground">Starting XI and bench breakdown</p>
+          <div className="flex items-center gap-4 text-sm text-muted-foreground mt-1">
+            <span>{stableCount} stable</span>
+            {concernCount > 0 && <span className="text-amber-400">{concernCount} concern</span>}
+            {riskCount > 0 && <span className="text-rose-400">{riskCount} at risk</span>}
+          </div>
         </div>
         <div className="flex items-center gap-4 text-sm">
           <div className="flex items-center gap-1.5">
@@ -71,14 +90,7 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
       {/* Squad Grid */}
       <Card className="bg-card/50">
         <CardContent className="p-4">
-          <div className="space-y-1">
-            {/* Header Row */}
-            <div className="grid grid-cols-[60px_1fr_80px] gap-2 px-2 py-1 text-xs text-muted-foreground uppercase tracking-wide">
-              <span>Pos</span>
-              <span>Players</span>
-              <span className="text-right">Bench</span>
-            </div>
-            
+          <div className="space-y-2">
             {/* Position Rows */}
             {positionOrder.map((position) => {
               const posData = byPosition[position] as PositionBreakdown | undefined
@@ -87,46 +99,46 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
               const starters = posData.starters ?? []
               const bench = posData.bench ?? []
               const status = posData.status ?? "neutral"
+              const statusLabel = status === "neutral" ? "" : status === "concern" ? "Concern" : "At Risk"
               
               return (
                 <div 
                   key={position} 
-                  className={`grid grid-cols-[60px_1fr_80px] gap-2 px-2 py-2 rounded-md bg-muted/30 border-l-2 ${positionStatusBorder[status]}`}
+                  className={`grid grid-cols-[90px_1fr] gap-4 px-4 py-3 rounded-lg ${
+                    status === "neutral" 
+                      ? "bg-muted/20 border-l-[6px] border-l-border" 
+                      : status === "concern"
+                      ? "bg-amber-500/5 border-l-[6px] border-l-amber-500"
+                      : "bg-rose-500/5 border-l-[6px] border-l-rose-500"
+                  }`}
                 >
-                  {/* Position Label */}
-                  <div className="flex items-center">
-                    <span className="text-xs font-medium text-muted-foreground">
+                  {/* Position Label with Status */}
+                  <div className="flex flex-col justify-center gap-0.5">
+                    <span className="text-sm font-bold text-foreground">
                       {positionShort[position]}
                     </span>
+                    {statusLabel && (
+                      <span className={`text-[11px] font-semibold ${status === "concern" ? "text-amber-400" : "text-rose-400"}`}>
+                        {statusLabel}
+                      </span>
+                    )}
                   </div>
                   
-                  {/* Starters */}
-                  <div className="flex flex-wrap gap-2">
-                    {starters.map((player) => (
+                  {/* All Players (Starters + Bench) */}
+                  <div className="flex flex-wrap gap-2.5 items-center">
+                    {[...starters, ...bench].map((player) => (
                       <div 
                         key={player.player_id} 
-                        className="flex items-center gap-1.5 bg-background/50 rounded px-2 py-1"
+                        className="flex items-center gap-2 bg-background/80 rounded-md px-3 py-2 border border-border/40"
                       >
-                        <span className={`text-sm font-medium ${statusColors[player.status]}`}>
+                        <span className={`text-sm font-semibold ${statusColors[player.status]}`}>
                           {player.name}
                         </span>
                         <span 
-                          className={`size-1.5 rounded-full ${fixtureIndicator[player.fixture_stress].color}`}
+                          className={`size-2 rounded-full ${fixtureIndicator[player.fixture_stress].color}`}
                           title={`${player.fixture_stress} fixture`}
                         />
                       </div>
-                    ))}
-                  </div>
-                  
-                  {/* Bench */}
-                  <div className="flex items-center justify-end">
-                    {bench.map((player) => (
-                      <span 
-                        key={player.player_id} 
-                        className="text-xs text-muted-foreground"
-                      >
-                        {player.name}
-                      </span>
                     ))}
                   </div>
                 </div>
