@@ -14,7 +14,7 @@ export interface Player {
 export type SortKey = keyof Player
 export type SortDirection = "asc" | "desc"
 
-// Team Health types
+// Team Health types - diagnostic health only
 export type HealthBand = "EXCELLENT" | "OK" | "FRAGILE" | "AT RISK"
 export type FlagSeverity = "HIGH" | "MEDIUM" | "LOW"
 
@@ -24,11 +24,6 @@ export interface TeamHealthFlag {
   count: number
 }
 
-export interface MissingMustHave {
-  player_id: number
-  reason: string
-}
-
 export interface TeamHealth {
   team_id: number
   gameweek: number
@@ -36,7 +31,6 @@ export interface TeamHealth {
   health_band: HealthBand
   summary: string
   flags: TeamHealthFlag[]
-  missing_must_haves: MissingMustHave[]
 }
 
 // Team View / Breakdown types
@@ -72,8 +66,6 @@ export interface FixPriority {
 }
 
 export interface TeamViewSummary {
-  owned_must_haves: number
-  missing_must_haves: number
   starter_minutes_risk: number
   availability_risk: number
   free_transfers: number
@@ -88,7 +80,118 @@ export interface TeamView {
     Midfielder: PositionBreakdown
     Forward: PositionBreakdown
   }
-  risk_flags: string[]
   structural_notes: string[]
-  fix_priority: FixPriority[]
+}
+
+// Transfer Context types - structural/meta context only
+export interface MissingMustHave {
+  player_id: number
+  reason: string
+}
+
+export interface TransferContext {
+  meta: {
+    type: string
+    team_id: number
+    gameweek: number
+  }
+  missing_must_haves: MissingMustHave[]
+}
+
+// Player Profiles types
+export interface PlayerProfile {
+  player_id: number
+  web_name: string
+  profile: {
+    role: string
+    minutes: string
+    scoring: string
+    reliability: string
+  }
+  labels: string[]
+  narrative: string
+}
+
+export interface PlayerProfiles {
+  meta: {
+    type: string
+    role: string
+    description: string
+  }
+  profiles: PlayerProfile[]
+}
+
+// Tactical Replacements types
+export type SwapType = "safe_productivity" | "higher_upside"
+
+export interface ReplacementOption {
+  player_id: number
+  name: string
+  form: number
+  now_cost: number
+  price_band: string
+}
+
+export interface OutgoingPlayer {
+  player_id: number
+  name: string
+  position: string
+  now_cost: number
+  price_band: string
+  form: number
+  minutes_secure: boolean
+  is_starter: boolean
+  reason: string
+}
+
+export interface TacticalReplacementItem {
+  outgoing: OutgoingPlayer
+  replacements: {
+    safe_productivity: ReplacementOption[]
+    higher_upside: ReplacementOption[]
+  }
+}
+
+export interface TacticalReplacements {
+  meta: {
+    type: string
+    lens: string
+    description: string
+    count: number
+  }
+  items: TacticalReplacementItem[]
+}
+
+// Transfer Bundles types
+export interface BundleTransferPlayer {
+  player_id: number
+  name: string
+  position: string
+  now_cost: number
+}
+
+export interface BundleTransfer {
+  out: BundleTransferPlayer
+  in: BundleTransferPlayer
+}
+
+export interface TransferBundle {
+  name: string
+  type: string
+  transfers_required: number
+  net_budget_impact: number
+  transfers: BundleTransfer[]
+  problem_solved: string
+  trade_offs: string[]
+}
+
+export interface TransferBundles {
+  meta: {
+    type: string
+    team_id: number
+    gameweek: number
+    description: string
+    count: number
+  }
+  bundles: TransferBundle[]
 }
