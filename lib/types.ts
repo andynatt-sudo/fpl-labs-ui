@@ -38,23 +38,18 @@ export type PositionStatus = "neutral" | "concern" | "risk"
 export type FixtureStress = "easy" | "medium" | "hard"
 export type StatusLabel = "MUST-HAVE" | "STRONG-BUY" | "VALUE-PICK" | "HOLD" | "MONITOR"
 
-export interface TeamViewStarter {
+export interface TeamViewPlayer {
   player_id: number
   name: string
   status: StatusLabel
   minutes_ok: boolean
   fixture_stress: FixtureStress
-}
-
-export interface TeamViewBench {
-  player_id: number
-  name: string
-  minutes_ok: boolean
+  is_starter: boolean
 }
 
 export interface PositionBreakdown {
-  starters: TeamViewStarter[]
-  bench: TeamViewBench[]
+  starters: TeamViewPlayer[]
+  bench: TeamViewPlayer[]
   status: PositionStatus
   reason: string
 }

@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRightLeft, Wallet } from "lucide-react"
+import { TeamDiagnostic } from "@/components/team-diagnostic"
 import type { TeamView, PositionBreakdown, StatusLabel, FixtureStress, PositionStatus } from "@/lib/types"
 
 interface TeamBreakdownProps {
@@ -59,6 +60,9 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
 
   return (
     <section className="space-y-4">
+      {/* Team Diagnostic */}
+      <TeamDiagnostic data={data} />
+      
       {/* Section Header with Summary */}
       <div className="flex items-center justify-between">
         <div>
@@ -100,7 +104,7 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
               return (
                 <div 
                   key={position} 
-                  className={`grid grid-cols-[90px_1fr_auto] gap-4 px-4 py-3 rounded-lg ${
+                  className={`grid grid-cols-[90px_1fr] gap-4 px-4 py-3 rounded-lg ${
                     status === "neutral" 
                       ? "bg-muted/20 border-l-[6px] border-l-border" 
                       : status === "concern"
@@ -120,9 +124,9 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
                     )}
                   </div>
                   
-                  {/* Starters */}
+                  {/* All Players (Starters + Bench) */}
                   <div className="flex flex-wrap gap-2.5 items-center">
-                    {starters.map((player) => (
+                    {[...starters, ...bench].map((player) => (
                       <div 
                         key={player.player_id} 
                         className="flex items-center gap-2 bg-background/80 rounded-md px-3 py-2 border border-border/40"
@@ -135,18 +139,6 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
                           title={`${player.fixture_stress} fixture`}
                         />
                       </div>
-                    ))}
-                  </div>
-                  
-                  {/* Bench */}
-                  <div className="flex flex-col items-end justify-center gap-1 min-w-[100px]">
-                    {bench.map((player) => (
-                      <span 
-                        key={player.player_id}
-                        className="text-xs text-muted-foreground font-medium"
-                      >
-                        {player.name}
-                      </span>
                     ))}
                   </div>
                 </div>
