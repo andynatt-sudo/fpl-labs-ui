@@ -1,0 +1,87 @@
+import { Card, CardContent } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Eye } from "lucide-react"
+import type { WatchlistPlayer } from "@/lib/types"
+
+interface WatchlistProps {
+  watchlist: {
+    Defender?: { budget: WatchlistPlayer[] }
+    Forward?: { budget: WatchlistPlayer[] }
+    Goalkeeper?: { budget: WatchlistPlayer[] }
+    Midfielder?: { budget: WatchlistPlayer[] }
+  } | null | undefined
+}
+
+const positionOrder = ["Goalkeeper", "Defender", "Midfielder", "Forward"] as const
+
+export function Watchlist({ watchlist }: WatchlistProps) {
+  if (!watchlist) {
+    return null
+  }
+
+  // Count total players across all positions
+  const totalPlayers = Object.values(watchlist).reduce(
+    (sum, pos) => sum + (pos?.budget?.length || 0),
+    0
+  )
+
+  if (totalPlayers === 0) {
+    return null
+  }
+
+  return (
+    <section className="space-y-4">
+      <div className="flex items-center gap-3">
+        <Eye className="size-5 text-muted-foreground" />
+        <div>
+          <h2 className="text-lg font-medium tracking-tight">Watchlist</h2>
+          <p className="text-sm text-muted-foreground">
+            {totalPlayers} players monitored for potential inclusion
+          </p>
+        </div>
+      </div>
+
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        {positionOrder.map((position) => {
+          const posData = watchlist[position]
+          const players = posData?.budget || []
+
+          if (players.length === 0) {
+            return null
+          }
+
+          return (
+            <Card key={position} className="bg-card/30">
+              <CardContent className="p-4">
+                <h3 className="text-sm font-medium mb-3 text-muted-foreground">{position}</h3>
+                <div className="space-y-2">
+                  {players.slice(0, 3).map((player) => (
+                    <div
+                      key={player.id}
+                      className="flex items-start justify-between gap-2 text-xs"
+                    >
+                      <div className="flex-1 min-w-0">
+                        <div className="font-medium truncate">{player.name}</div>
+                        <div className="text-muted-foreground/80 truncate">
+                          {player.explanation}
+                        </div>
+                      </div>
+                      <Badge variant="outline" className="text-xs shrink-0">
+                        £{player.context.price}m
+                      </Badge>
+                    </div>
+                  ))}
+                  {players.length > 3 && (
+                    <p className="text-xs text-muted-foreground pt-1">
+                      +{players.length - 3} more
+                    </p>
+                  )}
+                </div>
+              </CardContent>
+            </Card>
+          )
+        })}
+      </div>
+    </section>
+  )
+}

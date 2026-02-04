@@ -46,13 +46,28 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
   const byPosition = data.by_position ?? {}
   const structuralNotes = data.structural_notes ?? []
 
+  // Calculate squad state summary
+  let stableCount = 0
+  let concernCount = 0
+  let riskCount = 0
+
+  Object.values(byPosition).forEach((pos) => {
+    if (pos.status === "neutral") stableCount++
+    else if (pos.status === "concern") concernCount++
+    else if (pos.status === "risk") riskCount++
+  })
+
   return (
     <section className="space-y-4">
       {/* Section Header with Summary */}
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-xl font-semibold tracking-tight">My Squad</h2>
-          <p className="text-sm text-muted-foreground">Starting XI and bench breakdown</p>
+          <div className="flex items-center gap-4 text-sm text-muted-foreground mt-1">
+            <span>{stableCount} stable</span>
+            {concernCount > 0 && <span className="text-amber-400">{concernCount} concern</span>}
+            {riskCount > 0 && <span className="text-rose-400">{riskCount} at risk</span>}
+          </div>
         </div>
         <div className="flex items-center gap-4 text-sm">
           <div className="flex items-center gap-1.5">
@@ -88,24 +103,32 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
               const bench = posData.bench ?? []
               const status = posData.status ?? "neutral"
               
+              const statusIndicator = status === "neutral" ? "" : status === "concern" ? "⚠️" : "🔴"
+              const statusLabel = status === "neutral" ? "" : status === "concern" ? "Concern" : "At Risk"
+              
               return (
                 <div 
                   key={position} 
-                  className={`grid grid-cols-[60px_1fr_80px] gap-2 px-2 py-2 rounded-md bg-muted/30 border-l-2 ${positionStatusBorder[status]}`}
+                  className={`grid grid-cols-[80px_1fr_100px] gap-3 px-3 py-2.5 rounded-md bg-muted/30 border-l-4 ${positionStatusBorder[status]}`}
                 >
-                  {/* Position Label */}
-                  <div className="flex items-center">
-                    <span className="text-xs font-medium text-muted-foreground">
+                  {/* Position Label with Status */}
+                  <div className="flex flex-col justify-center">
+                    <span className="text-xs font-semibold text-foreground">
                       {positionShort[position]}
                     </span>
+                    {statusLabel && (
+                      <span className={`text-xs font-medium mt-0.5 ${status === "concern" ? "text-amber-400" : "text-rose-400"}`}>
+                        {statusLabel}
+                      </span>
+                    )}
                   </div>
                   
                   {/* Starters */}
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 items-center">
                     {starters.map((player) => (
                       <div 
                         key={player.player_id} 
-                        className="flex items-center gap-1.5 bg-background/50 rounded px-2 py-1"
+                        className="flex items-center gap-1.5 bg-background/60 rounded px-2.5 py-1.5"
                       >
                         <span className={`text-sm font-medium ${statusColors[player.status]}`}>
                           {player.name}
@@ -120,14 +143,16 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
                   
                   {/* Bench */}
                   <div className="flex items-center justify-end">
-                    {bench.map((player) => (
-                      <span 
-                        key={player.player_id} 
-                        className="text-xs text-muted-foreground"
-                      >
-                        {player.name}
-                      </span>
-                    ))}
+                    <div className="text-right">
+                      {bench.map((player, idx) => (
+                        <div 
+                          key={player.player_id}
+                          className="text-xs text-muted-foreground"
+                        >
+                          {player.name}
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               )

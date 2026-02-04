@@ -72,6 +72,35 @@ export interface TeamViewSummary {
   bank: number
 }
 
+export interface WatchlistPlayer {
+  id: number
+  name: string
+  position: string
+  team: string
+  performance: {
+    role: string
+    minutes_trust: string
+    xgi_per_90: number
+    xg_share: number
+    xa_share: number
+  }
+  context: {
+    price: number
+    points_per_game: number
+    form: number
+    value: number
+    ownership: number
+  }
+  labels: {
+    ceiling: boolean
+    consistency: boolean
+    minutes: boolean
+    risk: boolean
+  }
+  explanation: string
+  display_score: number
+}
+
 export interface TeamView {
   summary: TeamViewSummary
   by_position: {
@@ -81,6 +110,12 @@ export interface TeamView {
     Forward: PositionBreakdown
   }
   structural_notes: string[]
+  watchlist?: {
+    Defender?: { budget: WatchlistPlayer[] }
+    Forward?: { budget: WatchlistPlayer[] }
+    Goalkeeper?: { budget: WatchlistPlayer[] }
+    Midfielder?: { budget: WatchlistPlayer[] }
+  }
 }
 
 // Transfer Context types - structural/meta context only
