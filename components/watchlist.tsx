@@ -41,7 +41,7 @@ export function Watchlist({ watchlist }: WatchlistProps) {
         </div>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <div className="space-y-4">
         {positionOrder.map((position) => {
           const posData = watchlist[position]
           const players = posData?.budget || []
@@ -53,16 +53,16 @@ export function Watchlist({ watchlist }: WatchlistProps) {
           return (
             <Card key={position} className="bg-card/30">
               <CardContent className="p-4">
-                <h3 className="text-sm font-medium mb-3 text-muted-foreground">{position}</h3>
+                <h3 className="text-sm font-semibold mb-3">{position}</h3>
                 <div className="space-y-2">
-                  {players.slice(0, 3).map((player) => (
+                  {players.map((player) => (
                     <div
                       key={player.id}
-                      className="flex items-start justify-between gap-2 text-xs"
+                      className="flex items-start justify-between gap-3 p-2 rounded bg-background/50"
                     >
                       <div className="flex-1 min-w-0">
-                        <div className="font-medium truncate">{player.name}</div>
-                        <div className="text-muted-foreground/80 truncate">
+                        <div className="font-medium text-sm">{player.name}</div>
+                        <div className="text-xs text-muted-foreground mt-0.5">
                           {player.explanation}
                         </div>
                       </div>
@@ -71,11 +71,6 @@ export function Watchlist({ watchlist }: WatchlistProps) {
                       </Badge>
                     </div>
                   ))}
-                  {players.length > 3 && (
-                    <p className="text-xs text-muted-foreground pt-1">
-                      +{players.length - 3} more
-                    </p>
-                  )}
                 </div>
               </CardContent>
             </Card>
