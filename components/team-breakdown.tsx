@@ -60,9 +60,6 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
 
   return (
     <section className="space-y-4">
-      {/* Team Diagnostic */}
-      <TeamDiagnostic data={data} />
-      
       {/* Section Header with Summary */}
       <div className="flex items-center justify-between">
         <div>
@@ -86,6 +83,9 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
           </div>
         </div>
       </div>
+
+      {/* Team Diagnostic */}
+      <TeamDiagnostic data={data} />
 
       {/* Squad Grid */}
       <Card className="bg-card/50">
