@@ -96,6 +96,17 @@ export interface WatchlistPlayer {
   display_score: number
 }
 
+export interface TeamDiagnostic {
+  recent_performance: string
+  primary_driver: string
+  action_pressure: string
+  recommended_posture: string
+  capital_efficiency: {
+    low_ceiling_share: number
+    summary: string
+  }
+}
+
 export interface TeamView {
   summary: TeamViewSummary
   by_position: {
@@ -105,6 +116,7 @@ export interface TeamView {
     Forward: PositionBreakdown
   }
   structural_notes: string[]
+  team_diagnostic?: TeamDiagnostic
   watchlist?: {
     Defender?: { budget: WatchlistPlayer[] }
     Forward?: { budget: WatchlistPlayer[] }
