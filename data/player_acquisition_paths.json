@@ -4,37 +4,17 @@
     "name": "Enzo",
     "position": "Midfielder",
     "team": "Chelsea",
-    "price": 6.7,
+    "price": 6.8,
     "status": null
   },
   "paths": [
     {
       "path_type": "DIRECT_SWAP",
       "out_player": {
-        "player_id": 16,
-        "name": "Saka",
-        "position": "Midfielder",
-        "price": 10.0,
-        "status": "HOLD",
-        "hold": true,
-        "must_have": false,
-        "ceiling": "moderate"
-      },
-      "blocker": {
-        "type": "HOLD",
-        "description": "Breaking HOLD protection"
-      },
-      "structural_risk": "MEDIUM",
-      "summary": "Replace Saka to acquire Enzo",
-      "recommended": true
-    },
-    {
-      "path_type": "DIRECT_SWAP",
-      "out_player": {
         "player_id": 47,
         "name": "Rogers",
         "position": "Midfielder",
-        "price": 7.7,
+        "price": 7.6,
         "status": "HOLD",
         "hold": true,
         "must_have": false,
@@ -46,6 +26,66 @@
       },
       "structural_risk": "MEDIUM",
       "summary": "Replace Rogers to acquire Enzo",
+      "recommended": true
+    },
+    {
+      "path_type": "DIRECT_SWAP",
+      "out_player": {
+        "player_id": 237,
+        "name": "Enzo",
+        "position": "Midfielder",
+        "price": 6.8,
+        "status": "HOLD",
+        "hold": true,
+        "must_have": false,
+        "ceiling": "moderate"
+      },
+      "blocker": {
+        "type": "HOLD",
+        "description": "Breaking HOLD protection"
+      },
+      "structural_risk": "MEDIUM",
+      "summary": "Replace Enzo to acquire Enzo",
+      "recommended": false
+    },
+    {
+      "path_type": "DIRECT_SWAP",
+      "out_player": {
+        "player_id": 303,
+        "name": "Garner",
+        "position": "Midfielder",
+        "price": 5.2,
+        "status": "HOLD",
+        "hold": true,
+        "must_have": false,
+        "ceiling": "moderate"
+      },
+      "blocker": {
+        "type": "HOLD",
+        "description": "Breaking HOLD protection"
+      },
+      "structural_risk": "MEDIUM",
+      "summary": "Replace Garner to acquire Enzo",
+      "recommended": false
+    },
+    {
+      "path_type": "DIRECT_SWAP",
+      "out_player": {
+        "player_id": 382,
+        "name": "Wirtz",
+        "position": "Midfielder",
+        "price": 8.3,
+        "status": "HOLD",
+        "hold": true,
+        "must_have": false,
+        "ceiling": "high"
+      },
+      "blocker": {
+        "type": "HOLD",
+        "description": "Breaking HOLD protection"
+      },
+      "structural_risk": "MEDIUM",
+      "summary": "Replace Wirtz to acquire Enzo",
       "recommended": false
     },
     {
@@ -66,26 +106,6 @@
       },
       "structural_risk": "MEDIUM",
       "summary": "Replace Cunha to acquire Enzo",
-      "recommended": false
-    },
-    {
-      "path_type": "DIRECT_SWAP",
-      "out_player": {
-        "player_id": 488,
-        "name": "Bruno G.",
-        "position": "Midfielder",
-        "price": 7.2,
-        "status": "HOLD",
-        "hold": true,
-        "must_have": false,
-        "ceiling": "high"
-      },
-      "blocker": {
-        "type": "HOLD",
-        "description": "Breaking HOLD protection"
-      },
-      "structural_risk": "MEDIUM",
-      "summary": "Replace Bruno G. to acquire Enzo",
       "recommended": false
     }
   ]

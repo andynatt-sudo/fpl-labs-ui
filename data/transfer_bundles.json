@@ -1,10 +1,12 @@
 {
   "meta": {
     "type": "transfer_bundles",
-    "team_id": 2310541,
-    "gameweek": 24,
-    "description": "Strategic paths to improve squad structure",
-    "count": 0
+    "gameweek": 25,
+    "outcome": "none",
+    "reason": "No coherent multi-transfer plan stands out under current conditions",
+    "details": [
+      "Not enough missing must-have players to justify a bundle"
+    ]
   },
   "bundles": []
 }
