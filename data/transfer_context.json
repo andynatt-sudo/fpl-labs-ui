@@ -2,32 +2,7 @@
   "meta": {
     "type": "transfer_context",
     "team_id": 2310541,
-    "gameweek": 24
+    "gameweek": 25
   },
-  "missing_must_haves": [
-    {
-      "player_id": 8,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 119,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 136,
-      "reason": "Captaincy exposure risk"
-    },
-    {
-      "player_id": 256,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 287,
-      "reason": "High ownership structural exposure"
-    },
-    {
-      "player_id": 449,
-      "reason": "High ownership structural exposure"
-    }
-  ]
+  "missing_must_haves": []
 }

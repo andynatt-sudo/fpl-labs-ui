@@ -1,6 +1,6 @@
 {
   "team_id": 2310541,
-  "gameweek": 24,
+  "gameweek": 25,
   "health_score": 71,
   "health_band": "OK",
   "summary": "Inefficient value distribution is reducing squad resilience.",
@@ -10,16 +10,16 @@
       "severity": "MEDIUM",
       "players": [
         {
-          "player_id": 226,
-          "name": "Chalobah"
-        },
-        {
           "player_id": 291,
           "name": "Tarkowski"
         },
         {
           "player_id": 430,
           "name": "Haaland"
+        },
+        {
+          "player_id": 382,
+          "name": "Wirtz"
         },
         {
           "player_id": 450,
@@ -40,16 +40,12 @@
           "name": "Rogers"
         },
         {
-          "player_id": 101,
-          "name": "Kelleher"
-        },
-        {
           "player_id": 226,
           "name": "Chalobah"
         },
         {
-          "player_id": 249,
-          "name": "Jo\u00e3o Pedro"
+          "player_id": 237,
+          "name": "Enzo"
         },
         {
           "player_id": 291,
@@ -62,14 +58,6 @@
         {
           "player_id": 430,
           "name": "Haaland"
-        },
-        {
-          "player_id": 508,
-          "name": "N.Williams"
-        },
-        {
-          "player_id": 691,
-          "name": "Calvert-Lewin"
         }
       ]
     }
