@@ -378,11 +378,10 @@ Capital efficiency is **contextual**, not prescriptive, and should be read along
 High-level numerical indicators for the current squad.
 
 Example:
-```json
+\`\`\`json
 {
   "starter_minutes_risk": 0,
   "availability_risk": 0,
   "free_transfers": 1,
   "bank": 1.2
 }
-

@@ -140,6 +140,77 @@ export interface TransferContext {
   missing_must_haves: MissingMustHave[]
 }
 
+// Player Lens types
+export type CppStatusLens = "MUST-HAVE" | "HOLD" | "WATCH"
+export type ValidationState = "validated" | "emerging"
+export type FormTrajectory = "accelerating" | "stable" | "declining" | null
+export type FixtureOutlook = "easy" | "neutral" | "hard"
+export type EPTrendAlignment = "aligned" | "neutral" | "underperforming"
+export type CeilingIndicator = "high" | "moderate" | null
+
+export interface PlayerLens {
+  analysis_gw: number
+  current_gw: number
+  intelligence: {
+    identity: {
+      player_id: number
+      name: string
+      position: "Goalkeeper" | "Defender" | "Midfielder" | "Forward"
+      team: string
+      price: number
+      ownership: number
+    }
+    analysis_gameweek_data: {
+      points_per_game: number
+      value_form: number
+      recent_points: number | null
+      xgi_per_90: number | null
+      defensive_contribution: number
+    }
+    current_gameweek_data: {
+      ep_this: number
+      ep_next: number
+      fixtures: {
+        opponent_team_code: number
+        was_home: boolean
+        fdr_next_n: number
+      }
+    }
+  }
+  diagnostics: {
+    cpp_status: CppStatusLens
+    validation_state: ValidationState
+    form_trajectory: FormTrajectory
+    risk_profile: {
+      rotation_risk: null | string
+      injury_risk: null | string
+      volatility: null | string
+    }
+    team_context_modifier: null | string
+  }
+  prediction: {
+    fixture_outlook: FixtureOutlook
+    ep_trend_alignment: EPTrendAlignment
+    ceiling_indicator: CeilingIndicator
+    replacement_pressure: null | string
+  }
+  transfer_options: {
+    better_variants: unknown[]
+    value_variants: unknown[]
+    upside_variants: unknown[]
+    structural_swap_paths: unknown[]
+  }
+}
+
+export interface PlayerLensData {
+  meta: {
+    type: string
+    role: string
+    description: string
+  }
+  profiles: PlayerLens[]
+}
+
 // Player Profiles types
 export interface PlayerProfile {
   player_id: number
@@ -152,6 +223,7 @@ export interface PlayerProfile {
   }
   labels: string[]
   narrative: string
+  lens?: PlayerLens
 }
 
 export interface PlayerProfiles {

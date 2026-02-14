@@ -1,6 +1,6 @@
 ## 2️⃣ `team_health.json` — README.md
 
-```markdown
+\`\`\`markdown
 # team_health.json — Squad Health Diagnostic
 
 ## Purpose
@@ -56,7 +56,7 @@ It highlights **conditions**, not **actions**.
 
 ## Top-level structure
 
-```json
+\`\`\`json
 {
   "team_id": ...,
   "gameweek": ...,
