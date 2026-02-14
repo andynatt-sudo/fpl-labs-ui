@@ -32,10 +32,19 @@ export function SquadGrid({ squad, flags, playerLensData }: SquadGridProps) {
   const flaggedPlayerIds = new Set(flags.flatMap(f => f.player_ids))
 
   const handlePlayerClick = (playerId: number) => {
+    console.log("[v0] Player clicked:", playerId)
+    console.log("[v0] playerLensData length:", playerLensData.length)
+    console.log("[v0] First profile:", playerLensData[0])
+    
     const profile = playerLensData.find(p => p.lens?.intelligence.identity.player_id === playerId)
+    console.log("[v0] Found profile:", profile)
+    
     if (profile?.lens) {
+      console.log("[v0] Setting player lens and opening sidebar")
       setSelectedPlayer(profile.lens)
       setSidebarOpen(true)
+    } else {
+      console.log("[v0] No lens data found for player:", playerId)
     }
   }
 
