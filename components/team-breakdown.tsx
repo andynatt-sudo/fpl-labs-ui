@@ -79,7 +79,7 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
           </div>
           <div className="flex items-center gap-1.5">
             <Wallet className="size-4 text-muted-foreground" />
-            <span className="text-foreground font-medium">{summary.bank.toFixed(1)}</span>
+            <span className="text-foreground font-medium">{(summary.bank ?? 0).toFixed(1)}</span>
             <span className="text-muted-foreground">ITB</span>
           </div>
         </div>

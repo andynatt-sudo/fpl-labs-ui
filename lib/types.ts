@@ -208,7 +208,7 @@ export interface PlayerLensData {
     role: string
     description: string
   }
-  profiles: PlayerLens[]
+  profiles: PlayerProfile[]
 }
 
 // Player Profiles types

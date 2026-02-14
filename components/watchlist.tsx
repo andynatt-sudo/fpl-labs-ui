@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Eye } from "lucide-react"
 import { PlayerLensSidebar } from "@/components/player-lens-sidebar"
-import type { WatchlistPlayer, PlayerLens } from "@/lib/types"
+import type { WatchlistPlayer, PlayerLens, PlayerProfile } from "@/lib/types"
 
 interface WatchlistProps {
   watchlist: {
@@ -14,7 +14,7 @@ interface WatchlistProps {
     Goalkeeper?: { budget: WatchlistPlayer[] }
     Midfielder?: { budget: WatchlistPlayer[] }
   } | null | undefined
-  playerLensData: PlayerLens[]
+  playerLensData: PlayerProfile[]
 }
 
 const positionOrder = ["Goalkeeper", "Defender", "Midfielder", "Forward"] as const
@@ -24,9 +24,9 @@ export function Watchlist({ watchlist, playerLensData }: WatchlistProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   const handlePlayerClick = (playerId: number) => {
-    const playerLens = playerLensData.find(p => p.intelligence.identity.player_id === playerId)
-    if (playerLens) {
-      setSelectedPlayer(playerLens)
+    const profile = playerLensData.find(p => p.lens?.intelligence.identity.player_id === playerId)
+    if (profile?.lens) {
+      setSelectedPlayer(profile.lens)
       setSidebarOpen(true)
     }
   }
