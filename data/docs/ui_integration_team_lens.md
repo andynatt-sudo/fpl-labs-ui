@@ -73,4 +73,4 @@ Minimal.
 * Interpret flags  
 * Infer squad risks  
 * Duplicate governance logic  
-All decisions come from backend.  
+All decisions come from backend.

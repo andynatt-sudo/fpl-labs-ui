@@ -63,4 +63,4 @@ No charts for MVP.
 * Infer validation state  
 * Recalculate trends  
 * Override backend classification  
-Backend is authority.  
+Backend is authority.
