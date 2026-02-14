@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip"
 import { ArrowRightLeft, Wallet } from "lucide-react"
 import { TeamDiagnostic } from "@/components/team-diagnostic"
 import type { TeamView, PositionBreakdown, StatusLabel, FixtureStress, PositionStatus } from "@/lib/types"
@@ -60,9 +61,6 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
 
   return (
     <section className="space-y-4">
-      {/* Team Diagnostic */}
-      <TeamDiagnostic data={data} />
-      
       {/* Section Header with Summary */}
       <div className="flex items-center justify-between">
         <div>
@@ -81,11 +79,14 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
           </div>
           <div className="flex items-center gap-1.5">
             <Wallet className="size-4 text-muted-foreground" />
-            <span className="text-foreground font-medium">{summary.bank.toFixed(1)}</span>
+            <span className="text-foreground font-medium">{(summary.bank ?? 0).toFixed(1)}</span>
             <span className="text-muted-foreground">ITB</span>
           </div>
         </div>
       </div>
+
+      {/* Team Diagnostic */}
+      <TeamDiagnostic data={data} />
 
       {/* Squad Grid */}
       <Card className="bg-card/50">
@@ -127,18 +128,44 @@ export function TeamBreakdown({ data }: TeamBreakdownProps) {
                   {/* All Players (Starters + Bench) */}
                   <div className="flex flex-wrap gap-2.5 items-center">
                     {[...starters, ...bench].map((player) => (
-                      <div 
-                        key={player.player_id} 
-                        className="flex items-center gap-2 bg-background/80 rounded-md px-3 py-2 border border-border/40"
-                      >
-                        <span className={`text-sm font-semibold ${statusColors[player.status]}`}>
-                          {player.name}
-                        </span>
-                        <span 
-                          className={`size-2 rounded-full ${fixtureIndicator[player.fixture_stress].color}`}
-                          title={`${player.fixture_stress} fixture`}
-                        />
-                      </div>
+                      <Tooltip key={player.player_id}>
+                        <TooltipTrigger asChild>
+                          <div 
+                            className="flex items-center gap-2 bg-background/80 rounded-md px-3 py-2 border border-border/40 cursor-help"
+                          >
+                            <span className={`text-sm font-semibold ${statusColors[player.status]}`}>
+                              {player.name}
+                            </span>
+                            <span 
+                              className={`size-2 rounded-full ${fixtureIndicator[player.fixture_stress].color}`}
+                            />
+                          </div>
+                        </TooltipTrigger>
+                        <TooltipContent side="top" className="max-w-[240px]">
+                          <div className="space-y-1.5">
+                            <div className="flex items-center justify-between gap-2">
+                              <span className="font-semibold">{player.name}</span>
+                              <Badge variant="outline" className="text-[10px] py-0 px-1.5">
+                                {player.is_starter ? "Starter" : "Bench"}
+                              </Badge>
+                            </div>
+                            <div className="space-y-0.5 text-xs">
+                              <div className="flex justify-between">
+                                <span className="text-muted-foreground">Status:</span>
+                                <span className={statusColors[player.status]}>{player.status}</span>
+                              </div>
+                              <div className="flex justify-between">
+                                <span className="text-muted-foreground">Minutes:</span>
+                                <span>{player.minutes_ok ? "Secure" : "At Risk"}</span>
+                              </div>
+                              <div className="flex justify-between">
+                                <span className="text-muted-foreground">Fixture:</span>
+                                <span className="capitalize">{player.fixture_stress}</span>
+                              </div>
+                            </div>
+                          </div>
+                        </TooltipContent>
+                      </Tooltip>
                     ))}
                   </div>
                 </div>

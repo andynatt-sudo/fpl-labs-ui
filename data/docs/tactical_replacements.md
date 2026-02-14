@@ -59,7 +59,7 @@ These help compare options but do not imply preference.
 
 ## Top-level structure
 
-```json
+\`\`\`json
 {
   "meta": { ... },
   "items": [ ... ]
