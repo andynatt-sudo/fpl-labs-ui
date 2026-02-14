@@ -9839,7 +9839,61 @@
         "reliability": "Watch"
       },
       "labels": [],
-      "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling."
+      "narrative": "HOLD: Value already captured. Role and usage remain stable, offering protection against premature selling.",
+      "lens": {
+        "player_id": 749,
+        "analysis_gw": 25,
+        "current_gw": 26,
+        "intelligence": {
+          "identity": {
+            "player_id": 749,
+            "name": "Man\u00e9",
+            "position": "Forward",
+            "team": "Wolves",
+            "price": 4.6,
+            "ownership": 2.7
+          },
+          "analysis_gameweek_data": {
+            "points_per_game": 3.0,
+            "value_form": 0.4,
+            "recent_points": null,
+            "xgi_per_90": null,
+            "defensive_contribution": 7
+          },
+          "current_gameweek_data": {
+            "ep_this": 2.0,
+            "ep_next": 3.0,
+            "fixtures": {
+              "opponent_team_code": 31,
+              "was_home": false,
+              "fdr_next_n": 1897.7966666666669
+            }
+          }
+        },
+        "diagnostics": {
+          "cpp_status": "HOLD",
+          "validation_state": "validated",
+          "form_trajectory": null,
+          "risk_profile": {
+            "rotation_risk": null,
+            "injury_risk": null,
+            "volatility": null
+          },
+          "team_context_modifier": null
+        },
+        "prediction": {
+          "fixture_outlook": "hard",
+          "ep_trend_alignment": "aligned",
+          "ceiling_indicator": null,
+          "replacement_pressure": null
+        },
+        "transfer_options": {
+          "better_variants": [],
+          "value_variants": [],
+          "upside_variants": [],
+          "structural_swap_paths": []
+        }
+      }
     }
   ]
 }
