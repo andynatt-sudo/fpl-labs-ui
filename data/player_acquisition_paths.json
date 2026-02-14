@@ -4,7 +4,7 @@
     "name": "Enzo",
     "position": "Midfielder",
     "team": "Chelsea",
-    "price": 6.8,
+    "price": 6.9,
     "status": null
   },
   "paths": [
@@ -34,11 +34,11 @@
         "player_id": 237,
         "name": "Enzo",
         "position": "Midfielder",
-        "price": 6.8,
+        "price": 6.9,
         "status": "HOLD",
         "hold": true,
         "must_have": false,
-        "ceiling": "moderate"
+        "ceiling": "high"
       },
       "blocker": {
         "type": "HOLD",
@@ -51,30 +51,10 @@
     {
       "path_type": "DIRECT_SWAP",
       "out_player": {
-        "player_id": 303,
-        "name": "Garner",
-        "position": "Midfielder",
-        "price": 5.2,
-        "status": "HOLD",
-        "hold": true,
-        "must_have": false,
-        "ceiling": "moderate"
-      },
-      "blocker": {
-        "type": "HOLD",
-        "description": "Breaking HOLD protection"
-      },
-      "structural_risk": "MEDIUM",
-      "summary": "Replace Garner to acquire Enzo",
-      "recommended": false
-    },
-    {
-      "path_type": "DIRECT_SWAP",
-      "out_player": {
         "player_id": 382,
         "name": "Wirtz",
         "position": "Midfielder",
-        "price": 8.3,
+        "price": 8.4,
         "status": "HOLD",
         "hold": true,
         "must_have": false,
@@ -91,10 +71,10 @@
     {
       "path_type": "DIRECT_SWAP",
       "out_player": {
-        "player_id": 450,
-        "name": "Cunha",
+        "player_id": 449,
+        "name": "B.Fernandes",
         "position": "Midfielder",
-        "price": 8.0,
+        "price": 9.8,
         "status": "HOLD",
         "hold": true,
         "must_have": false,
@@ -105,7 +85,7 @@
         "description": "Breaking HOLD protection"
       },
       "structural_risk": "MEDIUM",
-      "summary": "Replace Cunha to acquire Enzo",
+      "summary": "Replace B.Fernandes to acquire Enzo",
       "recommended": false
     }
   ]

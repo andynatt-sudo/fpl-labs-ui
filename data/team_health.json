@@ -1,36 +1,27 @@
 {
   "team_id": 2310541,
-  "gameweek": 25,
-  "health_score": 71,
+  "analysis_gameweek": 25,
+  "current_gameweek": 26,
+  "health_score": 80,
   "health_band": "OK",
-  "summary": "Inefficient value distribution is reducing squad resilience.",
+  "performance_state": "above",
+  "performance_driver": "POSITIVE_VARIANCE",
+  "capital_efficiency_state": "stable",
+  "action_pressure": "low",
+  "recommended_posture": "roll_transfer",
   "flags": [
     {
-      "code": "VALUE_TRAP",
-      "severity": "MEDIUM",
+      "code": "DNP_STARTER",
+      "severity": "HIGH",
       "players": [
-        {
-          "player_id": 291,
-          "name": "Tarkowski"
-        },
         {
           "player_id": 430,
           "name": "Haaland"
         },
         {
-          "player_id": 382,
-          "name": "Wirtz"
+          "player_id": 249,
+          "name": "Jo\u00e3o Pedro"
         },
-        {
-          "player_id": 450,
-          "name": "Cunha"
-        }
-      ]
-    },
-    {
-      "code": "LOW_CEILING",
-      "severity": "LOW",
-      "players": [
         {
           "player_id": 36,
           "name": "Cash"
@@ -38,6 +29,10 @@
         {
           "player_id": 47,
           "name": "Rogers"
+        },
+        {
+          "player_id": 101,
+          "name": "Kelleher"
         },
         {
           "player_id": 226,
@@ -56,8 +51,12 @@
           "name": "Garner"
         },
         {
-          "player_id": 430,
-          "name": "Haaland"
+          "player_id": 382,
+          "name": "Wirtz"
+        },
+        {
+          "player_id": 449,
+          "name": "B.Fernandes"
         }
       ]
     }
