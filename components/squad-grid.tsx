@@ -1,11 +1,17 @@
+'use client'
+
+import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip"
+import { PlayerLensSidebar } from "@/components/player-lens-sidebar"
 import type { TeamLensSquad, TeamLensFlag } from "@/lib/types-team-lens"
+import type { PlayerLens, PlayerProfile } from "@/lib/types"
 
 interface SquadGridProps {
   squad: TeamLensSquad
   flags: TeamLensFlag[]
+  playerLensData: PlayerProfile[]
 }
 
 const statusColors = {
@@ -20,8 +26,18 @@ const ceilingColors = {
   LOW: "bg-slate-500/20 text-slate-400 border-slate-500/30",
 }
 
-export function SquadGrid({ squad, flags }: SquadGridProps) {
+export function SquadGrid({ squad, flags, playerLensData }: SquadGridProps) {
+  const [selectedPlayer, setSelectedPlayer] = useState<PlayerLens | null>(null)
+  const [sidebarOpen, setSidebarOpen] = useState(false)
   const flaggedPlayerIds = new Set(flags.flatMap(f => f.player_ids))
+
+  const handlePlayerClick = (playerId: number) => {
+    const profile = playerLensData.find(p => p.lens?.intelligence.identity.player_id === playerId)
+    if (profile?.lens) {
+      setSelectedPlayer(profile.lens)
+      setSidebarOpen(true)
+    }
+  }
 
   return (
     <section className="space-y-4">
@@ -46,10 +62,11 @@ export function SquadGrid({ squad, flags }: SquadGridProps) {
                 <Tooltip key={player.player_id}>
                   <TooltipTrigger asChild>
                     <div 
-                      className={`flex flex-col gap-2 p-3 rounded-lg bg-background/80 border transition-colors ${
+                      onClick={() => handlePlayerClick(player.player_id)}
+                      className={`flex flex-col gap-2 p-3 rounded-lg bg-background/80 border transition-colors cursor-pointer ${
                         isFlagged 
-                          ? "border-rose-500/50 bg-rose-500/5" 
-                          : "border-border/40 hover:border-border"
+                          ? "border-rose-500/50 bg-rose-500/5 hover:bg-rose-500/10" 
+                          : "border-border/40 hover:border-border hover:bg-background"
                       }`}
                     >
                       <div className="flex items-start justify-between gap-2">
@@ -110,8 +127,9 @@ export function SquadGrid({ squad, flags }: SquadGridProps) {
               return (
                 <div 
                   key={player.player_id}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-md bg-background/60 border ${
-                    isFlagged ? "border-rose-500/50" : "border-border/30"
+                  onClick={() => handlePlayerClick(player.player_id)}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-md bg-background/60 border cursor-pointer transition-colors ${
+                    isFlagged ? "border-rose-500/50 hover:bg-rose-500/5" : "border-border/30 hover:bg-background/80"
                   }`}
                 >
                   <span className={`text-sm font-medium ${statusColors[player.status]}`}>
@@ -126,6 +144,12 @@ export function SquadGrid({ squad, flags }: SquadGridProps) {
           </div>
         </CardContent>
       </Card>
+
+      <PlayerLensSidebar 
+        player={selectedPlayer} 
+        open={sidebarOpen} 
+        onOpenChange={setSidebarOpen} 
+      />
     </section>
   )
 }

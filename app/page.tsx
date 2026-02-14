@@ -39,7 +39,7 @@ export default function Home() {
         <FlagsSection flags={teamLens.governance.flags} />
         
         {/* 3. Squad Grid - Starters + Bench */}
-        <SquadGrid squad={teamLens.squad} flags={teamLens.governance.flags} />
+        <SquadGrid squad={teamLens.squad} flags={teamLens.governance.flags} playerLensData={playerLens.profiles} />
         
         {/* 4. Watchlist - Monitored players */}
         {teamLens.watchlist && (
