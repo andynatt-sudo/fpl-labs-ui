@@ -14,7 +14,7 @@ interface WatchlistProps {
     Goalkeeper?: { budget: WatchlistPlayer[] }
     Midfielder?: { budget: WatchlistPlayer[] }
   } | null | undefined
-  playerLensData: PlayerProfile[]
+  playerLensData: Array<{ player_id: number; lens: PlayerLens }>
 }
 
 const positionOrder = ["Goalkeeper", "Defender", "Midfielder", "Forward"] as const
@@ -24,9 +24,9 @@ export function Watchlist({ watchlist, playerLensData }: WatchlistProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   const handlePlayerClick = (playerId: number) => {
-    const profile = playerLensData.find(p => p.lens?.intelligence.identity.player_id === playerId)
-    if (profile?.lens) {
-      setSelectedPlayer(profile.lens)
+    const lensEntry = playerLensData?.find(p => p.player_id === playerId)
+    if (lensEntry?.lens) {
+      setSelectedPlayer(lensEntry.lens)
       setSidebarOpen(true)
     }
   }

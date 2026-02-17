@@ -24,7 +24,7 @@ import type { PlayerProfile, PlayerLens, Reliability, InjuryState } from "@/lib/
 
 interface PlayersTableProps {
   players: PlayerProfile[]
-  playerLensData: PlayerProfile[]
+  playerLensData: Array<{ player_id: number; lens: PlayerLens }>
 }
 
 type SortKey = "web_name" | "position" | "team" | "price" | "ownership" | "reliability"
@@ -53,9 +53,9 @@ export function PlayersTable({ players, playerLensData }: PlayersTableProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   const handlePlayerClick = (playerId: number) => {
-    const profile = playerLensData.find(p => p.lens?.intelligence.identity.player_id === playerId)
-    if (profile?.lens) {
-      setSelectedPlayer(profile.lens)
+    const lensEntry = playerLensData?.find(p => p.player_id === playerId)
+    if (lensEntry?.lens) {
+      setSelectedPlayer(lensEntry.lens)
       setSidebarOpen(true)
     }
   }

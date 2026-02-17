@@ -11,7 +11,7 @@ import type { PlayerLens, PlayerProfile } from "@/lib/types"
 interface SquadGridProps {
   squad: TeamLensSquad
   flags: TeamLensFlag[]
-  playerLensData: PlayerProfile[]
+  playerLensData: Array<{ player_id: number; lens: PlayerLens }>
 }
 
 const statusColors = {
@@ -32,13 +32,12 @@ export function SquadGrid({ squad, flags, playerLensData }: SquadGridProps) {
   const flaggedPlayerIds = new Set(flags.flatMap(f => f.player_ids))
 
   const handlePlayerClick = (playerId: number) => {
-    const profile = playerLensData.find(p => p.lens?.intelligence.identity.player_id === playerId)
+    const lensEntry = playerLensData?.find(p => p.player_id === playerId)
     
-    if (profile?.lens) {
-      setSelectedPlayer(profile.lens)
+    if (lensEntry?.lens) {
+      setSelectedPlayer(lensEntry.lens)
       setSidebarOpen(true)
     }
-    // Note: Lens data may not be available for all players yet
   }
 
   return (

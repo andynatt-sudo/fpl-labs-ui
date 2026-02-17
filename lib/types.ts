@@ -205,10 +205,9 @@ export interface PlayerLens {
 export interface PlayerLensData {
   meta: {
     type: string
-    role: string
     description: string
   }
-  profiles: PlayerProfile[]
+  players: Record<string, PlayerLens>
 }
 
 // Player Profiles types (presentation surface from player_profiles.json)
