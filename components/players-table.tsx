@@ -49,13 +49,17 @@ export function PlayersTable({ players, playerLensData }: PlayersTableProps) {
   const [reliabilityFilter, setReliabilityFilter] = useState<string>("all")
   const [sortKey, setSortKey] = useState<SortKey>("ownership")
   const [sortDirection, setSortDirection] = useState<SortDirection>("desc")
-  const [selectedPlayer, setSelectedPlayer] = useState<PlayerLens | null>(null)
+  const [selectedProfile, setSelectedProfile] = useState<PlayerProfile | null>(null)
+  const [selectedLens, setSelectedLens] = useState<PlayerLens | null>(null)
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   const handlePlayerClick = (playerId: number) => {
+    const profile = players.find(p => p.player_id === playerId)
     const lensEntry = playerLensData?.find(p => p.player_id === playerId)
-    if (lensEntry?.lens) {
-      setSelectedPlayer(lensEntry.lens)
+    
+    if (profile && lensEntry?.lens) {
+      setSelectedProfile(profile)
+      setSelectedLens(lensEntry.lens)
       setSidebarOpen(true)
     }
   }
@@ -249,7 +253,8 @@ export function PlayersTable({ players, playerLensData }: PlayersTableProps) {
       </div>
 
       <PlayerLensSidebar 
-        player={selectedPlayer} 
+        profile={selectedProfile}
+        lens={selectedLens}
         open={sidebarOpen} 
         onOpenChange={setSidebarOpen} 
       />

@@ -152,14 +152,6 @@ export interface PlayerLens {
   analysis_gw: number
   current_gw: number
   intelligence: {
-    identity: {
-      player_id: number
-      name: string
-      position: "Goalkeeper" | "Defender" | "Midfielder" | "Forward"
-      team: string
-      price: number
-      ownership: number
-    }
     analysis_gameweek_data: {
       points_per_game: number
       value_form: number

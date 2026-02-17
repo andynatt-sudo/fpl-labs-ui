@@ -2,18 +2,19 @@
 
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { Badge } from "@/components/ui/badge"
-import type { PlayerLens } from "@/lib/types"
+import type { PlayerLens, PlayerProfile } from "@/lib/types"
 
 interface PlayerLensSidebarProps {
-  player: PlayerLens | null
+  profile: PlayerProfile | null
+  lens: PlayerLens | null
   open: boolean
   onOpenChange: (open: boolean) => void
 }
 
-export function PlayerLensSidebar({ player, open, onOpenChange }: PlayerLensSidebarProps) {
-  if (!player) return null
+export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerLensSidebarProps) {
+  if (!profile || !lens) return null
 
-  const { intelligence, diagnostics, prediction } = player
+  const { intelligence, diagnostics, prediction } = lens
 
   // Badge color mappings
   const statusColors: Record<string, string> = {
@@ -48,15 +49,15 @@ export function PlayerLensSidebar({ player, open, onOpenChange }: PlayerLensSide
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent side="right" className="w-full sm:w-[30%] sm:max-w-none overflow-y-auto">
         <SheetHeader>
-          <SheetTitle className="text-2xl">{intelligence.identity.name}</SheetTitle>
+          <SheetTitle className="text-2xl">{profile.web_name}</SheetTitle>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>{intelligence.identity.position}</span>
+            <span>{profile.position}</span>
             <span>•</span>
-            <span>{intelligence.identity.team}</span>
+            <span>{profile.team}</span>
           </div>
           <div className="flex items-center gap-3 mt-2 text-sm">
-            <span className="font-semibold">£{intelligence.identity.price}m</span>
-            <span className="text-muted-foreground">{intelligence.identity.ownership}% owned</span>
+            <span className="font-semibold">£{profile.price}m</span>
+            <span className="text-muted-foreground">{profile.ownership}% owned</span>
           </div>
         </SheetHeader>
 

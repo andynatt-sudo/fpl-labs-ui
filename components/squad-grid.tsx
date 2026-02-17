@@ -11,6 +11,7 @@ import type { PlayerLens, PlayerProfile } from "@/lib/types"
 interface SquadGridProps {
   squad: TeamLensSquad
   flags: TeamLensFlag[]
+  playerProfiles: PlayerProfile[]
   playerLensData: Array<{ player_id: number; lens: PlayerLens }>
 }
 
@@ -26,16 +27,19 @@ const ceilingColors = {
   LOW: "bg-slate-500/20 text-slate-400 border-slate-500/30",
 }
 
-export function SquadGrid({ squad, flags, playerLensData }: SquadGridProps) {
-  const [selectedPlayer, setSelectedPlayer] = useState<PlayerLens | null>(null)
+export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: SquadGridProps) {
+  const [selectedProfile, setSelectedProfile] = useState<PlayerProfile | null>(null)
+  const [selectedLens, setSelectedLens] = useState<PlayerLens | null>(null)
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const flaggedPlayerIds = new Set(flags.flatMap(f => f.player_ids))
 
   const handlePlayerClick = (playerId: number) => {
+    const profile = playerProfiles.find(p => p.player_id === playerId)
     const lensEntry = playerLensData?.find(p => p.player_id === playerId)
     
-    if (lensEntry?.lens) {
-      setSelectedPlayer(lensEntry.lens)
+    if (profile && lensEntry?.lens) {
+      setSelectedProfile(profile)
+      setSelectedLens(lensEntry.lens)
       setSidebarOpen(true)
     }
   }
@@ -147,7 +151,8 @@ export function SquadGrid({ squad, flags, playerLensData }: SquadGridProps) {
       </Card>
 
       <PlayerLensSidebar 
-        player={selectedPlayer} 
+        profile={selectedProfile}
+        lens={selectedLens}
         open={sidebarOpen} 
         onOpenChange={setSidebarOpen} 
       />

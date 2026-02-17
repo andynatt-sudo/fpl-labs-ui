@@ -43,7 +43,12 @@ export default function Home() {
         <FlagsSection flags={teamLens.governance.flags} />
         
         {/* 3. Squad Grid - Starters + Bench */}
-        <SquadGrid squad={teamLens.squad} flags={teamLens.governance.flags} playerLensData={playerLensArray} />
+        <SquadGrid 
+          squad={teamLens.squad} 
+          flags={teamLens.governance.flags} 
+          playerProfiles={playerProfiles.players}
+          playerLensData={playerLensArray} 
+        />
         
         {/* 4. Dashboard Table - All players from player_profiles.json */}
         <section className="space-y-3">
@@ -53,7 +58,11 @@ export default function Home() {
         
         {/* 5. Watchlist - Monitored players */}
         {teamLens.watchlist && (
-          <Watchlist watchlist={teamLens.watchlist} playerLensData={playerLensArray} />
+          <Watchlist 
+            watchlist={teamLens.watchlist} 
+            playerProfiles={playerProfiles.players}
+            playerLensData={playerLensArray} 
+          />
         )}
         
         {/* 6. Optional Actions - Below the fold */}

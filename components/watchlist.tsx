@@ -14,19 +14,24 @@ interface WatchlistProps {
     Goalkeeper?: { budget: WatchlistPlayer[] }
     Midfielder?: { budget: WatchlistPlayer[] }
   } | null | undefined
+  playerProfiles: PlayerProfile[]
   playerLensData: Array<{ player_id: number; lens: PlayerLens }>
 }
 
 const positionOrder = ["Goalkeeper", "Defender", "Midfielder", "Forward"] as const
 
-export function Watchlist({ watchlist, playerLensData }: WatchlistProps) {
-  const [selectedPlayer, setSelectedPlayer] = useState<PlayerLens | null>(null)
+export function Watchlist({ watchlist, playerProfiles, playerLensData }: WatchlistProps) {
+  const [selectedProfile, setSelectedProfile] = useState<PlayerProfile | null>(null)
+  const [selectedLens, setSelectedLens] = useState<PlayerLens | null>(null)
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   const handlePlayerClick = (playerId: number) => {
+    const profile = playerProfiles.find(p => p.player_id === playerId)
     const lensEntry = playerLensData?.find(p => p.player_id === playerId)
-    if (lensEntry?.lens) {
-      setSelectedPlayer(lensEntry.lens)
+    
+    if (profile && lensEntry?.lens) {
+      setSelectedProfile(profile)
+      setSelectedLens(lensEntry.lens)
       setSidebarOpen(true)
     }
   }
@@ -96,7 +101,8 @@ export function Watchlist({ watchlist, playerLensData }: WatchlistProps) {
       </div>
 
       <PlayerLensSidebar 
-        player={selectedPlayer} 
+        profile={selectedProfile}
+        lens={selectedLens}
         open={sidebarOpen} 
         onOpenChange={setSidebarOpen} 
       />
