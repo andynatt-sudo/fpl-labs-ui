@@ -27,7 +27,7 @@ Team View is built from three upstream sources:
   - gameweek
 ## Output Schema (v0)
 
-```json
+\`\`\`json
 {
   "team_id": 2310541,
   "gameweek": 26,
@@ -53,12 +53,12 @@ Team View is built from three upstream sources:
 
 Be very explicit here.
 
-```md
+\`\`\`md
 ## Player Block
 
 Each player in `starters` or `bench` has the following shape:
 
-```json
+\`\`\`json
 {
   "player_id": 430,
   "name": "Haaland",
@@ -87,4 +87,3 @@ Future versions may introduce:
 - richer diagnostics
 
 These will be additive and will not override CPP or local status.
-

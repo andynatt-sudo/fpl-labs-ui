@@ -211,16 +211,34 @@ export interface PlayerLensData {
   profiles: PlayerProfile[]
 }
 
-// Player Profiles types
+// Player Profiles types (presentation surface from player_profiles.json)
+export type InjuryState = "AVAILABLE" | "DOUBTFUL" | "INJURED" | "SUSPENDED" | "UNKNOWN"
+export type Reliability = "Must-Have" | "Hold" | "Watch"
+
+export interface PlayerProfileInjury {
+  state: InjuryState
+  chance_next_gw: number | null
+  news: string | null
+}
+
+export interface PlayerProfileData {
+  role: string
+  minutes: string
+  scoring: string
+  reliability: Reliability
+}
+
 export interface PlayerProfile {
   player_id: number
   web_name: string
-  profile: {
-    role: string
-    minutes: string
-    scoring: string
-    reliability: string
-  }
+  full_name: string | null
+  team: string
+  team_code: number
+  position: string
+  price: number
+  ownership: number
+  injury: PlayerProfileInjury
+  profile: PlayerProfileData
   labels: string[]
   narrative: string
   lens?: PlayerLens
@@ -229,10 +247,9 @@ export interface PlayerProfile {
 export interface PlayerProfiles {
   meta: {
     type: string
-    role: string
     description: string
   }
-  profiles: PlayerProfile[]
+  players: PlayerProfile[]
 }
 
 // Tactical Replacements types
