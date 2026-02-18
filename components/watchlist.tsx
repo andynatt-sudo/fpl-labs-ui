@@ -1,7 +1,11 @@
+'use client'
+
+import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Eye } from "lucide-react"
-import type { WatchlistPlayer } from "@/lib/types"
+import { PlayerLensSidebar } from "@/components/player-lens-sidebar"
+import type { WatchlistPlayer, PlayerLens, PlayerProfile } from "@/lib/types"
 
 interface WatchlistProps {
   watchlist: {
@@ -10,11 +14,28 @@ interface WatchlistProps {
     Goalkeeper?: { budget: WatchlistPlayer[] }
     Midfielder?: { budget: WatchlistPlayer[] }
   } | null | undefined
+  playerProfiles: PlayerProfile[]
+  playerLensData: Array<{ player_id: number; lens: PlayerLens }>
 }
 
 const positionOrder = ["Goalkeeper", "Defender", "Midfielder", "Forward"] as const
 
-export function Watchlist({ watchlist }: WatchlistProps) {
+export function Watchlist({ watchlist, playerProfiles, playerLensData }: WatchlistProps) {
+  const [selectedProfile, setSelectedProfile] = useState<PlayerProfile | null>(null)
+  const [selectedLens, setSelectedLens] = useState<PlayerLens | null>(null)
+  const [sidebarOpen, setSidebarOpen] = useState(false)
+
+  const handlePlayerClick = (playerId: number) => {
+    const profile = playerProfiles.find(p => p.player_id === playerId)
+    const lensEntry = playerLensData?.find(p => p.player_id === playerId)
+    
+    if (profile && lensEntry?.lens) {
+      setSelectedProfile(profile)
+      setSelectedLens(lensEntry.lens)
+      setSidebarOpen(true)
+    }
+  }
+
   if (!watchlist) {
     return null
   }
@@ -58,7 +79,8 @@ export function Watchlist({ watchlist }: WatchlistProps) {
                   {players.map((player) => (
                     <div
                       key={player.id}
-                      className="flex items-start justify-between gap-3 p-2 rounded bg-background/50"
+                      onClick={() => handlePlayerClick(player.id)}
+                      className="flex items-start justify-between gap-3 p-2 rounded bg-background/50 hover:bg-background/80 cursor-pointer transition-colors"
                     >
                       <div className="flex-1 min-w-0">
                         <div className="font-medium text-sm">{player.name}</div>
@@ -77,6 +99,13 @@ export function Watchlist({ watchlist }: WatchlistProps) {
           )
         })}
       </div>
+
+      <PlayerLensSidebar 
+        profile={selectedProfile}
+        lens={selectedLens}
+        open={sidebarOpen} 
+        onOpenChange={setSidebarOpen} 
+      />
     </section>
   )
 }

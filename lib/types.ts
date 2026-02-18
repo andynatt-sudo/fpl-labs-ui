@@ -96,6 +96,17 @@ export interface WatchlistPlayer {
   display_score: number
 }
 
+export interface TeamDiagnostic {
+  recent_performance: string
+  primary_driver: string
+  action_pressure: string
+  recommended_posture: string
+  capital_efficiency: {
+    low_ceiling_share: number
+    summary: string
+  }
+}
+
 export interface TeamView {
   summary: TeamViewSummary
   by_position: {
@@ -105,6 +116,7 @@ export interface TeamView {
     Forward: PositionBreakdown
   }
   structural_notes: string[]
+  team_diagnostic?: TeamDiagnostic
   watchlist?: {
     Defender?: { budget: WatchlistPlayer[] }
     Forward?: { budget: WatchlistPlayer[] }
@@ -128,27 +140,107 @@ export interface TransferContext {
   missing_must_haves: MissingMustHave[]
 }
 
-// Player Profiles types
+// Player Lens types
+export type CppStatusLens = "MUST-HAVE" | "HOLD" | "WATCH"
+export type ValidationState = "validated" | "emerging"
+export type FormTrajectory = "accelerating" | "stable" | "declining" | null
+export type FixtureOutlook = "easy" | "neutral" | "hard"
+export type EPTrendAlignment = "aligned" | "neutral" | "underperforming"
+export type CeilingIndicator = "high" | "moderate" | null
+
+export interface PlayerLens {
+  analysis_gw: number
+  current_gw: number
+  intelligence: {
+    analysis_gameweek_data: {
+      points_per_game: number
+      value_form: number
+      recent_points: number | null
+      xgi_per_90: number | null
+      defensive_contribution: number
+    }
+    current_gameweek_data: {
+      ep_this: number
+      ep_next: number
+      fixtures: {
+        opponent_team_code: number
+        was_home: boolean
+        fdr_next_n: number
+      }
+    }
+  }
+  diagnostics: {
+    cpp_status: CppStatusLens
+    validation_state: ValidationState
+    form_trajectory: FormTrajectory
+    risk_profile: {
+      rotation_risk: null | string
+      injury_risk: null | string
+      volatility: null | string
+    }
+    team_context_modifier: null | string
+  }
+  prediction: {
+    fixture_outlook: FixtureOutlook
+    ep_trend_alignment: EPTrendAlignment
+    ceiling_indicator: CeilingIndicator
+    replacement_pressure: null | string
+  }
+  transfer_options: {
+    better_variants: unknown[]
+    value_variants: unknown[]
+    upside_variants: unknown[]
+    structural_swap_paths: unknown[]
+  }
+}
+
+export interface PlayerLensData {
+  meta: {
+    type: string
+    description: string
+  }
+  players: Record<string, PlayerLens>
+}
+
+// Player Profiles types (presentation surface from player_profiles.json)
+export type InjuryState = "AVAILABLE" | "DOUBTFUL" | "INJURED" | "SUSPENDED" | "UNKNOWN"
+export type Reliability = "Must-Have" | "Hold" | "Watch"
+
+export interface PlayerProfileInjury {
+  state: InjuryState
+  chance_next_gw: number | null
+  news: string | null
+}
+
+export interface PlayerProfileData {
+  role: string
+  minutes: string
+  scoring: string
+  reliability: Reliability
+}
+
 export interface PlayerProfile {
   player_id: number
   web_name: string
-  profile: {
-    role: string
-    minutes: string
-    scoring: string
-    reliability: string
-  }
+  full_name: string | null
+  team: string
+  team_code: number
+  position: string
+  price: number
+  ownership: number
+  injury: PlayerProfileInjury
+  profile: PlayerProfileData
   labels: string[]
   narrative: string
+  lens?: PlayerLens
 }
 
 export interface PlayerProfiles {
   meta: {
     type: string
-    role: string
     description: string
   }
-  profiles: PlayerProfile[]
+  players: PlayerProfile[]
 }
 
 // Tactical Replacements types

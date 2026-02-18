@@ -8,18 +8,18 @@ FPL Labs separates analytical outputs into structured “lenses”:
 * **Dashboard Lens** → Presentation wrapper for UI  
 * **Transfer Engines** → Strategic execution layer  
 Each lens follows:  
-```
+\`\`\`
 
 Intelligence → Diagnostics → Prediction
 
-```
+\`\`\`
 No lens may override governance state outside its scope.  
   
 ## 2. Player Surfaces  
 Player data is split into two surfaces:  
 ## 2.1 player_profiles.json (Presentation Layer)  
 Lightweight identity and narrative surface.  
-```
+\`\`\`
 
 {
   player_id
@@ -45,7 +45,7 @@ Lightweight identity and narrative surface.
   narrative
 }
 
-```
+\`\`\`
 This file:  
 * Is UI-first  
 * Contains no analytics  
@@ -54,7 +54,7 @@ This file:
   
 ## 2.2 player_lens.json (Analytics Layer)  
 Keyed by player_id.  
-```
+\`\`\`
 
 {
   "player_id": {
@@ -67,7 +67,7 @@ Keyed by player_id.
   }
 }
 
-```
+\`\`\`
 This file:  
 * Is analytics-first  
 * May grow in size  
@@ -77,7 +77,7 @@ This file:
 ## 3. Player Lens Schema  
 ## 3.1 Intelligence Layer  
 Raw and derived metrics.  
-```
+\`\`\`
 
 intelligence {
   analysis_gameweek_data {
@@ -99,12 +99,12 @@ intelligence {
   }
 }
 
-```
+\`\`\`
 Intelligence does not interpret — it exposes signals.  
   
 ## 3.2 Diagnostics Layer  
 Structured classification.  
-```
+\`\`\`
 
 diagnostics {
   cpp_status
@@ -117,7 +117,7 @@ diagnostics {
   }
 }
 
-```
+\`\`\`
 Diagnostics interprets Intelligence without forecasting.  
   
 ## 3.3 Risk Pillar (v2.1)  
@@ -128,13 +128,13 @@ It must:
 * Never override CPP classification  
 * Never modify governance logic  
 ## Categories  
-```
+\`\`\`
 
 injury_risk    → out | high | moderate | low | unknown
 rotation_risk  → high | moderate | low | unknown
 volatility     → high | moderate | low | unknown
 
-```
+\`\`\`
 ## Interpretation  
 * **Injury Risk** → Availability probability  
 * **Rotation Risk** → Start consistency / minutes reliability  
@@ -143,7 +143,7 @@ Risk contextualizes output.Risk does not change structural posture.
   
 ## 3.4 Prediction Layer  
 Forward-facing interpretation.  
-```
+\`\`\`
 
 prediction {
   fixture_outlook
@@ -151,12 +151,12 @@ prediction {
   ceiling_indicator
 }
 
-```
+\`\`\`
 Prediction may reference Intelligence and Diagnostics.Prediction may not override Governance.  
   
 ## 3.5 Transfer Options Layer  
 Strategic suggestions.  
-```
+\`\`\`
 
 transfer_options {
   better_variants[]
@@ -165,12 +165,12 @@ transfer_options {
   structural_swap_paths[]
 }
 
-```
+\`\`\`
 Optional and contextual.May be empty.Always structurally present.  
   
 ## 4. Team Lens  
 Team Lens is the governance surface.  
-```
+\`\`\`
 
 team_lens {
   squad { starters[], bench[] }
@@ -182,7 +182,7 @@ team_lens {
   projection { ... }
 }
 
-```
+\`\`\`
 Team Lens:  
 * Controls governance state  
 * Does not depend on Player Lens predictions  
@@ -219,5 +219,4 @@ This prevents UI instability and schema corruption.
 * Removed unused diagnostic scaffolding  
 ## v2.0  
 * Introduced multi-lens separation  
-* Formalised Player Diagnostics and Prediction layers  
-  
+* Formalised Player Diagnostics and Prediction layers

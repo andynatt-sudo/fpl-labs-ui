@@ -2,7 +2,7 @@
 **Purpose:**Team Health defines short-term system stability and risk posture.It does not recommend specific players.  
   
 ## 🔹 JSON Contract  
-```
+\`\`\`
 
 {
   "team_id": int,
@@ -28,30 +28,30 @@
   ]
 }
 
-```
+\`\`\`
   
 ## 🔹 Field Definitions  
-```
+\`\`\`
 analysis_gameweek
 
-```
+\`\`\`
 Last completed GW used for evaluation.  
-```
+\`\`\`
 current_gameweek
 
-```
+\`\`\`
 Live FPL GW (may be incomplete).  
   
-```
+\`\`\`
 health_score
 
-```
+\`\`\`
 0–100 structural stability score.  
   
-```
+\`\`\`
 health_band
 
-```
+\`\`\`
 
 | Score  | Band      |
 | ------ | --------- |
@@ -60,10 +60,10 @@ health_band
 | 50–69  | FRAGILE   |
 | <50    | AT RISK   |
   
-```
+\`\`\`
 performance_state
 
-```
+\`\`\`
 Derived from points delta vs GW average (last 3 GWs).  
 
 | Value | Meaning                            |
@@ -74,10 +74,10 @@ Derived from points delta vs GW average (last 3 GWs).
   
 Percentile rank is NOT used.  
   
-```
+\`\`\`
 performance_driver
 
-```
+\`\`\`
 Explains why performance_state exists.  
 
 | Driver            | Meaning                           |
@@ -88,10 +88,10 @@ Explains why performance_state exists.
 | POSITIVE_VARIANCE | Overperformance vs expectation    |
 | BALANCED          | No dominant signal                |
   
-```
+\`\`\`
 capital_efficiency_state
 
-```
+\`\`\`
 
 | State        | Meaning                         |
 | ------------ | ------------------------------- |
@@ -99,10 +99,10 @@ capital_efficiency_state
 | fragmented   | Expensive low-ceiling assets    |
 | concentrated | Heavy spend concentration       |
   
-```
+\`\`\`
 action_pressure
 
-```
+\`\`\`
 Risk urgency level.  
 
 | Value  | Meaning                          |
@@ -111,10 +111,10 @@ Risk urgency level.
 | medium | Controlled move advised          |
 | high   | Structural intervention required |
   
-```
+\`\`\`
 recommended_posture
 
-```
+\`\`\`
 Risk stance only — NOT player advice.  
 
 | Value          | Meaning                    |
@@ -123,10 +123,10 @@ Risk stance only — NOT player advice.
 | selective_move | Targeted improvement       |
 | restructure    | Larger correction          |
   
-```
+\`\`\`
 flags
 
-```
+\`\`\`
 Structural warnings only.  
   
 ## 🔹 Explicit Non-Features  
@@ -139,17 +139,17 @@ Team Health does NOT:
   
 ## 📘 2️⃣ TEAM DIAGNOSTIC — Updated Contract  
 Update:  
-```
+\`\`\`
 
 team_diagnostic.md
 
-```
+\`\`\`
   
 ## 🧠 Team Diagnostic (Narrative Layer)  
 **Purpose:**Explain governance state. Does not compute governance.  
   
 ## 🔹 JSON Contract  
-```
+\`\`\`
 
 {
   "recent_performance": "above | flat | below",
@@ -168,7 +168,7 @@ team_diagnostic.md
   "capital_efficiency": "stable | fragmented | concentrated"
 }
 
-```
+\`\`\`
   
 ## 🔹 Important Boundary  
 Diagnostics:  
@@ -185,12 +185,12 @@ Add to docs:
 * analysis_gameweek = Last completed GW used for analytics  
 Example:  
 If GW26 is live:  
-```
+\`\`\`
 
 current_gameweek = 26
 analysis_gameweek = 25
 
-```
+\`\`\`
 UI may display:  
 “GW26 Dashboard (Based on GW25 Results)”  
 “GW26 Dashboard (Based on GW25 Results)”  
@@ -212,7 +212,7 @@ Add a "Breaking Changes" section.
   
 ## 📘 5️⃣ Architecture Diagram (Add To Docs)  
 Add this section for other agents:  
-```
+\`\`\`
 
 CPP → Player classification
 Team Health → Governance (risk posture)
@@ -221,16 +221,16 @@ Transfers → Candidate generation
 Scoring → Player ranking
 UI → Presentation
 
-```
+\`\`\`
 No cross-layer ownership.  
   
 ## 📘 6️⃣ Changelog For Other Agents  
 Create:  
-```
+\`\`\`
 
 CHANGELOG_GOVERNANCE_REFACTOR.md
 
-```
+\`\`\`
 Include:  
   
 ## Governance Refactor (v3)  
@@ -250,4 +250,4 @@ Agents must NOT:
 * Import team_health module directly  
 * Compute posture outside Team Health  
 * Use percentile for governance logic  
-* Inject team_health fields into report dataframe  
+* Inject team_health fields into report dataframe
