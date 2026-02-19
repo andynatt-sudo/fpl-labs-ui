@@ -13,7 +13,7 @@
     },
     "signals": {
       "attack_bias": true,
-      "defence_bias": true
+      "defence_bias": false
     }
   },
   {
@@ -29,8 +29,8 @@
       "top_player": "Calvert-Lewin"
     },
     "signals": {
-      "attack_bias": true,
-      "defence_bias": true
+      "attack_bias": false,
+      "defence_bias": false
     }
   },
   {
@@ -63,7 +63,7 @@
       "top_player": "Bruno G."
     },
     "signals": {
-      "attack_bias": true,
+      "attack_bias": false,
       "defence_bias": true
     }
   },
@@ -80,8 +80,8 @@
       "top_player": "Van de Ven"
     },
     "signals": {
-      "attack_bias": true,
-      "defence_bias": true
+      "attack_bias": false,
+      "defence_bias": false
     }
   },
   {
@@ -97,8 +97,8 @@
       "top_player": "Rogers"
     },
     "signals": {
-      "attack_bias": true,
-      "defence_bias": true
+      "attack_bias": false,
+      "defence_bias": false
     }
   },
   {
@@ -131,7 +131,7 @@
       "top_player": "Pickford"
     },
     "signals": {
-      "attack_bias": true,
+      "attack_bias": false,
       "defence_bias": true
     }
   },
@@ -166,7 +166,7 @@
     },
     "signals": {
       "attack_bias": true,
-      "defence_bias": true
+      "defence_bias": false
     }
   },
   {
@@ -182,8 +182,8 @@
       "top_player": "Bowen"
     },
     "signals": {
-      "attack_bias": true,
-      "defence_bias": true
+      "attack_bias": false,
+      "defence_bias": false
     }
   },
   {
@@ -199,7 +199,7 @@
       "top_player": "Mateta"
     },
     "signals": {
-      "attack_bias": true,
+      "attack_bias": false,
       "defence_bias": true
     }
   },
@@ -216,8 +216,8 @@
       "top_player": "Verbruggen"
     },
     "signals": {
-      "attack_bias": true,
-      "defence_bias": true
+      "attack_bias": false,
+      "defence_bias": false
     }
   },
   {
@@ -233,8 +233,8 @@
       "top_player": "Man\u00e9"
     },
     "signals": {
-      "attack_bias": true,
-      "defence_bias": true
+      "attack_bias": false,
+      "defence_bias": false
     }
   },
   {
@@ -284,8 +284,8 @@
       "top_player": "Mukiele"
     },
     "signals": {
-      "attack_bias": true,
-      "defence_bias": true
+      "attack_bias": false,
+      "defence_bias": false
     }
   },
   {
@@ -301,8 +301,8 @@
       "top_player": "D\u00fabravka"
     },
     "signals": {
-      "attack_bias": true,
-      "defence_bias": true
+      "attack_bias": false,
+      "defence_bias": false
     }
   },
   {
@@ -319,7 +319,7 @@
     },
     "signals": {
       "attack_bias": true,
-      "defence_bias": true
+      "defence_bias": false
     }
   },
   {
@@ -336,7 +336,7 @@
     },
     "signals": {
       "attack_bias": true,
-      "defence_bias": true
+      "defence_bias": false
     }
   }
 ]
