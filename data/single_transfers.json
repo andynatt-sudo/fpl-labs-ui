@@ -3,45 +3,102 @@
   "gameweek": 26,
   "meta": {
     "type": "single_transfers",
-    "outgoing_player": "Jo\u00e3o Pedro Junqueira de Jesus"
+    "outgoing_player": "Neco Williams"
   },
   "recommendations": [
     {
       "out_player": {
-        "name": "Jo\u00e3o Pedro",
-        "team": "Chelsea",
-        "price": 0.8,
-        "position": "Forward"
+        "name": "N.Williams",
+        "team": "Nott'm Forest",
+        "price": 0.5,
+        "position": "Defender"
       },
       "in_player": {
-        "name": "Ekitik\u00e9",
+        "name": "Konat\u00e9",
         "team": "Liverpool",
-        "price": 0.9,
-        "position": "Forward"
+        "price": 0.5,
+        "position": "Defender"
       },
       "price_delta": 0.1,
-      "net_gain": 0.13,
-      "efficiency": 0.1,
-      "transfer_score": 0.341,
+      "net_gain": 0.38,
+      "efficiency": 0.54,
+      "transfer_score": 0.527,
       "transfer_type": "PERFORMANCE_UPGRADE"
     },
     {
       "out_player": {
-        "name": "Jo\u00e3o Pedro",
-        "team": "Chelsea",
-        "price": 0.8,
-        "position": "Forward"
+        "name": "N.Williams",
+        "team": "Nott'm Forest",
+        "price": 0.5,
+        "position": "Defender"
       },
       "in_player": {
-        "name": "Watkins",
-        "team": "Aston Villa",
-        "price": 0.9,
-        "position": "Forward"
+        "name": "Mu\u00f1oz",
+        "team": "Crystal Palace",
+        "price": 0.6,
+        "position": "Defender"
       },
       "price_delta": 0.1,
-      "net_gain": 0.03,
-      "efficiency": 0.03,
-      "transfer_score": 0.15,
+      "net_gain": 0.36,
+      "efficiency": 0.33,
+      "transfer_score": 0.51,
+      "transfer_type": "PERFORMANCE_UPGRADE"
+    },
+    {
+      "out_player": {
+        "name": "N.Williams",
+        "team": "Nott'm Forest",
+        "price": 0.5,
+        "position": "Defender"
+      },
+      "in_player": {
+        "name": "Senesi",
+        "team": "Bournemouth",
+        "price": 0.5,
+        "position": "Defender"
+      },
+      "price_delta": 0.0,
+      "net_gain": 0.36,
+      "efficiency": 3.55,
+      "transfer_score": 0.494,
+      "transfer_type": "PERFORMANCE_UPGRADE"
+    },
+    {
+      "out_player": {
+        "name": "N.Williams",
+        "team": "Nott'm Forest",
+        "price": 0.5,
+        "position": "Defender"
+      },
+      "in_player": {
+        "name": "Matheus N.",
+        "team": "Man City",
+        "price": 0.5,
+        "position": "Defender"
+      },
+      "price_delta": 0.1,
+      "net_gain": 0.33,
+      "efficiency": 0.47,
+      "transfer_score": 0.465,
+      "transfer_type": "PERFORMANCE_UPGRADE"
+    },
+    {
+      "out_player": {
+        "name": "N.Williams",
+        "team": "Nott'm Forest",
+        "price": 0.5,
+        "position": "Defender"
+      },
+      "in_player": {
+        "name": "Gu\u00e9hi",
+        "team": "Man City",
+        "price": 0.5,
+        "position": "Defender"
+      },
+      "price_delta": 0.1,
+      "net_gain": 0.32,
+      "efficiency": 0.64,
+      "transfer_score": 0.449,
       "transfer_type": "PERFORMANCE_UPGRADE"
     }
   ]

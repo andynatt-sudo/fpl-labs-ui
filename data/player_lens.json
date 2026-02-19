@@ -69,8 +69,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -167,7 +167,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "high"
+        "ceiling_indicator": "moderate"
       },
       "transfer_options": {
         "better_variants": [],
@@ -499,7 +499,7 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
+        "cpp_status": "MUST-HAVE",
         "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
@@ -511,7 +511,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -1144,8 +1144,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -1230,8 +1230,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -1359,8 +1359,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -1402,8 +1402,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "accelerating",
         "risk_profile": {
           "rotation_risk": "low",
@@ -1837,7 +1837,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "moderate",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -3337,8 +3337,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -3681,8 +3681,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -3693,7 +3693,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "aligned",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -3724,8 +3724,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -3736,7 +3736,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "aligned",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -4111,8 +4111,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -4123,7 +4123,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "aligned",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -4283,8 +4283,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -4295,7 +4295,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "aligned",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -4670,8 +4670,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -4756,8 +4756,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -4799,8 +4799,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -4842,8 +4842,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -4890,7 +4890,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "high",
-          "injury_risk": "out",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -5026,7 +5026,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -5143,8 +5143,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -5487,8 +5487,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -5702,8 +5702,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -5843,7 +5843,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -5874,8 +5874,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -6003,8 +6003,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -6519,8 +6519,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -6691,8 +6691,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -7035,8 +7035,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -7680,8 +7680,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -7852,8 +7852,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "accelerating",
         "risk_profile": {
           "rotation_risk": "low",
@@ -7864,7 +7864,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -8153,8 +8153,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -8626,8 +8626,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -8712,8 +8712,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -8810,7 +8810,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -8884,8 +8884,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -9228,8 +9228,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "stable",
         "risk_profile": {
           "rotation_risk": "low",
@@ -9240,7 +9240,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "underperforming",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -9486,8 +9486,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -9529,8 +9529,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -9615,8 +9615,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -9701,8 +9701,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -9787,8 +9787,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -9916,8 +9916,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -10088,8 +10088,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -10217,8 +10217,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -10260,8 +10260,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -10272,7 +10272,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "underperforming",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -10315,7 +10315,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "underperforming",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -10432,8 +10432,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -10690,7 +10690,7 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
+        "cpp_status": "MUST-HAVE",
         "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
@@ -10702,7 +10702,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "underperforming",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -11077,8 +11077,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -11163,8 +11163,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -11679,8 +11679,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -11980,8 +11980,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -12797,8 +12797,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -12809,7 +12809,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -12969,8 +12969,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -13055,8 +13055,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -13270,8 +13270,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "MUST-HAVE",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -13356,7 +13356,7 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
+        "cpp_status": "MUST-HAVE",
         "validation_state": "validated",
         "form_trajectory": "stable",
         "risk_profile": {
@@ -14130,8 +14130,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -14345,8 +14345,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -14388,8 +14388,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -14517,8 +14517,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "MUST-HAVE",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -14529,7 +14529,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -14689,8 +14689,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -14732,8 +14732,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "stable",
         "risk_profile": {
           "rotation_risk": "low",
@@ -14775,8 +14775,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -15291,8 +15291,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -15334,8 +15334,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -15389,7 +15389,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -15463,8 +15463,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -15807,8 +15807,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -15819,7 +15819,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -16065,8 +16065,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -16077,7 +16077,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -16194,8 +16194,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -16366,8 +16366,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -16495,8 +16495,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -17269,8 +17269,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -17355,8 +17355,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -17484,8 +17484,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -17570,8 +17570,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -17699,8 +17699,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -17754,7 +17754,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -18000,8 +18000,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -18098,7 +18098,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -18129,8 +18129,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -18172,8 +18172,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -18215,8 +18215,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "MUST-HAVE",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "moderate",
@@ -18559,8 +18559,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "stable",
         "risk_profile": {
           "rotation_risk": "low",
@@ -18571,7 +18571,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -18602,8 +18602,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "stable",
         "risk_profile": {
           "rotation_risk": "low",
@@ -19130,7 +19130,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -19689,7 +19689,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -19720,8 +19720,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -19732,7 +19732,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -19892,8 +19892,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -20193,8 +20193,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -20408,8 +20408,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "MUST-HAVE",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -20420,7 +20420,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -20463,7 +20463,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "high"
+        "ceiling_indicator": "moderate"
       },
       "transfer_options": {
         "better_variants": [],
@@ -20623,8 +20623,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -20666,8 +20666,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "stable",
         "risk_profile": {
           "rotation_risk": "low",
@@ -20764,7 +20764,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -21139,8 +21139,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "MUST-HAVE",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -21354,8 +21354,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -21483,8 +21483,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -21655,8 +21655,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -21698,8 +21698,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -21710,7 +21710,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -21741,8 +21741,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -21870,8 +21870,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -21956,8 +21956,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -21999,8 +21999,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -22097,7 +22097,7 @@
       "prediction": {
         "fixture_outlook": "easy",
         "ep_trend_alignment": "aligned",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -22128,8 +22128,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -22343,8 +22343,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -22429,8 +22429,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -22730,8 +22730,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -22773,8 +22773,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "MUST-HAVE",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -23074,8 +23074,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -23215,7 +23215,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -23590,7 +23590,7 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
+        "cpp_status": "MUST-HAVE",
         "validation_state": "validated",
         "form_trajectory": "stable",
         "risk_profile": {
@@ -23633,8 +23633,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -23645,7 +23645,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "high"
+        "ceiling_indicator": "moderate"
       },
       "transfer_options": {
         "better_variants": [],
@@ -23719,8 +23719,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -23891,8 +23891,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "stable",
         "risk_profile": {
           "rotation_risk": "moderate",
@@ -23903,7 +23903,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -24794,8 +24794,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -24806,7 +24806,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -24923,8 +24923,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -25267,7 +25267,7 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
+        "cpp_status": "MUST-HAVE",
         "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
@@ -25310,8 +25310,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -25322,7 +25322,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "aligned",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -26041,8 +26041,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -26514,8 +26514,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -27343,7 +27343,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -27601,7 +27601,7 @@
       "prediction": {
         "fixture_outlook": "neutral",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -28234,8 +28234,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -28363,8 +28363,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -28707,8 +28707,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -28750,8 +28750,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -30814,8 +30814,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -31158,8 +31158,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -31459,8 +31459,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -31760,8 +31760,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -31772,7 +31772,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -32589,7 +32589,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "high"
+        "ceiling_indicator": "moderate"
       },
       "transfer_options": {
         "better_variants": [],
@@ -32792,8 +32792,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -33105,7 +33105,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -33179,8 +33179,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "accelerating",
         "risk_profile": {
           "rotation_risk": "low",
@@ -33191,7 +33191,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "neutral",
-        "ceiling_indicator": "high"
+        "ceiling_indicator": "moderate"
       },
       "transfer_options": {
         "better_variants": [],
@@ -33953,8 +33953,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -33996,8 +33996,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -34008,7 +34008,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "aligned",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -34125,8 +34125,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -34555,8 +34555,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -35071,8 +35071,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "WATCH",
-        "validation_state": "emerging",
+        "cpp_status": "HOLD",
+        "validation_state": "validated",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
@@ -35083,7 +35083,7 @@
       "prediction": {
         "fixture_outlook": "hard",
         "ep_trend_alignment": "aligned",
-        "ceiling_indicator": "moderate"
+        "ceiling_indicator": "high"
       },
       "transfer_options": {
         "better_variants": [],
@@ -35114,8 +35114,8 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "HOLD",
-        "validation_state": "validated",
+        "cpp_status": "WATCH",
+        "validation_state": "emerging",
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
