@@ -1,9 +1,9 @@
 {
   "team_id": 2310541,
-  "analysis_gameweek": 25,
+  "analysis_gameweek": 26,
   "governance": {
     "team_id": 2310541,
-    "gameweek": 25,
+    "gameweek": 26,
     "health_score": 80,
     "health_band": "OK",
     "performance_state": "above",
@@ -16,7 +16,9 @@
         "code": "DNP_STARTER",
         "severity": "HIGH",
         "player_ids": [
-          508
+          36,
+          407,
+          430
         ]
       }
     ]
@@ -24,9 +26,33 @@
   "squad": {
     "starters": [
       {
-        "player_id": 430,
-        "name": "Haaland",
-        "position": "Forward",
+        "player_id": 36,
+        "name": "Cash",
+        "position": "Defender",
+        "is_starter": true,
+        "status": "WATCH",
+        "minutes_ok": false,
+        "cpp": {
+          "status": "NEUTRAL",
+          "ceiling_class": "LOW"
+        }
+      },
+      {
+        "player_id": 47,
+        "name": "Rogers",
+        "position": "Midfielder",
+        "is_starter": true,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "STRONG-HOLD",
+          "ceiling_class": "MEDIUM"
+        }
+      },
+      {
+        "player_id": 237,
+        "name": "Enzo",
+        "position": "Midfielder",
         "is_starter": true,
         "status": "HOLD",
         "minutes_ok": true,
@@ -43,80 +69,8 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "HOLD",
+          "status": "STRONG-HOLD",
           "ceiling_class": "MEDIUM"
-        }
-      },
-      {
-        "player_id": 47,
-        "name": "Rogers",
-        "position": "Midfielder",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "HOLD",
-          "ceiling_class": "MEDIUM"
-        }
-      },
-      {
-        "player_id": 101,
-        "name": "Kelleher",
-        "position": "Goalkeeper",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "HOLD",
-          "ceiling_class": "LOW"
-        }
-      },
-      {
-        "player_id": 226,
-        "name": "Chalobah",
-        "position": "Defender",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "HOLD",
-          "ceiling_class": "LOW"
-        }
-      },
-      {
-        "player_id": 237,
-        "name": "Enzo",
-        "position": "Midfielder",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "MUST-HAVE",
-          "ceiling_class": "HIGH"
-        }
-      },
-      {
-        "player_id": 291,
-        "name": "Tarkowski",
-        "position": "Defender",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "HOLD",
-          "ceiling_class": "LOW"
-        }
-      },
-      {
-        "player_id": 303,
-        "name": "Garner",
-        "position": "Midfielder",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "HOLD",
-          "ceiling_class": "LOW"
         }
       },
       {
@@ -127,7 +81,7 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "HOLD",
+          "status": "MUST-HAVE",
           "ceiling_class": "HIGH"
         }
       },
@@ -139,36 +93,72 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "MUST-HAVE",
+          "status": "HOLD",
           "ceiling_class": "HIGH"
         }
       },
       {
-        "player_id": 508,
-        "name": "N.Williams",
+        "player_id": 101,
+        "name": "Kelleher",
+        "position": "Goalkeeper",
+        "is_starter": true,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "NEUTRAL",
+          "ceiling_class": "LOW"
+        }
+      },
+      {
+        "player_id": 226,
+        "name": "Chalobah",
+        "position": "Defender",
+        "is_starter": true,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "NEUTRAL",
+          "ceiling_class": "LOW"
+        }
+      },
+      {
+        "player_id": 303,
+        "name": "Garner",
+        "position": "Midfielder",
+        "is_starter": true,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "NEUTRAL",
+          "ceiling_class": "LOW"
+        }
+      },
+      {
+        "player_id": 407,
+        "name": "Matheus N.",
         "position": "Defender",
         "is_starter": true,
         "status": "WATCH",
         "minutes_ok": false,
         "cpp": {
-          "status": "WATCH",
-          "ceiling_class": "LOW"
-        }
-      }
-    ],
-    "bench": [
-      {
-        "player_id": 36,
-        "name": "Cash",
-        "position": "Defender",
-        "is_starter": false,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
           "status": "HOLD",
           "ceiling_class": "LOW"
         }
       },
+      {
+        "player_id": 430,
+        "name": "Haaland",
+        "position": "Forward",
+        "is_starter": true,
+        "status": "WATCH",
+        "minutes_ok": false,
+        "cpp": {
+          "status": "HOLD",
+          "ceiling_class": "HIGH"
+        }
+      }
+    ],
+    "bench": [
       {
         "player_id": 470,
         "name": "D\u00fabravka",
@@ -177,7 +167,7 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "HOLD",
+          "status": "NEUTRAL",
           "ceiling_class": "LOW"
         }
       },
@@ -186,11 +176,23 @@
         "name": "Calvert-Lewin",
         "position": "Forward",
         "is_starter": false,
+        "status": "WATCH",
+        "minutes_ok": false,
+        "cpp": {
+          "status": "NEUTRAL",
+          "ceiling_class": "MEDIUM"
+        }
+      },
+      {
+        "player_id": 508,
+        "name": "N.Williams",
+        "position": "Defender",
+        "is_starter": false,
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
           "status": "HOLD",
-          "ceiling_class": "MEDIUM"
+          "ceiling_class": "LOW"
         }
       },
       {
@@ -201,7 +203,7 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "HOLD",
+          "status": "NEUTRAL",
           "ceiling_class": "LOW"
         }
       }
