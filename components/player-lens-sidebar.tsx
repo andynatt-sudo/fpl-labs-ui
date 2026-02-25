@@ -16,27 +16,35 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
 
   const { intelligence, diagnostics, prediction } = lens
 
-  // Badge color mappings
+  // ── Primary classification — dominant via size + solid background
+  // No red: red is reserved for availability risk only
   const statusColors: Record<string, string> = {
-    "MUST-HAVE": "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
-    "HOLD": "bg-blue-500/20 text-blue-400 border-blue-500/30",
-    "WATCH": "bg-amber-500/20 text-amber-400 border-amber-500/30",
+    "MUST-HAVE": "bg-emerald-500/15 text-emerald-300 border-emerald-500/25",
+    "HOLD":      "bg-sky-500/15 text-sky-300 border-sky-500/25",
+    "WATCH":     "bg-amber-500/15 text-amber-300 border-amber-500/25",
+    "RISK":      "bg-orange-500/15 text-orange-300 border-orange-500/25",
   }
 
+  // ── Secondary signals — same hue family but half the opacity + lighter text
   const validationColors: Record<string, string> = {
-    "validated": "bg-emerald-500/10 text-emerald-400 border-emerald-500/40",
-    "emerging": "bg-violet-500/10 text-violet-400 border-violet-500/40",
+    "validated": "text-emerald-400/70 border-emerald-500/20",
+    "emerging":  "text-sky-400/70 border-sky-500/20",
+    "unvalidated": "text-muted-foreground border-border/50",
   }
 
+  // ── Trajectory — neutral palette only, no red
   const trajectoryColors: Record<string, string> = {
-    "accelerating": "bg-green-500/20 text-green-400 border-green-500/30",
-    "stable": "bg-gray-500/20 text-gray-400 border-gray-500/30",
-    "declining": "bg-red-500/20 text-red-400 border-red-500/30",
+    "accelerating": "text-emerald-400/60 border-emerald-500/15",
+    "stable":       "text-muted-foreground/70 border-border/40",
+    "declining":    "text-amber-400/60 border-amber-500/15",
+    "improving":    "text-sky-400/60 border-sky-500/15",
   }
 
+  // ── Ceiling — smallest, most muted, plain outline only
   const ceilingColors: Record<string, string> = {
-    "high": "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
-    "moderate": "bg-gray-500/20 text-gray-400 border-gray-500/30",
+    "high":     "text-muted-foreground/60 border-border/30",
+    "moderate": "text-muted-foreground/50 border-border/25",
+    "low":      "text-muted-foreground/40 border-border/20",
   }
 
   const outlookColors: Record<string, string> = {
@@ -71,31 +79,37 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
 
         <div className="mt-6 px-4 pb-8 space-y-6">
 
-          {/* ── 2. Status — visually dominant ── */}
-          <div className="space-y-2">
+          {/* ── 2. Status — three-tier visual weight ── */}
+          <div className="space-y-2.5">
             <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Status</h3>
-            {/* Primary classification — large, prominent */}
-            <div className="flex items-center gap-2">
-              <Badge className={`text-base px-3 py-1 ${statusColors[diagnostics.cpp_status]}`}>
-                {diagnostics.cpp_status}
-              </Badge>
-              <Badge variant="outline" className={`text-xs ${validationColors[diagnostics.validation_state]}`}>
-                {diagnostics.validation_state}
-              </Badge>
-            </div>
-            {/* Secondary classification signals — smaller, below */}
-            <div className="flex flex-wrap gap-2 pt-0.5">
+
+            {/* Tier 1: Primary classification — largest, most prominent */}
+            <Badge className={`text-sm font-semibold px-3 py-1 ${statusColors[diagnostics.cpp_status]}`}>
+              {diagnostics.cpp_status}
+            </Badge>
+
+            {/* Tier 2: Secondary signals — smaller text, lower opacity styling */}
+            <div className="flex flex-wrap items-center gap-1.5">
+              {diagnostics.validation_state && (
+                <Badge variant="outline" className={`text-[11px] font-normal px-2 py-0 ${validationColors[diagnostics.validation_state]}`}>
+                  {diagnostics.validation_state}
+                </Badge>
+              )}
               {diagnostics.form_trajectory && (
-                <Badge variant="outline" className={`text-xs ${trajectoryColors[diagnostics.form_trajectory]}`}>
+                <Badge variant="outline" className={`text-[11px] font-normal px-2 py-0 ${trajectoryColors[diagnostics.form_trajectory]}`}>
                   {diagnostics.form_trajectory}
                 </Badge>
               )}
-              {prediction.ceiling_indicator && (
-                <Badge variant="outline" className={`text-xs ${ceilingColors[prediction.ceiling_indicator]}`}>
+            </div>
+
+            {/* Tier 3: Ceiling tag — smallest, plainest */}
+            {prediction.ceiling_indicator && (
+              <div>
+                <Badge variant="outline" className={`text-[10px] font-normal px-1.5 py-0 ${ceilingColors[prediction.ceiling_indicator]}`}>
                   {prediction.ceiling_indicator} ceiling
                 </Badge>
-              )}
-            </div>
+              </div>
+            )}
           </div>
 
           {/* ── 3. Outlook — short-term context ── */}
