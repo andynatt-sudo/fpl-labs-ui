@@ -45,14 +45,22 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
     "hard": "text-red-400",
   }
 
+  const hasRisk =
+    diagnostics.risk_profile.rotation_risk ||
+    diagnostics.risk_profile.injury_risk ||
+    diagnostics.risk_profile.volatility ||
+    diagnostics.team_context_modifier
+
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent side="right" className="w-full sm:w-[30%] sm:max-w-none overflow-y-auto">
-        <SheetHeader>
-          <SheetTitle className="text-2xl">{profile.web_name}</SheetTitle>
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+
+        {/* ── 1. Identity ── */}
+        <SheetHeader className="px-4 pt-6 pb-0">
+          <SheetTitle className="text-2xl leading-tight">{profile.web_name}</SheetTitle>
+          <div className="flex items-center gap-2 text-sm text-muted-foreground mt-0.5">
             <span>{profile.position}</span>
-            <span>•</span>
+            <span>·</span>
             <span>{profile.team}</span>
           </div>
           <div className="flex items-center gap-3 mt-2 text-sm">
@@ -61,97 +69,132 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
           </div>
         </SheetHeader>
 
-        <div className="space-y-6 mt-6 px-4 pb-6">
-          {/* Status Badges */}
+        <div className="mt-6 px-4 pb-8 space-y-6">
+
+          {/* ── 2. Status — visually dominant ── */}
           <div className="space-y-2">
             <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Status</h3>
-            <div className="flex flex-wrap gap-2">
-              <Badge variant="outline" className={statusColors[diagnostics.cpp_status]}>
+            {/* Primary classification — large, prominent */}
+            <div className="flex items-center gap-2">
+              <Badge className={`text-base px-3 py-1 ${statusColors[diagnostics.cpp_status]}`}>
                 {diagnostics.cpp_status}
               </Badge>
-              <Badge variant="outline" className={validationColors[diagnostics.validation_state]}>
+              <Badge variant="outline" className={`text-xs ${validationColors[diagnostics.validation_state]}`}>
                 {diagnostics.validation_state}
               </Badge>
+            </div>
+            {/* Secondary classification signals — smaller, below */}
+            <div className="flex flex-wrap gap-2 pt-0.5">
               {diagnostics.form_trajectory && (
-                <Badge variant="outline" className={trajectoryColors[diagnostics.form_trajectory]}>
+                <Badge variant="outline" className={`text-xs ${trajectoryColors[diagnostics.form_trajectory]}`}>
                   {diagnostics.form_trajectory}
                 </Badge>
               )}
               {prediction.ceiling_indicator && (
-                <Badge variant="outline" className={ceilingColors[prediction.ceiling_indicator]}>
+                <Badge variant="outline" className={`text-xs ${ceilingColors[prediction.ceiling_indicator]}`}>
                   {prediction.ceiling_indicator} ceiling
                 </Badge>
               )}
             </div>
           </div>
 
-          {/* Forward Outlook */}
+          {/* ── 3. Outlook — short-term context ── */}
           <div className="space-y-2">
-            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Forward Outlook</h3>
+            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Outlook</h3>
             <div className="space-y-1.5 text-sm">
               <div className="flex justify-between">
-                <span className="text-muted-foreground">Fixture Outlook:</span>
+                <span className="text-muted-foreground">Fixture</span>
                 <span className={`font-medium capitalize ${outlookColors[prediction.fixture_outlook]}`}>
                   {prediction.fixture_outlook}
                 </span>
               </div>
               <div className="flex justify-between">
-                <span className="text-muted-foreground">EP Trend:</span>
+                <span className="text-muted-foreground">EP Trend</span>
                 <span className={`font-medium capitalize ${outlookColors[prediction.ep_trend_alignment]}`}>
                   {prediction.ep_trend_alignment}
                 </span>
               </div>
+              <div className="flex justify-between">
+                <span className="text-muted-foreground">Opponent</span>
+                <span className="font-medium">{intelligence.current_gameweek_data.fixtures.opponent_team_code}</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-muted-foreground">Venue</span>
+                <span className="font-medium">
+                  {intelligence.current_gameweek_data.fixtures.was_home ? "Home" : "Away"}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-muted-foreground">FDR (Next N)</span>
+                <span className="font-medium">{intelligence.current_gameweek_data.fixtures.fdr_next_n.toFixed(1)}</span>
+              </div>
             </div>
           </div>
 
-          {/* Performance Snapshot */}
-          <div className="space-y-3">
+          {/* ── 4. Performance Snapshot — evidence layer, visually secondary ── */}
+          <div className="space-y-2">
             <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Performance Snapshot</h3>
-            <div className="grid grid-cols-2 gap-3">
-              <div className="rounded-lg bg-muted/30 p-3">
+            <div className="grid grid-cols-2 gap-2">
+              <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2.5">
                 <div className="text-xs text-muted-foreground">PPG</div>
-                <div className="text-lg font-semibold">
+                <div className="text-base font-medium mt-0.5">
                   {intelligence.analysis_gameweek_data.points_per_game.toFixed(1)}
                 </div>
               </div>
-              <div className="rounded-lg bg-muted/30 p-3">
+              <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2.5">
                 <div className="text-xs text-muted-foreground">Value Form</div>
-                <div className="text-lg font-semibold">
+                <div className="text-base font-medium mt-0.5">
                   {intelligence.analysis_gameweek_data.value_form.toFixed(1)}
                 </div>
               </div>
-              <div className="rounded-lg bg-muted/30 p-3">
+              <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2.5">
                 <div className="text-xs text-muted-foreground">EP This GW</div>
-                <div className="text-lg font-semibold">
+                <div className="text-base font-medium mt-0.5">
                   {intelligence.current_gameweek_data.ep_this.toFixed(1)}
                 </div>
               </div>
-              <div className="rounded-lg bg-muted/30 p-3">
+              <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2.5">
                 <div className="text-xs text-muted-foreground">EP Next GW</div>
-                <div className="text-lg font-semibold">
+                <div className="text-base font-medium mt-0.5">
                   {intelligence.current_gameweek_data.ep_next.toFixed(1)}
-                </div>
-              </div>
-              <div className="rounded-lg bg-muted/30 p-3">
-                <div className="text-xs text-muted-foreground">Opponent</div>
-                <div className="text-lg font-semibold">
-                  {intelligence.current_gameweek_data.fixtures.opponent_team_code}
-                </div>
-              </div>
-              <div className="rounded-lg bg-muted/30 p-3">
-                <div className="text-xs text-muted-foreground">Venue</div>
-                <div className="text-lg font-semibold">
-                  {intelligence.current_gameweek_data.fixtures.was_home ? "Home" : "Away"}
-                </div>
-              </div>
-              <div className="rounded-lg bg-muted/30 p-3 col-span-2">
-                <div className="text-xs text-muted-foreground">FDR (Next N)</div>
-                <div className="text-lg font-semibold">
-                  {intelligence.current_gameweek_data.fixtures.fdr_next_n.toFixed(1)}
                 </div>
               </div>
             </div>
           </div>
+
+          {/* ── 5. Risk Explanation — conditional, clearly separated ── */}
+          {hasRisk && (
+            <div className="space-y-2 pt-2 border-t border-border/50">
+              <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Risk</h3>
+              <div className="space-y-1.5 text-sm">
+                {diagnostics.risk_profile.rotation_risk && (
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Rotation</span>
+                    <span className="font-medium capitalize">{diagnostics.risk_profile.rotation_risk}</span>
+                  </div>
+                )}
+                {diagnostics.risk_profile.injury_risk && (
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Injury</span>
+                    <span className="font-medium capitalize">{diagnostics.risk_profile.injury_risk}</span>
+                  </div>
+                )}
+                {diagnostics.risk_profile.volatility && (
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Volatility</span>
+                    <span className="font-medium capitalize">{diagnostics.risk_profile.volatility}</span>
+                  </div>
+                )}
+                {diagnostics.team_context_modifier && (
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Team Context</span>
+                    <span className="font-medium capitalize">{diagnostics.team_context_modifier}</span>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
         </div>
       </SheetContent>
     </Sheet>
