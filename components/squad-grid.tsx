@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import { PlayerLensSidebar } from "@/components/player-lens-sidebar"
 import type { TeamLensSquad, TeamLensFlag } from "@/lib/types-team-lens"
 import type { PlayerLens, PlayerProfile } from "@/lib/types"
@@ -12,13 +11,6 @@ interface SquadGridProps {
   flags: TeamLensFlag[]
   playerProfiles: PlayerProfile[]
   playerLensData: Array<{ player_id: number; lens: PlayerLens }>
-}
-
-// Strength tier: border-only, muted, descending intensity
-const ceilingColors: Record<string, string> = {
-  HIGH:   "text-slate-300 border-slate-400/40",
-  MEDIUM: "text-slate-400 border-slate-500/30",
-  LOW:    "text-slate-500 border-slate-600/20",
 }
 
 export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: SquadGridProps) {
@@ -83,15 +75,9 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                     </div>
                   </div>
 
-                  {/* Row 2: Position + strength tier */}
-                  <div className="flex items-center justify-between gap-1">
+                  {/* Row 2: Position */}
+                  <div className="flex items-center gap-1">
                     <span className="text-xs text-muted-foreground">{player.position}</span>
-                    <Badge
-                      variant="outline"
-                      className={`text-[10px] py-0 px-1.5 ${ceilingColors[player.cpp.ceiling_class]}`}
-                    >
-                      {player.cpp.ceiling_class}
-                    </Badge>
                   </div>
                 </div>
               )
@@ -130,12 +116,6 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                   {isFlagged && (
                     <span className="size-1.5 rounded-full bg-rose-500 shrink-0" aria-label="Availability risk" />
                   )}
-                  <Badge
-                    variant="outline"
-                    className={`text-[10px] py-0 px-1.5 ${ceilingColors[player.cpp.ceiling_class]}`}
-                  >
-                    {player.cpp.ceiling_class}
-                  </Badge>
                 </div>
               )
             })}
