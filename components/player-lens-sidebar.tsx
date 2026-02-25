@@ -16,41 +16,50 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
 
   const { intelligence, diagnostics, prediction } = lens
 
-  // ── Primary classification — dominant via size + solid background
-  // No red: red is reserved for availability risk only
+  // ── Tier 1: Primary classification — border-only, no background (rule: no both)
+  // Cool tones only; no red (reserved for availability risk)
   const statusColors: Record<string, string> = {
-    "MUST-HAVE": "bg-emerald-500/15 text-emerald-300 border-emerald-500/25",
-    "HOLD":      "bg-sky-500/15 text-sky-300 border-sky-500/25",
-    "WATCH":     "bg-amber-500/15 text-amber-300 border-amber-500/25",
-    "RISK":      "bg-orange-500/15 text-orange-300 border-orange-500/25",
+    "MUST-HAVE": "text-sky-300 border-sky-400/40",
+    "HOLD":      "text-slate-300 border-slate-400/35",
+    "WATCH":     "text-slate-400 border-slate-500/30",
+    "RISK":      "text-slate-400 border-slate-500/30",
   }
 
-  // ── Secondary signals — same hue family but half the opacity + lighter text
+  // ── Tier 2a: Validation — border-only, muted cool tones
   const validationColors: Record<string, string> = {
-    "validated": "text-emerald-400/70 border-emerald-500/20",
-    "emerging":  "text-sky-400/70 border-sky-500/20",
-    "unvalidated": "text-muted-foreground border-border/50",
+    "validated":   "text-slate-400 border-slate-500/25",
+    "emerging":    "text-slate-400 border-slate-500/25",
+    "unvalidated": "text-muted-foreground border-border/40",
   }
 
-  // ── Trajectory — neutral palette only, no red
+  // ── Tier 2b: Trajectory — border-only, no red, descending intensity
   const trajectoryColors: Record<string, string> = {
-    "accelerating": "text-emerald-400/60 border-emerald-500/15",
-    "stable":       "text-muted-foreground/70 border-border/40",
-    "declining":    "text-amber-400/60 border-amber-500/15",
-    "improving":    "text-sky-400/60 border-sky-500/15",
+    "accelerating": "text-slate-300 border-slate-400/30",
+    "improving":    "text-slate-400 border-slate-500/25",
+    "stable":       "text-muted-foreground border-border/30",
+    "declining":    "text-slate-500 border-slate-600/20",
   }
 
-  // ── Ceiling — smallest, most muted, plain outline only
+  // ── Tier 3: Ceiling — plainest, lowest intensity
   const ceilingColors: Record<string, string> = {
-    "high":     "text-muted-foreground/60 border-border/30",
-    "moderate": "text-muted-foreground/50 border-border/25",
-    "low":      "text-muted-foreground/40 border-border/20",
+    "high":     "text-muted-foreground/60 border-border/25",
+    "moderate": "text-muted-foreground/50 border-border/20",
+    "low":      "text-muted-foreground/40 border-border/15",
   }
 
+  // ── Outlook: fixture difficulty — no red (not availability risk)
   const outlookColors: Record<string, string> = {
-    "easy": "text-green-400",
-    "neutral": "text-gray-400",
-    "hard": "text-red-400",
+    "easy":    "text-slate-300",
+    "neutral": "text-slate-400",
+    "hard":    "text-slate-500",
+  }
+
+  // ── Risk values: injury is the one permitted use of red
+  const riskValueStyle = (key: string, value: string) => {
+    if (key === "injury_risk" && value && value !== "none" && value !== "low") {
+      return "font-medium capitalize text-rose-400"
+    }
+    return "font-medium capitalize"
   }
 
   const hasRisk =
@@ -184,19 +193,25 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
                 {diagnostics.risk_profile.rotation_risk && (
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Rotation</span>
-                    <span className="font-medium capitalize">{diagnostics.risk_profile.rotation_risk}</span>
+                    <span className={riskValueStyle("rotation_risk", diagnostics.risk_profile.rotation_risk)}>
+                      {diagnostics.risk_profile.rotation_risk}
+                    </span>
                   </div>
                 )}
                 {diagnostics.risk_profile.injury_risk && (
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Injury</span>
-                    <span className="font-medium capitalize">{diagnostics.risk_profile.injury_risk}</span>
+                    <span className={riskValueStyle("injury_risk", diagnostics.risk_profile.injury_risk)}>
+                      {diagnostics.risk_profile.injury_risk}
+                    </span>
                   </div>
                 )}
                 {diagnostics.risk_profile.volatility && (
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Volatility</span>
-                    <span className="font-medium capitalize">{diagnostics.risk_profile.volatility}</span>
+                    <span className={riskValueStyle("volatility", diagnostics.risk_profile.volatility)}>
+                      {diagnostics.risk_profile.volatility}
+                    </span>
                   </div>
                 )}
                 {diagnostics.team_context_modifier && (

@@ -15,16 +15,19 @@ interface SquadGridProps {
   playerLensData: Array<{ player_id: number; lens: PlayerLens }>
 }
 
-const statusColors = {
-  "MUST-HAVE": "text-emerald-400",
-  "HOLD": "text-blue-400",
-  "WATCH": "text-amber-400",
+// Classification: cool tones, text-only — no background on name
+const statusColors: Record<string, string> = {
+  "MUST-HAVE": "text-sky-300",
+  "HOLD":      "text-slate-300",
+  "WATCH":     "text-slate-400",
+  "RISK":      "text-slate-400",
 }
 
-const ceilingColors = {
-  HIGH: "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
-  MEDIUM: "bg-blue-500/20 text-blue-400 border-blue-500/30",
-  LOW: "bg-slate-500/20 text-slate-400 border-slate-500/30",
+// Ceiling tiers: border-only, no background — muted, descending intensity
+const ceilingColors: Record<string, string> = {
+  HIGH:   "text-slate-300 border-slate-400/40",
+  MEDIUM: "text-slate-400 border-slate-500/30",
+  LOW:    "text-slate-500 border-slate-600/20",
 }
 
 export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: SquadGridProps) {
@@ -69,8 +72,8 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                     <div 
                       onClick={() => handlePlayerClick(player.player_id)}
                       className={`flex flex-col gap-2 p-3 rounded-lg bg-background/80 border transition-colors cursor-pointer ${
-                        isFlagged 
-                          ? "border-rose-500/50 bg-rose-500/5 hover:bg-rose-500/10" 
+                        isFlagged
+                          ? "border-rose-500/40 hover:border-rose-500/60"
                           : "border-border/40 hover:border-border hover:bg-background"
                       }`}
                     >
@@ -134,7 +137,7 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                   key={player.player_id}
                   onClick={() => handlePlayerClick(player.player_id)}
                   className={`flex items-center gap-2 px-3 py-2 rounded-md bg-background/60 border cursor-pointer transition-colors ${
-                    isFlagged ? "border-rose-500/50 hover:bg-rose-500/5" : "border-border/30 hover:bg-background/80"
+                    isFlagged ? "border-rose-500/40 hover:border-rose-500/60" : "border-border/30 hover:bg-background/80"
                   }`}
                 >
                   <span className={`text-sm font-medium ${statusColors[player.status]}`}>
