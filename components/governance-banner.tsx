@@ -6,8 +6,9 @@ interface GovernanceBannerProps {
   governance: TeamLensGovernance
 }
 
+// Subtler badge styles — Health should feel stable and backgrounded
 const healthBandColors: Record<string, string> = {
-  OK: "bg-green-500/10 text-green-400 border-green-500/20",
+  OK: "bg-muted text-muted-foreground border-border",
   WARNING: "bg-amber-500/10 text-amber-400 border-amber-500/20",
   CRITICAL: "bg-rose-500/10 text-rose-400 border-rose-500/20",
 }
@@ -37,10 +38,11 @@ const actionPressureLabels: Record<string, string> = {
   high: "High pressure",
 }
 
-const actionPressurePostureStyle: Record<string, string> = {
-  low: "text-foreground",
-  medium: "text-amber-400",
-  high: "text-rose-400",
+// Posture text + subtle underline tint — scales with urgency
+const postureTextStyle: Record<string, string> = {
+  low: "text-foreground border-b-2 border-primary/30 pb-0.5",
+  medium: "text-amber-400 border-b-2 border-amber-400/40 pb-0.5",
+  high: "text-rose-400 border-b-2 border-rose-400/50 pb-0.5",
 }
 
 export function GovernanceBanner({ governance }: GovernanceBannerProps) {
@@ -49,30 +51,30 @@ export function GovernanceBanner({ governance }: GovernanceBannerProps) {
   const perfDriver = performanceDriverLabels[governance.performance_driver] ?? governance.performance_driver
   const pressure = actionPressureLabels[governance.action_pressure] ?? governance.action_pressure
   const secondaryLine = [perfState, perfDriver, pressure].filter(Boolean).join(" · ")
-  const postureStyle = actionPressurePostureStyle[governance.action_pressure] ?? "text-foreground"
+  const postureStyle = postureTextStyle[governance.action_pressure] ?? "text-foreground border-b-2 border-primary/30 pb-0.5"
 
   return (
-    <Card className="border-2">
+    <Card className="border">
       <CardContent className="p-6">
         <div className="flex flex-col sm:flex-row items-start gap-6">
 
-          {/* Left: Health Status */}
-          <div className="flex flex-col items-start gap-2 min-w-[120px]">
-            <span className="text-xs text-muted-foreground uppercase tracking-wide">Health Status</span>
-            <Badge className={`text-sm px-3 py-1 ${healthBandColors[governance.health_band]}`}>
+          {/* Left: Health Status — backgrounded, structural context */}
+          <div className="flex flex-col items-start gap-2 min-w-[110px]">
+            <span className="text-xs text-muted-foreground uppercase tracking-wide">Health</span>
+            <Badge className={`text-xs px-2.5 py-0.5 ${healthBandColors[governance.health_band]}`}>
               {governance.health_band}
             </Badge>
-            <span className="text-3xl font-bold leading-none">{governance.health_score}</span>
+            <span className="text-xl font-semibold text-muted-foreground leading-none">{governance.health_score}</span>
           </div>
 
           {/* Divider */}
-          <div className="hidden sm:block w-px self-stretch bg-border" />
+          <div className="hidden sm:block w-px self-stretch bg-border/60" />
 
-          {/* Right: Week Lens */}
+          {/* Right: Week Lens — primary state */}
           <div className="flex flex-col items-start gap-1.5">
             <span className="text-xs text-muted-foreground uppercase tracking-wide">Week Lens</span>
-            <div className={`text-2xl font-bold leading-tight ${postureStyle}`}>
-              Posture: {postureLabel}
+            <div className={`text-2xl font-bold leading-tight inline-block ${postureStyle}`}>
+              {postureLabel}
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               {secondaryLine}
