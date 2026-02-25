@@ -13,11 +13,52 @@ interface SquadGridProps {
   playerLensData: Array<{ player_id: number; lens: PlayerLens }>
 }
 
+// Derive availability risk tier for a player.
+// Critical (red): flag severity HIGH, or injury state INJURED/SUSPENDED.
+// Caution (orange): flag severity MEDIUM/LOW, or DOUBTFUL, or minutes_ok false.
+type RiskTier = "critical" | "caution" | null
+
+function getPlayerRiskTier(
+  playerId: number,
+  minutesOk: boolean,
+  flags: TeamLensFlag[],
+  profiles: PlayerProfile[]
+): RiskTier {
+  const profile = profiles.find(p => p.player_id === playerId)
+  const injuryState = profile?.injury?.state
+
+  // Critical: confirmed absence
+  if (injuryState === "INJURED" || injuryState === "SUSPENDED") return "critical"
+
+  const playerFlags = flags.filter(f => f.player_ids.includes(playerId))
+  if (playerFlags.some(f => f.severity === "HIGH")) return "critical"
+
+  // Caution: doubtful, minutes risk, or lower-severity flag
+  if (injuryState === "DOUBTFUL") return "caution"
+  if (!minutesOk) return "caution"
+  if (playerFlags.length > 0) return "caution"
+
+  return null
+}
+
+// Border + dot colour per risk tier
+const riskBorderClass: Record<string, string> = {
+  critical: "border-rose-500/50 hover:border-rose-500/70",
+  caution:  "border-orange-400/40 hover:border-orange-400/60",
+}
+const riskDotClass: Record<string, string> = {
+  critical: "bg-rose-500",
+  caution:  "bg-orange-400",
+}
+const riskLabel: Record<string, string> = {
+  critical: "Availability: critical",
+  caution:  "Availability: caution",
+}
+
 export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: SquadGridProps) {
   const [selectedProfile, setSelectedProfile] = useState<PlayerProfile | null>(null)
   const [selectedLens, setSelectedLens] = useState<PlayerLens | null>(null)
   const [sidebarOpen, setSidebarOpen] = useState(false)
-  const flaggedPlayerIds = new Set(flags.flatMap(f => f.player_ids))
 
   const handlePlayerClick = (playerId: number) => {
     const profile = playerProfiles.find(p => p.player_id === playerId)
@@ -46,18 +87,18 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
             {squad.starters.map((player) => {
-              const isFlagged = flaggedPlayerIds.has(player.player_id)
+              const tier = getPlayerRiskTier(player.player_id, player.minutes_ok, flags, playerProfiles)
               return (
                 <div
                   key={player.player_id}
                   onClick={() => handlePlayerClick(player.player_id)}
                   className={`flex flex-col gap-1.5 p-3 rounded-lg bg-background/80 border transition-colors cursor-pointer ${
-                    isFlagged
-                      ? "border-rose-500/40 hover:border-rose-500/60"
+                    tier
+                      ? riskBorderClass[tier]
                       : "border-border/40 hover:border-border hover:bg-background"
                   }`}
                 >
-                  {/* Row 1: Name + captain badge */}
+                  {/* Row 1: Name + captain + risk dot */}
                   <div className="flex items-center justify-between gap-1 min-w-0">
                     <span className="font-semibold text-sm truncate text-foreground">
                       {player.name}
@@ -69,8 +110,11 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                       {player.is_vice_captain && (
                         <span className="text-[10px] font-bold text-slate-400 leading-none">V</span>
                       )}
-                      {isFlagged && (
-                        <span className="size-1.5 rounded-full bg-rose-500 shrink-0" aria-label="Availability risk" />
+                      {tier && (
+                        <span
+                          className={`size-1.5 rounded-full shrink-0 ${riskDotClass[tier]}`}
+                          aria-label={riskLabel[tier]}
+                        />
                       )}
                     </div>
                   </div>
@@ -94,14 +138,14 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
           </h3>
           <div className="flex flex-wrap gap-2">
             {squad.bench.map((player) => {
-              const isFlagged = flaggedPlayerIds.has(player.player_id)
+              const tier = getPlayerRiskTier(player.player_id, player.minutes_ok, flags, playerProfiles)
               return (
                 <div
                   key={player.player_id}
                   onClick={() => handlePlayerClick(player.player_id)}
                   className={`flex items-center gap-2 px-3 py-2 rounded-md bg-background/60 border cursor-pointer transition-colors ${
-                    isFlagged
-                      ? "border-rose-500/40 hover:border-rose-500/60"
+                    tier
+                      ? riskBorderClass[tier]
                       : "border-border/30 hover:bg-background/80"
                   }`}
                 >
@@ -113,8 +157,11 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                   {player.is_vice_captain && (
                     <span className="text-[10px] font-bold text-slate-400 leading-none">V</span>
                   )}
-                  {isFlagged && (
-                    <span className="size-1.5 rounded-full bg-rose-500 shrink-0" aria-label="Availability risk" />
+                  {tier && (
+                    <span
+                      className={`size-1.5 rounded-full shrink-0 ${riskDotClass[tier]}`}
+                      aria-label={riskLabel[tier]}
+                    />
                   )}
                 </div>
               )

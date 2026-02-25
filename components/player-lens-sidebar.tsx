@@ -54,17 +54,29 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
     "hard":    "text-slate-500",
   }
 
-  // ── Risk values: injury is the one permitted use of red
-  const riskValueStyle = (key: string, value: string) => {
-    if (key === "injury_risk" && value && value !== "none" && value !== "low") {
-      return "font-medium capitalize text-rose-400"
-    }
-    return "font-medium capitalize"
-  }
+  // ── Two-tier availability colour — matches grid dot colours exactly
+  // Critical (red): injury state INJURED/SUSPENDED
+  // Caution (orange): DOUBTFUL, or injury_risk present but not confirmed
+  const injuryState = profile.injury?.state
+  const isCriticalAvailability = injuryState === "INJURED" || injuryState === "SUSPENDED"
+  const isCautionAvailability  = injuryState === "DOUBTFUL" || (
+    !isCriticalAvailability && !!diagnostics.risk_profile.injury_risk &&
+    diagnostics.risk_profile.injury_risk !== "none" &&
+    diagnostics.risk_profile.injury_risk !== "low"
+  )
 
-  const hasRisk =
+  const availabilityColor = isCriticalAvailability
+    ? "text-rose-400"
+    : isCautionAvailability
+    ? "text-orange-400"
+    : "font-medium capitalize"
+
+  // Analytical risk rows (rotation, volatility) — neutral, not availability
+  const analyticalRiskStyle = "font-medium capitalize text-foreground"
+
+  const hasAvailabilityRisk = isCriticalAvailability || isCautionAvailability || !!profile.injury?.news
+  const hasAnalyticalRisk =
     diagnostics.risk_profile.rotation_risk ||
-    diagnostics.risk_profile.injury_risk ||
     diagnostics.risk_profile.volatility ||
     diagnostics.team_context_modifier
 
@@ -185,39 +197,65 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
             </div>
           </div>
 
-          {/* ── 5. Risk Explanation — conditional, clearly separated ── */}
-          {hasRisk && (
+          {/* ── 5a. Availability — critical/caution, matches grid dot colour ── */}
+          {hasAvailabilityRisk && (
+            <div className="space-y-2 pt-2 border-t border-border/50">
+              <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide flex items-center gap-1.5">
+                <span
+                  className={`size-1.5 rounded-full inline-block ${
+                    isCriticalAvailability ? "bg-rose-500" : "bg-orange-400"
+                  }`}
+                />
+                Availability
+              </h3>
+              <div className="space-y-1.5 text-sm">
+                {injuryState && injuryState !== "AVAILABLE" && injuryState !== "UNKNOWN" && (
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Status</span>
+                    <span className={`font-medium capitalize ${availabilityColor}`}>
+                      {injuryState.toLowerCase()}
+                    </span>
+                  </div>
+                )}
+                {diagnostics.risk_profile.injury_risk &&
+                  diagnostics.risk_profile.injury_risk !== "none" && (
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Injury risk</span>
+                    <span className={`font-medium capitalize ${availabilityColor}`}>
+                      {diagnostics.risk_profile.injury_risk}
+                    </span>
+                  </div>
+                )}
+                {profile.injury?.news && (
+                  <p className="text-xs text-muted-foreground leading-relaxed pt-0.5">
+                    {profile.injury.news}
+                  </p>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* ── 5b. Analytical Risk — rotation, volatility, context — neutral tones ── */}
+          {hasAnalyticalRisk && (
             <div className="space-y-2 pt-2 border-t border-border/50">
               <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Risk</h3>
               <div className="space-y-1.5 text-sm">
                 {diagnostics.risk_profile.rotation_risk && (
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Rotation</span>
-                    <span className={riskValueStyle("rotation_risk", diagnostics.risk_profile.rotation_risk)}>
-                      {diagnostics.risk_profile.rotation_risk}
-                    </span>
-                  </div>
-                )}
-                {diagnostics.risk_profile.injury_risk && (
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Injury</span>
-                    <span className={riskValueStyle("injury_risk", diagnostics.risk_profile.injury_risk)}>
-                      {diagnostics.risk_profile.injury_risk}
-                    </span>
+                    <span className={analyticalRiskStyle}>{diagnostics.risk_profile.rotation_risk}</span>
                   </div>
                 )}
                 {diagnostics.risk_profile.volatility && (
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Volatility</span>
-                    <span className={riskValueStyle("volatility", diagnostics.risk_profile.volatility)}>
-                      {diagnostics.risk_profile.volatility}
-                    </span>
+                    <span className={analyticalRiskStyle}>{diagnostics.risk_profile.volatility}</span>
                   </div>
                 )}
                 {diagnostics.team_context_modifier && (
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Team Context</span>
-                    <span className="font-medium capitalize">{diagnostics.team_context_modifier}</span>
+                    <span className="text-muted-foreground">Team context</span>
+                    <span className={analyticalRiskStyle}>{diagnostics.team_context_modifier}</span>
                   </div>
                 )}
               </div>
