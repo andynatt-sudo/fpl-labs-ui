@@ -186,6 +186,7 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
         profile={selectedProfile}
         lens={selectedLens}
         availability={selectedAvailability}
+        playerProfiles={playerProfiles}
         open={sidebarOpen}
         onOpenChange={setSidebarOpen}
       />

@@ -13,6 +13,7 @@ interface PlayerLensSidebarProps {
   profile: PlayerProfile | null
   lens: PlayerLens | null
   availability: PlayerLensSidebarAvailability | null
+  playerProfiles: PlayerProfile[]
   open: boolean
   onOpenChange: (open: boolean) => void
 }
@@ -71,13 +72,17 @@ function Row({ label, value, valueClass }: { label: string; value: React.ReactNo
   )
 }
 
-export function PlayerLensSidebar({ profile, lens, availability, open, onOpenChange }: PlayerLensSidebarProps) {
+export function PlayerLensSidebar({ profile, lens, availability, playerProfiles, open, onOpenChange }: PlayerLensSidebarProps) {
   if (!profile) return null
 
   const diagnostics  = lens?.diagnostics  ?? null
   const prediction   = lens?.prediction   ?? null
   const intelligence = lens?.intelligence ?? null
   const transfers    = lens?.transfers    ?? null
+
+  // Resolve target player name from profiles list
+  const resolvePlayer = (id: number) =>
+    playerProfiles.find(p => p.player_id === id)?.web_name ?? `#${id}`
 
   const availabilityValueColor = availability?.tier === "critical" ? "text-rose-400" : "text-orange-400"
 
@@ -237,15 +242,81 @@ export function PlayerLensSidebar({ profile, lens, availability, open, onOpenCha
             </div>
           )}
 
-          {/* ── Pillar 5: Transfers (lens.transfers) ── */}
+          {/* ── Pillar 5: Transfer Outlook (lens.transfers) ── */}
           {transfers?.summary && (
             <div className="space-y-3">
-              <SectionHeader label="Transfers" />
-              <div className="space-y-1.5">
-                <Row label="Transfer rating" value={transfers.summary.transfer_rating.toFixed(1)} />
-                <Row label="Replacement score" value={transfers.summary.replacement_score.toFixed(1)} />
-                <Row label="Urgency" value={transfers.summary.urgency_level} />
+              <SectionHeader label="Transfer Outlook" />
+
+              {/* Summary */}
+              <div className="space-y-2.5">
+                {/* transfer_rating — mini bar meter */}
+                <div className="space-y-1">
+                  <div className="flex justify-between text-xs">
+                    <span className="text-muted-foreground">Transfer rating</span>
+                    <span className="text-foreground font-medium">
+                      {transfers.summary.transfer_rating.toFixed(2)}
+                    </span>
+                  </div>
+                  <div className="h-1 rounded-full bg-muted/40 overflow-hidden">
+                    <div
+                      className="h-full rounded-full bg-slate-400/60"
+                      style={{ width: `${Math.min(transfers.summary.transfer_rating * 100, 100)}%` }}
+                    />
+                  </div>
+                </div>
+
+                <Row
+                  label="Replacement score"
+                  value={transfers.summary.replacement_score.toFixed(2)}
+                />
+
+                {/* urgency_level — red only if high */}
+                <Row
+                  label="Urgency"
+                  value={transfers.summary.urgency_level}
+                  valueClass={
+                    transfers.summary.urgency_level === "high"
+                      ? "text-rose-400"
+                      : transfers.summary.urgency_level === "moderate"
+                      ? "text-slate-300"
+                      : "text-slate-500"
+                  }
+                />
               </div>
+
+              {/* Top 3 options by composite_transfer_score */}
+              {(() => {
+                const allOptions = [
+                  ...(transfers.options?.better_variants ?? []),
+                  ...(transfers.options?.value_variants ?? []),
+                  ...(transfers.options?.upside_variants ?? []),
+                ]
+                const top3 = [...allOptions]
+                  .sort((a, b) => (b.composite_transfer_score ?? 0) - (a.composite_transfer_score ?? 0))
+                  .slice(0, 3)
+
+                if (top3.length === 0) return null
+
+                return (
+                  <div className="space-y-1.5 pt-1 border-t border-border/40">
+                    <p className="text-[11px] text-muted-foreground/70 uppercase tracking-wide">Top options</p>
+                    {top3.map((opt, i) => (
+                      <div
+                        key={i}
+                        className="flex items-center justify-between text-sm bg-muted/10 rounded-md px-2.5 py-2"
+                      >
+                        <span className="font-medium truncate">
+                          {resolvePlayer(opt.target_player_id)}
+                        </span>
+                        <div className="flex items-center gap-3 shrink-0 text-xs text-muted-foreground">
+                          <span title="Absolute gain">+{opt.absolute_gain.toFixed(3)}</span>
+                          <span title="Budget efficiency">{opt.budget_efficiency.toFixed(3)} eff</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )
+              })()}
             </div>
           )}
 
