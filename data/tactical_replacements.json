@@ -14,49 +14,12 @@
         "now_cost": 4,
         "price_band": "budget",
         "form": 2.5,
-        "minutes_secure": false,
+        "minutes_secure": true,
         "is_starter": true,
         "reason": "Underperforming relative to positional peers"
       },
       "replacements": {
         "safe_productivity": [
-          {
-            "player_id": 507,
-            "name": "Aina",
-            "form": 5.2,
-            "now_cost": 4,
-            "price_band": "budget"
-          },
-          {
-            "player_id": 610,
-            "name": "Wan-Bissaka",
-            "form": 4.8,
-            "now_cost": 4,
-            "price_band": "budget"
-          },
-          {
-            "player_id": 603,
-            "name": "Diouf",
-            "form": 4.2,
-            "now_cost": 4,
-            "price_band": "budget"
-          },
-          {
-            "player_id": 815,
-            "name": "Disasi",
-            "form": 4.0,
-            "now_cost": 4,
-            "price_band": "budget"
-          },
-          {
-            "player_id": 261,
-            "name": "Richards",
-            "form": 4.0,
-            "now_cost": 4,
-            "price_band": "budget"
-          }
-        ],
-        "higher_upside": [
           {
             "player_id": 77,
             "name": "Hill",
@@ -72,27 +35,28 @@
             "price_band": "budget"
           },
           {
+            "player_id": 507,
+            "name": "Aina",
+            "form": 5.2,
+            "now_cost": 4,
+            "price_band": "budget"
+          },
+          {
+            "player_id": 610,
+            "name": "Wan-Bissaka",
+            "form": 4.8,
+            "now_cost": 4,
+            "price_band": "budget"
+          },
+          {
             "player_id": 74,
             "name": "Truffert",
             "form": 4.5,
             "now_cost": 4,
             "price_band": "budget"
-          },
-          {
-            "player_id": 113,
-            "name": "Van den Berg",
-            "form": 4.0,
-            "now_cost": 4,
-            "price_band": "budget"
-          },
-          {
-            "player_id": 40,
-            "name": "Mings",
-            "form": 3.8,
-            "now_cost": 4,
-            "price_band": "budget"
           }
-        ]
+        ],
+        "higher_upside": []
       }
     },
     {
@@ -110,16 +74,16 @@
       "replacements": {
         "safe_productivity": [
           {
-            "player_id": 610,
-            "name": "Wan-Bissaka",
-            "form": 4.8,
+            "player_id": 77,
+            "name": "Hill",
+            "form": 7.2,
             "now_cost": 4,
             "price_band": "budget"
           },
           {
-            "player_id": 603,
-            "name": "Diouf",
-            "form": 4.2,
+            "player_id": 610,
+            "name": "Wan-Bissaka",
+            "form": 4.8,
             "now_cost": 4,
             "price_band": "budget"
           },
@@ -145,22 +109,7 @@
             "price_band": "budget"
           }
         ],
-        "higher_upside": [
-          {
-            "player_id": 77,
-            "name": "Hill",
-            "form": 7.2,
-            "now_cost": 4,
-            "price_band": "budget"
-          },
-          {
-            "player_id": 193,
-            "name": "Humphreys",
-            "form": 2.0,
-            "now_cost": 3,
-            "price_band": "budget"
-          }
-        ]
+        "higher_upside": []
       }
     },
     {
@@ -204,12 +153,19 @@
         "now_cost": 5,
         "price_band": "budget",
         "form": 2.8,
-        "minutes_secure": false,
-        "is_starter": false,
+        "minutes_secure": true,
+        "is_starter": true,
         "reason": "Underperforming relative to positional peers"
       },
       "replacements": {
         "safe_productivity": [
+          {
+            "player_id": 310,
+            "name": "Barry",
+            "form": 3.8,
+            "now_cost": 5,
+            "price_band": "budget"
+          },
           {
             "player_id": 791,
             "name": "Taty",
@@ -232,36 +188,14 @@
             "price_band": "budget"
           },
           {
-            "player_id": 817,
-            "name": "Armstrong",
-            "form": 2.7,
-            "now_cost": 5,
-            "price_band": "budget"
-          },
-          {
-            "player_id": 805,
-            "name": "Lucca",
-            "form": 2.3,
-            "now_cost": 5,
+            "player_id": 100,
+            "name": "Kroupi.Jr",
+            "form": 2.8,
+            "now_cost": 4,
             "price_band": "budget"
           }
         ],
-        "higher_upside": [
-          {
-            "player_id": 310,
-            "name": "Barry",
-            "form": 3.8,
-            "now_cost": 5,
-            "price_band": "budget"
-          },
-          {
-            "player_id": 365,
-            "name": "Nmecha",
-            "form": 2.8,
-            "now_cost": 5,
-            "price_band": "budget"
-          }
-        ]
+        "higher_upside": []
       }
     }
   ]
