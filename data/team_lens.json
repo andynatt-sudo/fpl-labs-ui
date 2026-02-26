@@ -13,12 +13,10 @@
     "recommended_posture": "roll_transfer",
     "flags": [
       {
-        "code": "DNP_STARTER",
+        "code": "INJURY_RISK",
         "severity": "HIGH",
         "player_ids": [
-          36,
-          407,
-          430
+          382
         ]
       }
     ]
@@ -30,8 +28,8 @@
         "name": "Cash",
         "position": "Defender",
         "is_starter": true,
-        "status": "WATCH",
-        "minutes_ok": false,
+        "status": "HOLD",
+        "minutes_ok": true,
         "cpp": {
           "status": "NEUTRAL",
           "ceiling_class": "LOW"
@@ -46,7 +44,7 @@
         "minutes_ok": true,
         "cpp": {
           "status": "STRONG-HOLD",
-          "ceiling_class": "MEDIUM"
+          "ceiling_class": "MID"
         }
       },
       {
@@ -69,20 +67,20 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "STRONG-HOLD",
-          "ceiling_class": "MEDIUM"
+          "status": "MUST-HAVE",
+          "ceiling_class": "HIGH"
         }
       },
       {
-        "player_id": 382,
-        "name": "Wirtz",
-        "position": "Midfielder",
+        "player_id": 691,
+        "name": "Calvert-Lewin",
+        "position": "Forward",
         "is_starter": true,
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "MUST-HAVE",
-          "ceiling_class": "HIGH"
+          "status": "NEUTRAL",
+          "ceiling_class": "LOW"
         }
       },
       {
@@ -93,8 +91,8 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "HOLD",
-          "ceiling_class": "HIGH"
+          "status": "STRONG-HOLD",
+          "ceiling_class": "MID"
         }
       },
       {
@@ -130,7 +128,7 @@
         "minutes_ok": true,
         "cpp": {
           "status": "NEUTRAL",
-          "ceiling_class": "LOW"
+          "ceiling_class": "MID"
         }
       },
       {
@@ -138,10 +136,10 @@
         "name": "Matheus N.",
         "position": "Defender",
         "is_starter": true,
-        "status": "WATCH",
-        "minutes_ok": false,
+        "status": "HOLD",
+        "minutes_ok": true,
         "cpp": {
-          "status": "HOLD",
+          "status": "NEUTRAL",
           "ceiling_class": "LOW"
         }
       },
@@ -150,10 +148,10 @@
         "name": "Haaland",
         "position": "Forward",
         "is_starter": true,
-        "status": "WATCH",
-        "minutes_ok": false,
+        "status": "HOLD",
+        "minutes_ok": true,
         "cpp": {
-          "status": "HOLD",
+          "status": "MUST-HAVE",
           "ceiling_class": "HIGH"
         }
       }
@@ -172,15 +170,15 @@
         }
       },
       {
-        "player_id": 691,
-        "name": "Calvert-Lewin",
-        "position": "Forward",
+        "player_id": 382,
+        "name": "Wirtz",
+        "position": "Midfielder",
         "is_starter": false,
-        "status": "WATCH",
-        "minutes_ok": false,
+        "status": "HOLD",
+        "minutes_ok": true,
         "cpp": {
-          "status": "NEUTRAL",
-          "ceiling_class": "MEDIUM"
+          "status": "RISK",
+          "ceiling_class": "HIGH"
         }
       },
       {
@@ -191,8 +189,8 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "HOLD",
-          "ceiling_class": "LOW"
+          "status": "NEUTRAL",
+          "ceiling_class": "MID"
         }
       },
       {
