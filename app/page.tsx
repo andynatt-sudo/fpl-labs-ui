@@ -7,7 +7,6 @@ import { TacticalReplacementsSection } from "@/components/tactical-replacements"
 import { TransferBundlesSection } from "@/components/transfer-bundles"
 import teamLensData from "@/data/team_lens.json"
 import playerProfilesData from "@/data/player_profiles.json"
-import playerLensData from "@/data/player_lens.json"
 import tacticalReplacementsData from "@/data/tactical_replacements.json"
 import transferBundlesData from "@/data/transfer_bundles.json"
 import type { 
@@ -20,15 +19,21 @@ import type { TeamLens } from "@/lib/types-team-lens"
 
 const teamLens = teamLensData as TeamLens
 const playerProfiles = playerProfilesData as PlayerProfiles
-const playerLensDataRaw = playerLensData as PlayerLensData
 const tacticalReplacements = tacticalReplacementsData as TacticalReplacements
 const transferBundles = transferBundlesData as TransferBundles
 
-// Convert player_lens.json object to array with player_id embedded
-const playerLensArray = Object.entries(playerLensDataRaw.players).map(([playerId, lens]) => ({
-  player_id: parseInt(playerId),
-  lens
-}))
+// Safely load player_lens.json — file may not exist in all environments
+let playerLensArray: Array<{ player_id: number; lens: import("@/lib/types").PlayerLens }> = []
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const playerLensDataRaw = require("@/data/player_lens.json") as PlayerLensData
+  playerLensArray = Object.entries(playerLensDataRaw.players).map(([playerId, lens]) => ({
+    player_id: parseInt(playerId),
+    lens,
+  }))
+} catch {
+  // player_lens.json is not available — components will render without lens data
+}
 
 export default function Home() {
   return (
