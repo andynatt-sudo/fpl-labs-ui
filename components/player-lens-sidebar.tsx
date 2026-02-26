@@ -22,42 +22,45 @@ export function PlayerLensSidebar({ profile, lens, availability, open, onOpenCha
 
   const { intelligence, diagnostics, prediction } = lens
 
-  // ── Tier 1: Primary classification — border-only, no background (rule: no both)
-  // Cool tones only; no red (reserved for availability risk)
+  // ── Tier 1: Primary classification — border-only, cool/neutral tones only
+  // No red, orange, or amber. Those are reserved exclusively for availability risk.
   const statusColors: Record<string, string> = {
-    "MUST-HAVE": "text-sky-300 border-sky-400/40",
-    "HOLD":      "text-slate-300 border-slate-400/35",
-    "WATCH":     "text-slate-400 border-slate-500/30",
-    "RISK":      "text-slate-400 border-slate-500/30",
+    "MUST-HAVE": "text-sky-300 border-sky-400/35",
+    "HOLD":      "text-slate-300 border-slate-400/30",
+    "WATCH":     "text-slate-400 border-slate-500/25",
+    "NEUTRAL":   "text-slate-400 border-slate-500/25",
+    "RISK":      "text-slate-400 border-slate-500/25",
   }
 
-  // ── Tier 2a: Validation — border-only, muted cool tones
+  // ── Tier 2a: Validation — border-only, neutral descending
   const validationColors: Record<string, string> = {
-    "validated":   "text-slate-400 border-slate-500/25",
-    "emerging":    "text-slate-400 border-slate-500/25",
-    "unvalidated": "text-muted-foreground border-border/40",
+    "validated":   "text-slate-400 border-slate-500/20",
+    "emerging":    "text-slate-400 border-slate-500/20",
+    "unvalidated": "text-muted-foreground/70 border-border/35",
   }
 
-  // ── Tier 2b: Trajectory — border-only, no red, descending intensity
+  // ── Tier 2b: Trajectory — border-only, cool/neutral only
+  // No warm tones: improving and declining use slate only
   const trajectoryColors: Record<string, string> = {
-    "accelerating": "text-slate-300 border-slate-400/30",
-    "improving":    "text-slate-400 border-slate-500/25",
-    "stable":       "text-muted-foreground border-border/30",
-    "declining":    "text-slate-500 border-slate-600/20",
+    "accelerating": "text-slate-300 border-slate-400/25",
+    "improving":    "text-slate-400 border-slate-500/20",
+    "stable":       "text-muted-foreground/70 border-border/30",
+    "declining":    "text-slate-500 border-slate-600/15",
   }
 
-  // ── Tier 3: Ceiling — plainest, lowest intensity
+  // ── Tier 3: Ceiling — neutral only, lowest intensity
   const ceilingColors: Record<string, string> = {
-    "high":     "text-muted-foreground/60 border-border/25",
-    "moderate": "text-muted-foreground/50 border-border/20",
-    "low":      "text-muted-foreground/40 border-border/15",
+    "high":     "text-muted-foreground/55 border-border/25",
+    "moderate": "text-muted-foreground/45 border-border/20",
+    "low":      "text-muted-foreground/35 border-border/15",
   }
 
-  // ── Outlook: fixture difficulty — no red (not availability risk)
+  // ── Outlook: fixture difficulty — neutral scale only, no warm tones
   const outlookColors: Record<string, string> = {
     "easy":    "text-slate-300",
     "neutral": "text-slate-400",
     "hard":    "text-slate-500",
+    "blank":   "text-muted-foreground/50",
   }
 
   // Colour derived from the tier passed in from the grid — exact 1:1 match

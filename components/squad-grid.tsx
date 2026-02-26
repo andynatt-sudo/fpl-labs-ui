@@ -130,10 +130,10 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                     </span>
                     <div className="flex items-center gap-1 shrink-0">
                       {player.is_captain && (
-                        <span className="text-[10px] font-bold text-amber-400 leading-none">C</span>
+                        <span className="text-[10px] font-bold text-slate-300 leading-none">C</span>
                       )}
                       {player.is_vice_captain && (
-                        <span className="text-[10px] font-bold text-slate-400 leading-none">V</span>
+                        <span className="text-[10px] font-bold text-slate-500 leading-none">V</span>
                       )}
                     </div>
                   </div>
@@ -171,10 +171,10 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                   <span className="text-sm font-medium text-foreground">{player.name}</span>
                   <span className="text-xs text-muted-foreground">{player.position}</span>
                   {player.is_captain && (
-                    <span className="text-[10px] font-bold text-amber-400 leading-none">C</span>
+                    <span className="text-[10px] font-bold text-slate-300 leading-none">C</span>
                   )}
                   {player.is_vice_captain && (
-                    <span className="text-[10px] font-bold text-slate-400 leading-none">V</span>
+                    <span className="text-[10px] font-bold text-slate-500 leading-none">V</span>
                   )}
                 </div>
               )
