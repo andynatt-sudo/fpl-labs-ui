@@ -1,6 +1,5 @@
 import { DashboardHeader } from "@/components/dashboard-header"
 import { GovernanceBanner } from "@/components/governance-banner"
-import { FlagsSection } from "@/components/flags-section"
 import { SquadGrid } from "@/components/squad-grid"
 import { PlayersTable } from "@/components/players-table"
 import { Watchlist } from "@/components/watchlist"
@@ -39,10 +38,7 @@ export default function Home() {
         {/* 1. Governance Summary - Top banner */}
         <GovernanceBanner governance={teamLens.governance} />
         
-        {/* 2. Flags Section - Alert cards */}
-        <FlagsSection flags={teamLens.governance.flags} />
-        
-        {/* 3. Squad Grid - Starters + Bench */}
+        {/* 2. Squad Grid - Starters + Bench */}
         <SquadGrid 
           squad={teamLens.squad} 
           flags={teamLens.governance.flags} 
