@@ -4,77 +4,71 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sh
 import { Badge } from "@/components/ui/badge"
 import type { PlayerLens, PlayerProfile } from "@/lib/types"
 
+export interface PlayerLensSidebarAvailability {
+  tier: "critical" | "caution"
+  reasons: Array<{ label: string; detail: string }>
+}
+
 interface PlayerLensSidebarProps {
   profile: PlayerProfile | null
   lens: PlayerLens | null
+  availability: PlayerLensSidebarAvailability | null
   open: boolean
   onOpenChange: (open: boolean) => void
 }
 
-export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerLensSidebarProps) {
+export function PlayerLensSidebar({ profile, lens, availability, open, onOpenChange }: PlayerLensSidebarProps) {
   if (!profile || !lens) return null
 
   const { intelligence, diagnostics, prediction } = lens
 
-  // ── Tier 1: Primary classification — border-only, no background (rule: no both)
-  // Cool tones only; no red (reserved for availability risk)
+  // ── Tier 1: Primary classification — border-only, cool/neutral tones only
+  // No red, orange, or amber. Those are reserved exclusively for availability risk.
   const statusColors: Record<string, string> = {
-    "MUST-HAVE": "text-sky-300 border-sky-400/40",
-    "HOLD":      "text-slate-300 border-slate-400/35",
-    "WATCH":     "text-slate-400 border-slate-500/30",
-    "RISK":      "text-slate-400 border-slate-500/30",
+    "MUST-HAVE": "text-sky-300 border-sky-400/35",
+    "HOLD":      "text-slate-300 border-slate-400/30",
+    "WATCH":     "text-slate-400 border-slate-500/25",
+    "NEUTRAL":   "text-slate-400 border-slate-500/25",
+    "RISK":      "text-slate-400 border-slate-500/25",
   }
 
-  // ── Tier 2a: Validation — border-only, muted cool tones
+  // ── Tier 2a: Validation — border-only, neutral descending
   const validationColors: Record<string, string> = {
-    "validated":   "text-slate-400 border-slate-500/25",
-    "emerging":    "text-slate-400 border-slate-500/25",
-    "unvalidated": "text-muted-foreground border-border/40",
+    "validated":   "text-slate-400 border-slate-500/20",
+    "emerging":    "text-slate-400 border-slate-500/20",
+    "unvalidated": "text-muted-foreground/70 border-border/35",
   }
 
-  // ── Tier 2b: Trajectory — border-only, no red, descending intensity
+  // ── Tier 2b: Trajectory — border-only, cool/neutral only
+  // No warm tones: improving and declining use slate only
   const trajectoryColors: Record<string, string> = {
-    "accelerating": "text-slate-300 border-slate-400/30",
-    "improving":    "text-slate-400 border-slate-500/25",
-    "stable":       "text-muted-foreground border-border/30",
-    "declining":    "text-slate-500 border-slate-600/20",
+    "accelerating": "text-slate-300 border-slate-400/25",
+    "improving":    "text-slate-400 border-slate-500/20",
+    "stable":       "text-muted-foreground/70 border-border/30",
+    "declining":    "text-slate-500 border-slate-600/15",
   }
 
-  // ── Tier 3: Ceiling — plainest, lowest intensity
+  // ── Tier 3: Ceiling — neutral only, lowest intensity
   const ceilingColors: Record<string, string> = {
-    "high":     "text-muted-foreground/60 border-border/25",
-    "moderate": "text-muted-foreground/50 border-border/20",
-    "low":      "text-muted-foreground/40 border-border/15",
+    "high":     "text-muted-foreground/55 border-border/25",
+    "moderate": "text-muted-foreground/45 border-border/20",
+    "low":      "text-muted-foreground/35 border-border/15",
   }
 
-  // ── Outlook: fixture difficulty — no red (not availability risk)
+  // ── Outlook: fixture difficulty — neutral scale only, no warm tones
   const outlookColors: Record<string, string> = {
     "easy":    "text-slate-300",
     "neutral": "text-slate-400",
     "hard":    "text-slate-500",
+    "blank":   "text-muted-foreground/50",
   }
 
-  // ── Two-tier availability colour — matches grid dot colours exactly
-  // Critical (red): injury state INJURED/SUSPENDED
-  // Caution (orange): DOUBTFUL, or injury_risk present but not confirmed
-  const injuryState = profile.injury?.state
-  const isCriticalAvailability = injuryState === "INJURED" || injuryState === "SUSPENDED"
-  const isCautionAvailability  = injuryState === "DOUBTFUL" || (
-    !isCriticalAvailability && !!diagnostics.risk_profile.injury_risk &&
-    diagnostics.risk_profile.injury_risk !== "none" &&
-    diagnostics.risk_profile.injury_risk !== "low"
-  )
-
-  const availabilityColor = isCriticalAvailability
-    ? "text-rose-400"
-    : isCautionAvailability
-    ? "text-orange-400"
-    : "font-medium capitalize"
+  // Colour derived from the tier passed in from the grid — exact 1:1 match
+  const availabilityValueColor = availability?.tier === "critical" ? "text-rose-400" : "text-orange-400"
 
   // Analytical risk rows (rotation, volatility) — neutral, not availability
   const analyticalRiskStyle = "font-medium capitalize text-foreground"
 
-  const hasAvailabilityRisk = isCriticalAvailability || isCautionAvailability || !!profile.injury?.news
   const hasAnalyticalRisk =
     diagnostics.risk_profile.rotation_risk ||
     diagnostics.risk_profile.volatility ||
@@ -100,7 +94,28 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
 
         <div className="mt-6 px-4 pb-8 space-y-6">
 
-          {/* ── 2. Status — three-tier visual weight ── */}
+          {/* ── 2. Availability — near top, 1:1 match with grid border colour ── */}
+          {availability && (
+            <div className={`rounded-md border px-3 py-3 space-y-1.5 ${
+              availability.tier === "critical"
+                ? "border-rose-500/40"
+                : "border-orange-400/30"
+            }`}>
+              <h3 className={`text-xs font-semibold uppercase tracking-wide ${
+                availability.tier === "critical" ? "text-rose-400" : "text-orange-400"
+              }`}>
+                Availability
+              </h3>
+              {availability.reasons.map((r, i) => (
+                <div key={i} className="flex justify-between text-sm">
+                  <span className="text-muted-foreground">{r.label}</span>
+                  <span className={`font-medium ${availabilityValueColor}`}>{r.detail}</span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* ── 3. Status — three-tier visual weight ── */}
           <div className="space-y-2.5">
             <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Status</h3>
 
@@ -197,45 +212,7 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
             </div>
           </div>
 
-          {/* ── 5a. Availability — critical/caution, matches grid dot colour ── */}
-          {hasAvailabilityRisk && (
-            <div className="space-y-2 pt-2 border-t border-border/50">
-              <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide flex items-center gap-1.5">
-                <span
-                  className={`size-1.5 rounded-full inline-block ${
-                    isCriticalAvailability ? "bg-rose-500" : "bg-orange-400"
-                  }`}
-                />
-                Availability
-              </h3>
-              <div className="space-y-1.5 text-sm">
-                {injuryState && injuryState !== "AVAILABLE" && injuryState !== "UNKNOWN" && (
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Status</span>
-                    <span className={`font-medium capitalize ${availabilityColor}`}>
-                      {injuryState.toLowerCase()}
-                    </span>
-                  </div>
-                )}
-                {diagnostics.risk_profile.injury_risk &&
-                  diagnostics.risk_profile.injury_risk !== "none" && (
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Injury risk</span>
-                    <span className={`font-medium capitalize ${availabilityColor}`}>
-                      {diagnostics.risk_profile.injury_risk}
-                    </span>
-                  </div>
-                )}
-                {profile.injury?.news && (
-                  <p className="text-xs text-muted-foreground leading-relaxed pt-0.5">
-                    {profile.injury.news}
-                  </p>
-                )}
-              </div>
-            </div>
-          )}
-
-          {/* ── 5b. Analytical Risk — rotation, volatility, context — neutral tones ── */}
+          {/* ── 5. Analytical Risk — rotation, volatility, context — neutral tones ── */}
           {hasAnalyticalRisk && (
             <div className="space-y-2 pt-2 border-t border-border/50">
               <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Risk</h3>

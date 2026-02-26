@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
-import { PlayerLensSidebar } from "@/components/player-lens-sidebar"
+import { PlayerLensSidebar, type PlayerLensSidebarAvailability } from "@/components/player-lens-sidebar"
 import type { TeamLensSquad, TeamLensFlag } from "@/lib/types-team-lens"
 import type { PlayerLens, PlayerProfile } from "@/lib/types"
 
@@ -13,32 +13,62 @@ interface SquadGridProps {
   playerLensData: Array<{ player_id: number; lens: PlayerLens }>
 }
 
-// Derive availability risk tier for a player.
-// Critical (red): flag severity HIGH, or injury state INJURED/SUSPENDED.
-// Caution (orange): flag severity MEDIUM/LOW, or DOUBTFUL, or minutes_ok false.
-type RiskTier = "critical" | "caution" | null
+export type RiskTier = "critical" | "caution" | null
 
-function getPlayerRiskTier(
+export interface AvailabilityInfo {
+  tier: RiskTier
+  // Explicit labelled reasons — each is a { label, detail } pair shown in the panel
+  reasons: Array<{ label: string; detail: string }>
+}
+
+/**
+ * Single source of truth for availability tier + reasons.
+ * Used by both the grid (border colour) and the sidebar (Availability section).
+ */
+export function getAvailabilityInfo(
   playerId: number,
   minutesOk: boolean,
   flags: TeamLensFlag[],
   profiles: PlayerProfile[]
-): RiskTier {
+): AvailabilityInfo {
   const profile = profiles.find(p => p.player_id === playerId)
   const injuryState = profile?.injury?.state
+  const playerFlags = flags.filter(f => f.player_ids.includes(playerId))
+  const reasons: Array<{ label: string; detail: string }> = []
+  let tier: RiskTier = null
 
   // Critical: confirmed absence
-  if (injuryState === "INJURED" || injuryState === "SUSPENDED") return "critical"
-
-  const playerFlags = flags.filter(f => f.player_ids.includes(playerId))
-  if (playerFlags.some(f => f.severity === "HIGH")) return "critical"
+  if (injuryState === "INJURED") {
+    tier = "critical"
+    reasons.push({ label: "Injury", detail: "Confirmed" })
+  } else if (injuryState === "SUSPENDED") {
+    tier = "critical"
+    reasons.push({ label: "Suspension", detail: "Confirmed" })
+  } else if (playerFlags.some(f => f.severity === "HIGH")) {
+    tier = "critical"
+    reasons.push({ label: "Flag", detail: "High severity" })
+  }
 
   // Caution: doubtful, minutes risk, or lower-severity flag
-  if (injuryState === "DOUBTFUL") return "caution"
-  if (!minutesOk) return "caution"
-  if (playerFlags.length > 0) return "caution"
+  if (injuryState === "DOUBTFUL") {
+    if (!tier) tier = "caution"
+    reasons.push({ label: "Injury", detail: "Doubtful" })
+  }
+  if (!minutesOk) {
+    if (!tier) tier = "caution"
+    reasons.push({ label: "Minutes Risk", detail: "Elevated" })
+  }
+  if (playerFlags.length > 0 && !playerFlags.some(f => f.severity === "HIGH")) {
+    if (!tier) tier = "caution"
+    reasons.push({ label: "Flag", detail: playerFlags[0].severity === "MEDIUM" ? "Medium severity" : "Low severity" })
+  }
 
-  return null
+  // Attach injury news if present and relevant
+  if (profile?.injury?.news && tier) {
+    reasons.push({ label: "Note", detail: profile.injury.news })
+  }
+
+  return { tier, reasons }
 }
 
 // Border-only per risk tier — single indicator, no dot, no background
@@ -50,14 +80,17 @@ const riskBorderClass: Record<string, string> = {
 export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: SquadGridProps) {
   const [selectedProfile, setSelectedProfile] = useState<PlayerProfile | null>(null)
   const [selectedLens, setSelectedLens] = useState<PlayerLens | null>(null)
+  const [selectedAvailability, setSelectedAvailability] = useState<PlayerLensSidebarAvailability | null>(null)
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
-  const handlePlayerClick = (playerId: number) => {
+  const handlePlayerClick = (playerId: number, minutesOk: boolean) => {
     const profile = playerProfiles.find(p => p.player_id === playerId)
     const lensEntry = playerLensData?.find(p => p.player_id === playerId)
     if (profile && lensEntry?.lens) {
+      const { tier, reasons } = getAvailabilityInfo(playerId, minutesOk, flags, playerProfiles)
       setSelectedProfile(profile)
       setSelectedLens(lensEntry.lens)
+      setSelectedAvailability(tier ? { tier, reasons } : null)
       setSidebarOpen(true)
     }
   }
@@ -79,11 +112,11 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
             {squad.starters.map((player) => {
-              const tier = getPlayerRiskTier(player.player_id, player.minutes_ok, flags, playerProfiles)
+              const { tier } = getAvailabilityInfo(player.player_id, player.minutes_ok, flags, playerProfiles)
               return (
                 <div
                   key={player.player_id}
-                  onClick={() => handlePlayerClick(player.player_id)}
+                  onClick={() => handlePlayerClick(player.player_id, player.minutes_ok)}
                   className={`flex flex-col gap-1.5 p-3 rounded-lg bg-background/80 border transition-colors cursor-pointer ${
                     tier
                       ? riskBorderClass[tier]
@@ -97,10 +130,10 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                     </span>
                     <div className="flex items-center gap-1 shrink-0">
                       {player.is_captain && (
-                        <span className="text-[10px] font-bold text-amber-400 leading-none">C</span>
+                        <span className="text-[10px] font-bold text-slate-300 leading-none">C</span>
                       )}
                       {player.is_vice_captain && (
-                        <span className="text-[10px] font-bold text-slate-400 leading-none">V</span>
+                        <span className="text-[10px] font-bold text-slate-500 leading-none">V</span>
                       )}
                     </div>
                   </div>
@@ -124,11 +157,11 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
           </h3>
           <div className="flex flex-wrap gap-2">
             {squad.bench.map((player) => {
-              const tier = getPlayerRiskTier(player.player_id, player.minutes_ok, flags, playerProfiles)
+              const { tier } = getAvailabilityInfo(player.player_id, player.minutes_ok, flags, playerProfiles)
               return (
                 <div
                   key={player.player_id}
-                  onClick={() => handlePlayerClick(player.player_id)}
+                  onClick={() => handlePlayerClick(player.player_id, player.minutes_ok)}
                   className={`flex items-center gap-2 px-3 py-2 rounded-md bg-background/60 border cursor-pointer transition-colors ${
                     tier
                       ? riskBorderClass[tier]
@@ -138,10 +171,10 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                   <span className="text-sm font-medium text-foreground">{player.name}</span>
                   <span className="text-xs text-muted-foreground">{player.position}</span>
                   {player.is_captain && (
-                    <span className="text-[10px] font-bold text-amber-400 leading-none">C</span>
+                    <span className="text-[10px] font-bold text-slate-300 leading-none">C</span>
                   )}
                   {player.is_vice_captain && (
-                    <span className="text-[10px] font-bold text-slate-400 leading-none">V</span>
+                    <span className="text-[10px] font-bold text-slate-500 leading-none">V</span>
                   )}
                 </div>
               )
@@ -153,6 +186,7 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
       <PlayerLensSidebar
         profile={selectedProfile}
         lens={selectedLens}
+        availability={selectedAvailability}
         open={sidebarOpen}
         onOpenChange={setSidebarOpen}
       />
