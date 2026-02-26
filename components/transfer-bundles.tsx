@@ -35,14 +35,9 @@ export function TransferBundlesSection({ data }: TransferBundlesProps) {
 
       <div className="grid gap-4 md:grid-cols-2">
         {data.bundles.map((bundle, idx) => {
-          const budgetImpact = bundle.net_budget_impact ?? 0
-          const budgetLabel = 
-            budgetImpact > 0 
-              ? `+£${budgetImpact}m` 
-              : budgetImpact < 0 
-              ? `£${budgetImpact}m` 
-              : "Neutral"
-          
+          const spend = bundle.max_spend_required ?? 0
+          const spendLabel = spend > 0 ? `-£${spend.toFixed(1)}m` : "Self-funding"
+
           return (
             <Card key={idx} className="bg-card/50">
               <CardContent className="p-5">
@@ -50,22 +45,16 @@ export function TransferBundlesSection({ data }: TransferBundlesProps) {
                 <div className="flex items-start gap-3 mb-4">
                   <Layers className="size-5 text-muted-foreground mt-0.5" />
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-base font-semibold mb-1">{bundle.name}</h3>
+                    <h3 className="text-base font-semibold mb-1">{bundle.strategy}</h3>
                     <div className="flex items-center gap-2 flex-wrap">
                       <Badge variant="outline" className="text-xs">
-                        {bundle.transfers_required} Transfers
+                        {bundle.transfers.length} Transfer{bundle.transfers.length !== 1 ? "s" : ""}
                       </Badge>
-                      <Badge 
-                        variant="outline" 
-                        className={`text-xs ${
-                          budgetImpact > 0 
-                            ? 'text-rose-400 border-rose-500/30' 
-                            : budgetImpact < 0 
-                            ? 'text-emerald-400 border-emerald-500/30' 
-                            : 'text-muted-foreground'
-                        }`}
+                      <Badge
+                        variant="outline"
+                        className={`text-xs ${spend > 0 ? "text-slate-400 border-slate-500/30" : "text-muted-foreground"}`}
                       >
-                        {budgetLabel}
+                        {spendLabel}
                       </Badge>
                     </div>
                   </div>
@@ -74,55 +63,44 @@ export function TransferBundlesSection({ data }: TransferBundlesProps) {
                 {/* Transfers */}
                 <div className="space-y-2 mb-4">
                   {bundle.transfers.map((transfer, tidx) => (
-                    <div 
+                    <div
                       key={tidx}
                       className="flex items-center gap-2 text-sm bg-background/50 rounded-md px-3 py-2"
                     >
                       <div className="flex items-center gap-2 flex-1 min-w-0">
                         <span className="text-muted-foreground truncate">
-                          {transfer.out.name}
+                          {transfer.out_profile?.web_name ?? transfer.out_player}
                         </span>
                         <Badge variant="outline" className="text-xs shrink-0">
-                          £{transfer.out.now_cost}m
+                          £{transfer.out_profile?.price ?? "?"}m
                         </Badge>
                       </div>
                       <ArrowRight className="size-4 text-muted-foreground shrink-0" />
                       <div className="flex items-center gap-2 flex-1 min-w-0 justify-end">
                         <Badge variant="outline" className="text-xs shrink-0">
-                          £{transfer.in.now_cost}m
+                          £{transfer.in_profile?.price ?? "?"}m
                         </Badge>
                         <span className="font-medium truncate text-right">
-                          {transfer.in.name}
+                          {transfer.in_profile?.web_name ?? transfer.in_player}
                         </span>
                       </div>
                     </div>
                   ))}
                 </div>
 
-                {/* Problem Solved */}
-                <div className="mb-3 pb-3 border-b border-border">
-                  <p className="text-xs text-muted-foreground leading-relaxed">
-                    {bundle.problem_solved}
-                  </p>
-                </div>
-
-                {/* Trade-offs */}
-                {bundle.trade_offs && bundle.trade_offs.length > 0 && (
-                  <div>
-                    <h4 className="text-xs font-medium text-muted-foreground mb-2">Considerations</h4>
-                    <ul className="space-y-1">
-                      {bundle.trade_offs.map((tradeoff, toidx) => (
-                        <li 
-                          key={toidx} 
-                          className="text-xs text-muted-foreground/80 flex items-start gap-1.5"
-                        >
-                          <span className="text-muted-foreground/40 mt-px">-</span>
-                          <span>{tradeoff}</span>
-                        </li>
-                      ))}
-                    </ul>
+                {/* Rationale */}
+                {bundle.rationale && bundle.rationale.length > 0 && (
+                  <div className="mb-3 pb-3 border-b border-border">
+                    <p className="text-xs text-muted-foreground leading-relaxed">
+                      {bundle.rationale[0]}
+                    </p>
                   </div>
                 )}
+
+                {/* Bank remaining */}
+                <p className="text-xs text-muted-foreground">
+                  Bank remaining: £{(bundle.ending_bank ?? 0).toFixed(1)}m
+                </p>
               </CardContent>
             </Card>
           )

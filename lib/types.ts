@@ -284,35 +284,44 @@ export interface TacticalReplacements {
   items: TacticalReplacementItem[]
 }
 
-// Transfer Bundles types
-export interface BundleTransferPlayer {
+// Transfer Bundles types — matches transfer_bundles.json schema
+export interface BundlePlayerProfile {
   player_id: number
-  name: string
+  web_name: string
+  team: string
   position: string
-  now_cost: number
+  price: number
+  ownership: number
+  status: string
 }
 
 export interface BundleTransfer {
-  out: BundleTransferPlayer
-  in: BundleTransferPlayer
+  out_player: string
+  in_player: string
+  position: string
+  price_delta: number
+  funding_role: string
+  out_profile: BundlePlayerProfile
+  in_profile: BundlePlayerProfile
 }
 
 export interface TransferBundle {
-  name: string
-  type: string
-  transfers_required: number
-  net_budget_impact: number
+  bundle_score: number
+  bundle_gain: number
   transfers: BundleTransfer[]
-  problem_solved: string
-  trade_offs: string[]
+  max_spend_required: number
+  ending_bank: number
+  is_feasible: boolean
+  strategy: string
+  rationale: string[]
+  manager_profile: string
 }
 
 export interface TransferBundles {
   meta: {
     type: string
-    team_id: number
     gameweek: number
-    description: string
+    outcome: string
     count: number
   }
   bundles: TransferBundle[]
