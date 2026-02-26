@@ -53,6 +53,16 @@ const outlookColors: Record<string, string> = {
   "hard":    "text-slate-500",
 }
 
+// Risk level colours — strictly from diagnostics.risk_profile values.
+// Does not duplicate availability logic (injury_state, flags) from the grid.
+function riskLevelColor(value: string | null | undefined): string {
+  if (!value) return "text-foreground"
+  const v = value.toLowerCase()
+  if (v === "high")     return "text-rose-400"
+  if (v === "moderate") return "text-orange-400"
+  return "text-slate-400" // low or any unrecognised value
+}
+
 // ── Section header ──
 function SectionHeader({ label }: { label: string }) {
   return (
@@ -151,16 +161,28 @@ export function PlayerLensSidebar({ profile, lens, availability, playerProfiles,
                 )}
               </div>
 
-              {/* risk_profile — rotation, injury, volatility */}
+              {/* risk_profile — rotation, injury, volatility (nested under Diagnostics) */}
               <div className="space-y-1.5">
                 {diagnostics.risk_profile.rotation_risk && (
-                  <Row label="Rotation risk" value={diagnostics.risk_profile.rotation_risk} />
+                  <Row
+                    label="Rotation risk"
+                    value={diagnostics.risk_profile.rotation_risk}
+                    valueClass={riskLevelColor(diagnostics.risk_profile.rotation_risk)}
+                  />
                 )}
                 {diagnostics.risk_profile.injury_risk && (
-                  <Row label="Injury risk" value={diagnostics.risk_profile.injury_risk} />
+                  <Row
+                    label="Injury risk"
+                    value={diagnostics.risk_profile.injury_risk}
+                    valueClass={riskLevelColor(diagnostics.risk_profile.injury_risk)}
+                  />
                 )}
                 {diagnostics.risk_profile.volatility && (
-                  <Row label="Volatility" value={diagnostics.risk_profile.volatility} />
+                  <Row
+                    label="Volatility"
+                    value={diagnostics.risk_profile.volatility}
+                    valueClass={riskLevelColor(diagnostics.risk_profile.volatility)}
+                  />
                 )}
                 {diagnostics.team_context_modifier && (
                   <Row label="Team context" value={diagnostics.team_context_modifier} />
