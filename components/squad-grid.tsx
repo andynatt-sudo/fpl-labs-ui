@@ -41,18 +41,10 @@ function getPlayerRiskTier(
   return null
 }
 
-// Border + dot colour per risk tier
+// Border-only per risk tier — single indicator, no dot, no background
 const riskBorderClass: Record<string, string> = {
-  critical: "border-rose-500/50 hover:border-rose-500/70",
-  caution:  "border-orange-400/40 hover:border-orange-400/60",
-}
-const riskDotClass: Record<string, string> = {
-  critical: "bg-rose-500",
-  caution:  "bg-orange-400",
-}
-const riskLabel: Record<string, string> = {
-  critical: "Availability: critical",
-  caution:  "Availability: caution",
+  critical: "border-rose-500/40 hover:border-rose-500/55",
+  caution:  "border-orange-400/30 hover:border-orange-400/45",
 }
 
 export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: SquadGridProps) {
@@ -110,12 +102,6 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                       {player.is_vice_captain && (
                         <span className="text-[10px] font-bold text-slate-400 leading-none">V</span>
                       )}
-                      {tier && (
-                        <span
-                          className={`size-1.5 rounded-full shrink-0 ${riskDotClass[tier]}`}
-                          aria-label={riskLabel[tier]}
-                        />
-                      )}
                     </div>
                   </div>
 
@@ -156,12 +142,6 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
                   )}
                   {player.is_vice_captain && (
                     <span className="text-[10px] font-bold text-slate-400 leading-none">V</span>
-                  )}
-                  {tier && (
-                    <span
-                      className={`size-1.5 rounded-full shrink-0 ${riskDotClass[tier]}`}
-                      aria-label={riskLabel[tier]}
-                    />
                   )}
                 </div>
               )
