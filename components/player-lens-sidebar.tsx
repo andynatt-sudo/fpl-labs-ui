@@ -18,39 +18,45 @@ interface PlayerLensSidebarProps {
   onOpenChange: (open: boolean) => void
 }
 
-// ── Colour maps — cool/neutral only. Red/orange reserved for availability. ──
+// ── Colour maps ──
 
+// Tier 1 — cpp_status: subtle background tint + readable text. No red unless RISK.
 const cppStatusColors: Record<string, string> = {
-  "MUST-HAVE": "text-sky-300 border-sky-400/35",
-  "HOLD":      "text-slate-300 border-slate-400/30",
-  "WATCH":     "text-slate-400 border-slate-500/25",
-  "NEUTRAL":   "text-slate-400 border-slate-500/25",
-  "RISK":      "text-slate-400 border-slate-500/25",
+  "MUST-HAVE": "bg-sky-950/60   text-sky-200   border border-sky-500/30",
+  "HOLD":      "bg-slate-800/60 text-slate-200 border border-slate-500/30",
+  "WATCH":     "bg-slate-800/50 text-slate-300 border border-slate-500/25",
+  "NEUTRAL":   "bg-slate-800/50 text-slate-300 border border-slate-500/25",
+  "RISK":      "bg-rose-950/50  text-rose-300  border border-rose-500/30",
 }
 
+// Tier 3 — validation_state: small neutral outline, must not compete with Tier 1
 const validationColors: Record<string, string> = {
-  "validated":   "text-slate-400 border-slate-500/20",
-  "emerging":    "text-slate-400 border-slate-500/20",
-  "unvalidated": "text-muted-foreground/70 border-border/35",
+  "validated":   "text-slate-400 border-slate-600/50",
+  "emerging":    "text-slate-400 border-slate-600/50",
+  "unvalidated": "text-slate-500 border-slate-700/50",
 }
 
+// Tier 2 — form_trajectory: traffic-light border only, no background fill
 const trajectoryColors: Record<string, string> = {
-  "accelerating": "text-slate-300 border-slate-400/25",
-  "improving":    "text-slate-400 border-slate-500/20",
-  "stable":       "text-muted-foreground/70 border-border/30",
-  "declining":    "text-slate-500 border-slate-600/15",
+  "accelerating": "text-emerald-400 border-emerald-600/50",
+  "improving":    "text-emerald-500/70 border-emerald-700/40",
+  "stable":       "text-slate-400   border-slate-600/40",
+  "declining":    "text-amber-400/80 border-amber-600/40",
 }
 
-const ceilingColors: Record<string, string> = {
-  "high":     "text-muted-foreground/55 border-border/25",
-  "moderate": "text-muted-foreground/45 border-border/20",
-  "low":      "text-muted-foreground/35 border-border/15",
+// ceiling_indicator — plain text in Prediction, no badge needed
+const ceilingTextColors: Record<string, string> = {
+  "high":     "text-slate-300",
+  "moderate": "text-slate-400",
+  "low":      "text-slate-500",
 }
 
 const outlookColors: Record<string, string> = {
-  "easy":    "text-slate-300",
-  "neutral": "text-slate-400",
-  "hard":    "text-slate-500",
+  "easy":       "text-slate-300",
+  "favorable":  "text-slate-300",
+  "neutral":    "text-slate-400",
+  "difficult":  "text-slate-500",
+  "hard":       "text-slate-500",
 }
 
 // Risk level colours — strictly from diagnostics.risk_profile values.
@@ -140,26 +146,30 @@ export function PlayerLensSidebar({ profile, lens, availability, playerProfiles,
             <div className="space-y-3">
               <SectionHeader label="Diagnostics" />
 
-              {/* cpp_status — primary classification */}
-              <Badge
-                className={`text-sm font-semibold px-3 py-1 ${cppStatusColors[diagnostics.cpp_status] ?? "text-slate-400 border-slate-500/25"}`}
-              >
-                {diagnostics.cpp_status}
-              </Badge>
+              {/* Tier 1 — cpp_status: dominant badge with background tint */}
+              <div>
+                <span className={`inline-flex items-center rounded-md px-3 py-1 text-sm font-semibold tracking-wide ${cppStatusColors[diagnostics.cpp_status] ?? "bg-slate-800/50 text-slate-300 border border-slate-500/25"}`}>
+                  {diagnostics.cpp_status}
+                </span>
+              </div>
 
-              {/* validation_state + form_trajectory — secondary signals */}
-              <div className="flex flex-wrap gap-1.5">
-                {diagnostics.validation_state && (
-                  <Badge variant="outline" className={`text-[11px] font-normal px-2 py-0 ${validationColors[diagnostics.validation_state] ?? ""}`}>
+              {/* Tier 2 — form_trajectory: traffic-light bordered pill */}
+              {diagnostics.form_trajectory && (
+                <div>
+                  <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium border ${trajectoryColors[diagnostics.form_trajectory] ?? "text-slate-400 border-slate-600/40"}`}>
+                    {diagnostics.form_trajectory}
+                  </span>
+                </div>
+              )}
+
+              {/* Tier 3 — validation_state: small neutral outline, lowest visual weight */}
+              {diagnostics.validation_state && (
+                <div>
+                  <Badge variant="outline" className={`text-[11px] font-normal px-2 py-0 ${validationColors[diagnostics.validation_state] ?? "text-slate-500 border-slate-700/50"}`}>
                     {diagnostics.validation_state}
                   </Badge>
-                )}
-                {diagnostics.form_trajectory && (
-                  <Badge variant="outline" className={`text-[11px] font-normal px-2 py-0 ${trajectoryColors[diagnostics.form_trajectory] ?? ""}`}>
-                    {diagnostics.form_trajectory}
-                  </Badge>
-                )}
-              </div>
+                </div>
+              )}
 
               {/* risk_profile — rotation, injury, volatility (nested under Diagnostics) */}
               <div className="space-y-1.5">
@@ -206,11 +216,11 @@ export function PlayerLensSidebar({ profile, lens, availability, playerProfiles,
                   value={prediction.ep_trend_alignment}
                 />
                 {prediction.ceiling_indicator && (
-                  <div className="pt-0.5">
-                    <Badge variant="outline" className={`text-[10px] font-normal px-1.5 py-0 ${ceilingColors[prediction.ceiling_indicator] ?? ""}`}>
-                      {prediction.ceiling_indicator} ceiling
-                    </Badge>
-                  </div>
+                  <Row
+                    label="Ceiling"
+                    value={`${prediction.ceiling_indicator}`}
+                    valueClass={ceilingTextColors[prediction.ceiling_indicator] ?? "text-slate-400"}
+                  />
                 )}
                 {prediction.replacement_pressure && (
                   <Row label="Replacement pressure" value={prediction.replacement_pressure} />
