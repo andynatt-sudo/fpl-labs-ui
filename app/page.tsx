@@ -31,8 +31,9 @@ try {
     player_id: parseInt(playerId),
     lens,
   }))
-} catch {
-  // player_lens.json is not available — components will render without lens data
+  console.log("[v0] player_lens loaded, player count:", playerLensArray.length, "first id:", playerLensArray[0]?.player_id)
+} catch (e) {
+  console.log("[v0] player_lens.json load failed:", e)
 }
 
 export default function Home() {
