@@ -7,6 +7,7 @@ import { TacticalReplacementsSection } from "@/components/tactical-replacements"
 import { TransferBundlesSection } from "@/components/transfer-bundles"
 import teamLensData from "@/data/team_lens.json"
 import playerProfilesData from "@/data/player_profiles.json"
+import playerLensRaw from "@/data/player_lens.json"
 import tacticalReplacementsData from "@/data/tactical_replacements.json"
 import transferBundlesData from "@/data/transfer_bundles.json"
 import type { 
@@ -22,19 +23,9 @@ const playerProfiles = playerProfilesData as PlayerProfiles
 const tacticalReplacements = tacticalReplacementsData as TacticalReplacements
 const transferBundles = transferBundlesData as TransferBundles
 
-// Safely load player_lens.json — file may not exist in all environments
-let playerLensArray: Array<{ player_id: number; lens: import("@/lib/types").PlayerLens }> = []
-try {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const playerLensDataRaw = require("@/data/player_lens.json") as PlayerLensData
-  playerLensArray = Object.entries(playerLensDataRaw.players).map(([playerId, lens]) => ({
-    player_id: parseInt(playerId),
-    lens,
-  }))
-  console.log("[v0] player_lens loaded, player count:", playerLensArray.length, "first id:", playerLensArray[0]?.player_id)
-} catch (e) {
-  console.log("[v0] player_lens.json load failed:", e)
-}
+const playerLensArray = Object.entries((playerLensRaw as PlayerLensData).players).map(
+  ([playerId, lens]) => ({ player_id: parseInt(playerId), lens })
+)
 
 export default function Home() {
   return (
