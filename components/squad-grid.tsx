@@ -85,14 +85,13 @@ export function SquadGrid({ squad, flags, playerProfiles, playerLensData }: Squa
 
   const handlePlayerClick = (playerId: number, minutesOk: boolean) => {
     const profile = playerProfiles.find(p => p.player_id === playerId)
+    if (!profile) return
     const lensEntry = playerLensData?.find(p => p.player_id === playerId)
-    if (profile && lensEntry?.lens) {
-      const { tier, reasons } = getAvailabilityInfo(playerId, minutesOk, flags, playerProfiles)
-      setSelectedProfile(profile)
-      setSelectedLens(lensEntry.lens)
-      setSelectedAvailability(tier ? { tier, reasons } : null)
-      setSidebarOpen(true)
-    }
+    const { tier, reasons } = getAvailabilityInfo(playerId, minutesOk, flags, playerProfiles)
+    setSelectedProfile(profile)
+    setSelectedLens(lensEntry?.lens ?? null)
+    setSelectedAvailability(tier ? { tier, reasons } : null)
+    setSidebarOpen(true)
   }
 
   return (

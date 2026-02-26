@@ -158,6 +158,7 @@ export interface PlayerLens {
       recent_points: number | null
       xgi_per_90: number | null
       defensive_contribution: number
+      pick_score?: number
     }
     current_gameweek_data: {
       ep_this: number
@@ -170,23 +171,37 @@ export interface PlayerLens {
     }
   }
   diagnostics: {
-    cpp_status: CppStatusLens
-    validation_state: ValidationState
+    cpp_status: string
+    validation_state: ValidationState | null
     form_trajectory: FormTrajectory
     risk_profile: {
       rotation_risk: null | string
       injury_risk: null | string
       volatility: null | string
     }
-    team_context_modifier: null | string
+    team_context_modifier?: null | string
   }
   prediction: {
     fixture_outlook: FixtureOutlook
     ep_trend_alignment: EPTrendAlignment
     ceiling_indicator: CeilingIndicator
-    replacement_pressure: null | string
+    replacement_pressure?: null | string
   }
-  transfer_options: {
+  // JSON uses "transfers" with "options" sub-key; transfer_options is legacy alias
+  transfers?: {
+    summary?: {
+      transfer_rating: number
+      replacement_score: number
+      urgency_level: string
+    }
+    options?: {
+      better_variants: unknown[]
+      value_variants: unknown[]
+      upside_variants: unknown[]
+      structural_paths: unknown[]
+    }
+  }
+  transfer_options?: {
     better_variants: unknown[]
     value_variants: unknown[]
     upside_variants: unknown[]
@@ -196,8 +211,11 @@ export interface PlayerLens {
 
 export interface PlayerLensData {
   meta: {
-    type: string
-    description: string
+    schema_version?: string
+    type?: string
+    description?: string
+    analysis_gw?: number
+    current_gw?: number
   }
   players: Record<string, PlayerLens>
 }
