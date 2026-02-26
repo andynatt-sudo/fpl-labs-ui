@@ -43,8 +43,14 @@ export default function Home() {
           playerLensData={playerLensArray} 
         />
         
+        {/* 3. Tactical Replacements + Transfer Bundles */}
+        <div className="space-y-6">
+          <TacticalReplacementsSection data={tacticalReplacements} />
+          <TransferBundlesSection data={transferBundles} />
+        </div>
+
         {/* 4. Dashboard Table - All players from player_profiles.json */}
-        <section className="space-y-3">
+        <section className="space-y-3 pt-4 border-t border-border/50">
           <h2 className="text-xl font-semibold tracking-tight">Player Dashboard</h2>
           <PlayersTable players={playerProfiles.players} playerLensData={playerLensArray} />
         </section>
@@ -57,12 +63,6 @@ export default function Home() {
             playerLensData={playerLensArray} 
           />
         )}
-        
-        {/* 6. Optional Actions - Below the fold */}
-        <div className="space-y-6 pt-4 border-t border-border/50">
-          <TacticalReplacementsSection data={tacticalReplacements} />
-          <TransferBundlesSection data={transferBundles} />
-        </div>
       </main>
     </div>
   )
