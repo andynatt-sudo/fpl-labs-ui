@@ -13,72 +13,100 @@ interface PlayerLensSidebarProps {
   profile: PlayerProfile | null
   lens: PlayerLens | null
   availability: PlayerLensSidebarAvailability | null
+  playerProfiles: PlayerProfile[]
   open: boolean
   onOpenChange: (open: boolean) => void
 }
 
-export function PlayerLensSidebar({ profile, lens, availability, open, onOpenChange }: PlayerLensSidebarProps) {
-  if (!profile || !lens) return null
+// ── Colour maps ──
 
-  const { intelligence, diagnostics, prediction } = lens
+// Tier 1 — cpp_status: subtle background tint + readable text. No red unless RISK.
+const cppStatusColors: Record<string, string> = {
+  "MUST-HAVE": "bg-sky-950/60   text-sky-200   border border-sky-500/30",
+  "HOLD":      "bg-slate-800/60 text-slate-200 border border-slate-500/30",
+  "WATCH":     "bg-slate-800/50 text-slate-300 border border-slate-500/25",
+  "NEUTRAL":   "bg-slate-800/50 text-slate-300 border border-slate-500/25",
+  "RISK":      "bg-rose-950/50  text-rose-300  border border-rose-500/30",
+}
 
-  // ── Tier 1: Primary classification — border-only, cool/neutral tones only
-  // No red, orange, or amber. Those are reserved exclusively for availability risk.
-  const statusColors: Record<string, string> = {
-    "MUST-HAVE": "text-sky-300 border-sky-400/35",
-    "HOLD":      "text-slate-300 border-slate-400/30",
-    "WATCH":     "text-slate-400 border-slate-500/25",
-    "NEUTRAL":   "text-slate-400 border-slate-500/25",
-    "RISK":      "text-slate-400 border-slate-500/25",
-  }
+// Tier 3 — validation_state: small neutral outline, must not compete with Tier 1
+const validationColors: Record<string, string> = {
+  "validated":   "text-slate-400 border-slate-600/50",
+  "emerging":    "text-slate-400 border-slate-600/50",
+  "unvalidated": "text-slate-500 border-slate-700/50",
+}
 
-  // ── Tier 2a: Validation — border-only, neutral descending
-  const validationColors: Record<string, string> = {
-    "validated":   "text-slate-400 border-slate-500/20",
-    "emerging":    "text-slate-400 border-slate-500/20",
-    "unvalidated": "text-muted-foreground/70 border-border/35",
-  }
+// Tier 2 — form_trajectory: traffic-light border only, no background fill
+const trajectoryColors: Record<string, string> = {
+  "accelerating": "text-emerald-400 border-emerald-600/50",
+  "improving":    "text-emerald-500/70 border-emerald-700/40",
+  "stable":       "text-slate-400   border-slate-600/40",
+  "declining":    "text-amber-400/80 border-amber-600/40",
+}
 
-  // ── Tier 2b: Trajectory — border-only, cool/neutral only
-  // No warm tones: improving and declining use slate only
-  const trajectoryColors: Record<string, string> = {
-    "accelerating": "text-slate-300 border-slate-400/25",
-    "improving":    "text-slate-400 border-slate-500/20",
-    "stable":       "text-muted-foreground/70 border-border/30",
-    "declining":    "text-slate-500 border-slate-600/15",
-  }
+// ceiling_indicator — plain text in Prediction, no badge needed
+const ceilingTextColors: Record<string, string> = {
+  "high":     "text-slate-300",
+  "moderate": "text-slate-400",
+  "low":      "text-slate-500",
+}
 
-  // ── Tier 3: Ceiling — neutral only, lowest intensity
-  const ceilingColors: Record<string, string> = {
-    "high":     "text-muted-foreground/55 border-border/25",
-    "moderate": "text-muted-foreground/45 border-border/20",
-    "low":      "text-muted-foreground/35 border-border/15",
-  }
+const outlookColors: Record<string, string> = {
+  "easy":       "text-slate-300",
+  "favorable":  "text-slate-300",
+  "neutral":    "text-slate-400",
+  "difficult":  "text-slate-500",
+  "hard":       "text-slate-500",
+}
 
-  // ── Outlook: fixture difficulty — neutral scale only, no warm tones
-  const outlookColors: Record<string, string> = {
-    "easy":    "text-slate-300",
-    "neutral": "text-slate-400",
-    "hard":    "text-slate-500",
-    "blank":   "text-muted-foreground/50",
-  }
+// Risk level colours — strictly from diagnostics.risk_profile values.
+// Does not duplicate availability logic (injury_state, flags) from the grid.
+function riskLevelColor(value: string | null | undefined): string {
+  if (!value) return "text-foreground"
+  const v = value.toLowerCase()
+  if (v === "high")     return "text-rose-400"
+  if (v === "moderate") return "text-orange-400"
+  return "text-slate-400" // low or any unrecognised value
+}
 
-  // Colour derived from the tier passed in from the grid — exact 1:1 match
+// ── Section header ──
+function SectionHeader({ label }: { label: string }) {
+  return (
+    <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
+      {label}
+    </h3>
+  )
+}
+
+// ── Key/value row ──
+function Row({ label, value, valueClass }: { label: string; value: React.ReactNode; valueClass?: string }) {
+  return (
+    <div className="flex justify-between items-baseline text-sm">
+      <span className="text-muted-foreground">{label}</span>
+      <span className={`font-medium capitalize ${valueClass ?? "text-foreground"}`}>{value}</span>
+    </div>
+  )
+}
+
+export function PlayerLensSidebar({ profile, lens, availability, playerProfiles, open, onOpenChange }: PlayerLensSidebarProps) {
+  if (!profile) return null
+
+  const diagnostics  = lens?.diagnostics  ?? null
+  const prediction   = lens?.prediction   ?? null
+  const intelligence = lens?.intelligence ?? null
+  const transfers    = lens?.transfers    ?? null
+
+  // Resolve target player name from profiles list
+  const resolvePlayer = (id: number) =>
+    playerProfiles.find(p => p.player_id === id)?.web_name ?? `#${id}`
+
   const availabilityValueColor = availability?.tier === "critical" ? "text-rose-400" : "text-orange-400"
-
-  // Analytical risk rows (rotation, volatility) — neutral, not availability
-  const analyticalRiskStyle = "font-medium capitalize text-foreground"
-
-  const hasAnalyticalRisk =
-    diagnostics.risk_profile.rotation_risk ||
-    diagnostics.risk_profile.volatility ||
-    diagnostics.team_context_modifier
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent side="right" className="w-full sm:w-[30%] sm:max-w-none overflow-y-auto">
 
-        {/* ── 1. Identity ── */}
+        {/* ── Pillar 1: Identity (player_profiles.json) ── */}
         <SheetHeader className="px-4 pt-6 pb-0">
           <SheetTitle className="text-2xl leading-tight">{profile.web_name}</SheetTitle>
           <div className="flex items-center gap-2 text-sm text-muted-foreground mt-0.5">
@@ -94,12 +122,10 @@ export function PlayerLensSidebar({ profile, lens, availability, open, onOpenCha
 
         <div className="mt-6 px-4 pb-8 space-y-6">
 
-          {/* ── 2. Availability — near top, 1:1 match with grid border colour ── */}
+          {/* ── Availability — derived from profile + flags, shown above diagnostics ── */}
           {availability && (
             <div className={`rounded-md border px-3 py-3 space-y-1.5 ${
-              availability.tier === "critical"
-                ? "border-rose-500/40"
-                : "border-orange-400/30"
+              availability.tier === "critical" ? "border-rose-500/40" : "border-orange-400/30"
             }`}>
               <h3 className={`text-xs font-semibold uppercase tracking-wide ${
                 availability.tier === "critical" ? "text-rose-400" : "text-orange-400"
@@ -115,128 +141,222 @@ export function PlayerLensSidebar({ profile, lens, availability, open, onOpenCha
             </div>
           )}
 
-          {/* ── 3. Status — three-tier visual weight ── */}
-          <div className="space-y-2.5">
-            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Status</h3>
+          {/* ── Pillar 2: Diagnostics (lens.diagnostics) ── */}
+          {diagnostics && (
+            <div className="space-y-3">
+              <SectionHeader label="Diagnostics" />
 
-            {/* Tier 1: Primary classification — largest, most prominent */}
-            <Badge className={`text-sm font-semibold px-3 py-1 ${statusColors[diagnostics.cpp_status]}`}>
-              {diagnostics.cpp_status}
-            </Badge>
-
-            {/* Tier 2: Secondary signals — smaller text, lower opacity styling */}
-            <div className="flex flex-wrap items-center gap-1.5">
-              {diagnostics.validation_state && (
-                <Badge variant="outline" className={`text-[11px] font-normal px-2 py-0 ${validationColors[diagnostics.validation_state]}`}>
-                  {diagnostics.validation_state}
-                </Badge>
-              )}
-              {diagnostics.form_trajectory && (
-                <Badge variant="outline" className={`text-[11px] font-normal px-2 py-0 ${trajectoryColors[diagnostics.form_trajectory]}`}>
-                  {diagnostics.form_trajectory}
-                </Badge>
-              )}
-            </div>
-
-            {/* Tier 3: Ceiling tag — smallest, plainest */}
-            {prediction.ceiling_indicator && (
+              {/* Tier 1 — cpp_status: dominant badge with background tint */}
               <div>
-                <Badge variant="outline" className={`text-[10px] font-normal px-1.5 py-0 ${ceilingColors[prediction.ceiling_indicator]}`}>
-                  {prediction.ceiling_indicator} ceiling
-                </Badge>
-              </div>
-            )}
-          </div>
-
-          {/* ── 3. Outlook — short-term context ── */}
-          <div className="space-y-2">
-            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Outlook</h3>
-            <div className="space-y-1.5 text-sm">
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">Fixture</span>
-                <span className={`font-medium capitalize ${outlookColors[prediction.fixture_outlook]}`}>
-                  {prediction.fixture_outlook}
+                <span className={`inline-flex items-center rounded-md px-3 py-1 text-sm font-semibold tracking-wide ${cppStatusColors[diagnostics.cpp_status] ?? "bg-slate-800/50 text-slate-300 border border-slate-500/25"}`}>
+                  {diagnostics.cpp_status}
                 </span>
               </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">EP Trend</span>
-                <span className={`font-medium capitalize ${outlookColors[prediction.ep_trend_alignment]}`}>
-                  {prediction.ep_trend_alignment}
-                </span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">Opponent</span>
-                <span className="font-medium">{intelligence.current_gameweek_data.fixtures.opponent_team_code}</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">Venue</span>
-                <span className="font-medium">
-                  {intelligence.current_gameweek_data.fixtures.was_home ? "Home" : "Away"}
-                </span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">FDR (Next N)</span>
-                <span className="font-medium">{intelligence.current_gameweek_data.fixtures.fdr_next_n.toFixed(1)}</span>
-              </div>
-            </div>
-          </div>
 
-          {/* ── 4. Performance Snapshot — evidence layer, visually secondary ── */}
-          <div className="space-y-2">
-            <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Performance Snapshot</h3>
-            <div className="grid grid-cols-2 gap-2">
-              <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2.5">
-                <div className="text-xs text-muted-foreground">PPG</div>
-                <div className="text-base font-medium mt-0.5">
-                  {intelligence.analysis_gameweek_data.points_per_game.toFixed(1)}
+              {/* Tier 2 — form_trajectory: traffic-light bordered pill */}
+              {diagnostics.form_trajectory && (
+                <div>
+                  <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium border ${trajectoryColors[diagnostics.form_trajectory] ?? "text-slate-400 border-slate-600/40"}`}>
+                    {diagnostics.form_trajectory}
+                  </span>
                 </div>
-              </div>
-              <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2.5">
-                <div className="text-xs text-muted-foreground">Value Form</div>
-                <div className="text-base font-medium mt-0.5">
-                  {intelligence.analysis_gameweek_data.value_form.toFixed(1)}
-                </div>
-              </div>
-              <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2.5">
-                <div className="text-xs text-muted-foreground">EP This GW</div>
-                <div className="text-base font-medium mt-0.5">
-                  {intelligence.current_gameweek_data.ep_this.toFixed(1)}
-                </div>
-              </div>
-              <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2.5">
-                <div className="text-xs text-muted-foreground">EP Next GW</div>
-                <div className="text-base font-medium mt-0.5">
-                  {intelligence.current_gameweek_data.ep_next.toFixed(1)}
-                </div>
-              </div>
-            </div>
-          </div>
+              )}
 
-          {/* ── 5. Analytical Risk — rotation, volatility, context — neutral tones ── */}
-          {hasAnalyticalRisk && (
-            <div className="space-y-2 pt-2 border-t border-border/50">
-              <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Risk</h3>
-              <div className="space-y-1.5 text-sm">
+              {/* Tier 3 — validation_state: small neutral outline, lowest visual weight */}
+              {diagnostics.validation_state && (
+                <div>
+                  <Badge variant="outline" className={`text-[11px] font-normal px-2 py-0 ${validationColors[diagnostics.validation_state] ?? "text-slate-500 border-slate-700/50"}`}>
+                    {diagnostics.validation_state}
+                  </Badge>
+                </div>
+              )}
+
+              {/* risk_profile — rotation, injury, volatility (nested under Diagnostics) */}
+              <div className="space-y-1.5">
                 {diagnostics.risk_profile.rotation_risk && (
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Rotation</span>
-                    <span className={analyticalRiskStyle}>{diagnostics.risk_profile.rotation_risk}</span>
-                  </div>
+                  <Row
+                    label="Rotation risk"
+                    value={diagnostics.risk_profile.rotation_risk}
+                    valueClass={riskLevelColor(diagnostics.risk_profile.rotation_risk)}
+                  />
+                )}
+                {diagnostics.risk_profile.injury_risk && (
+                  <Row
+                    label="Injury risk"
+                    value={diagnostics.risk_profile.injury_risk}
+                    valueClass={riskLevelColor(diagnostics.risk_profile.injury_risk)}
+                  />
                 )}
                 {diagnostics.risk_profile.volatility && (
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Volatility</span>
-                    <span className={analyticalRiskStyle}>{diagnostics.risk_profile.volatility}</span>
-                  </div>
+                  <Row
+                    label="Volatility"
+                    value={diagnostics.risk_profile.volatility}
+                    valueClass={riskLevelColor(diagnostics.risk_profile.volatility)}
+                  />
                 )}
                 {diagnostics.team_context_modifier && (
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Team context</span>
-                    <span className={analyticalRiskStyle}>{diagnostics.team_context_modifier}</span>
-                  </div>
+                  <Row label="Team context" value={diagnostics.team_context_modifier} />
                 )}
               </div>
             </div>
+          )}
+
+          {/* ── Pillar 3: Prediction (lens.prediction) ── */}
+          {prediction && (
+            <div className="space-y-3">
+              <SectionHeader label="Prediction" />
+              <div className="space-y-1.5">
+                <Row
+                  label="Fixture outlook"
+                  value={prediction.fixture_outlook}
+                  valueClass={outlookColors[prediction.fixture_outlook] ?? ""}
+                />
+                <Row
+                  label="EP trend"
+                  value={prediction.ep_trend_alignment}
+                />
+                {prediction.ceiling_indicator && (
+                  <Row
+                    label="Ceiling"
+                    value={`${prediction.ceiling_indicator}`}
+                    valueClass={ceilingTextColors[prediction.ceiling_indicator] ?? "text-slate-400"}
+                  />
+                )}
+                {prediction.replacement_pressure && (
+                  <Row label="Replacement pressure" value={prediction.replacement_pressure} />
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* ── Pillar 4: Intelligence (lens.intelligence) ── */}
+          {intelligence && (
+            <div className="space-y-3">
+              <SectionHeader label="Intelligence" />
+
+              {/* analysis_gameweek_data — performance metrics, compact grid */}
+              <div className="grid grid-cols-2 gap-2">
+                <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2">
+                  <div className="text-xs text-muted-foreground">PPG</div>
+                  <div className="text-sm font-medium mt-0.5">
+                    {intelligence.analysis_gameweek_data.points_per_game.toFixed(1)}
+                  </div>
+                </div>
+                <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2">
+                  <div className="text-xs text-muted-foreground">Value form</div>
+                  <div className="text-sm font-medium mt-0.5">
+                    {intelligence.analysis_gameweek_data.value_form.toFixed(1)}
+                  </div>
+                </div>
+                {intelligence.analysis_gameweek_data.xgi_per_90 !== null && (
+                  <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-2">
+                    <div className="text-xs text-muted-foreground">xGI/90</div>
+                    <div className="text-sm font-medium mt-0.5">
+                      {intelligence.analysis_gameweek_data.xgi_per_90?.toFixed(2) ?? "—"}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* current_gameweek_data — fixture context */}
+              <div className="space-y-1.5">
+                <Row label="EP this GW" value={intelligence.current_gameweek_data.ep_this.toFixed(1)} />
+                <Row label="EP next GW" value={intelligence.current_gameweek_data.ep_next.toFixed(1)} />
+                <Row
+                  label="Venue"
+                  value={intelligence.current_gameweek_data.fixtures.was_home ? "Home" : "Away"}
+                />
+                <Row
+                  label="FDR (next n)"
+                  value={intelligence.current_gameweek_data.fixtures.fdr_next_n.toFixed(1)}
+                />
+              </div>
+            </div>
+          )}
+
+          {/* ── Pillar 5: Transfer Outlook (lens.transfers) ── */}
+          {transfers?.summary && (
+            <div className="space-y-3">
+              <SectionHeader label="Transfer Outlook" />
+
+              {/* Summary */}
+              <div className="space-y-2.5">
+                {/* transfer_rating — mini bar meter */}
+                <div className="space-y-1">
+                  <div className="flex justify-between text-xs">
+                    <span className="text-muted-foreground">Transfer rating</span>
+                    <span className="text-foreground font-medium">
+                      {transfers.summary.transfer_rating.toFixed(2)}
+                    </span>
+                  </div>
+                  <div className="h-1 rounded-full bg-muted/40 overflow-hidden">
+                    <div
+                      className="h-full rounded-full bg-slate-400/60"
+                      style={{ width: `${Math.min(transfers.summary.transfer_rating * 100, 100)}%` }}
+                    />
+                  </div>
+                </div>
+
+                <Row
+                  label="Replacement score"
+                  value={transfers.summary.replacement_score.toFixed(2)}
+                />
+
+                {/* urgency_level — red only if high */}
+                <Row
+                  label="Urgency"
+                  value={transfers.summary.urgency_level}
+                  valueClass={
+                    transfers.summary.urgency_level === "high"
+                      ? "text-rose-400"
+                      : transfers.summary.urgency_level === "moderate"
+                      ? "text-slate-300"
+                      : "text-slate-500"
+                  }
+                />
+              </div>
+
+              {/* Top 3 options by composite_transfer_score */}
+              {(() => {
+                const allOptions = [
+                  ...(transfers.options?.better_variants ?? []),
+                  ...(transfers.options?.value_variants ?? []),
+                  ...(transfers.options?.upside_variants ?? []),
+                ]
+                const top3 = [...allOptions]
+                  .sort((a, b) => (b.composite_transfer_score ?? 0) - (a.composite_transfer_score ?? 0))
+                  .slice(0, 3)
+
+                if (top3.length === 0) return null
+
+                return (
+                  <div className="space-y-1.5 pt-1 border-t border-border/40">
+                    <p className="text-[11px] text-muted-foreground/70 uppercase tracking-wide">Top options</p>
+                    {top3.map((opt, i) => (
+                      <div
+                        key={i}
+                        className="flex items-center justify-between text-sm bg-muted/10 rounded-md px-2.5 py-2"
+                      >
+                        <span className="font-medium truncate">
+                          {resolvePlayer(opt.target_player_id)}
+                        </span>
+                        <div className="flex items-center gap-3 shrink-0 text-xs text-muted-foreground">
+                          <span title="Absolute gain">+{opt.absolute_gain.toFixed(3)}</span>
+                          <span title="Budget efficiency">{opt.budget_efficiency.toFixed(3)} eff</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )
+              })()}
+            </div>
+          )}
+
+          {/* ── No lens fallback ── */}
+          {!lens && (
+            <p className="text-xs text-muted-foreground/60">
+              Detailed analysis unavailable for this player.
+            </p>
           )}
 
         </div>

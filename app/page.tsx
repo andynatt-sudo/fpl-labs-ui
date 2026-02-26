@@ -7,7 +7,7 @@ import { TacticalReplacementsSection } from "@/components/tactical-replacements"
 import { TransferBundlesSection } from "@/components/transfer-bundles"
 import teamLensData from "@/data/team_lens.json"
 import playerProfilesData from "@/data/player_profiles.json"
-import playerLensData from "@/data/player_lens.json"
+import playerLensRaw from "@/data/player_lens.json"
 import tacticalReplacementsData from "@/data/tactical_replacements.json"
 import transferBundlesData from "@/data/transfer_bundles.json"
 import type { 
@@ -20,15 +20,12 @@ import type { TeamLens } from "@/lib/types-team-lens"
 
 const teamLens = teamLensData as TeamLens
 const playerProfiles = playerProfilesData as PlayerProfiles
-const playerLensDataRaw = playerLensData as PlayerLensData
 const tacticalReplacements = tacticalReplacementsData as TacticalReplacements
 const transferBundles = transferBundlesData as TransferBundles
 
-// Convert player_lens.json object to array with player_id embedded
-const playerLensArray = Object.entries(playerLensDataRaw.players).map(([playerId, lens]) => ({
-  player_id: parseInt(playerId),
-  lens
-}))
+const playerLensArray = Object.entries((playerLensRaw as PlayerLensData).players).map(
+  ([playerId, lens]) => ({ player_id: parseInt(playerId), lens })
+)
 
 export default function Home() {
   return (
@@ -46,8 +43,14 @@ export default function Home() {
           playerLensData={playerLensArray} 
         />
         
+        {/* 3. Tactical Replacements + Transfer Bundles */}
+        <div className="space-y-6">
+          <TacticalReplacementsSection data={tacticalReplacements} />
+          <TransferBundlesSection data={transferBundles} />
+        </div>
+
         {/* 4. Dashboard Table - All players from player_profiles.json */}
-        <section className="space-y-3">
+        <section className="space-y-3 pt-4 border-t border-border/50">
           <h2 className="text-xl font-semibold tracking-tight">Player Dashboard</h2>
           <PlayersTable players={playerProfiles.players} playerLensData={playerLensArray} />
         </section>
@@ -60,12 +63,6 @@ export default function Home() {
             playerLensData={playerLensArray} 
           />
         )}
-        
-        {/* 6. Optional Actions - Below the fold */}
-        <div className="space-y-6 pt-4 border-t border-border/50">
-          <TacticalReplacementsSection data={tacticalReplacements} />
-          <TransferBundlesSection data={transferBundles} />
-        </div>
       </main>
     </div>
   )
