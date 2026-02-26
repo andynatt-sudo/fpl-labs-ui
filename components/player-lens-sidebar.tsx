@@ -4,14 +4,20 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sh
 import { Badge } from "@/components/ui/badge"
 import type { PlayerLens, PlayerProfile } from "@/lib/types"
 
+export interface PlayerLensSidebarAvailability {
+  tier: "critical" | "caution"
+  reasons: Array<{ label: string; detail: string }>
+}
+
 interface PlayerLensSidebarProps {
   profile: PlayerProfile | null
   lens: PlayerLens | null
+  availability: PlayerLensSidebarAvailability | null
   open: boolean
   onOpenChange: (open: boolean) => void
 }
 
-export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerLensSidebarProps) {
+export function PlayerLensSidebar({ profile, lens, availability, open, onOpenChange }: PlayerLensSidebarProps) {
   if (!profile || !lens) return null
 
   const { intelligence, diagnostics, prediction } = lens
@@ -54,27 +60,12 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
     "hard":    "text-slate-500",
   }
 
-  // ── Two-tier availability colour — matches grid dot colours exactly
-  // Critical (red): injury state INJURED/SUSPENDED
-  // Caution (orange): DOUBTFUL, or injury_risk present but not confirmed
-  const injuryState = profile.injury?.state
-  const isCriticalAvailability = injuryState === "INJURED" || injuryState === "SUSPENDED"
-  const isCautionAvailability  = injuryState === "DOUBTFUL" || (
-    !isCriticalAvailability && !!diagnostics.risk_profile.injury_risk &&
-    diagnostics.risk_profile.injury_risk !== "none" &&
-    diagnostics.risk_profile.injury_risk !== "low"
-  )
-
-  const availabilityColor = isCriticalAvailability
-    ? "text-rose-400"
-    : isCautionAvailability
-    ? "text-orange-400"
-    : "font-medium capitalize"
+  // Colour derived from the tier passed in from the grid — exact 1:1 match
+  const availabilityValueColor = availability?.tier === "critical" ? "text-rose-400" : "text-orange-400"
 
   // Analytical risk rows (rotation, volatility) — neutral, not availability
   const analyticalRiskStyle = "font-medium capitalize text-foreground"
 
-  const hasAvailabilityRisk = isCriticalAvailability || isCautionAvailability || !!profile.injury?.news
   const hasAnalyticalRisk =
     diagnostics.risk_profile.rotation_risk ||
     diagnostics.risk_profile.volatility ||
@@ -100,7 +91,28 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
 
         <div className="mt-6 px-4 pb-8 space-y-6">
 
-          {/* ── 2. Status — three-tier visual weight ── */}
+          {/* ── 2. Availability — near top, 1:1 match with grid border colour ── */}
+          {availability && (
+            <div className={`rounded-md border px-3 py-3 space-y-1.5 ${
+              availability.tier === "critical"
+                ? "border-rose-500/40"
+                : "border-orange-400/30"
+            }`}>
+              <h3 className={`text-xs font-semibold uppercase tracking-wide ${
+                availability.tier === "critical" ? "text-rose-400" : "text-orange-400"
+              }`}>
+                Availability
+              </h3>
+              {availability.reasons.map((r, i) => (
+                <div key={i} className="flex justify-between text-sm">
+                  <span className="text-muted-foreground">{r.label}</span>
+                  <span className={`font-medium ${availabilityValueColor}`}>{r.detail}</span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* ── 3. Status — three-tier visual weight ── */}
           <div className="space-y-2.5">
             <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Status</h3>
 
@@ -197,45 +209,7 @@ export function PlayerLensSidebar({ profile, lens, open, onOpenChange }: PlayerL
             </div>
           </div>
 
-          {/* ── 5a. Availability — critical/caution, matches grid dot colour ── */}
-          {hasAvailabilityRisk && (
-            <div className="space-y-2 pt-2 border-t border-border/50">
-              <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide flex items-center gap-1.5">
-                <span
-                  className={`size-1.5 rounded-full inline-block ${
-                    isCriticalAvailability ? "bg-rose-500" : "bg-orange-400"
-                  }`}
-                />
-                Availability
-              </h3>
-              <div className="space-y-1.5 text-sm">
-                {injuryState && injuryState !== "AVAILABLE" && injuryState !== "UNKNOWN" && (
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Status</span>
-                    <span className={`font-medium capitalize ${availabilityColor}`}>
-                      {injuryState.toLowerCase()}
-                    </span>
-                  </div>
-                )}
-                {diagnostics.risk_profile.injury_risk &&
-                  diagnostics.risk_profile.injury_risk !== "none" && (
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Injury risk</span>
-                    <span className={`font-medium capitalize ${availabilityColor}`}>
-                      {diagnostics.risk_profile.injury_risk}
-                    </span>
-                  </div>
-                )}
-                {profile.injury?.news && (
-                  <p className="text-xs text-muted-foreground leading-relaxed pt-0.5">
-                    {profile.injury.news}
-                  </p>
-                )}
-              </div>
-            </div>
-          )}
-
-          {/* ── 5b. Analytical Risk — rotation, volatility, context — neutral tones ── */}
+          {/* ── 5. Analytical Risk — rotation, volatility, context — neutral tones ── */}
           {hasAnalyticalRisk && (
             <div className="space-y-2 pt-2 border-t border-border/50">
               <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Risk</h3>
