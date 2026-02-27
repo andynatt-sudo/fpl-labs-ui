@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "type": "bundles",
+    "engine_version": "2.0",
+    "gameweek": 28,
+    "transfers_evaluated": 3,
+    "count": 15
+  },
+  "bundles": [
+    {
+      "rank": 1,
+      "score": 11.505,
+      "impact": {
+        "gain_next_gw": 10.2,
+        "gain_two_gw": 19.9,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 386,
+          "in_name": "Mac Allister"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 256,
+          "in_name": "Mu\u00f1oz"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "score": 11.39,
+      "impact": {
+        "gain_next_gw": 10.1,
+        "gain_two_gw": 19.7,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 324,
+          "in_name": "Iwobi"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 256,
+          "in_name": "Mu\u00f1oz"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "score": 9.435,
+      "impact": {
+        "gain_next_gw": 8.4,
+        "gain_two_gw": 16.3,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 329,
+          "in_name": "Wilson"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 256,
+          "in_name": "Mu\u00f1oz"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "score": 9.085,
+      "impact": {
+        "gain_next_gw": 7.9,
+        "gain_two_gw": 15.8,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 329,
+          "in_name": "Wilson"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 6,
+          "in_name": "Saliba"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "score": 8.035,
+      "impact": {
+        "gain_next_gw": 6.4,
+        "gain_two_gw": 14.3,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 256,
+          "in_name": "Mu\u00f1oz"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "score": 7.93,
+      "impact": {
+        "gain_next_gw": 6.7,
+        "gain_two_gw": 13.9,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 329,
+          "in_name": "Wilson"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "score": 7.915,
+      "impact": {
+        "gain_next_gw": 6.1,
+        "gain_two_gw": 14.2,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 8,
+          "in_name": "J.Timber"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "score": 7.685,
+      "impact": {
+        "gain_next_gw": 5.9,
+        "gain_two_gw": 13.8,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 6,
+          "in_name": "Saliba"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "score": 6.425,
+      "impact": {
+        "gain_next_gw": 5.0,
+        "gain_two_gw": 11.5,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 374,
+          "in_name": "Konat\u00e9"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 256,
+          "in_name": "Mu\u00f1oz"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "score": 6.075,
+      "impact": {
+        "gain_next_gw": 4.5,
+        "gain_two_gw": 11.0,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 374,
+          "in_name": "Konat\u00e9"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 6,
+          "in_name": "Saliba"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "score": 5.97,
+      "impact": {
+        "gain_next_gw": 4.8,
+        "gain_two_gw": 10.6,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 386,
+          "in_name": "Mac Allister"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "score": 5.855,
+      "impact": {
+        "gain_next_gw": 4.7,
+        "gain_two_gw": 10.4,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 324,
+          "in_name": "Iwobi"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "score": 4.005,
+      "impact": {
+        "gain_next_gw": 2.7,
+        "gain_two_gw": 7.4,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 256,
+          "in_name": "Mu\u00f1oz"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "score": 3.9,
+      "impact": {
+        "gain_next_gw": 3.0,
+        "gain_two_gw": 7.0,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 329,
+          "in_name": "Wilson"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "score": 3.885,
+      "impact": {
+        "gain_next_gw": 2.4,
+        "gain_two_gw": 7.3,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
+        },
+        {
+          "out": 508,
+          "out_name": "N.Williams",
+          "in": 411,
+          "in_name": "O'Reilly"
+        },
+        {
+          "out": 226,
+          "out_name": "Chalobah",
+          "in": 8,
+          "in_name": "J.Timber"
+        }
+      ]
+    }
+  ]
+}
