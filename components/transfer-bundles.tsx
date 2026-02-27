@@ -49,7 +49,7 @@ export function TransferBundlesSection({ data }: TransferBundlesProps) {
       <div>
         <h2 className="text-xl font-semibold tracking-tight">Transfer Bundles</h2>
         <p className="text-sm text-muted-foreground">
-          Strategic upgrade scenarios ranked by 2GW outlook — GW{data.meta.gameweek}
+          Medium-term structural upgrade scenarios (2GW horizon) — GW{data.meta.gameweek}
         </p>
       </div>
 
@@ -65,60 +65,65 @@ export function TransferBundlesSection({ data }: TransferBundlesProps) {
             <Card key={bundle.rank} className="bg-card/50">
               <CardContent className="p-5 space-y-4">
 
-                {/* Header: rank + score badge */}
+                {/* Header: rank + structural score */}
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">
+                  <span className="text-xs text-muted-foreground/60 uppercase tracking-wide">
                     #{bundle.rank}
                   </span>
-                  <Badge className="bg-slate-800/60 text-slate-200 border border-slate-500/30 text-sm font-semibold px-3 py-1">
-                    {bundle.score.toFixed(2)}
-                  </Badge>
-                </div>
-
-                {/* Impact */}
-                <div className="space-y-1.5">
-                  <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Impact</p>
-                  <div className="flex flex-wrap gap-2">
-                    <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-1.5 text-center">
-                      <div className="text-[10px] text-muted-foreground">Next GW</div>
-                      <div className={`text-sm font-semibold ${gainNextPositive ? "text-emerald-400" : "text-rose-400"}`}>
-                        {gainNextPositive ? "+" : ""}{bundle.impact.gain_next_gw.toFixed(1)}
-                      </div>
-                    </div>
-                    <div className="rounded-md bg-muted/20 border border-border/40 px-3 py-1.5 text-center">
-                      <div className="text-[10px] text-muted-foreground">2GW</div>
-                      <div className={`text-sm font-semibold ${gainTwoPositive ? "text-emerald-400" : "text-rose-400"}`}>
-                        {gainTwoPositive ? "+" : ""}{bundle.impact.gain_two_gw.toFixed(1)}
-                      </div>
-                    </div>
-                    {hasCaptainBoost && (
-                      <Badge className="bg-sky-950/60 text-sky-200 border border-sky-500/30 text-xs self-center">
-                        Captain Boost +{bundle.impact.captain_gain.toFixed(1)}
-                      </Badge>
-                    )}
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-[10px] text-muted-foreground uppercase tracking-wide">Structural Score</span>
+                    <Badge className="bg-slate-800/60 text-slate-200 border border-slate-500/30 text-sm font-semibold px-2.5 py-0.5">
+                      {bundle.score.toFixed(2)}
+                    </Badge>
                   </div>
                 </div>
 
-                {/* Transfers */}
-                <div className="space-y-1.5">
-                  <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Transfers</p>
-                  <div className="space-y-1.5">
+                {/* Impact — 2GW primary, Next GW secondary */}
+                <div className="space-y-2">
+                  <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Impact</p>
+                  <div className="flex items-end gap-3">
+                    {/* 2GW — dominant metric */}
+                    <div className="rounded-md bg-muted/25 border border-border/50 px-4 py-2.5 text-center flex-1">
+                      <div className="text-[10px] text-muted-foreground mb-0.5">2GW Gain</div>
+                      <div className={`text-xl font-bold tracking-tight ${gainTwoPositive ? "text-emerald-400" : "text-rose-400"}`}>
+                        {gainTwoPositive ? "+" : ""}{bundle.impact.gain_two_gw.toFixed(1)}
+                      </div>
+                    </div>
+                    {/* Next GW — subordinate metric */}
+                    <div className="rounded-md bg-muted/10 border border-border/30 px-3 py-2 text-center">
+                      <div className="text-[10px] text-muted-foreground/70 mb-0.5">Next GW</div>
+                      <div className={`text-sm font-medium ${gainNextPositive ? "text-emerald-500/70" : "text-rose-500/70"}`}>
+                        {gainNextPositive ? "+" : ""}{bundle.impact.gain_next_gw.toFixed(1)}
+                      </div>
+                    </div>
+                  </div>
+                  {hasCaptainBoost && (
+                    <Badge className="bg-sky-950/60 text-sky-200 border border-sky-500/30 text-xs">
+                      Captain Boost +{bundle.impact.captain_gain.toFixed(1)}
+                    </Badge>
+                  )}
+                </div>
+
+                {/* Transfers — subordinate to impact, visually quiet */}
+                <div className="space-y-1">
+                  <p className="text-[10px] text-muted-foreground/60 uppercase tracking-wide">Transfers</p>
+                  <div className="space-y-1">
                     {bundle.transfers.map((leg, i) => (
                       <div
                         key={i}
-                        className="flex items-center gap-2 text-sm bg-background/50 rounded-md px-3 py-2"
+                        className="flex items-center gap-2 text-xs text-muted-foreground/80 px-1"
                       >
-                        <span className="text-muted-foreground truncate flex-1">{leg.out_name}</span>
-                        <ArrowRight className="size-3.5 text-muted-foreground/50 shrink-0" />
-                        <span className="font-medium truncate flex-1 text-right">{leg.in_name}</span>
+                        <span className="truncate flex-1">{leg.out_name}</span>
+                        <ArrowRight className="size-3 text-muted-foreground/30 shrink-0" />
+                        <span className="font-medium truncate flex-1 text-right text-foreground/70">{leg.in_name}</span>
                       </div>
                     ))}
                   </div>
                 </div>
 
-                {/* Governance After */}
+                {/* Post-Bundle Governance */}
                 <div className="space-y-2 pt-1 border-t border-border/40">
-                  <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">After</p>
+                  <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Post-Bundle Governance</p>
                   <div className="flex flex-wrap items-center gap-3 text-sm">
 
                     {/* health_score */}
