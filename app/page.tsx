@@ -9,7 +9,7 @@ import teamLensData from "@/data/team_lens.json"
 import playerProfilesData from "@/data/player_profiles.json"
 import playerLensRaw from "@/data/player_lens.json"
 import tacticalReplacementsData from "@/data/tactical_replacements.json"
-import transferBundlesData from "@/data/transfer_bundles.json"
+import transferBundlesData from "@/data/bundles.json"
 import type { 
   PlayerProfiles,
   PlayerLensData,

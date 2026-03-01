@@ -302,44 +302,40 @@ export interface TacticalReplacements {
   items: TacticalReplacementItem[]
 }
 
-// Transfer Bundles types — matches transfer_bundles.json schema
-export interface BundlePlayerProfile {
-  player_id: number
-  web_name: string
-  team: string
-  position: string
-  price: number
-  ownership: number
-  status: string
+// Transfer Bundles types — matches bundles.json engine_version 2.0
+export interface BundleTransferLeg {
+  out: number
+  out_name: string
+  in: number
+  in_name: string
 }
 
-export interface BundleTransfer {
-  out_player: string
-  in_player: string
-  position: string
-  price_delta: number
-  funding_role: string
-  out_profile: BundlePlayerProfile
-  in_profile: BundlePlayerProfile
+export interface BundleImpact {
+  gain_next_gw: number
+  gain_two_gw: number
+  captain_gain: number
+}
+
+export interface BundleGovernanceAfter {
+  health_score: number
+  pressure: "low" | "medium" | "high"
+  capital_state: "stable" | "fragmented" | "concentrated"
 }
 
 export interface TransferBundle {
-  bundle_score: number
-  bundle_gain: number
-  transfers: BundleTransfer[]
-  max_spend_required: number
-  ending_bank: number
-  is_feasible: boolean
-  strategy: string
-  rationale: string[]
-  manager_profile: string
+  rank: number
+  score: number
+  impact: BundleImpact
+  governance_after: BundleGovernanceAfter
+  transfers: BundleTransferLeg[]
 }
 
 export interface TransferBundles {
   meta: {
     type: string
+    engine_version: string
     gameweek: number
-    outcome: string
+    transfers_evaluated: number
     count: number
   }
   bundles: TransferBundle[]
