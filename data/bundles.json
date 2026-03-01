@@ -9,10 +9,10 @@
   "bundles": [
     {
       "rank": 1,
-      "score": 11.505,
+      "score": 5.355,
       "impact": {
-        "gain_next_gw": 10.2,
-        "gain_two_gw": 19.9,
+        "gain_next_gw": 3.6,
+        "gain_two_gw": 9.9,
         "captain_gain": 0.0
       },
       "governance_after": {
@@ -22,31 +22,31 @@
       },
       "transfers": [
         {
+          "out": 382,
+          "out_name": "Wirtz",
+          "in": 119,
+          "in_name": "Mbeumo"
+        },
+        {
           "out": 303,
           "out_name": "Garner",
-          "in": 386,
-          "in_name": "Mac Allister"
+          "in": 83,
+          "in_name": "O.Dango"
         },
         {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 256,
-          "in_name": "Mu\u00f1oz"
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
         }
       ]
     },
     {
       "rank": 2,
-      "score": 11.39,
+      "score": 3.865,
       "impact": {
-        "gain_next_gw": 10.1,
-        "gain_two_gw": 19.7,
+        "gain_next_gw": 3.4,
+        "gain_two_gw": 6.7,
         "captain_gain": 0.0
       },
       "governance_after": {
@@ -56,31 +56,31 @@
       },
       "transfers": [
         {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 709,
+          "in_name": "Krej\u010d\u00ed"
+        },
+        {
+          "out": 382,
+          "out_name": "Wirtz",
+          "in": 119,
+          "in_name": "Mbeumo"
+        },
+        {
           "out": 303,
           "out_name": "Garner",
-          "in": 324,
-          "in_name": "Iwobi"
-        },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 256,
-          "in_name": "Mu\u00f1oz"
+          "in": 83,
+          "in_name": "O.Dango"
         }
       ]
     },
     {
       "rank": 3,
-      "score": 9.435,
+      "score": 2.195,
       "impact": {
-        "gain_next_gw": 8.4,
-        "gain_two_gw": 16.3,
+        "gain_next_gw": 2.3,
+        "gain_two_gw": 3.6,
         "captain_gain": 0.0
       },
       "governance_after": {
@@ -90,31 +90,31 @@
       },
       "transfers": [
         {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 230,
+          "in_name": "Fofana"
+        },
+        {
           "out": 303,
           "out_name": "Garner",
-          "in": 329,
-          "in_name": "Wilson"
+          "in": 83,
+          "in_name": "O.Dango"
         },
         {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 256,
-          "in_name": "Mu\u00f1oz"
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
         }
       ]
     },
     {
       "rank": 4,
-      "score": 9.085,
+      "score": 1.325,
       "impact": {
-        "gain_next_gw": 7.9,
-        "gain_two_gw": 15.8,
+        "gain_next_gw": -0.1,
+        "gain_two_gw": 3.0,
         "captain_gain": 0.0
       },
       "governance_after": {
@@ -124,31 +124,31 @@
       },
       "transfers": [
         {
+          "out": 382,
+          "out_name": "Wirtz",
+          "in": 119,
+          "in_name": "Mbeumo"
+        },
+        {
           "out": 303,
           "out_name": "Garner",
-          "in": 329,
-          "in_name": "Wilson"
+          "in": 83,
+          "in_name": "O.Dango"
         },
         {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 6,
-          "in_name": "Saliba"
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
         }
       ]
     },
     {
       "rank": 5,
-      "score": 8.035,
+      "score": 0.525,
       "impact": {
-        "gain_next_gw": 6.4,
-        "gain_two_gw": 14.3,
+        "gain_next_gw": -0.6,
+        "gain_two_gw": 1.5,
         "captain_gain": 0.0
       },
       "governance_after": {
@@ -158,209 +158,11 @@
       },
       "transfers": [
         {
-          "out": 237,
-          "out_name": "Enzo",
-          "in": 384,
-          "in_name": "Gakpo"
+          "out": 382,
+          "out_name": "Wirtz",
+          "in": 119,
+          "in_name": "Mbeumo"
         },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 256,
-          "in_name": "Mu\u00f1oz"
-        }
-      ]
-    },
-    {
-      "rank": 6,
-      "score": 7.93,
-      "impact": {
-        "gain_next_gw": 6.7,
-        "gain_two_gw": 13.9,
-        "captain_gain": 0.0
-      },
-      "governance_after": {
-        "health_score": 80,
-        "pressure": "low",
-        "capital_state": "stable"
-      },
-      "transfers": [
-        {
-          "out": 303,
-          "out_name": "Garner",
-          "in": 329,
-          "in_name": "Wilson"
-        },
-        {
-          "out": 237,
-          "out_name": "Enzo",
-          "in": 384,
-          "in_name": "Gakpo"
-        },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        }
-      ]
-    },
-    {
-      "rank": 7,
-      "score": 7.915,
-      "impact": {
-        "gain_next_gw": 6.1,
-        "gain_two_gw": 14.2,
-        "captain_gain": 0.0
-      },
-      "governance_after": {
-        "health_score": 80,
-        "pressure": "low",
-        "capital_state": "stable"
-      },
-      "transfers": [
-        {
-          "out": 237,
-          "out_name": "Enzo",
-          "in": 384,
-          "in_name": "Gakpo"
-        },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 8,
-          "in_name": "J.Timber"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "score": 7.685,
-      "impact": {
-        "gain_next_gw": 5.9,
-        "gain_two_gw": 13.8,
-        "captain_gain": 0.0
-      },
-      "governance_after": {
-        "health_score": 80,
-        "pressure": "low",
-        "capital_state": "stable"
-      },
-      "transfers": [
-        {
-          "out": 237,
-          "out_name": "Enzo",
-          "in": 384,
-          "in_name": "Gakpo"
-        },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 6,
-          "in_name": "Saliba"
-        }
-      ]
-    },
-    {
-      "rank": 9,
-      "score": 6.425,
-      "impact": {
-        "gain_next_gw": 5.0,
-        "gain_two_gw": 11.5,
-        "captain_gain": 0.0
-      },
-      "governance_after": {
-        "health_score": 80,
-        "pressure": "low",
-        "capital_state": "stable"
-      },
-      "transfers": [
-        {
-          "out": 237,
-          "out_name": "Enzo",
-          "in": 384,
-          "in_name": "Gakpo"
-        },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 374,
-          "in_name": "Konat\u00e9"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 256,
-          "in_name": "Mu\u00f1oz"
-        }
-      ]
-    },
-    {
-      "rank": 10,
-      "score": 6.075,
-      "impact": {
-        "gain_next_gw": 4.5,
-        "gain_two_gw": 11.0,
-        "captain_gain": 0.0
-      },
-      "governance_after": {
-        "health_score": 80,
-        "pressure": "low",
-        "capital_state": "stable"
-      },
-      "transfers": [
-        {
-          "out": 237,
-          "out_name": "Enzo",
-          "in": 384,
-          "in_name": "Gakpo"
-        },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 374,
-          "in_name": "Konat\u00e9"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 6,
-          "in_name": "Saliba"
-        }
-      ]
-    },
-    {
-      "rank": 11,
-      "score": 5.97,
-      "impact": {
-        "gain_next_gw": 4.8,
-        "gain_two_gw": 10.6,
-        "captain_gain": 0.0
-      },
-      "governance_after": {
-        "health_score": 80,
-        "pressure": "low",
-        "capital_state": "stable"
-      },
-      "transfers": [
         {
           "out": 303,
           "out_name": "Garner",
@@ -372,21 +174,15 @@
           "out_name": "Enzo",
           "in": 120,
           "in_name": "Schade"
-        },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
         }
       ]
     },
     {
-      "rank": 12,
-      "score": 5.855,
+      "rank": 6,
+      "score": 0.435,
       "impact": {
-        "gain_next_gw": 4.7,
-        "gain_two_gw": 10.4,
+        "gain_next_gw": 0.3,
+        "gain_two_gw": 0.8,
         "captain_gain": 0.0
       },
       "governance_after": {
@@ -395,6 +191,46 @@
         "capital_state": "stable"
       },
       "transfers": [
+        {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 230,
+          "in_name": "Fofana"
+        },
+        {
+          "out": 382,
+          "out_name": "Wirtz",
+          "in": 119,
+          "in_name": "Mbeumo"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "score": 0.41,
+      "impact": {
+        "gain_next_gw": -0.7,
+        "gain_two_gw": 1.3,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 382,
+          "out_name": "Wirtz",
+          "in": 119,
+          "in_name": "Mbeumo"
+        },
         {
           "out": 303,
           "out_name": "Garner",
@@ -406,21 +242,185 @@
           "out_name": "Enzo",
           "in": 120,
           "in_name": "Schade"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "score": -0.405,
+      "impact": {
+        "gain_next_gw": -0.9,
+        "gain_two_gw": -0.4,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 709,
+          "in_name": "Krej\u010d\u00ed"
         },
         {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
+          "out": 382,
+          "out_name": "Wirtz",
+          "in": 119,
+          "in_name": "Mbeumo"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 384,
+          "in_name": "Gakpo"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "score": -1.835,
+      "impact": {
+        "gain_next_gw": -1.4,
+        "gain_two_gw": -3.3,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 230,
+          "in_name": "Fofana"
+        },
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 83,
+          "in_name": "O.Dango"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "score": -2.635,
+      "impact": {
+        "gain_next_gw": -1.9,
+        "gain_two_gw": -4.8,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 230,
+          "in_name": "Fofana"
+        },
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 386,
+          "in_name": "Mac Allister"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "score": -2.675,
+      "impact": {
+        "gain_next_gw": -2.6,
+        "gain_two_gw": -4.5,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 709,
+          "in_name": "Krej\u010d\u00ed"
+        },
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 83,
+          "in_name": "O.Dango"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "score": -2.75,
+      "impact": {
+        "gain_next_gw": -2.0,
+        "gain_two_gw": -5.0,
+        "captain_gain": 0.0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "pressure": "low",
+        "capital_state": "stable"
+      },
+      "transfers": [
+        {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 230,
+          "in_name": "Fofana"
+        },
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 324,
+          "in_name": "Iwobi"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 120,
+          "in_name": "Schade"
         }
       ]
     },
     {
       "rank": 13,
-      "score": 4.005,
+      "score": -3.475,
       "impact": {
-        "gain_next_gw": 2.7,
-        "gain_two_gw": 7.4,
+        "gain_next_gw": -3.1,
+        "gain_two_gw": -6.0,
         "captain_gain": 0.0
       },
       "governance_after": {
@@ -430,31 +430,31 @@
       },
       "transfers": [
         {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 709,
+          "in_name": "Krej\u010d\u00ed"
+        },
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 386,
+          "in_name": "Mac Allister"
+        },
+        {
           "out": 237,
           "out_name": "Enzo",
           "in": 120,
           "in_name": "Schade"
-        },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 256,
-          "in_name": "Mu\u00f1oz"
         }
       ]
     },
     {
       "rank": 14,
-      "score": 3.9,
+      "score": -3.595,
       "impact": {
-        "gain_next_gw": 3.0,
-        "gain_two_gw": 7.0,
+        "gain_next_gw": -3.4,
+        "gain_two_gw": -6.1,
         "captain_gain": 0.0
       },
       "governance_after": {
@@ -464,32 +464,32 @@
       },
       "transfers": [
         {
-          "out": 303,
-          "out_name": "Garner",
-          "in": 329,
-          "in_name": "Wilson"
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 230,
+          "in_name": "Fofana"
+        },
+        {
+          "out": 382,
+          "out_name": "Wirtz",
+          "in": 119,
+          "in_name": "Mbeumo"
         },
         {
           "out": 237,
           "out_name": "Enzo",
           "in": 120,
           "in_name": "Schade"
-        },
-        {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
         }
       ]
     },
     {
       "rank": 15,
-      "score": 3.885,
+      "score": -4.36,
       "impact": {
-        "gain_next_gw": 2.4,
-        "gain_two_gw": 7.3,
-        "captain_gain": 0.0
+        "gain_next_gw": -5.2,
+        "gain_two_gw": -6.2,
+        "captain_gain": -1.8
       },
       "governance_after": {
         "health_score": 80,
@@ -498,22 +498,22 @@
       },
       "transfers": [
         {
+          "out": 382,
+          "out_name": "Wirtz",
+          "in": 119,
+          "in_name": "Mbeumo"
+        },
+        {
           "out": 237,
           "out_name": "Enzo",
           "in": 120,
           "in_name": "Schade"
         },
         {
-          "out": 508,
-          "out_name": "N.Williams",
-          "in": 411,
-          "in_name": "O'Reilly"
-        },
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 8,
-          "in_name": "J.Timber"
+          "out": 249,
+          "out_name": "Jo\u00e3o Pedro",
+          "in": 666,
+          "in_name": "Gy\u00f6keres"
         }
       ]
     }

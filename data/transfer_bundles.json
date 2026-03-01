@@ -1,37 +1,37 @@
 {
   "meta": {
     "type": "transfer_bundles",
-    "gameweek": 27,
+    "gameweek": 28,
     "outcome": "available",
     "count": 5
   },
   "bundles": [
     {
-      "bundle_score": 3.1528224258677873,
-      "bundle_gain": 4.589746322668268,
+      "bundle_score": 3.4694976261609924,
+      "bundle_gain": 4.927853751658561,
       "transfers": [
         {
           "out_player": "Chalobah",
-          "in_player": "Hill",
+          "in_player": "Dragusin",
           "position": "Defender",
           "out_team_code": 8,
-          "in_team_code": 91,
+          "in_team_code": 6,
           "lost_labels": [],
           "gained_labels": [],
-          "absolute_gain": 0.16242083624482073,
-          "effective_gain": 1.714420836244821,
-          "price_delta": 1.7999999999999998,
+          "absolute_gain": 0.14178752341960998,
+          "effective_gain": 1.31578752341961,
+          "price_delta": 1.2000000000000002,
           "funding_role": "funding",
-          "effective_pick_score_in": 2.1595396864450986,
-          "problem_type": "ceiling_deficit",
+          "effective_pick_score_in": 1.7303329779650645,
+          "problem_type": "budget_inefficiency",
           "fixture_fit": 1.0,
           "out_profile": {
             "player_id": 226,
             "web_name": "Chalobah",
             "team": "Chelsea",
             "position": "Defender",
-            "price": 5.8,
-            "ownership": 23.9,
+            "price": 5.7,
+            "ownership": 21.6,
             "performance": {
               "role": false,
               "minutes": "Secure starter",
@@ -49,53 +49,12 @@
             }
           },
           "in_profile": {
-            "player_id": 77,
-            "web_name": "Hill",
-            "team": "Bournemouth",
+            "player_id": 572,
+            "web_name": "Dragusin",
+            "team": "Spurs",
             "position": "Defender",
-            "price": 4.0,
-            "ownership": 4.6,
-            "performance": {
-              "role": false,
-              "minutes": "Secure starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "band_gain_rank": 0,
-          "budget_efficiency": 16.242083624482074
-        },
-        {
-          "out_player": "Calvert-Lewin",
-          "in_player": "Thiago",
-          "position": "Forward",
-          "out_team_code": 2,
-          "in_team_code": 94,
-          "lost_labels": [],
-          "gained_labels": [],
-          "absolute_gain": 0.13332898660551734,
-          "effective_gain": 6.185328986605518,
-          "price_delta": -1.2000000000000002,
-          "funding_role": "upgrade",
-          "effective_pick_score_in": 6.645324225708354,
-          "problem_type": "ceiling_deficit",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 691,
-            "web_name": "Calvert-Lewin",
-            "team": "Leeds",
-            "position": "Forward",
-            "price": 5.8,
-            "ownership": 10.2,
+            "price": 4.5,
+            "ownership": 0.0,
             "performance": {
               "role": false,
               "minutes": "Likely starter",
@@ -112,17 +71,35 @@
               "minutes_risk": false
             }
           },
-          "in_profile": {
-            "player_id": 136,
-            "web_name": "Thiago",
-            "team": "Brentford",
-            "position": "Forward",
-            "price": 7.0,
-            "ownership": 31.6,
+          "band_gain_rank": 0,
+          "budget_efficiency": 14.178752341960998
+        },
+        {
+          "out_player": "Enzo",
+          "in_player": "Saka",
+          "position": "Midfielder",
+          "out_team_code": 8,
+          "in_team_code": 3,
+          "lost_labels": [],
+          "gained_labels": [],
+          "absolute_gain": 0.11032522504904729,
+          "effective_gain": 7.0713252250490495,
+          "price_delta": -3.000000000000001,
+          "funding_role": "upgrade",
+          "effective_pick_score_in": 7.4858706795945045,
+          "problem_type": "ceiling_deficit",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 237,
+            "web_name": "Enzo",
+            "team": "Chelsea",
+            "position": "Midfielder",
+            "price": 6.8,
+            "ownership": 19.9,
             "performance": {
               "role": true,
               "minutes": "Secure starter",
-              "ceiling": "MID",
+              "ceiling": "HIGH",
               "explosive": false
             },
             "status": "STRONG-HOLD",
@@ -130,42 +107,65 @@
               "must_have": false,
               "hold": false,
               "watch": false,
-              "ceiling": false,
+              "ceiling": true,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 16,
+            "web_name": "Saka",
+            "team": "Arsenal",
+            "position": "Midfielder",
+            "price": 9.8,
+            "ownership": 7.6,
+            "performance": {
+              "role": true,
+              "minutes": "Rotation risk",
+              "ceiling": "HIGH",
+              "explosive": false
+            },
+            "status": "RISK",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": true,
               "explosive": false,
               "minutes_risk": false
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 0.1111074888379311
+          "budget_efficiency": 0.036775075016349086
         },
         {
-          "out_player": "Wirtz",
-          "in_player": "Palmer",
-          "position": "Midfielder",
-          "out_team_code": 14,
-          "in_team_code": 8,
+          "out_player": "Haaland",
+          "in_player": "Ra\u00fal",
+          "position": "Forward",
+          "out_team_code": 43,
+          "in_team_code": 54,
           "lost_labels": [],
           "gained_labels": [
-            "must_have",
-            "explosive"
+            "explosive",
+            "must_have"
           ],
-          "absolute_gain": 0.0015964998179295864,
-          "effective_gain": 6.70559649981793,
-          "price_delta": -2.1999999999999993,
-          "funding_role": "upgrade",
-          "effective_pick_score_in": 7.190979315316557,
+          "absolute_gain": 0.15084100318990334,
+          "effective_gain": 7.098841003189904,
+          "price_delta": 8.700000000000001,
+          "funding_role": "funding",
+          "effective_pick_score_in": 7.586173154766035,
           "problem_type": "ceiling_deficit",
           "fixture_fit": 1.0,
           "out_profile": {
-            "player_id": 382,
-            "web_name": "Wirtz",
-            "team": "Liverpool",
-            "position": "Midfielder",
-            "price": 8.4,
-            "ownership": 13.8,
+            "player_id": 430,
+            "web_name": "Haaland",
+            "team": "Man City",
+            "position": "Forward",
+            "price": 14.8,
+            "ownership": 67.4,
             "performance": {
               "role": true,
-              "minutes": "Secure starter",
+              "minutes": "Likely starter",
               "ceiling": "HIGH",
               "explosive": false
             },
@@ -180,12 +180,12 @@
             }
           },
           "in_profile": {
-            "player_id": 235,
-            "web_name": "Palmer",
-            "team": "Chelsea",
-            "position": "Midfielder",
-            "price": 10.6,
-            "ownership": 17.4,
+            "player_id": 337,
+            "web_name": "Ra\u00fal",
+            "team": "Fulham",
+            "position": "Forward",
+            "price": 6.1,
+            "ownership": 2.2,
             "performance": {
               "role": true,
               "minutes": "Likely starter",
@@ -203,11 +203,11 @@
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 0.0007256817354225395
+          "budget_efficiency": 15.084100318990334
         }
       ],
-      "max_spend_required": 1.5999999999999996,
-      "ending_bank": 4.440892098500626e-16,
+      "max_spend_required": 0.0,
+      "ending_bank": 8.5,
       "is_feasible": true,
       "strategy": "Structural Optimisation",
       "rationale": [
@@ -217,215 +217,8 @@
       "manager_profile": "conservative"
     },
     {
-      "bundle_score": 3.1136289311601337,
-      "bundle_gain": 4.419469901657334,
-      "transfers": [
-        {
-          "out_player": "Garner",
-          "in_player": "Hudson-Odoi",
-          "position": "Midfielder",
-          "out_team_code": 11,
-          "in_team_code": 17,
-          "lost_labels": [],
-          "gained_labels": [],
-          "absolute_gain": 0.017222576248166532,
-          "effective_gain": 5.949222576248168,
-          "price_delta": -0.5,
-          "funding_role": "upgrade",
-          "effective_pick_score_in": 6.376394135854109,
-          "problem_type": "ceiling_deficit",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 303,
-            "web_name": "Garner",
-            "team": "Everton",
-            "position": "Midfielder",
-            "price": 5.2,
-            "ownership": 3.9,
-            "performance": {
-              "role": false,
-              "minutes": "Secure starter",
-              "ceiling": "MID",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "in_profile": {
-            "player_id": 516,
-            "web_name": "Hudson-Odoi",
-            "team": "Nott'm Forest",
-            "position": "Midfielder",
-            "price": 5.7,
-            "ownership": 0.7,
-            "performance": {
-              "role": false,
-              "minutes": "Likely starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "band_gain_rank": 0,
-          "budget_efficiency": 0.034445152496333065
-        },
-        {
-          "out_player": "Chalobah",
-          "in_player": "Hincapie",
-          "position": "Defender",
-          "out_team_code": 8,
-          "in_team_code": 3,
-          "lost_labels": [],
-          "gained_labels": [],
-          "absolute_gain": 0.08571833880364954,
-          "effective_gain": 2.0457183388036495,
-          "price_delta": 0.7000000000000002,
-          "funding_role": "funding",
-          "effective_pick_score_in": 2.490837189003927,
-          "problem_type": "budget_inefficiency",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 226,
-            "web_name": "Chalobah",
-            "team": "Chelsea",
-            "position": "Defender",
-            "price": 5.8,
-            "ownership": 23.9,
-            "performance": {
-              "role": false,
-              "minutes": "Secure starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "in_profile": {
-            "player_id": 725,
-            "web_name": "Hincapie",
-            "team": "Arsenal",
-            "position": "Defender",
-            "price": 5.1,
-            "ownership": 0.7,
-            "performance": {
-              "role": false,
-              "minutes": "Likely starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "band_gain_rank": 0,
-          "budget_efficiency": 8.571833880364954
-        },
-        {
-          "out_player": "Calvert-Lewin",
-          "in_player": "Thiago",
-          "position": "Forward",
-          "out_team_code": 2,
-          "in_team_code": 94,
-          "lost_labels": [],
-          "gained_labels": [],
-          "absolute_gain": 0.13332898660551734,
-          "effective_gain": 6.185328986605518,
-          "price_delta": -1.2000000000000002,
-          "funding_role": "upgrade",
-          "effective_pick_score_in": 6.645324225708354,
-          "problem_type": "ceiling_deficit",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 691,
-            "web_name": "Calvert-Lewin",
-            "team": "Leeds",
-            "position": "Forward",
-            "price": 5.8,
-            "ownership": 10.2,
-            "performance": {
-              "role": false,
-              "minutes": "Likely starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "in_profile": {
-            "player_id": 136,
-            "web_name": "Thiago",
-            "team": "Brentford",
-            "position": "Forward",
-            "price": 7.0,
-            "ownership": 31.6,
-            "performance": {
-              "role": true,
-              "minutes": "Secure starter",
-              "ceiling": "MID",
-              "explosive": false
-            },
-            "status": "STRONG-HOLD",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "band_gain_rank": 0,
-          "budget_efficiency": 0.1111074888379311
-        }
-      ],
-      "max_spend_required": 1.0,
-      "ending_bank": 0.6000000000000001,
-      "is_feasible": true,
-      "strategy": "Structural Optimisation",
-      "rationale": [
-        "This bundle makes a neutral structural adjustment."
-      ],
-      "transfer_roles": {},
-      "manager_profile": "conservative"
-    },
-    {
-      "bundle_score": 3.1062443859303803,
-      "bundle_gain": 4.408920551329115,
+      "bundle_score": 3.4674934768894974,
+      "bundle_gain": 5.039276395556425,
       "transfers": [
         {
           "out_player": "Chalobah",
@@ -435,11 +228,11 @@
           "in_team_code": 14,
           "lost_labels": [],
           "gained_labels": [],
-          "absolute_gain": 0.20538024436811686,
-          "effective_gain": 1.925380244368117,
-          "price_delta": -0.10000000000000053,
+          "absolute_gain": 0.2496101673174742,
+          "effective_gain": 1.4356101673174746,
+          "price_delta": -0.2999999999999998,
           "funding_role": "upgrade",
-          "effective_pick_score_in": 2.3704990945683946,
+          "effective_pick_score_in": 1.8501556218629291,
           "problem_type": "ceiling_deficit",
           "fixture_fit": 1.0,
           "out_profile": {
@@ -447,8 +240,8 @@
             "web_name": "Chalobah",
             "team": "Chelsea",
             "position": "Defender",
-            "price": 5.8,
-            "ownership": 23.9,
+            "price": 5.7,
+            "ownership": 21.6,
             "performance": {
               "role": false,
               "minutes": "Secure starter",
@@ -470,8 +263,8 @@
             "web_name": "Virgil",
             "team": "Liverpool",
             "position": "Defender",
-            "price": 5.9,
-            "ownership": 23.5,
+            "price": 6.0,
+            "ownership": 26.9,
             "performance": {
               "role": false,
               "minutes": "Secure starter",
@@ -489,57 +282,34 @@
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 2.0538024436811577
+          "budget_efficiency": 0.8320338910582479
         },
         {
-          "out_player": "Calvert-Lewin",
-          "in_player": "Thiago",
-          "position": "Forward",
-          "out_team_code": 2,
-          "in_team_code": 94,
+          "out_player": "Enzo",
+          "in_player": "Saka",
+          "position": "Midfielder",
+          "out_team_code": 8,
+          "in_team_code": 3,
           "lost_labels": [],
           "gained_labels": [],
-          "absolute_gain": 0.13332898660551734,
-          "effective_gain": 6.185328986605518,
-          "price_delta": -1.2000000000000002,
+          "absolute_gain": 0.11032522504904729,
+          "effective_gain": 7.0713252250490495,
+          "price_delta": -3.000000000000001,
           "funding_role": "upgrade",
-          "effective_pick_score_in": 6.645324225708354,
+          "effective_pick_score_in": 7.4858706795945045,
           "problem_type": "ceiling_deficit",
           "fixture_fit": 1.0,
           "out_profile": {
-            "player_id": 691,
-            "web_name": "Calvert-Lewin",
-            "team": "Leeds",
-            "position": "Forward",
-            "price": 5.8,
-            "ownership": 10.2,
-            "performance": {
-              "role": false,
-              "minutes": "Likely starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "in_profile": {
-            "player_id": 136,
-            "web_name": "Thiago",
-            "team": "Brentford",
-            "position": "Forward",
-            "price": 7.0,
-            "ownership": 31.6,
+            "player_id": 237,
+            "web_name": "Enzo",
+            "team": "Chelsea",
+            "position": "Midfielder",
+            "price": 6.8,
+            "ownership": 19.9,
             "performance": {
               "role": true,
               "minutes": "Secure starter",
-              "ceiling": "MID",
+              "ceiling": "HIGH",
               "explosive": false
             },
             "status": "STRONG-HOLD",
@@ -547,41 +317,21 @@
               "must_have": false,
               "hold": false,
               "watch": false,
-              "ceiling": false,
+              "ceiling": true,
               "explosive": false,
               "minutes_risk": false
             }
           },
-          "band_gain_rank": 0,
-          "budget_efficiency": 0.1111074888379311
-        },
-        {
-          "out_player": "Wirtz",
-          "in_player": "Hudson-Odoi",
-          "position": "Midfielder",
-          "out_team_code": 14,
-          "in_team_code": 17,
-          "lost_labels": [
-            "ceiling"
-          ],
-          "gained_labels": [],
-          "absolute_gain": -0.04098867964451963,
-          "effective_gain": 5.8910113203554815,
-          "price_delta": 2.7,
-          "funding_role": "funding",
-          "effective_pick_score_in": 6.376394135854109,
-          "problem_type": "budget_inefficiency",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 382,
-            "web_name": "Wirtz",
-            "team": "Liverpool",
+          "in_profile": {
+            "player_id": 16,
+            "web_name": "Saka",
+            "team": "Arsenal",
             "position": "Midfielder",
-            "price": 8.4,
-            "ownership": 13.8,
+            "price": 9.8,
+            "ownership": 7.6,
             "performance": {
               "role": true,
-              "minutes": "Secure starter",
+              "minutes": "Rotation risk",
               "ceiling": "HIGH",
               "explosive": false
             },
@@ -595,203 +345,37 @@
               "minutes_risk": false
             }
           },
-          "in_profile": {
-            "player_id": 516,
-            "web_name": "Hudson-Odoi",
-            "team": "Nott'm Forest",
-            "position": "Midfielder",
-            "price": 5.7,
-            "ownership": 0.7,
-            "performance": {
-              "role": false,
-              "minutes": "Likely starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
           "band_gain_rank": 0,
-          "budget_efficiency": -4.098867964451963
-        }
-      ],
-      "max_spend_required": 0.0,
-      "ending_bank": 3.0,
-      "is_feasible": true,
-      "strategy": "Structural Optimisation",
-      "rationale": [
-        "This bundle sacrifices ceiling."
-      ],
-      "transfer_roles": {},
-      "manager_profile": "conservative"
-    },
-    {
-      "bundle_score": 3.0378253933214574,
-      "bundle_gain": 4.425464847602083,
-      "transfers": [
-        {
-          "out_player": "Chalobah",
-          "in_player": "Hill",
-          "position": "Defender",
-          "out_team_code": 8,
-          "in_team_code": 91,
-          "lost_labels": [],
-          "gained_labels": [],
-          "absolute_gain": 0.16242083624482073,
-          "effective_gain": 1.714420836244821,
-          "price_delta": 1.7999999999999998,
-          "funding_role": "funding",
-          "effective_pick_score_in": 2.1595396864450986,
-          "problem_type": "ceiling_deficit",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 226,
-            "web_name": "Chalobah",
-            "team": "Chelsea",
-            "position": "Defender",
-            "price": 5.8,
-            "ownership": 23.9,
-            "performance": {
-              "role": false,
-              "minutes": "Secure starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "in_profile": {
-            "player_id": 77,
-            "web_name": "Hill",
-            "team": "Bournemouth",
-            "position": "Defender",
-            "price": 4.0,
-            "ownership": 4.6,
-            "performance": {
-              "role": false,
-              "minutes": "Secure starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "band_gain_rank": 0,
-          "budget_efficiency": 16.242083624482074
+          "budget_efficiency": 0.036775075016349086
         },
         {
-          "out_player": "Calvert-Lewin",
-          "in_player": "Strand Larsen",
+          "out_player": "Haaland",
+          "in_player": "Ra\u00fal",
           "position": "Forward",
-          "out_team_code": 2,
-          "in_team_code": 31,
-          "lost_labels": [],
-          "gained_labels": [],
-          "absolute_gain": 0.09864751153933221,
-          "effective_gain": 5.7186475115393325,
-          "price_delta": -0.40000000000000036,
-          "funding_role": "upgrade",
-          "effective_pick_score_in": 6.178642750642168,
-          "problem_type": "ceiling_deficit",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 691,
-            "web_name": "Calvert-Lewin",
-            "team": "Leeds",
-            "position": "Forward",
-            "price": 5.8,
-            "ownership": 10.2,
-            "performance": {
-              "role": false,
-              "minutes": "Likely starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "in_profile": {
-            "player_id": 654,
-            "web_name": "Strand Larsen",
-            "team": "Crystal Palace",
-            "position": "Forward",
-            "price": 6.2,
-            "ownership": 2.6,
-            "performance": {
-              "role": false,
-              "minutes": "Rotation risk",
-              "ceiling": "MID",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "band_gain_rank": 0,
-          "budget_efficiency": 0.2466187788483303
-        },
-        {
-          "out_player": "Wirtz",
-          "in_player": "Palmer",
-          "position": "Midfielder",
-          "out_team_code": 14,
-          "in_team_code": 8,
+          "out_team_code": 43,
+          "in_team_code": 54,
           "lost_labels": [],
           "gained_labels": [
-            "must_have",
-            "explosive"
+            "explosive",
+            "must_have"
           ],
-          "absolute_gain": 0.0015964998179295864,
-          "effective_gain": 6.70559649981793,
-          "price_delta": -2.1999999999999993,
-          "funding_role": "upgrade",
-          "effective_pick_score_in": 7.190979315316557,
+          "absolute_gain": 0.15084100318990334,
+          "effective_gain": 7.098841003189904,
+          "price_delta": 8.700000000000001,
+          "funding_role": "funding",
+          "effective_pick_score_in": 7.586173154766035,
           "problem_type": "ceiling_deficit",
           "fixture_fit": 1.0,
           "out_profile": {
-            "player_id": 382,
-            "web_name": "Wirtz",
-            "team": "Liverpool",
-            "position": "Midfielder",
-            "price": 8.4,
-            "ownership": 13.8,
+            "player_id": 430,
+            "web_name": "Haaland",
+            "team": "Man City",
+            "position": "Forward",
+            "price": 14.8,
+            "ownership": 67.4,
             "performance": {
               "role": true,
-              "minutes": "Secure starter",
+              "minutes": "Likely starter",
               "ceiling": "HIGH",
               "explosive": false
             },
@@ -806,12 +390,12 @@
             }
           },
           "in_profile": {
-            "player_id": 235,
-            "web_name": "Palmer",
-            "team": "Chelsea",
-            "position": "Midfielder",
-            "price": 10.6,
-            "ownership": 17.4,
+            "player_id": 337,
+            "web_name": "Ra\u00fal",
+            "team": "Fulham",
+            "position": "Forward",
+            "price": 6.1,
+            "ownership": 2.2,
             "performance": {
               "role": true,
               "minutes": "Likely starter",
@@ -829,11 +413,11 @@
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 0.0007256817354225395
+          "budget_efficiency": 15.084100318990334
         }
       ],
-      "max_spend_required": 0.7999999999999998,
-      "ending_bank": 0.8000000000000003,
+      "max_spend_required": 0.0,
+      "ending_bank": 7.0,
       "is_feasible": true,
       "strategy": "Structural Optimisation",
       "rationale": [
@@ -843,31 +427,31 @@
       "manager_profile": "conservative"
     },
     {
-      "bundle_score": 2.295395199871567,
-      "bundle_gain": 3.3648502855308102,
+      "bundle_score": 3.4425307234372737,
+      "bundle_gain": 4.889329604910391,
       "transfers": [
         {
           "out_player": "Chalobah",
-          "in_player": "Hincapie",
+          "in_player": "Virgil",
           "position": "Defender",
           "out_team_code": 8,
-          "in_team_code": 3,
+          "in_team_code": 14,
           "lost_labels": [],
           "gained_labels": [],
-          "absolute_gain": 0.08571833880364954,
-          "effective_gain": 2.0457183388036495,
-          "price_delta": 0.7000000000000002,
-          "funding_role": "funding",
-          "effective_pick_score_in": 2.490837189003927,
-          "problem_type": "budget_inefficiency",
+          "absolute_gain": 0.2496101673174742,
+          "effective_gain": 1.4356101673174746,
+          "price_delta": -0.2999999999999998,
+          "funding_role": "upgrade",
+          "effective_pick_score_in": 1.8501556218629291,
+          "problem_type": "ceiling_deficit",
           "fixture_fit": 1.0,
           "out_profile": {
             "player_id": 226,
             "web_name": "Chalobah",
             "team": "Chelsea",
             "position": "Defender",
-            "price": 5.8,
-            "ownership": 23.9,
+            "price": 5.7,
+            "ownership": 21.6,
             "performance": {
               "role": false,
               "minutes": "Secure starter",
@@ -885,15 +469,15 @@
             }
           },
           "in_profile": {
-            "player_id": 725,
-            "web_name": "Hincapie",
-            "team": "Arsenal",
+            "player_id": 373,
+            "web_name": "Virgil",
+            "team": "Liverpool",
             "position": "Defender",
-            "price": 5.1,
-            "ownership": 0.7,
+            "price": 6.0,
+            "ownership": 26.9,
             "performance": {
               "role": false,
-              "minutes": "Likely starter",
+              "minutes": "Secure starter",
               "ceiling": "LOW",
               "explosive": false
             },
@@ -908,99 +492,99 @@
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 8.571833880364954
+          "budget_efficiency": 0.8320338910582479
         },
         {
-          "out_player": "Calvert-Lewin",
-          "in_player": "Man\u00e9",
-          "position": "Forward",
-          "out_team_code": 2,
-          "in_team_code": 39,
+          "out_player": "Enzo",
+          "in_player": "Saka",
+          "position": "Midfielder",
+          "out_team_code": 8,
+          "in_team_code": 3,
           "lost_labels": [],
           "gained_labels": [],
-          "absolute_gain": -0.02207126398744197,
-          "effective_gain": 4.005928736012558,
-          "price_delta": 1.2000000000000002,
-          "funding_role": "funding",
-          "effective_pick_score_in": 4.465923975115394,
-          "problem_type": "budget_inefficiency",
+          "absolute_gain": 0.11032522504904729,
+          "effective_gain": 7.0713252250490495,
+          "price_delta": -3.000000000000001,
+          "funding_role": "upgrade",
+          "effective_pick_score_in": 7.4858706795945045,
+          "problem_type": "ceiling_deficit",
           "fixture_fit": 1.0,
           "out_profile": {
-            "player_id": 691,
-            "web_name": "Calvert-Lewin",
-            "team": "Leeds",
-            "position": "Forward",
-            "price": 5.8,
-            "ownership": 10.2,
+            "player_id": 237,
+            "web_name": "Enzo",
+            "team": "Chelsea",
+            "position": "Midfielder",
+            "price": 6.8,
+            "ownership": 19.9,
             "performance": {
-              "role": false,
-              "minutes": "Likely starter",
-              "ceiling": "LOW",
+              "role": true,
+              "minutes": "Secure starter",
+              "ceiling": "HIGH",
               "explosive": false
             },
-            "status": "NEUTRAL",
+            "status": "STRONG-HOLD",
             "labels": {
               "must_have": false,
               "hold": false,
               "watch": false,
-              "ceiling": false,
+              "ceiling": true,
               "explosive": false,
               "minutes_risk": false
             }
           },
           "in_profile": {
-            "player_id": 749,
-            "web_name": "Man\u00e9",
-            "team": "Wolves",
-            "position": "Forward",
-            "price": 4.6,
-            "ownership": 2.8,
+            "player_id": 16,
+            "web_name": "Saka",
+            "team": "Arsenal",
+            "position": "Midfielder",
+            "price": 9.8,
+            "ownership": 7.6,
             "performance": {
-              "role": false,
-              "minutes": "Secure starter",
-              "ceiling": "LOW",
+              "role": true,
+              "minutes": "Rotation risk",
+              "ceiling": "HIGH",
               "explosive": false
             },
-            "status": "NEUTRAL",
+            "status": "RISK",
             "labels": {
               "must_have": false,
               "hold": false,
               "watch": false,
-              "ceiling": false,
+              "ceiling": true,
               "explosive": false,
               "minutes_risk": false
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": -2.207126398744197
+          "budget_efficiency": 0.036775075016349086
         },
         {
-          "out_player": "Wirtz",
-          "in_player": "Rice",
-          "position": "Midfielder",
-          "out_team_code": 14,
-          "in_team_code": 3,
+          "out_player": "Haaland",
+          "in_player": "Tolu",
+          "position": "Forward",
+          "out_team_code": 43,
+          "in_team_code": 39,
           "lost_labels": [
             "ceiling"
           ],
           "gained_labels": [],
-          "absolute_gain": 0.04080321071460241,
-          "effective_gain": 4.920803210714603,
-          "price_delta": 0.8000000000000007,
+          "absolute_gain": -0.012905787456130802,
+          "effective_gain": 6.981094212543869,
+          "price_delta": 9.4,
           "funding_role": "funding",
-          "effective_pick_score_in": 5.406186026213231,
+          "effective_pick_score_in": 7.468426364120002,
           "problem_type": "budget_inefficiency",
           "fixture_fit": 1.0,
           "out_profile": {
-            "player_id": 382,
-            "web_name": "Wirtz",
-            "team": "Liverpool",
-            "position": "Midfielder",
-            "price": 8.4,
-            "ownership": 13.8,
+            "player_id": 430,
+            "web_name": "Haaland",
+            "team": "Man City",
+            "position": "Forward",
+            "price": 14.8,
+            "ownership": 67.4,
             "performance": {
               "role": true,
-              "minutes": "Secure starter",
+              "minutes": "Likely starter",
               "ceiling": "HIGH",
               "explosive": false
             },
@@ -1015,12 +599,12 @@
             }
           },
           "in_profile": {
-            "player_id": 21,
-            "web_name": "Rice",
-            "team": "Arsenal",
-            "position": "Midfielder",
-            "price": 7.6,
-            "ownership": 34.2,
+            "player_id": 720,
+            "web_name": "Tolu",
+            "team": "Wolves",
+            "position": "Forward",
+            "price": 5.4,
+            "ownership": 0.2,
             "performance": {
               "role": true,
               "minutes": "Secure starter",
@@ -1038,11 +622,434 @@
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 4.080321071460241
+          "budget_efficiency": -1.2905787456130802
         }
       ],
       "max_spend_required": 0.0,
-      "ending_bank": 4.300000000000001,
+      "ending_bank": 7.699999999999999,
+      "is_feasible": true,
+      "strategy": "Structural Optimisation",
+      "rationale": [
+        "This bundle sacrifices ceiling."
+      ],
+      "transfer_roles": {},
+      "manager_profile": "conservative"
+    },
+    {
+      "bundle_score": 3.424466622403341,
+      "bundle_gain": 4.977809460576202,
+      "transfers": [
+        {
+          "out_player": "Chalobah",
+          "in_player": "Virgil",
+          "position": "Defender",
+          "out_team_code": 8,
+          "in_team_code": 14,
+          "lost_labels": [],
+          "gained_labels": [],
+          "absolute_gain": 0.2496101673174742,
+          "effective_gain": 1.4356101673174746,
+          "price_delta": -0.2999999999999998,
+          "funding_role": "upgrade",
+          "effective_pick_score_in": 1.8501556218629291,
+          "problem_type": "ceiling_deficit",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 226,
+            "web_name": "Chalobah",
+            "team": "Chelsea",
+            "position": "Defender",
+            "price": 5.7,
+            "ownership": 21.6,
+            "performance": {
+              "role": false,
+              "minutes": "Secure starter",
+              "ceiling": "LOW",
+              "explosive": false
+            },
+            "status": "NEUTRAL",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 373,
+            "web_name": "Virgil",
+            "team": "Liverpool",
+            "position": "Defender",
+            "price": 6.0,
+            "ownership": 26.9,
+            "performance": {
+              "role": false,
+              "minutes": "Secure starter",
+              "ceiling": "LOW",
+              "explosive": false
+            },
+            "status": "NEUTRAL",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "band_gain_rank": 0,
+          "budget_efficiency": 0.8320338910582479
+        },
+        {
+          "out_player": "Garner",
+          "in_player": "Saka",
+          "position": "Midfielder",
+          "out_team_code": 11,
+          "in_team_code": 3,
+          "lost_labels": [],
+          "gained_labels": [
+            "ceiling"
+          ],
+          "absolute_gain": 0.048858290068823695,
+          "effective_gain": 7.009858290068826,
+          "price_delta": -4.6000000000000005,
+          "funding_role": "upgrade",
+          "effective_pick_score_in": 7.4858706795945045,
+          "problem_type": "ceiling_deficit",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 303,
+            "web_name": "Garner",
+            "team": "Everton",
+            "position": "Midfielder",
+            "price": 5.2,
+            "ownership": 3.8,
+            "performance": {
+              "role": true,
+              "minutes": "Secure starter",
+              "ceiling": "MID",
+              "explosive": false
+            },
+            "status": "STRONG-HOLD",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 16,
+            "web_name": "Saka",
+            "team": "Arsenal",
+            "position": "Midfielder",
+            "price": 9.8,
+            "ownership": 7.6,
+            "performance": {
+              "role": true,
+              "minutes": "Rotation risk",
+              "ceiling": "HIGH",
+              "explosive": false
+            },
+            "status": "RISK",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": true,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "band_gain_rank": 0,
+          "budget_efficiency": 0.010621367406266019
+        },
+        {
+          "out_player": "Haaland",
+          "in_player": "Ra\u00fal",
+          "position": "Forward",
+          "out_team_code": 43,
+          "in_team_code": 54,
+          "lost_labels": [],
+          "gained_labels": [
+            "explosive",
+            "must_have"
+          ],
+          "absolute_gain": 0.15084100318990334,
+          "effective_gain": 7.098841003189904,
+          "price_delta": 8.700000000000001,
+          "funding_role": "funding",
+          "effective_pick_score_in": 7.586173154766035,
+          "problem_type": "ceiling_deficit",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 430,
+            "web_name": "Haaland",
+            "team": "Man City",
+            "position": "Forward",
+            "price": 14.8,
+            "ownership": 67.4,
+            "performance": {
+              "role": true,
+              "minutes": "Likely starter",
+              "ceiling": "HIGH",
+              "explosive": false
+            },
+            "status": "RISK",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": true,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 337,
+            "web_name": "Ra\u00fal",
+            "team": "Fulham",
+            "position": "Forward",
+            "price": 6.1,
+            "ownership": 2.2,
+            "performance": {
+              "role": true,
+              "minutes": "Likely starter",
+              "ceiling": "HIGH",
+              "explosive": true
+            },
+            "status": "MUST-HAVE",
+            "labels": {
+              "must_have": true,
+              "hold": false,
+              "watch": false,
+              "ceiling": true,
+              "explosive": true,
+              "minutes_risk": false
+            }
+          },
+          "band_gain_rank": 0,
+          "budget_efficiency": 15.084100318990334
+        }
+      ],
+      "max_spend_required": 0.0,
+      "ending_bank": 5.4,
+      "is_feasible": true,
+      "strategy": "Structural Optimisation",
+      "rationale": [
+        "This bundle gains ceiling."
+      ],
+      "transfer_roles": {},
+      "manager_profile": "conservative"
+    },
+    {
+      "bundle_score": 2.758090826830515,
+      "bundle_gain": 4.025844038329307,
+      "transfers": [
+        {
+          "out_player": "Chalobah",
+          "in_player": "Dragusin",
+          "position": "Defender",
+          "out_team_code": 8,
+          "in_team_code": 6,
+          "lost_labels": [],
+          "gained_labels": [],
+          "absolute_gain": 0.14178752341960998,
+          "effective_gain": 1.31578752341961,
+          "price_delta": 1.2000000000000002,
+          "funding_role": "funding",
+          "effective_pick_score_in": 1.7303329779650645,
+          "problem_type": "budget_inefficiency",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 226,
+            "web_name": "Chalobah",
+            "team": "Chelsea",
+            "position": "Defender",
+            "price": 5.7,
+            "ownership": 21.6,
+            "performance": {
+              "role": false,
+              "minutes": "Secure starter",
+              "ceiling": "LOW",
+              "explosive": false
+            },
+            "status": "NEUTRAL",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 572,
+            "web_name": "Dragusin",
+            "team": "Spurs",
+            "position": "Defender",
+            "price": 4.5,
+            "ownership": 0.0,
+            "performance": {
+              "role": false,
+              "minutes": "Likely starter",
+              "ceiling": "LOW",
+              "explosive": false
+            },
+            "status": "NEUTRAL",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "band_gain_rank": 0,
+          "budget_efficiency": 14.178752341960998
+        },
+        {
+          "out_player": "Enzo",
+          "in_player": "Summerville",
+          "position": "Midfielder",
+          "out_team_code": 8,
+          "in_team_code": 21,
+          "lost_labels": [
+            "ceiling"
+          ],
+          "gained_labels": [],
+          "absolute_gain": 0.08516230236582745,
+          "effective_gain": 4.623162302365829,
+          "price_delta": 1.0999999999999996,
+          "funding_role": "funding",
+          "effective_pick_score_in": 5.037707756911283,
+          "problem_type": "budget_inefficiency",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 237,
+            "web_name": "Enzo",
+            "team": "Chelsea",
+            "position": "Midfielder",
+            "price": 6.8,
+            "ownership": 19.9,
+            "performance": {
+              "role": true,
+              "minutes": "Secure starter",
+              "ceiling": "HIGH",
+              "explosive": false
+            },
+            "status": "STRONG-HOLD",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": true,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 615,
+            "web_name": "Summerville",
+            "team": "West Ham",
+            "position": "Midfielder",
+            "price": 5.7,
+            "ownership": 3.1,
+            "performance": {
+              "role": true,
+              "minutes": "Secure starter",
+              "ceiling": "MID",
+              "explosive": false
+            },
+            "status": "STRONG-HOLD",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "band_gain_rank": 0,
+          "budget_efficiency": 8.516230236582745
+        },
+        {
+          "out_player": "Haaland",
+          "in_player": "Tolu",
+          "position": "Forward",
+          "out_team_code": 43,
+          "in_team_code": 39,
+          "lost_labels": [
+            "ceiling"
+          ],
+          "gained_labels": [],
+          "absolute_gain": -0.012905787456130802,
+          "effective_gain": 6.981094212543869,
+          "price_delta": 9.4,
+          "funding_role": "funding",
+          "effective_pick_score_in": 7.468426364120002,
+          "problem_type": "budget_inefficiency",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 430,
+            "web_name": "Haaland",
+            "team": "Man City",
+            "position": "Forward",
+            "price": 14.8,
+            "ownership": 67.4,
+            "performance": {
+              "role": true,
+              "minutes": "Likely starter",
+              "ceiling": "HIGH",
+              "explosive": false
+            },
+            "status": "RISK",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": true,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 720,
+            "web_name": "Tolu",
+            "team": "Wolves",
+            "position": "Forward",
+            "price": 5.4,
+            "ownership": 0.2,
+            "performance": {
+              "role": true,
+              "minutes": "Secure starter",
+              "ceiling": "MID",
+              "explosive": false
+            },
+            "status": "STRONG-HOLD",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "band_gain_rank": 0,
+          "budget_efficiency": -1.2905787456130802
+        }
+      ],
+      "max_spend_required": 0.0,
+      "ending_bank": 13.299999999999999,
       "is_feasible": true,
       "strategy": "Structural Optimisation",
       "rationale": [
