@@ -46,10 +46,10 @@ const postureTextStyle: Record<string, string> = {
 }
 
 export function GovernanceBanner({ governance }: GovernanceBannerProps) {
-  const postureLabel = postureLabels[governance.recommended_posture] ?? governance.recommended_posture.replace(/_/g, " ").toUpperCase()
-  const perfState = performanceStateLabels[governance.performance_state] ?? governance.performance_state
-  const perfDriver = performanceDriverLabels[governance.performance_driver] ?? governance.performance_driver
-  const pressure = actionPressureLabels[governance.action_pressure] ?? governance.action_pressure
+  const postureLabel = postureLabels[governance.recommended_posture] ?? (governance.recommended_posture?.replace(/_/g, " ").toUpperCase() ?? "—")
+  const perfState = performanceStateLabels[governance.performance_state] ?? governance.performance_state ?? null
+  const perfDriver = performanceDriverLabels[governance.performance_driver] ?? governance.performance_driver ?? null
+  const pressure = actionPressureLabels[governance.action_pressure] ?? governance.action_pressure ?? null
   const secondaryLine = [perfState, perfDriver, pressure].filter(Boolean).join(" · ")
   const postureStyle = postureTextStyle[governance.action_pressure] ?? "text-foreground border-b-2 border-primary/30 pb-0.5"
 
