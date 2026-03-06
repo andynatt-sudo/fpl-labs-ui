@@ -47,14 +47,16 @@ export default function Home() {
           playerLensData={playerLensArray} 
         />
         
-        {/* 3. Team Potential — headline insight from decision engine */}
+        {/* 3. Team Potential — decision layer 1 */}
         <TeamPotentialBanner potential={decisionLayers.layers.structural_potential} />
 
-        {/* 4. Tactical Replacements + Transfer Bundles */}
-        <div className="space-y-6">
-          <TacticalReplacementsSection data={tacticalReplacements} />
+        {/* 4. Tactical Swaps — decision layer 2 */}
+        <TacticalReplacementsSection data={tacticalReplacements} />
+
+        {/* 5. Structural Bundles — decision layer 3 (hidden if empty) */}
+        {decisionLayers.layers.structural_bundles?.count > 0 && (
           <TransferBundlesSection data={decisionLayers.layers.structural_bundles} />
-        </div>
+        )}
 
         {/* 4. Dashboard Table - All players from player_profiles.json */}
         <section className="space-y-3 pt-4 border-t border-border/50">

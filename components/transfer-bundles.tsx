@@ -7,19 +7,11 @@ interface TransferBundlesProps {
   data: StructuralBundles | null
 }
 
-function WarningDot({ level }: { level: string }) {
-  const colours: Record<string, string> = {
-    normal:   "bg-emerald-500",
-    watch:    "bg-amber-400",
-    alert:    "bg-orange-500",
-    critical: "bg-rose-500",
-  }
-  return (
-    <span
-      className={`inline-block size-2 rounded-full ${colours[level] ?? "bg-muted-foreground/40"}`}
-      title={`Warning: ${level}`}
-    />
-  )
+const warningBadgeStyle: Record<string, string> = {
+  normal:   "bg-emerald-950/60 text-emerald-300 border-emerald-500/30",
+  watch:    "bg-amber-950/60 text-amber-300 border-amber-500/30",
+  alert:    "bg-orange-950/60 text-orange-300 border-orange-500/30",
+  critical: "bg-rose-950/60 text-rose-300 border-rose-500/30",
 }
 
 function BundleCard({ bundle }: { bundle: StructuralBundle }) {
@@ -70,12 +62,19 @@ function BundleCard({ bundle }: { bundle: StructuralBundle }) {
           </div>
         </div>
 
-        {/* Governance footer */}
-        <div className="flex items-center gap-2">
-          <WarningDot level={bundle.governance_after.warning_level} />
-          <span className="text-[10px] text-muted-foreground/50 uppercase tracking-wide">
-            Health {bundle.governance_after.health_score} · {bundle.governance_after.warning_level}
-          </span>
+        {/* Governance After — team state badge */}
+        <div className="pt-1 border-t border-border/40 space-y-1.5">
+          <p className="text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">
+            Team State After Plan
+          </p>
+          <Badge
+            className={`capitalize border text-xs font-medium ${warningBadgeStyle[bundle.governance_after.warning_level] ?? "bg-muted/40 text-muted-foreground border-border/40"}`}
+          >
+            {bundle.governance_after.warning_level}
+          </Badge>
+          <p className="text-[10px] text-muted-foreground/60">
+            Health Score: {bundle.governance_after.health_score}
+          </p>
         </div>
 
       </CardContent>
