@@ -1,5 +1,5 @@
 import { DashboardHeader } from "@/components/dashboard-header"
-import { GovernanceBanner } from "@/components/governance-banner"
+import { TeamGovernancePanel } from "@/components/team-governance-panel"
 import { SquadGrid } from "@/components/squad-grid"
 import { PlayersTable } from "@/components/players-table"
 import { Watchlist } from "@/components/watchlist"
@@ -32,9 +32,9 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <DashboardHeader />
       <main className="container mx-auto px-4 py-6 space-y-6">
-        {/* 1. Governance Summary - Top banner */}
-        <GovernanceBanner governance={teamLens.governance} />
-        
+        {/* 1. Team Governance Panel */}
+        <TeamGovernancePanel governance={teamLens.governance} />
+
         {/* 2. Squad Grid - Starters + Bench */}
         <SquadGrid 
           squad={teamLens.squad} 

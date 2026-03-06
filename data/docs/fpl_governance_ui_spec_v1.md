@@ -30,7 +30,7 @@ Path:
 
 Example structure:
 
-``` json
+\`\`\` json
 "governance": {
   "team_id": 2310541,
   "gameweek": 28,
@@ -50,7 +50,7 @@ Example structure:
   "warning_level": "alert",
   "flags": []
 }
-```
+\`\`\`
 
 ------------------------------------------------------------------------
 
@@ -225,13 +225,13 @@ This field drives **top-level status indicators**.
 
 Example:
 
-``` json
+\`\`\` json
 {
  "code": "INJURY_RISK",
  "severity": "HIGH",
  "player_ids": [430]
 }
-```
+\`\`\`
 
 Possible flag types:
 
