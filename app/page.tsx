@@ -53,7 +53,7 @@ export default function Home() {
         {/* 4. Tactical Replacements + Transfer Bundles */}
         <div className="space-y-6">
           <TacticalReplacementsSection data={tacticalReplacements} />
-          <TransferBundlesSection data={transferBundles} />
+          <TransferBundlesSection data={decisionLayers.layers.structural_bundles} />
         </div>
 
         {/* 4. Dashboard Table - All players from player_profiles.json */}
