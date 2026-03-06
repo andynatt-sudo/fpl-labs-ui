@@ -340,3 +340,44 @@ export interface TransferBundles {
   }
   bundles: TransferBundle[]
 }
+
+// Decision Layers — v3 structural bundles
+export interface StructuralPotential {
+  best_bundle_score: number
+  best_gain_next_gw: number
+  best_gain_two_gw: number
+}
+
+export interface StructuralBundleImpact {
+  gain_next_gw: number
+  gain_two_gw: number
+  captain_gain: number
+  risk_reduction: number
+}
+
+export interface StructuralBundleGovernance {
+  health_score: number
+  warning_level: string
+}
+
+export interface StructuralBundle {
+  rank: number
+  score: number
+  impact: StructuralBundleImpact
+  governance_after: StructuralBundleGovernance
+  transfers: BundleTransferLeg[]
+}
+
+export interface StructuralBundles {
+  count: number
+  items: StructuralBundle[]
+}
+
+export interface DecisionLayers {
+  meta: { type: string }
+  layers: {
+    structural_potential: StructuralPotential
+    structural_bundles: StructuralBundles
+    [key: string]: unknown
+  }
+}
