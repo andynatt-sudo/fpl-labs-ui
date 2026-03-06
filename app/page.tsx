@@ -5,16 +5,19 @@ import { PlayersTable } from "@/components/players-table"
 import { Watchlist } from "@/components/watchlist"
 import { TacticalReplacementsSection } from "@/components/tactical-replacements"
 import { TransferBundlesSection } from "@/components/transfer-bundles"
+import { TeamPotentialBanner } from "@/components/team-potential-banner"
 import teamLensData from "@/data/team_lens.json"
 import playerProfilesData from "@/data/player_profiles.json"
 import playerLensRaw from "@/data/player_lens.json"
 import tacticalReplacementsData from "@/data/tactical_replacements.json"
 import transferBundlesData from "@/data/bundles.json"
+import decisionLayersData from "@/data/decision_layers.json"
 import type { 
   PlayerProfiles,
   PlayerLensData,
   TacticalReplacements, 
-  TransferBundles 
+  TransferBundles,
+  DecisionLayers
 } from "@/lib/types"
 import type { TeamLens } from "@/lib/types-team-lens"
 
@@ -22,6 +25,7 @@ const teamLens = teamLensData as TeamLens
 const playerProfiles = playerProfilesData as PlayerProfiles
 const tacticalReplacements = tacticalReplacementsData as TacticalReplacements
 const transferBundles = transferBundlesData as TransferBundles
+const decisionLayers = decisionLayersData as DecisionLayers
 
 const playerLensArray = Object.entries((playerLensRaw as PlayerLensData).players).map(
   ([playerId, lens]) => ({ player_id: parseInt(playerId), lens })
@@ -43,7 +47,10 @@ export default function Home() {
           playerLensData={playerLensArray} 
         />
         
-        {/* 3. Tactical Replacements + Transfer Bundles */}
+        {/* 3. Team Potential — headline insight from decision engine */}
+        <TeamPotentialBanner potential={decisionLayers.layers.structural_potential} />
+
+        {/* 4. Tactical Replacements + Transfer Bundles */}
         <div className="space-y-6">
           <TacticalReplacementsSection data={tacticalReplacements} />
           <TransferBundlesSection data={transferBundles} />

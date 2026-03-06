@@ -340,3 +340,18 @@ export interface TransferBundles {
   }
   bundles: TransferBundle[]
 }
+
+// Decision Layers
+export interface StructuralPotential {
+  best_bundle_score: number
+  best_gain_next_gw: number
+  best_gain_two_gw: number
+}
+
+export interface DecisionLayers {
+  meta: { type: string }
+  layers: {
+    structural_potential: StructuralPotential
+    [key: string]: unknown
+  }
+}
