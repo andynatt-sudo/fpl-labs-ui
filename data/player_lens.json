@@ -1290,7 +1290,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.05108157621236939
+          "pick_score": 0.45108157621236944
         },
         "current_gameweek_data": {
           "ep_this": 0.4,
@@ -1308,7 +1308,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "out",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -1494,7 +1494,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.35108157621236946
+          "pick_score": 0.2510815762123694
         },
         "current_gameweek_data": {
           "ep_this": 1.5,
@@ -1512,7 +1512,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "low",
+          "injury_risk": "moderate",
           "volatility": "moderate"
         }
       },
@@ -1647,7 +1647,7 @@
           "recent_points": null,
           "xgi_per_90": 0.2600502512562813,
           "defensive_contribution": 4.0,
-          "pick_score": 0.4548551611180298
+          "pick_score": 0.35485516111802984
         },
         "current_gameweek_data": {
           "ep_this": 2.9,
@@ -2326,43 +2326,43 @@
               "target_player_id": 568,
               "absolute_gain": 0.08954711198013005,
               "budget_efficiency": 0.2984903732671003,
-              "band_gain_rank": 0.775,
-              "composite_transfer_score": 0.2664713417737329
-            },
-            {
-              "target_player_id": 569,
-              "absolute_gain": 0.08954711198013005,
-              "budget_efficiency": 0.44773555990064984,
-              "band_gain_rank": 0.775,
-              "composite_transfer_score": 0.2664713417737329
+              "band_gain_rank": 0.8,
+              "composite_transfer_score": 0.27272134177373286
             },
             {
               "target_player_id": 478,
               "absolute_gain": 0.06412518525091943,
               "budget_efficiency": 0.6412518525091908,
-              "band_gain_rank": 0.675,
-              "composite_transfer_score": 0.224947089399746
+              "band_gain_rank": 0.725,
+              "composite_transfer_score": 0.237447089399746
             },
             {
               "target_player_id": 473,
               "absolute_gain": 0.06412518525091943,
               "budget_efficiency": 0.12825037050183885,
-              "band_gain_rank": 0.675,
-              "composite_transfer_score": 0.22325640746328154
+              "band_gain_rank": 0.725,
+              "composite_transfer_score": 0.23575640746328153
             },
             {
               "target_player_id": 257,
               "absolute_gain": 0.062396165592635555,
               "budget_efficiency": 0.20798721864211864,
-              "band_gain_rank": 0.6,
-              "composite_transfer_score": 0.20507322662186148
+              "band_gain_rank": 0.65,
+              "composite_transfer_score": 0.2175732266218615
+            },
+            {
+              "target_player_id": 475,
+              "absolute_gain": 0.06035160034525905,
+              "budget_efficiency": 0.6035160034525873,
+              "band_gain_rank": 0.55,
+              "composite_transfer_score": 0.19124425921106675
             },
             {
               "target_player_id": 476,
               "absolute_gain": 0.06035160034525905,
               "budget_efficiency": 0.30175800172629497,
-              "band_gain_rank": 0.525,
-              "composite_transfer_score": 0.18499425921106674
+              "band_gain_rank": 0.55,
+              "composite_transfer_score": 0.19124425921106675
             }
           ],
           "value_variants": [],
@@ -2779,6 +2779,13 @@
               "budget_efficiency": 0.004806760732089677,
               "band_gain_rank": 1.0,
               "composite_transfer_score": 0.270476800718702
+            },
+            {
+              "target_player_id": 382,
+              "absolute_gain": 0.02321609887405318,
+              "budget_efficiency": 0.03316585553436164,
+              "band_gain_rank": 0.5,
+              "composite_transfer_score": 0.14198909508145713
             }
           ],
           "value_variants": [],
@@ -3052,7 +3059,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.1541404639856257
+          "pick_score": 0.5541404639856258
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -3070,7 +3077,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "out",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -3511,7 +3518,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.1541404639856257
+          "pick_score": 0.3541404639856257
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -3529,7 +3536,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "out",
+          "injury_risk": "moderate",
           "volatility": "moderate"
         }
       },
@@ -5274,7 +5281,7 @@
       },
       "transfers": {
         "summary": {
-          "transfer_rating": 0.2955038119918433,
+          "transfer_rating": 0.2974165477637441,
           "replacement_score": 0.0611707093660272,
           "urgency_level": "low"
         },
@@ -5285,28 +5292,21 @@
               "absolute_gain": 0.0611707093660272,
               "budget_efficiency": 0.1223414187320544,
               "band_gain_rank": 1.0,
-              "composite_transfer_score": 0.2955038119918433
-            },
-            {
-              "target_player_id": 366,
-              "absolute_gain": 0.05362161184834757,
-              "budget_efficiency": 0.03830115132024826,
-              "band_gain_rank": 0.75,
-              "composite_transfer_score": 0.22618416283345075
+              "composite_transfer_score": 0.2974165477637441
             },
             {
               "target_player_id": 32,
               "absolute_gain": 0.01908475825731326,
               "budget_efficiency": 0.017349780233921152,
-              "band_gain_rank": 0.5,
-              "composite_transfer_score": 0.13914007089064573
+              "band_gain_rank": 0.6666666666666666,
+              "composite_transfer_score": 0.18080673755731239
             },
             {
               "target_player_id": 33,
               "absolute_gain": 0.015311173351652885,
               "budget_efficiency": 0.07655586675826435,
-              "band_gain_rank": 0.25,
-              "composite_transfer_score": 0.07819511358250002
+              "band_gain_rank": 0.3333333333333333,
+              "composite_transfer_score": 0.10094118268773414
             }
           ],
           "value_variants": [],
@@ -8232,7 +8232,7 @@
           "recent_points": null,
           "xgi_per_90": 0.028442437923250543,
           "defensive_contribution": 4.0,
-          "pick_score": 0.5119517794225321
+          "pick_score": 0.3119517794225321
         },
         "current_gameweek_data": {
           "ep_this": 3.3,
@@ -8250,7 +8250,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "low",
+          "injury_risk": "high",
           "volatility": "moderate"
         }
       },
@@ -11882,9 +11882,9 @@
       },
       "transfers": {
         "summary": {
-          "transfer_rating": 0.4033860533325447,
+          "transfer_rating": 0.39436902016347625,
           "replacement_score": 0.19600605831577628,
-          "urgency_level": "moderate"
+          "urgency_level": "low"
         },
         "options": {
           "better_variants": [
@@ -11893,42 +11893,35 @@
               "absolute_gain": 0.19600605831577628,
               "budget_efficiency": 1.9600605831577522,
               "band_gain_rank": 1.0,
-              "composite_transfer_score": 0.4033860533325447
-            },
-            {
-              "target_player_id": 256,
-              "absolute_gain": 0.1049974457890756,
-              "budget_efficiency": 0.34999148596358454,
-              "band_gain_rank": 0.8333333333333334,
-              "composite_transfer_score": 0.30256378852352256
+              "composite_transfer_score": 0.39436902016347625
             },
             {
               "target_player_id": 402,
               "absolute_gain": 0.0916173689001808,
               "budget_efficiency": 0.9161736890018031,
-              "band_gain_rank": 0.6666666666666666,
-              "composite_transfer_score": 0.25220007187907423
+              "band_gain_rank": 0.8,
+              "composite_transfer_score": 0.2765163720433392
             },
             {
               "target_player_id": 6,
               "absolute_gain": 0.08482541129110827,
               "budget_efficiency": 0.16965082258221653,
-              "band_gain_rank": 0.5,
-              "composite_transfer_score": 0.19710159959744203
+              "band_gain_rank": 0.6,
+              "composite_transfer_score": 0.22210159959744202
             },
             {
               "target_player_id": 5,
               "absolute_gain": 0.08105182638544789,
               "budget_efficiency": 0.05403455092363193,
-              "band_gain_rank": 0.3333333333333333,
-              "composite_transfer_score": 0.14142047557623766
+              "band_gain_rank": 0.4,
+              "composite_transfer_score": 0.15808714224290435
             },
             {
               "target_player_id": 8,
               "absolute_gain": 0.07727824147978751,
               "budget_efficiency": 0.11039748782826785,
-              "band_gain_rank": 0.16666666666666666,
-              "composite_transfer_score": 0.10293727241135534
+              "band_gain_rank": 0.2,
+              "composite_transfer_score": 0.11127060574468867
             }
           ],
           "value_variants": [],
@@ -12486,7 +12479,7 @@
       },
       "transfers": {
         "summary": {
-          "transfer_rating": 0.52822389223634,
+          "transfer_rating": 0.5235390222329909,
           "replacement_score": 0.3962264150943397,
           "urgency_level": "moderate"
         },
@@ -12497,70 +12490,70 @@
               "absolute_gain": 0.3962264150943397,
               "budget_efficiency": 1.3207547169811331,
               "band_gain_rank": 1.0,
-              "composite_transfer_score": 0.52822389223634
+              "composite_transfer_score": 0.5235390222329909
             },
             {
               "target_player_id": 120,
               "absolute_gain": 0.21928052016164828,
               "budget_efficiency": 1.0964026008082404,
-              "band_gain_rank": 0.9411764705882353,
-              "composite_transfer_score": 0.3985031781771494
+              "band_gain_rank": 0.9444444444444444,
+              "composite_transfer_score": 0.39463530163785254
             },
             {
               "target_player_id": 384,
               "absolute_gain": 0.20355322812709703,
               "budget_efficiency": 0.3392553802118286,
-              "band_gain_rank": 0.8823529411764706,
-              "composite_transfer_score": 0.37357455600174994
+              "band_gain_rank": 0.8888888888888888,
+              "composite_transfer_score": 0.37052367292650534
             },
             {
               "target_player_id": 387,
               "absolute_gain": 0.19600605831577628,
               "budget_efficiency": 0.9800302915788806,
-              "band_gain_rank": 0.8235294117647058,
-              "composite_transfer_score": 0.35396301327145024
+              "band_gain_rank": 0.8333333333333334,
+              "composite_transfer_score": 0.351729123660258
             },
             {
               "target_player_id": 381,
               "absolute_gain": 0.18845888850445552,
               "budget_efficiency": 0.025816286096500756,
-              "band_gain_rank": 0.7647058823529411,
-              "composite_transfer_score": 0.31625637672578144
+              "band_gain_rank": 0.7777777777777778,
+              "composite_transfer_score": 0.3195243505819906
+            },
+            {
+              "target_player_id": 382,
+              "absolute_gain": 0.18091171869313477,
+              "budget_efficiency": 0.1130698241832092,
+              "band_gain_rank": 0.7222222222222222,
+              "composite_transfer_score": 0.30945515512441407
             },
             {
               "target_player_id": 515,
               "absolute_gain": 0.12406033455011539,
               "budget_efficiency": 0.20676722425019245,
-              "band_gain_rank": 0.7058823529411765,
-              "composite_transfer_score": 0.27778652811788834
+              "band_gain_rank": 0.6666666666666666,
+              "composite_transfer_score": 0.2632977365459117
             },
             {
               "target_player_id": 485,
               "absolute_gain": 0.1180472201643406,
               "budget_efficiency": 0.2360944403286812,
-              "band_gain_rank": 0.6470588235294118,
-              "composite_transfer_score": 0.2591721214141936
+              "band_gain_rank": 0.6111111111111112,
+              "composite_transfer_score": 0.24550032330626928
             },
             {
               "target_player_id": 82,
               "absolute_gain": 0.08029661418319967,
               "budget_efficiency": 0.05353107612213314,
-              "band_gain_rank": 0.5882352941176471,
-              "composite_transfer_score": 0.20460473036070487
+              "band_gain_rank": 0.5555555555555556,
+              "composite_transfer_score": 0.196434795720182
             },
             {
               "target_player_id": 21,
               "absolute_gain": 0.06595748676280638,
               "budget_efficiency": 0.08244685845350799,
-              "band_gain_rank": 0.5294117647058824,
-              "composite_transfer_score": 0.18346999341764553
-            },
-            {
-              "target_player_id": 450,
-              "absolute_gain": 0.06458966277436168,
-              "budget_efficiency": 0.04968435598027822,
-              "band_gain_rank": 0.47058823529411764,
-              "composite_transfer_score": 0.16459877522489233
+              "band_gain_rank": 0.5,
+              "composite_transfer_score": 0.17611705224117494
             }
           ],
           "value_variants": [],
@@ -12630,7 +12623,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.00021842907220454211
+          "pick_score": 0.20021842907220455
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -12648,7 +12641,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "out",
+          "injury_risk": "moderate",
           "volatility": "moderate"
         }
       },
@@ -12936,7 +12929,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.20021842907220455
+          "pick_score": 0.40021842907220456
         },
         "current_gameweek_data": {
           "ep_this": -0.2,
@@ -12954,7 +12947,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "high",
-          "injury_risk": "moderate",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -13563,7 +13556,7 @@
           "recent_points": null,
           "xgi_per_90": 0.3090487238979118,
           "defensive_contribution": 5.0,
-          "pick_score": 0.5089894597669405
+          "pick_score": 0.40898945976694057
         },
         "current_gameweek_data": {
           "ep_this": 3.1,
@@ -14838,7 +14831,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.3052158748612802
+          "pick_score": 0.5052158748612802
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -14856,7 +14849,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "moderate",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -16142,7 +16135,7 @@
       },
       "transfers": {
         "summary": {
-          "transfer_rating": 0.5099962158942892,
+          "transfer_rating": 0.5074599898451972,
           "replacement_score": 0.37757691963824236,
           "urgency_level": "moderate"
         },
@@ -16153,70 +16146,70 @@
               "absolute_gain": 0.37757691963824236,
               "budget_efficiency": 0.20976495535457912,
               "band_gain_rank": 1.0,
-              "composite_transfer_score": 0.5099962158942892
+              "composite_transfer_score": 0.5074599898451972
             },
             {
               "target_player_id": 121,
               "absolute_gain": 0.24214045866781508,
               "budget_efficiency": 0.6053511466695385,
-              "band_gain_rank": 0.9838709677419355,
-              "composite_transfer_score": 0.41793025819899543
+              "band_gain_rank": 0.9830508474576272,
+              "composite_transfer_score": 0.41518900207882625
             },
             {
               "target_player_id": 120,
               "absolute_gain": 0.20063102470555094,
               "budget_efficiency": 0.11801824982679467,
-              "band_gain_rank": 0.967741935483871,
-              "composite_transfer_score": 0.3841474749122553
+              "band_gain_rank": 0.9661016949152542,
+              "composite_transfer_score": 0.38373741477010115
             },
             {
               "target_player_id": 83,
               "absolute_gain": 0.1930838548942302,
               "budget_efficiency": 0.27583407842032875,
-              "band_gain_rank": 0.9516129032258065,
-              "composite_transfer_score": 0.37797894961713296
+              "band_gain_rank": 0.9491525423728814,
+              "composite_transfer_score": 0.3748276333548096
             },
             {
               "target_player_id": 384,
               "absolute_gain": 0.1849037326709997,
               "budget_efficiency": 0.08804939650999986,
-              "band_gain_rank": 0.9354838709677419,
-              "composite_transfer_score": 0.36286333362908524
+              "band_gain_rank": 0.9322033898305084,
+              "composite_transfer_score": 0.3620432133447769
             },
             {
               "target_player_id": 390,
               "absolute_gain": 0.1811301477653393,
               "budget_efficiency": 0.6037671592177981,
-              "band_gain_rank": 0.9193548387096774,
-              "composite_transfer_score": 0.3621445238543216
+              "band_gain_rank": 0.9152542372881356,
+              "composite_transfer_score": 0.3585831474498441
             },
             {
               "target_player_id": 324,
               "absolute_gain": 0.1795221082992079,
               "budget_efficiency": 0.1632019166356436,
-              "band_gain_rank": 0.9032258064516129,
-              "composite_transfer_score": 0.3570670401368201
+              "band_gain_rank": 0.8983050847457628,
+              "composite_transfer_score": 0.35330063366126546
             },
             {
               "target_player_id": 387,
               "absolute_gain": 0.17735656285967893,
               "budget_efficiency": 0.10432738991745819,
-              "band_gain_rank": 0.8870967741935484,
-              "composite_transfer_score": 0.3474886983989242
+              "band_gain_rank": 0.8813559322033898,
+              "composite_transfer_score": 0.34605348790138457
+            },
+            {
+              "target_player_id": 381,
+              "absolute_gain": 0.16980939304835818,
+              "budget_efficiency": 0.01929652193731343,
+              "band_gain_rank": 0.864406779661017,
+              "composite_transfer_score": 0.3284074525904184
             },
             {
               "target_player_id": 388,
               "absolute_gain": 0.16226222323703743,
               "budget_efficiency": 0.8113111161851865,
-              "band_gain_rank": 0.8467741935483871,
-              "composite_transfer_score": 0.3317352116206028
-            },
-            {
-              "target_player_id": 385,
-              "absolute_gain": 0.16226222323703743,
-              "budget_efficiency": 0.14751111203367043,
-              "band_gain_rank": 0.8467741935483871,
-              "composite_transfer_score": 0.3317352116206028
+              "band_gain_rank": 0.8389830508474576,
+              "composite_transfer_score": 0.3272511998962784
             }
           ],
           "value_variants": [],
@@ -20111,7 +20104,7 @@
           "recent_points": null,
           "xgi_per_90": 0.00199999999999998,
           "defensive_contribution": 0.0,
-          "pick_score": 0.5924509024823205
+          "pick_score": 0.4924509024823205
         },
         "current_gameweek_data": {
           "ep_this": 4.7,
@@ -20774,7 +20767,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.5849037326709997
+          "pick_score": 0.48490373267099973
         },
         "current_gameweek_data": {
           "ep_this": 1.3,
@@ -21906,43 +21899,36 @@
               "target_player_id": 374,
               "absolute_gain": 0.10438868941559548,
               "budget_efficiency": 1.0438868941559585,
-              "band_gain_rank": 0.8571428571428571,
-              "composite_transfer_score": 0.2859119473115117
-            },
-            {
-              "target_player_id": 256,
-              "absolute_gain": 0.02470083160587594,
-              "budget_efficiency": 0.04940166321175188,
-              "band_gain_rank": 0.7142857142857143,
-              "composite_transfer_score": 0.1984005540209083
+              "band_gain_rank": 0.8333333333333334,
+              "composite_transfer_score": 0.2799595663591308
             },
             {
               "target_player_id": 402,
               "absolute_gain": 0.01132075471698113,
               "budget_efficiency": 0.037735849056603786,
-              "band_gain_rank": 0.5714285714285714,
-              "composite_transfer_score": 0.15398921832884097
+              "band_gain_rank": 0.6666666666666666,
+              "composite_transfer_score": 0.17779874213836477
             },
             {
               "target_player_id": 6,
               "absolute_gain": 0.0045287971079086,
               "budget_efficiency": 0.006469710154155149,
-              "band_gain_rank": 0.42857142857142855,
-              "composite_transfer_score": 0.11073354627841324
+              "band_gain_rank": 0.5,
+              "composite_transfer_score": 0.12859068913555613
             },
             {
               "target_player_id": 408,
               "absolute_gain": 0.0037735849056603765,
               "budget_efficiency": 0.0377358490566039,
-              "band_gain_rank": 0.2857142857142857,
-              "composite_transfer_score": 0.07765498652291106
+              "band_gain_rank": 0.3333333333333333,
+              "composite_transfer_score": 0.08955974842767296
             },
             {
               "target_player_id": 5,
               "absolute_gain": 0.0007552122022482233,
               "budget_efficiency": 0.0004442424719107198,
-              "band_gain_rank": 0.14285714285714285,
-              "composite_transfer_score": 0.036249597892938135
+              "band_gain_rank": 0.16666666666666666,
+              "composite_transfer_score": 0.04220197884531909
             }
           ],
           "value_variants": [],
@@ -22063,7 +22049,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.4540999489157816
+          "pick_score": 0.2540999489157816
         },
         "current_gameweek_data": {
           "ep_this": 0.5,
@@ -22081,7 +22067,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "low",
+          "injury_risk": "moderate",
           "volatility": "moderate"
         }
       },
@@ -22114,7 +22100,7 @@
           "recent_points": null,
           "xgi_per_90": 0.30209790209790205,
           "defensive_contribution": 5.0,
-          "pick_score": 0.3767414583497439
+          "pick_score": 0.47674145834974385
         },
         "current_gameweek_data": {
           "ep_this": 8.3,
@@ -23287,7 +23273,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.3540999489157816
+          "pick_score": 0.4540999489157816
         },
         "current_gameweek_data": {
           "ep_this": 0.4,
@@ -26049,7 +26035,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.31449206433088484
+          "pick_score": 0.5144920643308848
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -26067,7 +26053,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "moderate",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -27069,7 +27055,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 2.0,
-          "pick_score": 0.4182656492365452
+          "pick_score": 0.5182656492365452
         },
         "current_gameweek_data": {
           "ep_this": 1.0,
@@ -27375,7 +27361,7 @@
           "recent_points": null,
           "xgi_per_90": 0.003333333333333333,
           "defensive_contribution": 0.0,
-          "pick_score": 0.29409008437703693
+          "pick_score": 0.19409008437703693
         },
         "current_gameweek_data": {
           "ep_this": 2.2,
@@ -27393,7 +27379,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "moderate",
+          "injury_risk": "high",
           "volatility": "moderate"
         }
       },
@@ -27914,7 +27900,7 @@
       },
       "transfers": {
         "summary": {
-          "transfer_rating": 0.3294309909374532,
+          "transfer_rating": 0.32923608653008496,
           "replacement_score": 0.10590798791660427,
           "urgency_level": "low"
         },
@@ -27925,70 +27911,70 @@
               "absolute_gain": 0.10590798791660427,
               "budget_efficiency": 0.10590798791660427,
               "band_gain_rank": 1.0,
-              "composite_transfer_score": 0.3294309909374532
+              "composite_transfer_score": 0.32923608653008496
             },
             {
               "target_player_id": 374,
               "absolute_gain": 0.09458723319962314,
               "budget_efficiency": 0.11823404149952896,
-              "band_gain_rank": 0.9,
-              "composite_transfer_score": 0.29707250037141547
+              "band_gain_rank": 0.8928571428571429,
+              "composite_transfer_score": 0.29509188167833295
             },
             {
               "target_player_id": 169,
               "absolute_gain": 0.09458723319962314,
               "budget_efficiency": 0.4729361659981153,
-              "band_gain_rank": 0.9,
-              "composite_transfer_score": 0.29707250037141547
+              "band_gain_rank": 0.8928571428571429,
+              "composite_transfer_score": 0.29509188167833295
             },
             {
               "target_player_id": 316,
               "absolute_gain": 0.07033768429952947,
               "budget_efficiency": 0.351688421497647,
-              "band_gain_rank": 0.8,
-              "composite_transfer_score": 0.2563102935863546
+              "band_gain_rank": 0.7857142857142857,
+              "composite_transfer_score": 0.25254396060755774
             },
             {
               "target_player_id": 568,
               "absolute_gain": 0.049597491588718845,
               "budget_efficiency": 0.12399372897179728,
-              "band_gain_rank": 0.7,
-              "composite_transfer_score": 0.21782916832432767
-            },
-            {
-              "target_player_id": 569,
-              "absolute_gain": 0.049597491588718845,
-              "budget_efficiency": 0.16532497196239626,
-              "band_gain_rank": 0.7,
-              "composite_transfer_score": 0.21782916832432767
+              "band_gain_rank": 0.7142857142857143,
+              "composite_transfer_score": 0.221205692488388
             },
             {
               "target_player_id": 478,
               "absolute_gain": 0.024175564859508225,
               "budget_efficiency": 0.12087782429754101,
-              "band_gain_rank": 0.5666666666666667,
-              "composite_transfer_score": 0.16797158261700743
+              "band_gain_rank": 0.6071428571428571,
+              "composite_transfer_score": 0.1778957258286868
             },
             {
               "target_player_id": 473,
               "absolute_gain": 0.024175564859508225,
               "budget_efficiency": 0.0402926080991804,
-              "band_gain_rank": 0.5666666666666667,
-              "composite_transfer_score": 0.16141004463526504
+              "band_gain_rank": 0.6071428571428571,
+              "composite_transfer_score": 0.17152909225431265
             },
             {
               "target_player_id": 257,
               "absolute_gain": 0.022446545201224355,
               "budget_efficiency": 0.056116363003060964,
-              "band_gain_rank": 0.4666666666666667,
-              "composite_transfer_score": 0.1368685573477686
+              "band_gain_rank": 0.5,
+              "composite_transfer_score": 0.14520189068110192
             },
             {
               "target_player_id": 475,
               "absolute_gain": 0.02040197995384785,
               "budget_efficiency": 0.10200989976923915,
-              "band_gain_rank": 0.36666666666666664,
-              "composite_transfer_score": 0.11512894361359167
+              "band_gain_rank": 0.35714285714285715,
+              "composite_transfer_score": 0.1127479912326393
+            },
+            {
+              "target_player_id": 477,
+              "absolute_gain": 0.02040197995384785,
+              "budget_efficiency": 0.10200989976923915,
+              "band_gain_rank": 0.35714285714285715,
+              "composite_transfer_score": 0.1127479912326393
             }
           ],
           "value_variants": [],
@@ -28364,7 +28350,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.4978636692826973
+          "pick_score": 0.39786366928269734
         },
         "current_gameweek_data": {
           "ep_this": 1.0,
@@ -28823,7 +28809,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.0906938646092053
+          "pick_score": 0.2906938646092053
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -28841,7 +28827,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "out",
+          "injury_risk": "moderate",
           "volatility": "moderate"
         }
       },
@@ -30331,7 +30317,7 @@
       },
       "transfers": {
         "summary": {
-          "transfer_rating": 0.49681247217150953,
+          "transfer_rating": 0.49768202284199126,
           "replacement_score": 0.362767348775591,
           "urgency_level": "moderate"
         },
@@ -30342,70 +30328,70 @@
               "absolute_gain": 0.362767348775591,
               "budget_efficiency": 0.9069183719389767,
               "band_gain_rank": 1.0,
-              "composite_transfer_score": 0.49681247217150953
+              "composite_transfer_score": 0.49768202284199126
             },
             {
               "target_player_id": 113,
               "absolute_gain": 0.11371074500200606,
               "budget_efficiency": 0.2842768625050149,
-              "band_gain_rank": 0.975609756097561,
-              "composite_transfer_score": 0.32882811874306955
+              "band_gain_rank": 0.975,
+              "composite_transfer_score": 0.329545230389161
             },
             {
               "target_player_id": 343,
               "absolute_gain": 0.10175896557947406,
               "budget_efficiency": 0.5087948278973699,
-              "band_gain_rank": 0.9390243902439024,
-              "composite_transfer_score": 0.3119131206550091
+              "band_gain_rank": 0.9375,
+              "composite_transfer_score": 0.3124015737645152
             },
             {
               "target_player_id": 342,
               "absolute_gain": 0.10175896557947406,
               "budget_efficiency": 0.3391965519315794,
-              "band_gain_rank": 0.9390243902439024,
-              "composite_transfer_score": 0.3119131206550091
+              "band_gain_rank": 0.9375,
+              "composite_transfer_score": 0.3124015737645152
             },
             {
               "target_player_id": 108,
               "absolute_gain": 0.09484282047370418,
               "budget_efficiency": 0.3161427349123465,
-              "band_gain_rank": 0.9024390243902439,
-              "composite_transfer_score": 0.29827128487284404
+              "band_gain_rank": 0.9,
+              "composite_transfer_score": 0.2985310794457648
             },
             {
               "target_player_id": 370,
               "absolute_gain": 0.09420986806179443,
               "budget_efficiency": 0.0588811675386215,
-              "band_gain_rank": 0.8780487804878049,
-              "composite_transfer_score": 0.28663672611597973
+              "band_gain_rank": 0.875,
+              "composite_transfer_score": 0.28587453099402854
             },
             {
               "target_player_id": 111,
               "absolute_gain": 0.0910692355680438,
               "budget_efficiency": 0.9106923556804332,
-              "band_gain_rank": 0.8536585365853658,
-              "composite_transfer_score": 0.28362333273294527
+              "band_gain_rank": 0.85,
+              "composite_transfer_score": 0.2835782492570855
             },
             {
               "target_player_id": 169,
               "absolute_gain": 0.0828891133448133,
               "budget_efficiency": 0.10361139168101653,
-              "band_gain_rank": 0.8170731707317073,
-              "composite_transfer_score": 0.26850735552515714
+              "band_gain_rank": 0.8125,
+              "composite_transfer_score": 0.2673640628422303
             },
             {
               "target_player_id": 374,
               "absolute_gain": 0.0828891133448133,
               "budget_efficiency": 0.05920650953200949,
-              "band_gain_rank": 0.8170731707317073,
-              "composite_transfer_score": 0.2640668673102564
+              "band_gain_rank": 0.8125,
+              "composite_transfer_score": 0.26292357462732957
             },
             {
               "target_player_id": 322,
               "absolute_gain": 0.06618673425604038,
               "budget_efficiency": 0.1654668356401008,
-              "band_gain_rank": 0.7804878048780488,
-              "composite_transfer_score": 0.2491570239533138
+              "band_gain_rank": 0.775,
+              "composite_transfer_score": 0.2486546234042833
             }
           ],
           "value_variants": [],
@@ -30475,7 +30461,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.39446744951486573
+          "pick_score": 0.19446744951486566
         },
         "current_gameweek_data": {
           "ep_this": 0.2,
@@ -30493,7 +30479,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "low",
+          "injury_risk": "high",
           "volatility": "moderate"
         }
       },
@@ -30934,7 +30920,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.5436875759657558
+          "pick_score": 0.4436875759657558
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -31138,7 +31124,7 @@
           "recent_points": null,
           "xgi_per_90": 0.17999999999999988,
           "defensive_contribution": 0.0,
-          "pick_score": 0.4436875759657558
+          "pick_score": 0.5436875759657558
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -32056,7 +32042,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0888311688311688,
           "defensive_contribution": 11.0,
-          "pick_score": 0.5512347457770765
+          "pick_score": 0.45123474577707656
         },
         "current_gameweek_data": {
           "ep_this": 2.4,
@@ -32413,7 +32399,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.5083130342530157
+          "pick_score": 0.4083130342530157
         },
         "current_gameweek_data": {
           "ep_this": 0.3,
@@ -32431,7 +32417,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "high",
-          "injury_risk": "unknown",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -32872,7 +32858,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.5045394493473553
+          "pick_score": 0.4045394493473553
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -33178,7 +33164,7 @@
           "recent_points": null,
           "xgi_per_90": 0.5311804008908686,
           "defensive_contribution": 11.0,
-          "pick_score": 0.5083130342530157
+          "pick_score": 0.4083130342530157
         },
         "current_gameweek_data": {
           "ep_this": 4.0,
@@ -33191,7 +33177,7 @@
         }
       },
       "diagnostics": {
-        "cpp_status": "STRONG-HOLD",
+        "cpp_status": "RISK",
         "validation_state": null,
         "form_trajectory": "declining",
         "risk_profile": {
@@ -34198,7 +34184,7 @@
           "recent_points": null,
           "xgi_per_90": 0.0,
           "defensive_contribution": 0.0,
-          "pick_score": 0.10453944934735529
+          "pick_score": 0.5045394493473553
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -34216,7 +34202,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "out",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -36544,7 +36530,7 @@
           "recent_points": null,
           "xgi_per_90": 0.15931677018633522,
           "defensive_contribution": 0.0,
-          "pick_score": 0.2906938646092053
+          "pick_score": 0.39069386460920535
         },
         "current_gameweek_data": {
           "ep_this": 0.0,
@@ -36562,7 +36548,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "moderate",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -39349,7 +39335,7 @@
           "recent_points": null,
           "xgi_per_90": 0.5345864661654134,
           "defensive_contribution": 0.0,
-          "pick_score": 0.38490373267099975
+          "pick_score": 0.5849037326709997
         },
         "current_gameweek_data": {
           "ep_this": 0.4,
@@ -39367,7 +39353,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "moderate",
+          "injury_risk": "low",
           "volatility": "moderate"
         }
       },
@@ -40573,7 +40559,7 @@
           "recent_points": null,
           "xgi_per_90": 0.08,
           "defensive_contribution": 3.0,
-          "pick_score": 0.5436875759657558
+          "pick_score": 0.14368757596575574
         },
         "current_gameweek_data": {
           "ep_this": 0.8,
@@ -40591,7 +40577,7 @@
         "form_trajectory": "declining",
         "risk_profile": {
           "rotation_risk": "low",
-          "injury_risk": "low",
+          "injury_risk": "out",
           "volatility": "moderate"
         }
       },

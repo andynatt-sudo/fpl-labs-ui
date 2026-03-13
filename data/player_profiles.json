@@ -15081,10 +15081,10 @@
         "role": "Balanced",
         "minutes": "Secure starter",
         "scoring": "Balanced",
-        "reliability": "Strong-Hold"
+        "reliability": "Risk"
       },
       "labels": [
-        "Strong Hold",
+        "Risk",
         "Minutes Secure"
       ],
       "narrative": "Solid but context-dependent option."
