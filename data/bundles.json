@@ -2,17 +2,17 @@
   "meta": {
     "type": "bundles",
     "engine_version": "3.0",
-    "gameweek": 30,
+    "gameweek": 31,
     "transfers_evaluated": 3,
     "count": 10
   },
   "bundles": [
     {
       "rank": 1,
-      "score": 10.11,
+      "score": 1.89,
       "impact": {
-        "gain_next_gw": 8.4,
-        "gain_two_gw": 17.8,
+        "gain_next_gw": 3.6,
+        "gain_two_gw": 2.2,
         "captain_gain": 0.0,
         "risk_reduction": 0
       },
@@ -22,65 +22,65 @@
       },
       "transfers": [
         {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 8,
-          "in_name": "J.Timber"
-        },
-        {
-          "out": 683,
-          "out_name": "Alderete",
-          "in": 113,
-          "in_name": "Van den Berg"
+          "out": 303,
+          "out_name": "Garner",
+          "in": 646,
+          "in_name": "J.Gomes"
         },
         {
           "out": 237,
           "out_name": "Enzo",
-          "in": 515,
-          "in_name": "Gibbs-White"
+          "in": 387,
+          "in_name": "Szoboszlai"
+        },
+        {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 343,
+          "in_name": "Struijk"
         }
       ]
     },
     {
       "rank": 2,
-      "score": 8.965,
+      "score": 1.26,
       "impact": {
-        "gain_next_gw": 7.6,
-        "gain_two_gw": 15.7,
+        "gain_next_gw": 0.9,
+        "gain_two_gw": 2.3,
         "captain_gain": 0.0,
         "risk_reduction": 0
       },
       "governance_after": {
-        "health_score": 100,
+        "health_score": 80,
         "warning_level": "alert"
       },
       "transfers": [
         {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 8,
-          "in_name": "J.Timber"
-        },
-        {
           "out": 237,
           "out_name": "Enzo",
-          "in": 515,
-          "in_name": "Gibbs-White"
+          "in": 387,
+          "in_name": "Szoboszlai"
         },
         {
-          "out": 470,
-          "out_name": "D\u00fabravka",
-          "in": 32,
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 343,
+          "in_name": "Struijk"
+        },
+        {
+          "out": 101,
+          "out_name": "Kelleher",
+          "in": 437,
           "in_name": "Martinez"
         }
       ]
     },
     {
       "rank": 3,
-      "score": 7.23,
+      "score": -0.86,
       "impact": {
-        "gain_next_gw": 5.7,
-        "gain_two_gw": 12.9,
+        "gain_next_gw": 1.6,
+        "gain_two_gw": -2.8,
         "captain_gain": 0.0,
         "risk_reduction": 0
       },
@@ -90,65 +90,65 @@
       },
       "transfers": [
         {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 8,
-          "in_name": "J.Timber"
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 387,
+          "in_name": "Szoboszlai"
         },
+        {
+          "out": 249,
+          "out_name": "Jo\u00e3o Pedro",
+          "in": 666,
+          "in_name": "Gy\u00f6keres"
+        },
+        {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 343,
+          "in_name": "Struijk"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "score": -0.99,
+      "impact": {
+        "gain_next_gw": 0.9,
+        "gain_two_gw": -2.7,
+        "captain_gain": 0.0,
+        "risk_reduction": 0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "warning_level": "alert"
+      },
+      "transfers": [
         {
           "out": 303,
           "out_name": "Garner",
-          "in": 515,
-          "in_name": "Gibbs-White"
+          "in": 646,
+          "in_name": "J.Gomes"
         },
         {
           "out": 237,
           "out_name": "Enzo",
           "in": 387,
           "in_name": "Szoboszlai"
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "score": 6.895,
-      "impact": {
-        "gain_next_gw": 5.8,
-        "gain_two_gw": 12.1,
-        "captain_gain": 0.0,
-        "risk_reduction": 0
-      },
-      "governance_after": {
-        "health_score": 100,
-        "warning_level": "alert"
-      },
-      "transfers": [
-        {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 8,
-          "in_name": "J.Timber"
         },
         {
-          "out": 683,
-          "out_name": "Alderete",
-          "in": 113,
-          "in_name": "Van den Berg"
-        },
-        {
-          "out": 470,
-          "out_name": "D\u00fabravka",
-          "in": 32,
+          "out": 101,
+          "out_name": "Kelleher",
+          "in": 437,
           "in_name": "Martinez"
         }
       ]
     },
     {
       "rank": 5,
-      "score": 6.53,
+      "score": -3.11,
       "impact": {
-        "gain_next_gw": 4.7,
-        "gain_two_gw": 11.9,
+        "gain_next_gw": 1.6,
+        "gain_two_gw": -7.8,
         "captain_gain": 0.0,
         "risk_reduction": 0
       },
@@ -158,31 +158,31 @@
       },
       "transfers": [
         {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 8,
-          "in_name": "J.Timber"
-        },
-        {
-          "out": 683,
-          "out_name": "Alderete",
-          "in": 113,
-          "in_name": "Van den Berg"
-        },
-        {
           "out": 303,
           "out_name": "Garner",
-          "in": 515,
-          "in_name": "Gibbs-White"
+          "in": 646,
+          "in_name": "J.Gomes"
+        },
+        {
+          "out": 237,
+          "out_name": "Enzo",
+          "in": 387,
+          "in_name": "Szoboszlai"
+        },
+        {
+          "out": 249,
+          "out_name": "Jo\u00e3o Pedro",
+          "in": 666,
+          "in_name": "Gy\u00f6keres"
         }
       ]
     },
     {
       "rank": 6,
-      "score": 5.74,
+      "score": -3.74,
       "impact": {
-        "gain_next_gw": 4.6,
-        "gain_two_gw": 10.2,
+        "gain_next_gw": -1.1,
+        "gain_two_gw": -7.7,
         "captain_gain": 0.0,
         "risk_reduction": 0
       },
@@ -192,31 +192,65 @@
       },
       "transfers": [
         {
-          "out": 683,
-          "out_name": "Alderete",
-          "in": 113,
-          "in_name": "Van den Berg"
-        },
-        {
           "out": 237,
           "out_name": "Enzo",
-          "in": 515,
-          "in_name": "Gibbs-White"
+          "in": 387,
+          "in_name": "Szoboszlai"
         },
         {
-          "out": 470,
-          "out_name": "D\u00fabravka",
-          "in": 32,
+          "out": 249,
+          "out_name": "Jo\u00e3o Pedro",
+          "in": 666,
+          "in_name": "Gy\u00f6keres"
+        },
+        {
+          "out": 101,
+          "out_name": "Kelleher",
+          "in": 437,
           "in_name": "Martinez"
         }
       ]
     },
     {
       "rank": 7,
-      "score": 5.385,
+      "score": -5.13,
       "impact": {
-        "gain_next_gw": 3.9,
-        "gain_two_gw": 9.8,
+        "gain_next_gw": -2.7,
+        "gain_two_gw": -9.9,
+        "captain_gain": 0.0,
+        "risk_reduction": 0
+      },
+      "governance_after": {
+        "health_score": 80,
+        "warning_level": "alert"
+      },
+      "transfers": [
+        {
+          "out": 303,
+          "out_name": "Garner",
+          "in": 646,
+          "in_name": "J.Gomes"
+        },
+        {
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 343,
+          "in_name": "Struijk"
+        },
+        {
+          "out": 101,
+          "out_name": "Kelleher",
+          "in": 437,
+          "in_name": "Martinez"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "score": -7.25,
+      "impact": {
+        "gain_next_gw": -2.0,
+        "gain_two_gw": -15.0,
         "captain_gain": 0.0,
         "risk_reduction": 0
       },
@@ -226,65 +260,31 @@
       },
       "transfers": [
         {
-          "out": 226,
-          "out_name": "Chalobah",
-          "in": 8,
-          "in_name": "J.Timber"
-        },
-        {
           "out": 303,
           "out_name": "Garner",
-          "in": 515,
-          "in_name": "Gibbs-White"
+          "in": 646,
+          "in_name": "J.Gomes"
         },
         {
-          "out": 470,
-          "out_name": "D\u00fabravka",
-          "in": 32,
-          "in_name": "Martinez"
-        }
-      ]
-    },
-    {
-      "rank": 8,
-      "score": 4.005,
-      "impact": {
-        "gain_next_gw": 2.7,
-        "gain_two_gw": 7.4,
-        "captain_gain": 0.0,
-        "risk_reduction": 0
-      },
-      "governance_after": {
-        "health_score": 80,
-        "warning_level": "alert"
-      },
-      "transfers": [
+          "out": 249,
+          "out_name": "Jo\u00e3o Pedro",
+          "in": 666,
+          "in_name": "Gy\u00f6keres"
+        },
         {
           "out": 683,
           "out_name": "Alderete",
-          "in": 113,
-          "in_name": "Van den Berg"
-        },
-        {
-          "out": 303,
-          "out_name": "Garner",
-          "in": 515,
-          "in_name": "Gibbs-White"
-        },
-        {
-          "out": 237,
-          "out_name": "Enzo",
-          "in": 387,
-          "in_name": "Szoboszlai"
+          "in": 343,
+          "in_name": "Struijk"
         }
       ]
     },
     {
       "rank": 9,
-      "score": 2.86,
+      "score": -7.88,
       "impact": {
-        "gain_next_gw": 1.9,
-        "gain_two_gw": 5.3,
+        "gain_next_gw": -4.7,
+        "gain_two_gw": -14.9,
         "captain_gain": 0.0,
         "risk_reduction": 0
       },
@@ -294,31 +294,31 @@
       },
       "transfers": [
         {
-          "out": 303,
-          "out_name": "Garner",
-          "in": 515,
-          "in_name": "Gibbs-White"
+          "out": 249,
+          "out_name": "Jo\u00e3o Pedro",
+          "in": 666,
+          "in_name": "Gy\u00f6keres"
         },
         {
-          "out": 237,
-          "out_name": "Enzo",
-          "in": 387,
-          "in_name": "Szoboszlai"
+          "out": 683,
+          "out_name": "Alderete",
+          "in": 343,
+          "in_name": "Struijk"
         },
         {
-          "out": 470,
-          "out_name": "D\u00fabravka",
-          "in": 32,
+          "out": 101,
+          "out_name": "Kelleher",
+          "in": 437,
           "in_name": "Martinez"
         }
       ]
     },
     {
       "rank": 10,
-      "score": 2.16,
+      "score": -10.13,
       "impact": {
-        "gain_next_gw": 0.9,
-        "gain_two_gw": 4.3,
+        "gain_next_gw": -4.7,
+        "gain_two_gw": -19.9,
         "captain_gain": 0.0,
         "risk_reduction": 0
       },
@@ -328,21 +328,21 @@
       },
       "transfers": [
         {
-          "out": 683,
-          "out_name": "Alderete",
-          "in": 113,
-          "in_name": "Van den Berg"
-        },
-        {
           "out": 303,
           "out_name": "Garner",
-          "in": 515,
-          "in_name": "Gibbs-White"
+          "in": 646,
+          "in_name": "J.Gomes"
         },
         {
-          "out": 470,
-          "out_name": "D\u00fabravka",
-          "in": 32,
+          "out": 249,
+          "out_name": "Jo\u00e3o Pedro",
+          "in": 666,
+          "in_name": "Gy\u00f6keres"
+        },
+        {
+          "out": 101,
+          "out_name": "Kelleher",
+          "in": 437,
           "in_name": "Martinez"
         }
       ]
