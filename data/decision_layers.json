@@ -4,16 +4,16 @@
   },
   "layers": {
     "structural_potential": {
-      "best_bundle_score": 9.68,
-      "best_gain_next_gw": 9.2,
-      "best_gain_two_gw": 16.4
+      "best_bundle_score": 10.11,
+      "best_gain_next_gw": 8.4,
+      "best_gain_two_gw": 17.8
     },
     "player_upgrades": {
       "source": "player_lens",
       "description": "Players outperforming current selections"
     },
     "tactical_swaps": {
-      "count": 4,
+      "count": 3,
       "items": [
         {
           "outgoing": {
@@ -22,61 +22,8 @@
             "position": "Defender",
             "now_cost": 4,
             "price_band": "budget",
-            "form": 1.2,
+            "form": 0.3,
             "minutes_secure": true,
-            "is_starter": true,
-            "reason": "Underperforming relative to positional peers"
-          },
-          "replacements": {
-            "safe_productivity": [
-              {
-                "player_id": 603,
-                "name": "Diouf",
-                "form": 6.8,
-                "now_cost": 4,
-                "price_band": "budget"
-              },
-              {
-                "player_id": 77,
-                "name": "Hill",
-                "form": 6.0,
-                "now_cost": 4,
-                "price_band": "budget"
-              },
-              {
-                "player_id": 74,
-                "name": "Truffert",
-                "form": 4.8,
-                "now_cost": 4,
-                "price_band": "budget"
-              },
-              {
-                "player_id": 113,
-                "name": "Van den Berg",
-                "form": 4.8,
-                "now_cost": 4,
-                "price_band": "budget"
-              },
-              {
-                "player_id": 440,
-                "name": "Dalot",
-                "form": 4.6,
-                "now_cost": 4,
-                "price_band": "budget"
-              }
-            ],
-            "higher_upside": []
-          }
-        },
-        {
-          "outgoing": {
-            "player_id": 508,
-            "name": "N.Williams",
-            "position": "Defender",
-            "now_cost": 4,
-            "price_band": "budget",
-            "form": 2.0,
-            "minutes_secure": false,
             "is_starter": false,
             "reason": "Underperforming relative to positional peers"
           },
@@ -85,13 +32,6 @@
               {
                 "player_id": 603,
                 "name": "Diouf",
-                "form": 6.8,
-                "now_cost": 4,
-                "price_band": "budget"
-              },
-              {
-                "player_id": 77,
-                "name": "Hill",
                 "form": 6.0,
                 "now_cost": 4,
                 "price_band": "budget"
@@ -99,21 +39,28 @@
               {
                 "player_id": 74,
                 "name": "Truffert",
-                "form": 4.8,
+                "form": 6.0,
                 "now_cost": 4,
                 "price_band": "budget"
               },
               {
-                "player_id": 113,
-                "name": "Van den Berg",
-                "form": 4.8,
+                "player_id": 531,
+                "name": "Ballard",
+                "form": 5.7,
                 "now_cost": 4,
                 "price_band": "budget"
               },
               {
-                "player_id": 440,
-                "name": "Dalot",
-                "form": 4.6,
+                "player_id": 713,
+                "name": "A.Jimenez",
+                "form": 5.3,
+                "now_cost": 4,
+                "price_band": "budget"
+              },
+              {
+                "player_id": 77,
+                "name": "Hill",
+                "form": 5.3,
                 "now_cost": 4,
                 "price_band": "budget"
               }
@@ -128,7 +75,7 @@
             "position": "Goalkeeper",
             "now_cost": 4,
             "price_band": "budget",
-            "form": 1.0,
+            "form": 1.3,
             "minutes_secure": true,
             "is_starter": false,
             "reason": "Underperforming relative to positional peers"
@@ -138,7 +85,7 @@
               {
                 "player_id": 341,
                 "name": "Darlow",
-                "form": 2.2,
+                "form": 2.3,
                 "now_cost": 3,
                 "price_band": "budget"
               }
@@ -147,7 +94,7 @@
               {
                 "player_id": 341,
                 "name": "Darlow",
-                "form": 2.2,
+                "form": 2.3,
                 "now_cost": 3,
                 "price_band": "budget"
               }
@@ -156,12 +103,12 @@
         },
         {
           "outgoing": {
-            "player_id": 661,
-            "name": "Ekitik\u00e9",
+            "player_id": 430,
+            "name": "Haaland",
             "position": "Forward",
-            "now_cost": 9,
+            "now_cost": 14,
             "price_band": "budget",
-            "form": 5.2,
+            "form": 2.7,
             "minutes_secure": true,
             "is_starter": true,
             "reason": "Underperforming relative to positional peers"
@@ -169,38 +116,38 @@
           "replacements": {
             "safe_productivity": [
               {
-                "player_id": 666,
-                "name": "Gy\u00f6keres",
-                "form": 6.0,
-                "now_cost": 8,
+                "player_id": 178,
+                "name": "Welbeck",
+                "form": 6.3,
+                "now_cost": 6,
                 "price_band": "budget"
               },
               {
-                "player_id": 178,
-                "name": "Welbeck",
-                "form": 5.2,
-                "now_cost": 6,
+                "player_id": 215,
+                "name": "Flemming",
+                "form": 5.0,
+                "now_cost": 5,
                 "price_band": "budget"
               },
               {
                 "player_id": 624,
                 "name": "Bowen",
-                "form": 4.5,
+                "form": 5.0,
                 "now_cost": 7,
                 "price_band": "budget"
               },
               {
-                "player_id": 791,
-                "name": "Taty",
-                "form": 4.2,
+                "player_id": 526,
+                "name": "Igor Jesus",
+                "form": 4.0,
                 "now_cost": 5,
                 "price_band": "budget"
               },
               {
-                "player_id": 654,
-                "name": "Strand Larsen",
-                "form": 4.2,
-                "now_cost": 6,
+                "player_id": 666,
+                "name": "Gy\u00f6keres",
+                "form": 3.8,
+                "now_cost": 8,
                 "price_band": "budget"
               }
             ],
@@ -208,7 +155,7 @@
               {
                 "player_id": 337,
                 "name": "Ra\u00fal",
-                "form": 5.0,
+                "form": 4.7,
                 "now_cost": 6,
                 "price_band": "budget"
               }
@@ -226,23 +173,23 @@
       "items": [
         {
           "rank": 1,
-          "score": 9.68,
+          "score": 10.11,
           "impact": {
-            "gain_next_gw": 9.2,
-            "gain_two_gw": 16.4,
+            "gain_next_gw": 8.4,
+            "gain_two_gw": 17.8,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
           "governance_after": {
-            "health_score": 80,
+            "health_score": 100,
             "warning_level": "alert"
           },
           "transfers": [
             {
-              "out": 237,
-              "out_name": "Enzo",
-              "in": 387,
-              "in_name": "Szoboszlai"
+              "out": 226,
+              "out_name": "Chalobah",
+              "in": 8,
+              "in_name": "J.Timber"
             },
             {
               "out": 683,
@@ -251,155 +198,155 @@
               "in_name": "Van den Berg"
             },
             {
-              "out": 226,
-              "out_name": "Chalobah",
-              "in": 402,
-              "in_name": "A\u00eft-Nouri"
+              "out": 237,
+              "out_name": "Enzo",
+              "in": 515,
+              "in_name": "Gibbs-White"
             }
           ]
         },
         {
           "rank": 2,
-          "score": 9.57,
+          "score": 8.965,
           "impact": {
-            "gain_next_gw": 9.3,
-            "gain_two_gw": 16.1,
+            "gain_next_gw": 7.6,
+            "gain_two_gw": 15.7,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
           "governance_after": {
-            "health_score": 80,
+            "health_score": 100,
             "warning_level": "alert"
           },
           "transfers": [
             {
-              "out": 237,
-              "out_name": "Enzo",
-              "in": 387,
-              "in_name": "Szoboszlai"
-            },
-            {
-              "out": 303,
-              "out_name": "Garner",
-              "in": 83,
-              "in_name": "O.Dango"
-            },
-            {
               "out": 226,
               "out_name": "Chalobah",
-              "in": 402,
-              "in_name": "A\u00eft-Nouri"
+              "in": 8,
+              "in_name": "J.Timber"
+            },
+            {
+              "out": 237,
+              "out_name": "Enzo",
+              "in": 515,
+              "in_name": "Gibbs-White"
+            },
+            {
+              "out": 470,
+              "out_name": "D\u00fabravka",
+              "in": 32,
+              "in_name": "Martinez"
             }
           ]
         },
         {
           "rank": 3,
-          "score": 8.995,
+          "score": 7.23,
           "impact": {
-            "gain_next_gw": 8.8,
-            "gain_two_gw": 15.1,
+            "gain_next_gw": 5.7,
+            "gain_two_gw": 12.9,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
           "governance_after": {
-            "health_score": 80,
+            "health_score": 100,
             "warning_level": "alert"
           },
           "transfers": [
             {
-              "out": 303,
-              "out_name": "Garner",
-              "in": 83,
-              "in_name": "O.Dango"
-            },
-            {
-              "out": 683,
-              "out_name": "Alderete",
-              "in": 113,
-              "in_name": "Van den Berg"
-            },
-            {
               "out": 226,
               "out_name": "Chalobah",
-              "in": 402,
-              "in_name": "A\u00eft-Nouri"
+              "in": 8,
+              "in_name": "J.Timber"
+            },
+            {
+              "out": 303,
+              "out_name": "Garner",
+              "in": 515,
+              "in_name": "Gibbs-White"
+            },
+            {
+              "out": 237,
+              "out_name": "Enzo",
+              "in": 387,
+              "in_name": "Szoboszlai"
             }
           ]
         },
         {
           "rank": 4,
-          "score": 8.415,
+          "score": 6.895,
           "impact": {
-            "gain_next_gw": 8.1,
-            "gain_two_gw": 14.2,
+            "gain_next_gw": 5.8,
+            "gain_two_gw": 12.1,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
           "governance_after": {
-            "health_score": 80,
+            "health_score": 100,
             "warning_level": "alert"
           },
           "transfers": [
             {
-              "out": 237,
-              "out_name": "Enzo",
-              "in": 387,
-              "in_name": "Szoboszlai"
-            },
-            {
-              "out": 303,
-              "out_name": "Garner",
-              "in": 83,
-              "in_name": "O.Dango"
+              "out": 226,
+              "out_name": "Chalobah",
+              "in": 8,
+              "in_name": "J.Timber"
             },
             {
               "out": 683,
               "out_name": "Alderete",
               "in": 113,
               "in_name": "Van den Berg"
+            },
+            {
+              "out": 470,
+              "out_name": "D\u00fabravka",
+              "in": 32,
+              "in_name": "Martinez"
             }
           ]
         },
         {
           "rank": 5,
-          "score": 0.14,
+          "score": 6.53,
           "impact": {
-            "gain_next_gw": 1.1,
-            "gain_two_gw": -0.3,
+            "gain_next_gw": 4.7,
+            "gain_two_gw": 11.9,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
           "governance_after": {
-            "health_score": 80,
+            "health_score": 100,
             "warning_level": "alert"
           },
           "transfers": [
             {
-              "out": 237,
-              "out_name": "Enzo",
-              "in": 387,
-              "in_name": "Szoboszlai"
-            },
-            {
               "out": 226,
               "out_name": "Chalobah",
-              "in": 402,
-              "in_name": "A\u00eft-Nouri"
+              "in": 8,
+              "in_name": "J.Timber"
             },
             {
-              "out": 386,
-              "out_name": "Mac Allister",
-              "in": 120,
-              "in_name": "Schade"
+              "out": 683,
+              "out_name": "Alderete",
+              "in": 113,
+              "in_name": "Van den Berg"
+            },
+            {
+              "out": 303,
+              "out_name": "Garner",
+              "in": 515,
+              "in_name": "Gibbs-White"
             }
           ]
         },
         {
           "rank": 6,
-          "score": -0.435,
+          "score": 5.74,
           "impact": {
-            "gain_next_gw": 0.6,
-            "gain_two_gw": -1.3,
+            "gain_next_gw": 4.6,
+            "gain_two_gw": 10.2,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
@@ -415,59 +362,59 @@
               "in_name": "Van den Berg"
             },
             {
-              "out": 226,
-              "out_name": "Chalobah",
-              "in": 402,
-              "in_name": "A\u00eft-Nouri"
+              "out": 237,
+              "out_name": "Enzo",
+              "in": 515,
+              "in_name": "Gibbs-White"
             },
             {
-              "out": 386,
-              "out_name": "Mac Allister",
-              "in": 120,
-              "in_name": "Schade"
+              "out": 470,
+              "out_name": "D\u00fabravka",
+              "in": 32,
+              "in_name": "Martinez"
             }
           ]
         },
         {
           "rank": 7,
-          "score": -0.545,
+          "score": 5.385,
           "impact": {
-            "gain_next_gw": 0.7,
-            "gain_two_gw": -1.6,
+            "gain_next_gw": 3.9,
+            "gain_two_gw": 9.8,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
           "governance_after": {
-            "health_score": 80,
+            "health_score": 100,
             "warning_level": "alert"
           },
           "transfers": [
             {
-              "out": 303,
-              "out_name": "Garner",
-              "in": 83,
-              "in_name": "O.Dango"
-            },
-            {
               "out": 226,
               "out_name": "Chalobah",
-              "in": 402,
-              "in_name": "A\u00eft-Nouri"
+              "in": 8,
+              "in_name": "J.Timber"
             },
             {
-              "out": 386,
-              "out_name": "Mac Allister",
-              "in": 120,
-              "in_name": "Schade"
+              "out": 303,
+              "out_name": "Garner",
+              "in": 515,
+              "in_name": "Gibbs-White"
+            },
+            {
+              "out": 470,
+              "out_name": "D\u00fabravka",
+              "in": 32,
+              "in_name": "Martinez"
             }
           ]
         },
         {
           "rank": 8,
-          "score": -1.015,
+          "score": 4.005,
           "impact": {
-            "gain_next_gw": -0.1,
-            "gain_two_gw": -2.2,
+            "gain_next_gw": 2.7,
+            "gain_two_gw": 7.4,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
@@ -476,12 +423,6 @@
             "warning_level": "alert"
           },
           "transfers": [
-            {
-              "out": 237,
-              "out_name": "Enzo",
-              "in": 387,
-              "in_name": "Szoboszlai"
-            },
             {
               "out": 683,
               "out_name": "Alderete",
@@ -489,19 +430,25 @@
               "in_name": "Van den Berg"
             },
             {
-              "out": 386,
-              "out_name": "Mac Allister",
-              "in": 120,
-              "in_name": "Schade"
+              "out": 303,
+              "out_name": "Garner",
+              "in": 515,
+              "in_name": "Gibbs-White"
+            },
+            {
+              "out": 237,
+              "out_name": "Enzo",
+              "in": 387,
+              "in_name": "Szoboszlai"
             }
           ]
         },
         {
           "rank": 9,
-          "score": -1.125,
+          "score": 2.86,
           "impact": {
-            "gain_next_gw": 0.0,
-            "gain_two_gw": -2.5,
+            "gain_next_gw": 1.9,
+            "gain_two_gw": 5.3,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
@@ -510,6 +457,12 @@
             "warning_level": "alert"
           },
           "transfers": [
+            {
+              "out": 303,
+              "out_name": "Garner",
+              "in": 515,
+              "in_name": "Gibbs-White"
+            },
             {
               "out": 237,
               "out_name": "Enzo",
@@ -517,25 +470,19 @@
               "in_name": "Szoboszlai"
             },
             {
-              "out": 303,
-              "out_name": "Garner",
-              "in": 83,
-              "in_name": "O.Dango"
-            },
-            {
-              "out": 386,
-              "out_name": "Mac Allister",
-              "in": 120,
-              "in_name": "Schade"
+              "out": 470,
+              "out_name": "D\u00fabravka",
+              "in": 32,
+              "in_name": "Martinez"
             }
           ]
         },
         {
           "rank": 10,
-          "score": -3.55,
+          "score": 2.16,
           "impact": {
-            "gain_next_gw": -2.5,
-            "gain_two_gw": -6.5,
+            "gain_next_gw": 0.9,
+            "gain_two_gw": 4.3,
             "captain_gain": 0.0,
             "risk_reduction": 0
           },
@@ -545,22 +492,22 @@
           },
           "transfers": [
             {
-              "out": 303,
-              "out_name": "Garner",
-              "in": 83,
-              "in_name": "O.Dango"
-            },
-            {
               "out": 683,
               "out_name": "Alderete",
-              "in": 342,
-              "in_name": "Bogle"
+              "in": 113,
+              "in_name": "Van den Berg"
             },
             {
-              "out": 386,
-              "out_name": "Mac Allister",
-              "in": 120,
-              "in_name": "Schade"
+              "out": 303,
+              "out_name": "Garner",
+              "in": 515,
+              "in_name": "Gibbs-White"
+            },
+            {
+              "out": 470,
+              "out_name": "D\u00fabravka",
+              "in": 32,
+              "in_name": "Martinez"
             }
           ]
         }
