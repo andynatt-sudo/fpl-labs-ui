@@ -1,32 +1,32 @@
 {
   "team_id": 2310541,
-  "analysis_gameweek": 28,
+  "analysis_gameweek": 30,
   "governance": {
     "team_id": 2310541,
-    "gameweek": 28,
+    "gameweek": 30,
     "health_score": 80,
     "health_status": "OK",
     "structural_pressure_score": 20,
     "competitive": {
       "lookback_used": 5,
       "gw_deltas": [
-        -3.0,
-        -1.0,
         -13.0,
         -8.0,
-        -16.0
+        -16.0,
+        -1.0,
+        1.0
       ],
-      "rolling_delta": -8.2,
-      "negative_weeks": 5,
+      "rolling_delta": -7.4,
+      "negative_weeks": 4,
       "severe_weeks": 3,
-      "competitive_pressure_score": 100,
+      "competitive_pressure_score": 91.4,
       "competitive_state": "critical_underperformance"
     },
-    "overall_pressure_score": 68.0,
+    "overall_pressure_score": 62.8,
     "warning_level": "alert",
     "flags": [
       {
-        "code": "INJURY_RISK",
+        "code": "DNP_STARTER",
         "severity": "HIGH",
         "player_ids": [
           36
@@ -41,6 +41,18 @@
         "name": "Cash",
         "position": "Defender",
         "is_starter": true,
+        "status": "WATCH",
+        "minutes_ok": false,
+        "cpp": {
+          "status": "NEUTRAL",
+          "ceiling_class": "LOW"
+        }
+      },
+      {
+        "player_id": 72,
+        "name": "Senesi",
+        "position": "Defender",
+        "is_starter": true,
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
@@ -49,9 +61,9 @@
         }
       },
       {
-        "player_id": 47,
-        "name": "Rogers",
-        "position": "Midfielder",
+        "player_id": 101,
+        "name": "Kelleher",
+        "position": "Goalkeeper",
         "is_starter": true,
         "status": "HOLD",
         "minutes_ok": true,
@@ -104,31 +116,7 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "MUST-HAVE",
-          "ceiling_class": "HIGH"
-        }
-      },
-      {
-        "player_id": 407,
-        "name": "Matheus N.",
-        "position": "Defender",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "NEUTRAL",
-          "ceiling_class": "LOW"
-        }
-      },
-      {
-        "player_id": 430,
-        "name": "Haaland",
-        "position": "Forward",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "MUST-HAVE",
+          "status": "STRONG-HOLD",
           "ceiling_class": "HIGH"
         }
       },
@@ -140,7 +128,19 @@
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
-          "status": "STRONG-HOLD",
+          "status": "MUST-HAVE",
+          "ceiling_class": "HIGH"
+        }
+      },
+      {
+        "player_id": 485,
+        "name": "Gordon",
+        "position": "Midfielder",
+        "is_starter": true,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "MUST-HAVE",
           "ceiling_class": "HIGH"
         }
       },
@@ -157,9 +157,9 @@
         }
       },
       {
-        "player_id": 101,
-        "name": "Kelleher",
-        "position": "Goalkeeper",
+        "player_id": 303,
+        "name": "Garner",
+        "position": "Midfielder",
         "is_starter": true,
         "status": "HOLD",
         "minutes_ok": true,
@@ -183,8 +183,8 @@
         }
       },
       {
-        "player_id": 226,
-        "name": "Chalobah",
+        "player_id": 407,
+        "name": "Matheus N.",
         "position": "Defender",
         "is_starter": false,
         "status": "HOLD",
@@ -195,9 +195,9 @@
         }
       },
       {
-        "player_id": 303,
-        "name": "Garner",
-        "position": "Midfielder",
+        "player_id": 430,
+        "name": "Haaland",
+        "position": "Forward",
         "is_starter": false,
         "status": "HOLD",
         "minutes_ok": true,
@@ -211,8 +211,8 @@
         "name": "N.Williams",
         "position": "Defender",
         "is_starter": false,
-        "status": "WATCH",
-        "minutes_ok": false,
+        "status": "HOLD",
+        "minutes_ok": true,
         "cpp": {
           "status": "NEUTRAL",
           "ceiling_class": "LOW"
