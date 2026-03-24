@@ -15,7 +15,7 @@
         "price_band": "budget",
         "form": 0.2,
         "minutes_secure": false,
-        "is_starter": false,
+        "is_starter": true,
         "reason": "Underperforming relative to positional peers"
       },
       "replacements": {
@@ -210,7 +210,7 @@
         "price_band": "budget",
         "form": 2.5,
         "minutes_secure": true,
-        "is_starter": true,
+        "is_starter": false,
         "reason": "Underperforming relative to positional peers"
       },
       "replacements": {

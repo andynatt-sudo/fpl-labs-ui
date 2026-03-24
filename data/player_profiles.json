@@ -4609,10 +4609,10 @@
         "role": "Balanced",
         "minutes": "Likely starter",
         "scoring": "Balanced",
-        "reliability": "Risk"
+        "reliability": "Strong-Hold"
       },
       "labels": [
-        "Risk",
+        "Strong Hold",
         "Minutes Secure"
       ],
       "narrative": "Solid but context-dependent option."

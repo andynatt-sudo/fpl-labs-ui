@@ -7,141 +7,9 @@
   },
   "bundles": [
     {
-      "bundle_score": 2.7791544105429775,
-      "bundle_gain": 3.9416491579185395,
+      "bundle_score": 2.7579731581810227,
+      "bundle_gain": 3.9113902259728897,
       "transfers": [
-        {
-          "out_player": "Matheus N.",
-          "in_player": "Mavropanos",
-          "position": "Defender",
-          "out_team_code": 43,
-          "in_team_code": 21,
-          "lost_labels": [],
-          "gained_labels": [],
-          "absolute_gain": 0.13589251463819213,
-          "effective_gain": 1.907892514638192,
-          "price_delta": 1.0,
-          "funding_role": "funding",
-          "effective_pick_score_in": 2.3703877448724824,
-          "problem_type": "budget_inefficiency",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 407,
-            "web_name": "Matheus N.",
-            "team": "Man City",
-            "position": "Defender",
-            "price": 5.4,
-            "ownership": 2.8,
-            "performance": {
-              "role": false,
-              "minutes": "Secure starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "in_profile": {
-            "player_id": 606,
-            "web_name": "Mavropanos",
-            "team": "West Ham",
-            "position": "Defender",
-            "price": 4.4,
-            "ownership": 0.3,
-            "performance": {
-              "role": false,
-              "minutes": "Likely starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "band_gain_rank": 0,
-          "budget_efficiency": 13.589251463819213
-        },
-        {
-          "out_player": "Haaland",
-          "in_player": "Thiago",
-          "position": "Forward",
-          "out_team_code": 43,
-          "in_team_code": 94,
-          "lost_labels": [],
-          "gained_labels": [
-            "must_have",
-            "ceiling",
-            "explosive"
-          ],
-          "absolute_gain": 0.10884567084268232,
-          "effective_gain": 5.6068456708426835,
-          "price_delta": 7.2,
-          "funding_role": "funding",
-          "effective_pick_score_in": 6.069340901076973,
-          "problem_type": "budget_inefficiency",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 430,
-            "web_name": "Haaland",
-            "team": "Man City",
-            "position": "Forward",
-            "price": 14.5,
-            "ownership": 53.4,
-            "performance": {
-              "role": false,
-              "minutes": "Likely starter",
-              "ceiling": "MID",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "in_profile": {
-            "player_id": 136,
-            "web_name": "Thiago",
-            "team": "Brentford",
-            "position": "Forward",
-            "price": 7.3,
-            "ownership": 36.8,
-            "performance": {
-              "role": true,
-              "minutes": "Secure starter",
-              "ceiling": "HIGH",
-              "explosive": true
-            },
-            "status": "MUST-HAVE",
-            "labels": {
-              "must_have": true,
-              "hold": false,
-              "watch": false,
-              "ceiling": true,
-              "explosive": true,
-              "minutes_risk": false
-            }
-          },
-          "band_gain_rank": 0,
-          "budget_efficiency": 10.884567084268232
-        },
         {
           "out_player": "Garner",
           "in_player": "Hinshelwood",
@@ -205,44 +73,29 @@
           },
           "band_gain_rank": 0,
           "budget_efficiency": 5.2810972437664585
-        }
-      ],
-      "max_spend_required": 0.0,
-      "ending_bank": 8.700000000000003,
-      "is_feasible": true,
-      "strategy": "Structural Optimisation",
-      "rationale": [
-        "This bundle gains ceiling."
-      ],
-      "transfer_roles": {},
-      "manager_profile": "conservative"
-    },
-    {
-      "bundle_score": 2.707572336892672,
-      "bundle_gain": 3.839389052703817,
-      "transfers": [
+        },
         {
-          "out_player": "Matheus N.",
+          "out_player": "Senesi",
           "in_player": "Mavropanos",
           "position": "Defender",
-          "out_team_code": 43,
+          "out_team_code": 91,
           "in_team_code": 21,
           "lost_labels": [],
           "gained_labels": [],
-          "absolute_gain": 0.13589251463819213,
-          "effective_gain": 1.907892514638192,
-          "price_delta": 1.0,
+          "absolute_gain": 0.10563358269254214,
+          "effective_gain": 1.877633582692542,
+          "price_delta": 0.6999999999999993,
           "funding_role": "funding",
           "effective_pick_score_in": 2.3703877448724824,
           "problem_type": "budget_inefficiency",
           "fixture_fit": 1.0,
           "out_profile": {
-            "player_id": 407,
-            "web_name": "Matheus N.",
-            "team": "Man City",
+            "player_id": 72,
+            "web_name": "Senesi",
+            "team": "Bournemouth",
             "position": "Defender",
-            "price": 5.4,
-            "ownership": 2.8,
+            "price": 5.1,
+            "ownership": 20.3,
             "performance": {
               "role": false,
               "minutes": "Secure starter",
@@ -283,7 +136,7 @@
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 13.589251463819213
+          "budget_efficiency": 10.563358269254215
         },
         {
           "out_player": "Haaland",
@@ -293,9 +146,9 @@
           "in_team_code": 94,
           "lost_labels": [],
           "gained_labels": [
-            "must_have",
             "ceiling",
-            "explosive"
+            "explosive",
+            "must_have"
           ],
           "absolute_gain": 0.10884567084268232,
           "effective_gain": 5.6068456708426835,
@@ -352,7 +205,22 @@
           },
           "band_gain_rank": 0,
           "budget_efficiency": 10.884567084268232
-        },
+        }
+      ],
+      "max_spend_required": 0.0,
+      "ending_bank": 8.400000000000002,
+      "is_feasible": true,
+      "strategy": "Structural Optimisation",
+      "rationale": [
+        "This bundle gains ceiling."
+      ],
+      "transfer_roles": {},
+      "manager_profile": "conservative"
+    },
+    {
+      "bundle_score": 2.686391084530717,
+      "bundle_gain": 3.8091301207581676,
+      "transfers": [
         {
           "out_player": "Garner",
           "in_player": "O.Dango",
@@ -416,44 +284,29 @@
           },
           "band_gain_rank": 0,
           "budget_efficiency": 0.18568858402867744
-        }
-      ],
-      "max_spend_required": 0.0,
-      "ending_bank": 7.800000000000002,
-      "is_feasible": true,
-      "strategy": "Structural Optimisation",
-      "rationale": [
-        "This bundle gains ceiling."
-      ],
-      "transfer_roles": {},
-      "manager_profile": "conservative"
-    },
-    {
-      "bundle_score": 2.677283010320657,
-      "bundle_gain": 3.9104043004580813,
-      "transfers": [
+        },
         {
-          "out_player": "Matheus N.",
+          "out_player": "Senesi",
           "in_player": "Mavropanos",
           "position": "Defender",
-          "out_team_code": 43,
+          "out_team_code": 91,
           "in_team_code": 21,
           "lost_labels": [],
           "gained_labels": [],
-          "absolute_gain": 0.13589251463819213,
-          "effective_gain": 1.907892514638192,
-          "price_delta": 1.0,
+          "absolute_gain": 0.10563358269254214,
+          "effective_gain": 1.877633582692542,
+          "price_delta": 0.6999999999999993,
           "funding_role": "funding",
           "effective_pick_score_in": 2.3703877448724824,
           "problem_type": "budget_inefficiency",
           "fixture_fit": 1.0,
           "out_profile": {
-            "player_id": 407,
-            "web_name": "Matheus N.",
-            "team": "Man City",
+            "player_id": 72,
+            "web_name": "Senesi",
+            "team": "Bournemouth",
             "position": "Defender",
-            "price": 5.4,
-            "ownership": 2.8,
+            "price": 5.1,
+            "ownership": 20.3,
             "performance": {
               "role": false,
               "minutes": "Secure starter",
@@ -494,7 +347,7 @@
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 13.589251463819213
+          "budget_efficiency": 10.563358269254215
         },
         {
           "out_player": "Haaland",
@@ -504,9 +357,9 @@
           "in_team_code": 94,
           "lost_labels": [],
           "gained_labels": [
-            "must_have",
             "ceiling",
-            "explosive"
+            "explosive",
+            "must_have"
           ],
           "absolute_gain": 0.10884567084268232,
           "effective_gain": 5.6068456708426835,
@@ -563,7 +416,22 @@
           },
           "band_gain_rank": 0,
           "budget_efficiency": 10.884567084268232
-        },
+        }
+      ],
+      "max_spend_required": 0.0,
+      "ending_bank": 7.500000000000001,
+      "is_feasible": true,
+      "strategy": "Structural Optimisation",
+      "rationale": [
+        "This bundle gains ceiling."
+      ],
+      "transfer_roles": {},
+      "manager_profile": "conservative"
+    },
+    {
+      "bundle_score": 2.6561017579587016,
+      "bundle_gain": 3.880145368512431,
+      "transfers": [
         {
           "out_player": "Enzo",
           "in_player": "Hinshelwood",
@@ -627,44 +495,29 @@
           },
           "band_gain_rank": 0,
           "budget_efficiency": 2.156611497720695
-        }
-      ],
-      "max_spend_required": 0.0,
-      "ending_bank": 10.100000000000001,
-      "is_feasible": true,
-      "strategy": "Structural Optimisation",
-      "rationale": [
-        "This bundle gains ceiling."
-      ],
-      "transfer_roles": {},
-      "manager_profile": "conservative"
-    },
-    {
-      "bundle_score": 2.6057009366703507,
-      "bundle_gain": 3.808144195243359,
-      "transfers": [
+        },
         {
-          "out_player": "Matheus N.",
+          "out_player": "Senesi",
           "in_player": "Mavropanos",
           "position": "Defender",
-          "out_team_code": 43,
+          "out_team_code": 91,
           "in_team_code": 21,
           "lost_labels": [],
           "gained_labels": [],
-          "absolute_gain": 0.13589251463819213,
-          "effective_gain": 1.907892514638192,
-          "price_delta": 1.0,
+          "absolute_gain": 0.10563358269254214,
+          "effective_gain": 1.877633582692542,
+          "price_delta": 0.6999999999999993,
           "funding_role": "funding",
           "effective_pick_score_in": 2.3703877448724824,
           "problem_type": "budget_inefficiency",
           "fixture_fit": 1.0,
           "out_profile": {
-            "player_id": 407,
-            "web_name": "Matheus N.",
-            "team": "Man City",
+            "player_id": 72,
+            "web_name": "Senesi",
+            "team": "Bournemouth",
             "position": "Defender",
-            "price": 5.4,
-            "ownership": 2.8,
+            "price": 5.1,
+            "ownership": 20.3,
             "performance": {
               "role": false,
               "minutes": "Secure starter",
@@ -705,7 +558,7 @@
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 13.589251463819213
+          "budget_efficiency": 10.563358269254215
         },
         {
           "out_player": "Haaland",
@@ -715,9 +568,9 @@
           "in_team_code": 94,
           "lost_labels": [],
           "gained_labels": [
-            "must_have",
             "ceiling",
-            "explosive"
+            "explosive",
+            "must_have"
           ],
           "absolute_gain": 0.10884567084268232,
           "effective_gain": 5.6068456708426835,
@@ -774,7 +627,22 @@
           },
           "band_gain_rank": 0,
           "budget_efficiency": 10.884567084268232
-        },
+        }
+      ],
+      "max_spend_required": 0.0,
+      "ending_bank": 9.8,
+      "is_feasible": true,
+      "strategy": "Structural Optimisation",
+      "rationale": [
+        "This bundle gains ceiling."
+      ],
+      "transfer_roles": {},
+      "manager_profile": "conservative"
+    },
+    {
+      "bundle_score": 2.584519684308396,
+      "bundle_gain": 3.777885263297709,
+      "transfers": [
         {
           "out_player": "Enzo",
           "in_player": "O.Dango",
@@ -838,44 +706,29 @@
           },
           "band_gain_rank": 0,
           "budget_efficiency": 11.730600976248429
-        }
-      ],
-      "max_spend_required": 0.0,
-      "ending_bank": 9.200000000000001,
-      "is_feasible": true,
-      "strategy": "Structural Optimisation",
-      "rationale": [
-        "This bundle gains ceiling."
-      ],
-      "transfer_roles": {},
-      "manager_profile": "conservative"
-    },
-    {
-      "bundle_score": 2.4289074609635035,
-      "bundle_gain": 3.5555820870907198,
-      "transfers": [
+        },
         {
-          "out_player": "Matheus N.",
-          "in_player": "Rodon",
+          "out_player": "Senesi",
+          "in_player": "Mavropanos",
           "position": "Defender",
-          "out_team_code": 43,
-          "in_team_code": 2,
+          "out_team_code": 91,
+          "in_team_code": 21,
           "lost_labels": [],
           "gained_labels": [],
-          "absolute_gain": 0.15826803980259957,
-          "effective_gain": 1.1222680398025993,
-          "price_delta": 1.5000000000000004,
+          "absolute_gain": 0.10563358269254214,
+          "effective_gain": 1.877633582692542,
+          "price_delta": 0.6999999999999993,
           "funding_role": "funding",
-          "effective_pick_score_in": 1.5847632700368897,
-          "problem_type": "ceiling_deficit",
+          "effective_pick_score_in": 2.3703877448724824,
+          "problem_type": "budget_inefficiency",
           "fixture_fit": 1.0,
           "out_profile": {
-            "player_id": 407,
-            "web_name": "Matheus N.",
-            "team": "Man City",
+            "player_id": 72,
+            "web_name": "Senesi",
+            "team": "Bournemouth",
             "position": "Defender",
-            "price": 5.4,
-            "ownership": 2.8,
+            "price": 5.1,
+            "ownership": 20.3,
             "performance": {
               "role": false,
               "minutes": "Secure starter",
@@ -893,12 +746,223 @@
             }
           },
           "in_profile": {
-            "player_id": 348,
-            "web_name": "Rodon",
-            "team": "Leeds",
+            "player_id": 606,
+            "web_name": "Mavropanos",
+            "team": "West Ham",
             "position": "Defender",
-            "price": 3.9,
-            "ownership": 4.1,
+            "price": 4.4,
+            "ownership": 0.3,
+            "performance": {
+              "role": false,
+              "minutes": "Likely starter",
+              "ceiling": "LOW",
+              "explosive": false
+            },
+            "status": "NEUTRAL",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "band_gain_rank": 0,
+          "budget_efficiency": 10.563358269254215
+        },
+        {
+          "out_player": "Haaland",
+          "in_player": "Thiago",
+          "position": "Forward",
+          "out_team_code": 43,
+          "in_team_code": 94,
+          "lost_labels": [],
+          "gained_labels": [
+            "ceiling",
+            "explosive",
+            "must_have"
+          ],
+          "absolute_gain": 0.10884567084268232,
+          "effective_gain": 5.6068456708426835,
+          "price_delta": 7.2,
+          "funding_role": "funding",
+          "effective_pick_score_in": 6.069340901076973,
+          "problem_type": "budget_inefficiency",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 430,
+            "web_name": "Haaland",
+            "team": "Man City",
+            "position": "Forward",
+            "price": 14.5,
+            "ownership": 53.4,
+            "performance": {
+              "role": false,
+              "minutes": "Likely starter",
+              "ceiling": "MID",
+              "explosive": false
+            },
+            "status": "NEUTRAL",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 136,
+            "web_name": "Thiago",
+            "team": "Brentford",
+            "position": "Forward",
+            "price": 7.3,
+            "ownership": 36.8,
+            "performance": {
+              "role": true,
+              "minutes": "Secure starter",
+              "ceiling": "HIGH",
+              "explosive": true
+            },
+            "status": "MUST-HAVE",
+            "labels": {
+              "must_have": true,
+              "hold": false,
+              "watch": false,
+              "ceiling": true,
+              "explosive": true,
+              "minutes_risk": false
+            }
+          },
+          "band_gain_rank": 0,
+          "budget_efficiency": 10.884567084268232
+        }
+      ],
+      "max_spend_required": 0.0,
+      "ending_bank": 8.9,
+      "is_feasible": true,
+      "strategy": "Structural Optimisation",
+      "rationale": [
+        "This bundle gains ceiling."
+      ],
+      "transfer_roles": {},
+      "manager_profile": "conservative"
+    },
+    {
+      "bundle_score": 2.391214578880208,
+      "bundle_gain": 3.5017351126860117,
+      "transfers": [
+        {
+          "out_player": "Garner",
+          "in_player": "Hinshelwood",
+          "position": "Midfielder",
+          "out_team_code": 11,
+          "in_team_code": 36,
+          "lost_labels": [],
+          "gained_labels": [],
+          "absolute_gain": 0.05281097243766458,
+          "effective_gain": 4.929810972437664,
+          "price_delta": 0.10000000000000053,
+          "funding_role": "funding",
+          "effective_pick_score_in": 5.366160328325593,
+          "problem_type": "ceiling_deficit",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 303,
+            "web_name": "Garner",
+            "team": "Everton",
+            "position": "Midfielder",
+            "price": 5.2,
+            "ownership": 4.0,
+            "performance": {
+              "role": false,
+              "minutes": "Secure starter",
+              "ceiling": "LOW",
+              "explosive": false
+            },
+            "status": "NEUTRAL",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 163,
+            "web_name": "Hinshelwood",
+            "team": "Brighton",
+            "position": "Midfielder",
+            "price": 5.1,
+            "ownership": 0.1,
+            "performance": {
+              "role": true,
+              "minutes": "Secure starter",
+              "ceiling": "MID",
+              "explosive": false
+            },
+            "status": "STRONG-HOLD",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "band_gain_rank": 0,
+          "budget_efficiency": 5.2810972437664585
+        },
+        {
+          "out_player": "Senesi",
+          "in_player": "Aina",
+          "position": "Defender",
+          "out_team_code": 91,
+          "in_team_code": 17,
+          "lost_labels": [],
+          "gained_labels": [],
+          "absolute_gain": 0.0978210653978911,
+          "effective_gain": 1.0838210653978915,
+          "price_delta": 0.39999999999999947,
+          "funding_role": "funding",
+          "effective_pick_score_in": 1.5765752275778318,
+          "problem_type": "ceiling_deficit",
+          "fixture_fit": 1.0,
+          "out_profile": {
+            "player_id": 72,
+            "web_name": "Senesi",
+            "team": "Bournemouth",
+            "position": "Defender",
+            "price": 5.1,
+            "ownership": 20.3,
+            "performance": {
+              "role": false,
+              "minutes": "Secure starter",
+              "ceiling": "LOW",
+              "explosive": false
+            },
+            "status": "NEUTRAL",
+            "labels": {
+              "must_have": false,
+              "hold": false,
+              "watch": false,
+              "ceiling": false,
+              "explosive": false,
+              "minutes_risk": false
+            }
+          },
+          "in_profile": {
+            "player_id": 507,
+            "web_name": "Aina",
+            "team": "Nott'm Forest",
+            "position": "Defender",
+            "price": 4.7,
+            "ownership": 2.4,
             "performance": {
               "role": false,
               "minutes": "Secure starter",
@@ -916,7 +980,7 @@
             }
           },
           "band_gain_rank": 0,
-          "budget_efficiency": 15.826803980259957
+          "budget_efficiency": 9.78210653978911
         },
         {
           "out_player": "Haaland",
@@ -983,74 +1047,10 @@
           },
           "band_gain_rank": 0,
           "budget_efficiency": 17.14030748504554
-        },
-        {
-          "out_player": "Garner",
-          "in_player": "Hinshelwood",
-          "position": "Midfielder",
-          "out_team_code": 11,
-          "in_team_code": 36,
-          "lost_labels": [],
-          "gained_labels": [],
-          "absolute_gain": 0.05281097243766458,
-          "effective_gain": 4.929810972437664,
-          "price_delta": 0.10000000000000053,
-          "funding_role": "funding",
-          "effective_pick_score_in": 5.366160328325593,
-          "problem_type": "ceiling_deficit",
-          "fixture_fit": 1.0,
-          "out_profile": {
-            "player_id": 303,
-            "web_name": "Garner",
-            "team": "Everton",
-            "position": "Midfielder",
-            "price": 5.2,
-            "ownership": 4.0,
-            "performance": {
-              "role": false,
-              "minutes": "Secure starter",
-              "ceiling": "LOW",
-              "explosive": false
-            },
-            "status": "NEUTRAL",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "in_profile": {
-            "player_id": 163,
-            "web_name": "Hinshelwood",
-            "team": "Brighton",
-            "position": "Midfielder",
-            "price": 5.1,
-            "ownership": 0.1,
-            "performance": {
-              "role": true,
-              "minutes": "Secure starter",
-              "ceiling": "MID",
-              "explosive": false
-            },
-            "status": "STRONG-HOLD",
-            "labels": {
-              "must_have": false,
-              "hold": false,
-              "watch": false,
-              "ceiling": false,
-              "explosive": false,
-              "minutes_risk": false
-            }
-          },
-          "band_gain_rank": 0,
-          "budget_efficiency": 5.2810972437664585
         }
       ],
       "max_spend_required": 0.0,
-      "ending_bank": 11.100000000000001,
+      "ending_bank": 10.0,
       "is_feasible": true,
       "strategy": "Structural Optimisation",
       "rationale": [
