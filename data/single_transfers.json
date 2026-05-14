@@ -1,0 +1,86 @@
+{
+  "team_id": 2310541,
+  "gameweek": 26,
+  "meta": {
+    "type": "single_transfers",
+    "outgoing_player": "James Tarkowski"
+  },
+  "recommendations": [
+    {
+      "out_player": {
+        "name": "Tarkowski",
+        "team": "Everton",
+        "price": 0.6,
+        "position": "Defender"
+      },
+      "in_player": {
+        "name": "Saliba",
+        "team": "Arsenal",
+        "price": 0.6,
+        "position": "Defender"
+      },
+      "price_delta": 0.0,
+      "net_gain": 0.08,
+      "efficiency": 0.27,
+      "transfer_score": 0.311,
+      "transfer_type": "PERFORMANCE_UPGRADE"
+    },
+    {
+      "out_player": {
+        "name": "Tarkowski",
+        "team": "Everton",
+        "price": 0.6,
+        "position": "Defender"
+      },
+      "in_player": {
+        "name": "J.Timber",
+        "team": "Arsenal",
+        "price": 0.6,
+        "position": "Defender"
+      },
+      "price_delta": 0.1,
+      "net_gain": 0.08,
+      "efficiency": 0.13,
+      "transfer_score": 0.214,
+      "transfer_type": "PERFORMANCE_UPGRADE"
+    },
+    {
+      "out_player": {
+        "name": "Tarkowski",
+        "team": "Everton",
+        "price": 0.6,
+        "position": "Defender"
+      },
+      "in_player": {
+        "name": "Gabriel",
+        "team": "Arsenal",
+        "price": 0.7,
+        "position": "Defender"
+      },
+      "price_delta": 0.1,
+      "net_gain": 0.08,
+      "efficiency": 0.06,
+      "transfer_score": 0.211,
+      "transfer_type": "PERFORMANCE_UPGRADE"
+    },
+    {
+      "out_player": {
+        "name": "Tarkowski",
+        "team": "Everton",
+        "price": 0.6,
+        "position": "Defender"
+      },
+      "in_player": {
+        "name": "Cucurella",
+        "team": "Chelsea",
+        "price": 0.6,
+        "position": "Defender"
+      },
+      "price_delta": 0.0,
+      "net_gain": 0.01,
+      "efficiency": 0.04,
+      "transfer_score": 0.073,
+      "transfer_type": "PERFORMANCE_UPGRADE"
+    }
+  ]
+}

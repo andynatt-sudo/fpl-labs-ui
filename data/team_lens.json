@@ -1,35 +1,36 @@
 {
   "team_id": 2310541,
-  "analysis_gameweek": 30,
+  "analysis_gameweek": 35,
   "governance": {
     "team_id": 2310541,
-    "gameweek": 30,
+    "gameweek": 35,
     "health_score": 80,
     "health_status": "OK",
     "structural_pressure_score": 20,
     "competitive": {
       "lookback_used": 5,
       "gw_deltas": [
-        -13.0,
-        -8.0,
-        -16.0,
+        27.0,
+        -6.0,
+        -6.0,
         -1.0,
-        1.0
+        16.0
       ],
-      "rolling_delta": -7.4,
-      "negative_weeks": 4,
-      "severe_weeks": 3,
-      "competitive_pressure_score": 91.4,
-      "competitive_state": "critical_underperformance"
+      "rolling_delta": 6.0,
+      "negative_weeks": 3,
+      "severe_weeks": 0,
+      "competitive_pressure_score": 5,
+      "competitive_state": "stable_positive"
     },
-    "overall_pressure_score": 62.8,
-    "warning_level": "alert",
+    "overall_pressure_score": 11.0,
+    "warning_level": "green",
     "flags": [
       {
         "code": "DNP_STARTER",
         "severity": "HIGH",
         "player_ids": [
-          36
+          16,
+          666
         ]
       }
     ]
@@ -37,27 +38,15 @@
   "squad": {
     "starters": [
       {
-        "player_id": 36,
-        "name": "Cash",
-        "position": "Defender",
-        "is_starter": true,
-        "status": "WATCH",
-        "minutes_ok": false,
-        "cpp": {
-          "status": "NEUTRAL",
-          "ceiling_class": "LOW"
-        }
-      },
-      {
-        "player_id": 72,
-        "name": "Senesi",
-        "position": "Defender",
+        "player_id": 90,
+        "name": "Scott",
+        "position": "Midfielder",
         "is_starter": true,
         "status": "HOLD",
         "minutes_ok": true,
         "cpp": {
           "status": "NEUTRAL",
-          "ceiling_class": "LOW"
+          "ceiling_class": "MID"
         }
       },
       {
@@ -73,33 +62,9 @@
         }
       },
       {
-        "player_id": 237,
-        "name": "Enzo",
-        "position": "Midfielder",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "STRONG-HOLD",
-          "ceiling_class": "MID"
-        }
-      },
-      {
-        "player_id": 249,
-        "name": "Jo\u00e3o Pedro",
-        "position": "Forward",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "MUST-HAVE",
-          "ceiling_class": "HIGH"
-        }
-      },
-      {
-        "player_id": 386,
-        "name": "Mac Allister",
-        "position": "Midfielder",
+        "player_id": 36,
+        "name": "Cash",
+        "position": "Defender",
         "is_starter": true,
         "status": "HOLD",
         "minutes_ok": true,
@@ -109,44 +74,8 @@
         }
       },
       {
-        "player_id": 661,
-        "name": "Ekitik\u00e9",
-        "position": "Forward",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "STRONG-HOLD",
-          "ceiling_class": "HIGH"
-        }
-      },
-      {
-        "player_id": 449,
-        "name": "B.Fernandes",
-        "position": "Midfielder",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "MUST-HAVE",
-          "ceiling_class": "HIGH"
-        }
-      },
-      {
-        "player_id": 485,
-        "name": "Gordon",
-        "position": "Midfielder",
-        "is_starter": true,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "MUST-HAVE",
-          "ceiling_class": "HIGH"
-        }
-      },
-      {
-        "player_id": 683,
-        "name": "Alderete",
+        "player_id": 72,
+        "name": "Senesi",
         "position": "Defender",
         "is_starter": true,
         "status": "HOLD",
@@ -167,6 +96,78 @@
           "status": "NEUTRAL",
           "ceiling_class": "LOW"
         }
+      },
+      {
+        "player_id": 260,
+        "name": "Gu\u00e9hi",
+        "position": "Defender",
+        "is_starter": true,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "NEUTRAL",
+          "ceiling_class": "LOW"
+        }
+      },
+      {
+        "player_id": 430,
+        "name": "Haaland",
+        "position": "Forward",
+        "is_starter": true,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "MUST-HAVE",
+          "ceiling_class": "HIGH"
+        }
+      },
+      {
+        "player_id": 449,
+        "name": "B.Fernandes",
+        "position": "Midfielder",
+        "is_starter": true,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "STRONG-HOLD",
+          "ceiling_class": "HIGH"
+        }
+      },
+      {
+        "player_id": 526,
+        "name": "Igor Jesus",
+        "position": "Forward",
+        "is_starter": true,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "STRONG-HOLD",
+          "ceiling_class": "MID"
+        }
+      },
+      {
+        "player_id": 16,
+        "name": "Saka",
+        "position": "Midfielder",
+        "is_starter": true,
+        "status": "WATCH",
+        "minutes_ok": false,
+        "cpp": {
+          "status": "NEUTRAL",
+          "ceiling_class": "LOW"
+        }
+      },
+      {
+        "player_id": 666,
+        "name": "Gy\u00f6keres",
+        "position": "Forward",
+        "is_starter": true,
+        "status": "WATCH",
+        "minutes_ok": false,
+        "cpp": {
+          "status": "RISK",
+          "ceiling_class": "HIGH"
+        }
       }
     ],
     "bench": [
@@ -183,8 +184,20 @@
         }
       },
       {
-        "player_id": 407,
-        "name": "Matheus N.",
+        "player_id": 237,
+        "name": "Enzo",
+        "position": "Midfielder",
+        "is_starter": false,
+        "status": "HOLD",
+        "minutes_ok": true,
+        "cpp": {
+          "status": "STRONG-HOLD",
+          "ceiling_class": "MID"
+        }
+      },
+      {
+        "player_id": 508,
+        "name": "N.Williams",
         "position": "Defender",
         "is_starter": false,
         "status": "HOLD",
@@ -195,20 +208,8 @@
         }
       },
       {
-        "player_id": 430,
-        "name": "Haaland",
-        "position": "Forward",
-        "is_starter": false,
-        "status": "HOLD",
-        "minutes_ok": true,
-        "cpp": {
-          "status": "NEUTRAL",
-          "ceiling_class": "MID"
-        }
-      },
-      {
-        "player_id": 508,
-        "name": "N.Williams",
+        "player_id": 683,
+        "name": "Alderete",
         "position": "Defender",
         "is_starter": false,
         "status": "HOLD",
